@@ -171,10 +171,10 @@ header-includes:
 
 \column{0.31\textwidth}
 \centering
-{\color{orange}\Large\textbf{Halo}}
+{\color{orange}\Large\textbf{Efeito Halo}}
 
 \vspace{0.2cm}
-\normalsize Ter verificado a estimação reduz o escrutínio da interpretação. As duas vêm no mesmo artefato.
+\normalsize Verifiquei o código que gerou o número. Por isso não reli com o mesmo rigor o que foi dito sobre o número.
 \end{columns}
 
 \vspace{0.5cm}
@@ -182,7 +182,7 @@ header-includes:
 \large A garantia dessa dívida é a sua reputação.
 \end{center}
 
-\sourcecite{Movimento análogo ao de Sculley et al. (2015): a dívida de sistemas de ML é difícil de detectar porque existe no nível do sistema, e os remédios de nível de código não a alcançam. Aqui o mecanismo é cognitivo, não técnico.}
+\sourcecite{Movimento análogo ao de Sculley et al. (2015): a dívida de sistemas de ML é difícil de detectar porque existe no nível do sistema, e os remédios de nível de código não a alcançam - aqui o mecanismo é cognitivo, não técnico. Sobre o efeito halo e a inconsciência de sua influência sobre o julgamento: Thorndike (1920), DOI 10.1037/h0071663; Nisbett e Wilson (1977), DOI 10.1037/0022-3514.35.4.250.}
 
 <!-- Fala: Este slide explica por que reprodução não basta - e por que o protocolo do final tem o formato que tem. Se houver tempo, cite a crise de replicação na psicologia: gente sem ilícito legal, reprecificada a zero quando o campo alcançou. -->
 
@@ -339,22 +339,19 @@ header-includes:
 ## Fechamento
 
 \begin{center}
-\vspace{0.75cm}
+\vspace{0.3cm}
 {\color{teal}\Huge\textbf{Seu paper não precisa ser feito sem IA.}}
 
-\vspace{0.35cm}
+\vspace{0.3cm}
 {\color{orange}\Huge\textbf{Precisa continuar sendo defendível por você.}}
 
-\vspace{0.7cm}
-\normalsize Estes slides tiveram uma versão em que a IA interpretou meus resultados
+\vspace{0.55cm}
+\small Estes slides tiveram uma versão em que a IA disse mais do que eu podia provar.
 
-\vspace{0.1cm}
-\normalsize e disse mais do que eu podia provar. Eu peguei porque desconfiei.
-
-\vspace{0.6cm}
+\vspace{0.5cm}
 \large A pergunta final não é “a IA fez?”.
 
-\vspace{0.15cm}
+\vspace{0.12cm}
 \large É: \textbf{“qual decisão eu assumi - e por quê?”}
 \end{center}
 
