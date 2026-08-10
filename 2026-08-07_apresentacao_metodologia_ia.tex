@@ -1,0 +1,441 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+  12pt,
+  ignorenonframetext,
+  aspectratio=169]{beamer}
+\newif\ifbibliography
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% remove section numbering
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{section title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{subsection title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{lmodern}
+\definecolor{ink}{HTML}{1F2933}
+\definecolor{teal}{HTML}{0F766E}
+\definecolor{orange}{HTML}{D95D39}
+\definecolor{muted}{HTML}{667085}
+\setbeamercolor{normal text}{fg=ink,bg=white}
+\setbeamercolor{structure}{fg=teal}
+\setbeamercolor{frametitle}{fg=ink,bg=white}
+\setbeamercolor{title}{fg=ink}
+\setbeamercolor{subtitle}{fg=muted}
+\setbeamercolor{alerted text}{fg=orange}
+\setbeamercolor{block title}{fg=white,bg=teal}
+\setbeamercolor{block body}{fg=ink,bg=teal!6}
+\setbeamerfont{title}{series=\bfseries,size=\LARGE}
+\setbeamerfont{frametitle}{series=\bfseries,size=\Large}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{headline}{}
+\setbeamertemplate{frametitle continuation}{}
+\setbeamertemplate{footline}{\hfill\scriptsize\color{muted}\insertframenumber\, / \,\inserttotalframenumber\hspace{0.35cm}\vspace{0.18cm}}
+\newcommand{\sourcecite}[1]{\vfill{\tiny\color{muted}#1}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Quando a IA faz a análise, quem responde pelo método?},
+  pdfauthor={Manoel Galdino},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Quando a IA faz a análise, quem responde pelo método?}
+\subtitle{Abstração, dívida epistêmica e defesa metodológica sem cola}
+\author{Manoel Galdino}
+\date{7 de agosto de 2026}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{A pergunta que eu não consegui responder}
+\protect\phantomsection\label{a-pergunta-que-eu-nuxe3o-consegui-responder}
+\begin{center}
+\vspace{0.6cm}
+{\color{orange}\Huge\textbf{Eu descobri que não sabia defender uma decisão do meu próprio paper.}}
+
+\vspace{0.8cm}
+\large Não era um erro de código. Era uma perda de autoria metodológica.
+\end{center}
+\end{frame}
+
+\begin{frame}{Antes de falar de IA, pense no seu método}
+\protect\phantomsection\label{antes-de-falar-de-ia-pense-no-seu-muxe9todo}
+\begin{center}
+\vspace{0.6cm}
+\Large\textbf{Qual foi a última decisão metodológica que você conseguiria reconstruir hoje - sem abrir o código?}
+
+\vspace{0.9cm}
+\normalsize O que você teria de explicar?
+
+\vspace{0.25cm}
+\begin{tabular}{c@{\qquad}c@{\qquad}c}
+  objeto & medida & interpretação \\
+  \color{teal}\rule{2.2cm}{1.2pt} & \color{teal}\rule{2.2cm}{1.2pt} & \color{teal}\rule{2.2cm}{1.2pt}
+\end{tabular}
+\end{center}
+\end{frame}
+
+\begin{frame}{A IA é uma nova camada de abstração}
+\protect\phantomsection\label{a-ia-uxe9-uma-nova-camada-de-abstrauxe7uxe3o}
+\begin{center}
+\vspace{0.2cm}
+\large
+\texttt{linguagem de máquina}
+
+\vspace{0.05cm}
+{\color{teal}\large\downarrow}
+
+\vspace{0.05cm}
+\texttt{linguagem de programação}
+
+\vspace{0.05cm}
+{\color{teal}\large\downarrow}
+
+\vspace{0.05cm}
+\texttt{linguagem natural}
+
+\vspace{0.05cm}
+{\color{orange}\large\downarrow}
+
+\vspace{0.05cm}
+\textbf{delegação de trabalho intelectual}
+\end{center}
+
+\vfill{\tiny\color{muted}A ideia dialoga com cognição distribuída e descarregamento cognitivo: Risko e Gilbert (2016), DOI 10.1016/j.tics.2016.07.002.}
+\end{frame}
+
+\begin{frame}{O ganho é real - e é por isso que o risco importa}
+\protect\phantomsection\label{o-ganho-uxe9-real---e-uxe9-por-isso-que-o-risco-importa}
+\begin{columns}[T,onlytextwidth]
+\column{0.48\textwidth}
+\Large\textbf{A IA pode}
+
+\vspace{0.25cm}
+\begin{itemize}
+\item explicar;
+\item calcular;
+\item cruzar dados;
+\item gerar gráficos;
+\item explorar alternativas.
+\end{itemize}
+
+\column{0.48\textwidth}
+\Large\textbf{O pesquisador precisa}
+
+\vspace{0.25cm}
+\begin{itemize}
+\item definir o objeto;
+\item escolher a medida;
+\item assumir as hipóteses;
+\item interpretar o contraste;
+\item defender a conclusão.
+\end{itemize}
+\end{columns}
+
+\vfill{\tiny\color{muted}A dependência de ferramentas não é automaticamente perda de autonomia; o critério é preservar a autodireção intelectual. Carter (2020), DOI 10.1007/s11229-017-1549-y.}
+\end{frame}
+
+\begin{frame}{Onde a abstração começa a cobrar juros}
+\protect\phantomsection\label{onde-a-abstrauxe7uxe3o-comeuxe7a-a-cobrar-juros}
+\begin{center}
+\vspace{0.45cm}
+\Large A especificação pede “estime a dimensão”.
+
+\vspace{0.45cm}
+\large A IA pode completar silenciosamente:
+
+\vspace{0.35cm}
+\begin{tabular}{c@{\quad}c@{\quad}c}
+  \color{orange}\textbf{o que medir} & \color{orange}\textbf{quem conta} & \color{orange}\textbf{o que concluir} \\
+  objeto & população/denominador & estimando/interpretação
+\end{tabular}
+
+\vspace{0.6cm}
+\textbf{O código pode estar correto. A pergunta pode ter mudado.}
+\end{center}
+
+\vfill{\tiny\color{muted}A “fronteira” da IA é irregular: a assistência melhora algumas tarefas e piora outras, e o usuário nem sempre sabe previamente quais são quais. Dell’Acqua et al. (2026), DOI 10.1287/orsc.2025.21838.}
+\end{frame}
+
+\begin{frame}{Minha proposta: dívida epistêmica}
+\protect\phantomsection\label{minha-proposta-duxedvida-epistuxeamica}
+\begin{center}
+\vspace{0.6cm}
+{\color{orange}\Huge\textbf{Dívida epistêmica}}
+
+\vspace{0.45cm}
+\Large decisões substantivas que ficaram incorporadas ao artefato,
+
+\vspace{0.15cm}
+\Large mas deixaram de estar compreendidas e assumidas pelo autor.
+
+\vspace{0.65cm}
+\normalsize\textit{Formulação autoral, apoiada em literaturas adjacentes.}
+\end{center}
+\end{frame}
+
+\begin{frame}{O caso: pontos ideais e as âncoras}
+\protect\phantomsection\label{o-caso-pontos-ideais-e-as-uxe2ncoras}
+\begin{center}
+\vspace{0.25cm}
+\large\textbf{“As âncoras foram definidas teoricamente antes dos resultados - ou porque produziam uma dimensão conveniente?”}
+
+\vspace{0.7cm}
+\begin{tabular}{c@{\qquad}c@{\qquad}c}
+  \color{orange}\textbf{proveniência} & \color{orange}\textbf{mensuração} & \color{orange}\textbf{defesa} \\
+  Por que escolhi? & O que a dimensão mede? & Consigo explicar?
+\end{tabular}
+\end{center}
+
+\vfill{\tiny\color{muted}A literatura de pontos ideais trata identificação e interpretação como problemas distintos: Poole e Rosenthal (1985); Clinton, Jackman e Rivers (2004); Morucci et al. (2025), DOI 10.1017/S000305542400039X.}
+\end{frame}
+
+\begin{frame}{O que exatamente foi perdido?}
+\protect\phantomsection\label{o-que-exatamente-foi-perdido}
+\begin{columns}[T,onlytextwidth]
+\column{0.31\textwidth}
+\centering
+{\color{orange}\Huge 1}
+
+\vspace{0.12cm}
+\Large\textbf{Proveniência}
+
+\vspace{0.18cm}
+\normalsize Não reconstruía a razão da escolha.
+
+\column{0.31\textwidth}
+\centering
+{\color{orange}\Huge 2}
+
+\vspace{0.12cm}
+\Large\textbf{Construto}
+
+\vspace{0.18cm}
+\normalsize Não estava claro o que a dimensão representava.
+
+\column{0.31\textwidth}
+\centering
+{\color{orange}\Huge 3}
+
+\vspace{0.12cm}
+\Large\textbf{Autoria}
+
+\vspace{0.18cm}
+\normalsize O resultado existia; a defesa não.
+\end{columns}
+
+\vfill{\tiny\color{muted}Um ajuste latente não garante significado substantivo: Morucci et al. (2025); Adcock e Collier (2001), DOI 10.1017/S0003055401003100.}
+\end{frame}
+
+\begin{frame}{Reprodução ajuda - mas não resolve tudo}
+\protect\phantomsection\label{reproduuxe7uxe3o-ajuda---mas-nuxe3o-resolve-tudo}
+\begin{center}
+\vspace{0.35cm}
+\Large
+\textbf{Código e logs} \quad $\neq$ \quad \textbf{validade} \quad $\neq$ \quad \textbf{autoria}
+
+\vspace{0.65cm}
+\begin{columns}[T,onlytextwidth]
+\column{0.31\textwidth}
+\centering\textbf{Reproduzir}
+
+\vspace{0.18cm}
+\normalsize o que foi executado
+
+\column{0.31\textwidth}
+\centering\textbf{Validar}
+
+\vspace{0.18cm}
+\normalsize o que foi medido
+
+\column{0.31\textwidth}
+\centering\textbf{Defender}
+
+\vspace{0.18cm}
+\normalsize por que essa escolha é minha
+\end{columns}
+
+\vspace{0.55cm}
+\large Salvaguardas são necessárias. Elas não substituem deliberação.
+\end{center}
+
+\vfill{\tiny\color{muted}Diretrizes recentes recomendam registrar ferramenta, versão, datas, prompts e procedimentos para permitir reprodução: Flanagin et al. (2024), DOI 10.1001/jama.2024.3471; Abdurahman et al. (2025), DOI 10.1177/25152459251325174.}
+\end{frame}
+
+\begin{frame}{A defesa metodológica sem cola}
+\protect\phantomsection\label{a-defesa-metodoluxf3gica-sem-cola}
+\begin{center}
+\vspace{0.2cm}
+\large
+\textbf{IA implementa} $\rightarrow$ \textbf{IA questiona} $\rightarrow$ \textbf{pesquisador investiga} $\rightarrow$ \textbf{pesquisador decide}
+
+\vspace{0.35cm}
+\small
+\begin{enumerate}
+\setlength{\itemsep}{2pt}
+\item Peça um Q\&A adversarial.
+\item Não peça imediatamente as respostas.
+\item Transforme cada pergunta sem resposta em pendência.
+\item Reconstrua a proveniência e compare alternativas.
+\item Delibere, registre e assuma a decisão.
+\end{enumerate}
+\end{center}
+
+\vfill{\tiny\color{muted}A lógica é próxima das intervenções de “forçamento cognitivo”, que reduziram sobredelegação em decisões assistidas por IA: Buçinca, Malaya e Gajos (2021), DOI 10.1145/3449287.}
+\end{frame}
+
+\begin{frame}{O meu limiar provisório}
+\protect\phantomsection\label{o-meu-limiar-provisuxf3rio}
+\begin{center}
+\vspace{0.5cm}
+{\color{teal}\Huge\textbf{Delegue a implementação,}}
+
+\vspace{0.2cm}
+{\color{orange}\Huge\textbf{não a autoria da cadeia inferencial.}}
+
+\vspace{0.75cm}
+\large Pause e delibere quando uma alternativa razoável puder mudar:
+
+\vspace{0.2cm}
+\normalsize objeto \quad | \quad denominador \quad | \quad operacionalização \quad | \quad estimando \quad | \quad interpretação
+\end{center}
+\end{frame}
+
+\begin{frame}{O que muda na prática?}
+\protect\phantomsection\label{o-que-muda-na-pruxe1tica}
+\begin{center}
+\vspace{0.35cm}
+\begin{columns}[T,onlytextwidth]
+\column{0.46\textwidth}
+\Large\textbf{Antes de aceitar}
+
+\vspace{0.2cm}
+\normalsize “A IA sugeriu.”
+
+\vspace{0.18cm}
+\normalsize “O código roda.”
+
+\vspace{0.18cm}
+\normalsize “O resultado parece plausível.”
+
+\column{0.46\textwidth}
+\Large\textbf{Depois de aceitar}
+
+\vspace{0.2cm}
+\normalsize “Eu comparei alternativas e escolhi.”
+
+\vspace{0.18cm}
+\normalsize “O objeto e o estimando estão claros.”
+
+\vspace{0.18cm}
+\normalsize “Consigo responder à crítica.”
+\end{columns}
+\end{center}
+
+\vfill{\tiny\color{muted}A literatura recente descreve riscos de ilusão de entendimento, opacidade de proveniência e confiança mal calibrada em pesquisa assistida por IA: Messeri e Crockett (2024); Gautam et al. (2026).}
+\end{frame}
+
+\begin{frame}{Fechamento}
+\protect\phantomsection\label{fechamento}
+\begin{center}
+\vspace{0.75cm}
+{\color{teal}\Huge\textbf{Seu paper não precisa ser feito sem IA.}}
+
+\vspace{0.35cm}
+{\color{orange}\Huge\textbf{Precisa continuar sendo defendível por você.}}
+
+\vspace{0.8cm}
+\large A pergunta final não é “a IA fez?”.
+
+\vspace{0.15cm}
+\large É: \textbf{“qual decisão eu assumi - e por quê?”}
+\end{center}
+\end{frame}
+
+\begin{frame}{Para aprofundar}
+\protect\phantomsection\label{para-aprofundar}
+\small
+
+\begin{itemize}
+\item Risko e Gilbert (2016). “Cognitive Offloading.” \textit{Trends in Cognitive Sciences}. DOI: 10.1016/j.tics.2016.07.002.
+\item Carter (2020). “Intellectual Autonomy, Epistemic Dependence and Cognitive Enhancement.” \textit{Synthese}. DOI: 10.1007/s11229-017-1549-y.
+\item Messeri e Crockett (2024). “Artificial Intelligence and Illusions of Understanding in Scientific Research.” \textit{Nature}. DOI: 10.1038/s41586-024-07146-0.
+\item Morucci et al. (2025). “Measurement That Matches Theory.” \textit{APSR}. DOI: 10.1017/S000305542400039X.
+\item Abdurahman et al. (2025). “A Primer for Evaluating LLMs in Social-Science Research.” DOI: 10.1177/25152459251325174.
+\end{itemize}
+
+\vfill
+\centering
+
+\textcolor{muted}{A revisão exploratória completa e as referências estão no arquivo de apoio do projeto.}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,19 @@
+# Artefatos de inspeção visual (regeneráveis a partir do PDF)
+tmp/
+
+# Auxiliares LaTeX
+*.log
+*.aux
+*.out
+*.nav
+*.snm
+*.toc
+*.vrb
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS
+.DS_Store
