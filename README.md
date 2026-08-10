@@ -15,7 +15,9 @@ O princípio orientador do projeto é:
 
 > **Delegue a implementação, não a autoria da cadeia inferencial.**
 
-Aqui, **dívida epistêmica** é uma formulação autoral e provisória para o acúmulo de decisões substantivas que permanecem incorporadas ao artefato, mas deixam de ser compreendidas, justificadas e assumidas pelo pesquisador.
+Aqui, **dívida epistêmica** designa o acúmulo de decisões substantivas que permanecem incorporadas ao artefato, mas deixam de ser compreendidas, justificadas e assumidas pelo pesquisador. O termo circula na engenharia de software e na manufatura (Cunningham 1992; Sculley et al. 2015; Ionescu et al. 2019); o que este projeto acrescenta é sua aplicação à cadeia inferencial da pesquisa empírica em ciências sociais.
+
+A dívida técnica cobra do produto. A dívida epistêmica cobra da capacidade do pesquisador de defender a decisão — e a garantia, no limite, é a reputação científica.
 
 Uma decisão exige deliberação explícita quando uma alternativa razoável puder mudar:
 
@@ -50,17 +52,20 @@ Reprodução computacional, logs e reimplementação independente são salvaguar
 
 ## Caso central
 
-O caso da apresentação é uma análise de pontos ideais e a escolha de âncoras. Em um Q&A simulado pela IA, surgiu a pergunta:
+O caso da apresentação é uma análise de pontos ideais e a escolha de âncoras. A sequência importa:
 
-> “As âncoras foram definidas teoricamente antes dos resultados ou escolhidas porque produziam uma dimensão substantivamente conveniente?”
+- **Fevereiro.** A IA escreveu o código de estimação. Cada escolha foi interrogada enquanto era feita, e o procedimento foi compreendido na ocasião.
+- **Agosto.** A IA escreveu a apresentação e interpretou os resultados. O texto afirmava mais do que o desenho autorizava.
+- **Então.** A desconfiança levou à checagem — e, no mesmo movimento, à descoberta de que a razão da escolha das âncoras já não era reconstruível.
 
-A pergunta revelou três problemas possíveis:
+O episódio expôs **duas dívidas de origens diferentes**:
 
-1. **proveniência:** não era possível reconstruir claramente por que as âncoras tinham sido escolhidas;
-2. **construto:** não estava claro se a dimensão latente correspondia ao conceito teórico de interesse;
-3. **autoria:** o resultado existia, mas a defesa metodológica ainda não estava disponível.
+1. **a que a delegação criou:** uma interpretação que afirmava além do que o desenho sustenta, entregue pronta e bem escrita;
+2. **a que o tempo criou:** a perda de proveniência da escolha das âncoras, tão antiga quanto a pesquisa e independente do uso de IA.
 
-O episódio não certificou automaticamente a análise. Ele transformou uma lacuna invisível em uma pendência explícita, levando à reconstrução do procedimento, à exploração de âncoras alternativas e à apresentação dos resultados como provisórios.
+O que as une é a mesma condição: o resultado existia, e a defesa não. A mesma pergunta adversarial expôs as duas, levando à reconstrução do procedimento, à exploração de âncoras alternativas e à apresentação dos resultados como provisórios.
+
+Essa dívida é difícil de detectar por três razões: ela vive na camada da inferência, onde a reprodução do código não chega; o erro chega bem escrito, suprimindo o atrito que dispararia a desconfiança; e a confiança legitimamente ganha ao verificar a estimação reduz o escrutínio da interpretação, porque ambas vêm no mesmo artefato. O movimento é análogo ao de Sculley et al. (2015) — a dívida de sistemas de ML é difícil de detectar porque existe no nível do sistema, e os remédios de nível de código não a alcançam — com a diferença de que aqui o mecanismo é cognitivo, não técnico.
 
 ## Materiais do projeto
 
@@ -94,7 +99,8 @@ Os PNGs em `tmp/pdfs/` são artefatos de inspeção visual da versão renderizad
 ## Escopo e limites
 
 - A apresentação é uma intervenção conceitual curta, não um catálogo de métodos estatísticos.
-- “Dívida epistêmica” é apresentada como uma síntese autoral de literaturas adjacentes, não como um conceito já consolidado por uma única tradição.
+- “Dívida epistêmica” é um termo já em uso na engenharia de software e na manufatura. A contribuição deste projeto é a aplicação à cadeia inferencial da pesquisa empírica, não a cunhagem do termo. As referências que sustentam essa atribuição devem ser lidas antes da apresentação final.
+- O caso ilustra o mecanismo na camada da interpretação. A alegação de que a IA completa silenciosamente decisões de mensuração e de população é um risco plausível, não um episódio documentado neste projeto.
 - A revisão de literatura incluída no projeto é exploratória, não sistemática nem exaustiva.
 - O caso das âncoras é um exemplo metodológico e autobiográfico; o repositório não pretende reproduzir a análise de pontos ideais.
 - A defesa metodológica sem cola é uma recomendação prática derivada do argumento e de literatura sobre descarregamento cognitivo, automação, autonomia intelectual, validade e pesquisa assistida por IA. Sua eficácia como protocolo de formação ainda requer avaliação.

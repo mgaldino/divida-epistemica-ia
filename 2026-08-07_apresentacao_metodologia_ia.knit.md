@@ -129,98 +129,135 @@ header-includes:
 ## Onde a abstração começa a cobrar juros
 
 \begin{center}
-\vspace{0.45cm}
+\vspace{0.35cm}
 \Large A especificação pede “estime a dimensão”.
 
-\vspace{0.45cm}
-\large A IA pode completar silenciosamente:
+\vspace{0.4cm}
+\large A IA precisa preencher lacunas - e preenche bem:
 
 \vspace{0.35cm}
 \begin{tabular}{c@{\quad}c@{\quad}c}
-  \color{orange}\textbf{o que medir} & \color{orange}\textbf{quem conta} & \color{orange}\textbf{o que concluir} \\
-  objeto & população/denominador & estimando/interpretação
+  \textbf{o que medir} & \textbf{quem conta} & {\color{orange}\textbf{o que concluir}} \\
+  \small objeto & \small população/denominador & {\color{orange}\small interpretação e força do claim}
 \end{tabular}
 
-\vspace{0.6cm}
-\textbf{O código pode estar correto. A pergunta pode ter mudado.}
+\vspace{0.55cm}
+\textbf{O código pode estar correto e a afirmação não se sustentar.}
+
+\vspace{0.3cm}
+\normalsize Os juros vencem quando alguém pergunta “por quê?”.
 \end{center}
 
 \sourcecite{A “fronteira” da IA é irregular: a assistência melhora algumas tarefas e piora outras, e o usuário nem sempre sabe previamente quais são quais. Dell’Acqua et al. (2026), DOI 10.1287/orsc.2025.21838.}
 
-<!-- Fala: Dê um exemplo simples: trocar o denominador, uma variável ou uma âncora pode mudar a pergunta sem produzir nenhum erro de execução. -->
+<!-- Fala: A terceira coluna é a do meu caso. As duas primeiras são riscos reais, mas o que aconteceu comigo foi na camada da interpretação. -->
 
-## Minha proposta: dívida epistêmica
+## Por que essa dívida é difícil de detectar
+
+\begin{columns}[T,onlytextwidth]
+\column{0.31\textwidth}
+\centering
+{\color{orange}\Large\textbf{Camada}}
+
+\vspace{0.2cm}
+\normalsize O passivo vive na inferência. Reproduzir o código não chega lá.
+
+\column{0.31\textwidth}
+\centering
+{\color{orange}\Large\textbf{Fluência}}
+
+\vspace{0.2cm}
+\normalsize O erro vem bem escrito. O atrito que dispararia a desconfiança desaparece.
+
+\column{0.31\textwidth}
+\centering
+{\color{orange}\Large\textbf{Halo}}
+
+\vspace{0.2cm}
+\normalsize Ter verificado a estimação reduz o escrutínio da interpretação. As duas vêm no mesmo artefato.
+\end{columns}
+
+\vspace{0.5cm}
+\begin{center}
+\large A garantia dessa dívida é a sua reputação.
+\end{center}
+
+\sourcecite{Movimento análogo ao de Sculley et al. (2015): a dívida de sistemas de ML é difícil de detectar porque existe no nível do sistema, e os remédios de nível de código não a alcançam. Aqui o mecanismo é cognitivo, não técnico.}
+
+<!-- Fala: Este slide explica por que reprodução não basta - e por que o protocolo do final tem o formato que tem. Se houver tempo, cite a crise de replicação na psicologia: gente sem ilícito legal, reprecificada a zero quando o campo alcançou. -->
+
+## Dívida epistêmica
 
 \begin{center}
-\vspace{0.6cm}
+\vspace{0.5cm}
 {\color{orange}\Huge\textbf{Dívida epistêmica}}
 
 \vspace{0.45cm}
-\Large decisões substantivas que ficaram incorporadas ao artefato,
+\Large decisões \textit{substantivas} - que mudam objeto, medida ou inferência -
 
 \vspace{0.15cm}
-\Large mas deixaram de estar compreendidas e assumidas pelo autor.
+\Large incorporadas ao artefato e não mais assumidas pelo autor.
 
-\vspace{0.65cm}
-\normalsize\textit{Formulação autoral, apoiada em literaturas adjacentes.}
+\vspace{0.6cm}
+\normalsize A dívida técnica cobra do produto. Esta cobra da sua capacidade de defender a decisão.
 \end{center}
 
-<!-- Fala: Diga explicitamente que você não está alegando que o termo já possui um campo consolidado. O valor da expressão é juntar riscos que a literatura costuma estudar separadamente. -->
+\sourcecite{O termo circula na engenharia de software e na manufatura (Cunningham 1992; Sculley et al. 2015; Ionescu et al. 2019). Aplico-o aqui à cadeia inferencial da pesquisa empírica em ciências sociais.}
 
-## O caso: pontos ideais e as âncoras
+<!-- Fala: Credite o termo. Dizer que ele já existe demonstra domínio da literatura e não custa nada - o que é seu é a aplicação à cadeia inferencial. Verificar as três referências antes de apresentar. -->
+
+## O caso: o que aconteceu comigo
 
 \begin{center}
-\vspace{0.25cm}
-\large\textbf{“As âncoras foram definidas teoricamente antes dos resultados - ou porque produziam uma dimensão conveniente?”}
-
-\vspace{0.7cm}
-\begin{tabular}{c@{\qquad}c@{\qquad}c}
-  \color{orange}\textbf{proveniência} & \color{orange}\textbf{mensuração} & \color{orange}\textbf{defesa} \\
-  Por que escolhi? & O que a dimensão mede? & Consigo explicar?
+\vspace{0.35cm}
+\large
+\begin{tabular}{r@{\quad}l}
+{\color{teal}\textbf{Fevereiro}} & A IA escreve o código de estimação. \\
+ & \small Eu interroguei cada escolha. Eu entendi o que estava sendo feito. \\[0.4cm]
+{\color{orange}\textbf{Agosto}} & A IA escreve a apresentação - e \textbf{interpreta} os resultados. \\
+ & \small O texto afirmava mais do que o desenho autorizava. \\[0.4cm]
+{\color{orange}\textbf{Então}} & Eu desconfiei e fui checar. \\
+ & \small E descobri que também não sabia mais por que escolhi aquelas âncoras.
 \end{tabular}
 \end{center}
 
 \sourcecite{A literatura de pontos ideais trata identificação e interpretação como problemas distintos: Poole e Rosenthal (1985); Clinton, Jackman e Rivers (2004); Morucci et al. (2025), DOI 10.1017/S000305542400039X.}
 
-<!-- Fala: Aqui está o clímax. A pergunta da IA não entregou uma resposta; ela revelou uma lacuna na memória e na validade do construto. -->
+<!-- Fala: Clímax. Se a plateia for pouco quantitativa, abra com uma linha: “pontos ideais estimam posições a partir de votações; as âncoras fixam o significado da dimensão”. Delimitar você mesmo o papel da IA desarma a objeção de que isso é só esquecimento comum. -->
 
-## O que exatamente foi perdido?
+## Duas dívidas, origens diferentes
 
 \begin{columns}[T,onlytextwidth]
-\column{0.31\textwidth}
-\centering
-{\color{orange}\Huge 1}
+\column{0.46\textwidth}
+{\color{orange}\Large\textbf{A IA criou}}
 
-\vspace{0.12cm}
-\Large\textbf{Proveniência}
+\vspace{0.25cm}
+\normalsize A interpretação afirmava além do que o desenho sustenta.
 
-\vspace{0.18cm}
-\normalsize Não reconstruía a razão da escolha.
+\vspace{0.2cm}
+\small Nasce da delegação. Chega pronta e bem escrita.
 
-\column{0.31\textwidth}
-\centering
-{\color{orange}\Huge 2}
+\column{0.46\textwidth}
+{\color{teal}\Large\textbf{O tempo criou}}
 
-\vspace{0.12cm}
-\Large\textbf{Construto}
+\vspace{0.25cm}
+\normalsize Eu não reconstruía mais por que aquelas âncoras.
 
-\vspace{0.18cm}
-\normalsize Não estava claro o que a dimensão representava.
-
-\column{0.31\textwidth}
-\centering
-{\color{orange}\Huge 3}
-
-\vspace{0.12cm}
-\Large\textbf{Autoria}
-
-\vspace{0.18cm}
-\normalsize O resultado existia; a defesa não.
+\vspace{0.2cm}
+\small Nasce do esquecimento. É tão antiga quanto a pesquisa.
 \end{columns}
+
+\vspace{0.6cm}
+\begin{center}
+\large O que as une: \textbf{o resultado existia e a defesa não.}
+
+\vspace{0.2cm}
+\normalsize A mesma pergunta adversarial expôs as duas.
+\end{center}
 
 \sourcecite{Um ajuste latente não garante significado substantivo: Morucci et al. (2025); Adcock e Collier (2001), DOI 10.1017/S0003055401003100.}
 
-<!-- Fala: Faça a distinção entre “não lembrar um detalhe de implementação” e “não conseguir justificar uma decisão que muda o construto”. -->
+<!-- Fala: Conceder que metade do problema é pré-IA torna a outra metade mais crível. E generaliza a recomendação: quem não usa IA também tem a dívida do tempo. -->
 
 ## Reprodução ajuda - mas não resolve tudo
 
@@ -251,7 +288,7 @@ header-includes:
 \end{columns}
 
 \vspace{0.55cm}
-\large Salvaguardas são necessárias. Elas não substituem deliberação.
+\large Nenhuma dessas salvaguardas visita a camada onde a minha dívida estava.
 \end{center}
 
 \sourcecite{Diretrizes recentes recomendam registrar ferramenta, versão, datas, prompts e procedimentos para permitir reprodução: Flanagin et al. (2024), DOI 10.1001/jama.2024.3471; Abdurahman et al. (2025), DOI 10.1177/25152459251325174.}
@@ -299,41 +336,6 @@ header-includes:
 
 <!-- Fala: Este é o slide para repetir lentamente. A regra não exige que o pesquisador rejeite a sugestão da IA; exige que ele a examine e a faça sua, se decidir mantê-la. -->
 
-## O que muda na prática?
-
-\begin{center}
-\vspace{0.35cm}
-\begin{columns}[T,onlytextwidth]
-\column{0.46\textwidth}
-\Large\textbf{Antes de aceitar}
-
-\vspace{0.2cm}
-\normalsize “A IA sugeriu.”
-
-\vspace{0.18cm}
-\normalsize “O código roda.”
-
-\vspace{0.18cm}
-\normalsize “O resultado parece plausível.”
-
-\column{0.46\textwidth}
-\Large\textbf{Depois de aceitar}
-
-\vspace{0.2cm}
-\normalsize “Eu comparei alternativas e escolhi.”
-
-\vspace{0.18cm}
-\normalsize “O objeto e o estimando estão claros.”
-
-\vspace{0.18cm}
-\normalsize “Consigo responder à crítica.”
-\end{columns}
-\end{center}
-
-\sourcecite{A literatura recente descreve riscos de ilusão de entendimento, opacidade de proveniência e confiança mal calibrada em pesquisa assistida por IA: Messeri e Crockett (2024); Gautam et al. (2026).}
-
-<!-- Fala: Mostre que “assumir a decisão” não é uma performance de certeza. Uma decisão pode continuar provisória; o ponto é saber por que ela está provisória e o que falta investigar. -->
-
 ## Fechamento
 
 \begin{center}
@@ -343,14 +345,20 @@ header-includes:
 \vspace{0.35cm}
 {\color{orange}\Huge\textbf{Precisa continuar sendo defendível por você.}}
 
-\vspace{0.8cm}
+\vspace{0.7cm}
+\normalsize Estes slides tiveram uma versão em que a IA interpretou meus resultados
+
+\vspace{0.1cm}
+\normalsize e disse mais do que eu podia provar. Eu peguei porque desconfiei.
+
+\vspace{0.6cm}
 \large A pergunta final não é “a IA fez?”.
 
 \vspace{0.15cm}
 \large É: \textbf{“qual decisão eu assumi - e por quê?”}
 \end{center}
 
-<!-- Fala: Termine voltando à confissão inicial. Agora o problema não é ter usado IA; é ter deixado uma decisão crítica sem autor disponível para explicá-la. -->
+<!-- Fala: Termine voltando à confissão inicial. O beat do meio é a fala comendo a própria ração: o risco que estou denunciando quase passou por estes slides. -->
 
 ## Para aprofundar
 
