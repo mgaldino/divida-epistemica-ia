@@ -1,0 +1,13 @@
+{
+  "project_id": "a16z_n34CIw3gk1k",
+  "primary_url": "https://www.youtube.com/watch?v=n34CIw3gk1k",
+  "fallback_url": "https://x.com/a16z/status/2086845184785203468",
+  "expected_language": "en",
+  "expected_duration_minutes": 37,
+  "whisper_model_id": "openai/whisper-large-v3-turbo",
+  "converted_whisper_model_dir": "models/faster-whisper-large-v3-turbo-int8",
+  "translation_model_id": "facebook/nllb-200-distilled-600M",
+  "markdown_block_minutes": 5,
+  "translation_chunk_max_chars": 1200,
+  "translation_batch_size": 8
+}

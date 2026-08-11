@@ -1,0 +1,9 @@
+# O arquivo requirements.lock.txt será gerado depois da instalação autorizada.
+yt-dlp
+faster-whisper>=1.1,<2
+ctranslate2>=4,<5
+numpy>=1.26,<3
+torch==2.11.0
+transformers==4.56.1
+sentencepiece>=0.2,<0.3
+safetensors>=0.4,<1

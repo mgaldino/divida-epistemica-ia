@@ -1,0 +1,5 @@
+.venv/
+data/raw/*.part
+data/raw/*.ytdl
+logs/*.log
+models/faster-whisper-large-v3-turbo-int8/
