@@ -177,8 +177,11 @@ header-includes:
 \normalsize Verifiquei o código que gerou o número. Por isso não reli com o mesmo rigor o que foi dito sobre o número.
 \end{columns}
 
-\vspace{0.5cm}
+\vspace{0.45cm}
 \begin{center}
+\normalsize Risco moral: quando o output de qualidade fica barato, ele deixa de sinalizar a compreensão que o sustenta.
+
+\vspace{0.25cm}
 \large A garantia dessa dívida é a sua reputação.
 \end{center}
 
@@ -306,7 +309,7 @@ header-includes:
 \small
 \begin{enumerate}
 \setlength{\itemsep}{2pt}
-\item Peça um Q\&A adversarial.
+\item Peça um Q\&A adversarial - em sessão separada da análise.
 \item Não peça imediatamente as respostas.
 \item Transforme cada pergunta sem resposta em pendência.
 \item Reconstrua a proveniência e compare alternativas.
@@ -314,7 +317,7 @@ header-includes:
 \end{enumerate}
 \end{center}
 
-\sourcecite{A lógica é próxima das intervenções de “forçamento cognitivo”, que reduziram sobredelegação em decisões assistidas por IA: Buçinca, Malaya e Gajos (2021), DOI 10.1145/3449287.}
+\sourcecite{A lógica é próxima das intervenções de “forçamento cognitivo”, que reduziram sobredelegação em decisões assistidas por IA: Buçinca, Malaya e Gajos (2021), DOI 10.1145/3449287. A sessão separada segue a regra prática de nunca deixar que a mesma sessão verifique o próprio trabalho, corrente em workflows de agentes.}
 
 <!-- Fala: A diferença não é pedir menos à IA. É pedir que ela atue também como audiência crítica, sem usurpar o momento de decisão. -->
 
