@@ -1,0 +1,125 @@
+segment_index	target_text	reason
+5	Ou seja, vocês decidiram construir um agente por cliente.	Continuidade do fragmento anterior.
+10	Se você nunca enfrentou o medo — se nunca o sentiu —, então ainda não tentou usar IA.	Clareza sem alterar o sentido.
+12	Do CEO aos engenheiros de IA e aos mecânicos, treinamos todos.	Coordenação e português natural.
+16	Bem-vindos de volta ao podcast da a16z.	Nome oficial e fórmula de abertura.
+17	Hoje temos Ale Maza, chefe de IA da Kavak.	Grafia confirmada pela fonte oficial.
+18	Hoje vamos discutir a transformação que Ale liderou na Kavak	Sentido de led within.
+19	para torná-la uma empresa nativa de IA.	Continuidade do fragmento anterior.
+20	Obrigado, Ale, por estar conosco hoje.	Português brasileiro natural.
+21	Obrigado pelo convite.	Perspectiva correta de Thanks for having me.
+23	Isso mesmo.	Equivalência idiomática.
+25	Você quer nos contar um pouco sobre essa trajetória?	Journey em contexto profissional.
+29	E fundamos uma empresa com a visão muito ambiciosa de que novos modelos de aprendizado de máquina	Remove conteúdo do segmento seguinte incorporado pelo revisor contextual.
+38	E nos juntamos à Kavak e ao Carlos para construir isso.	Correção pronominal.
+44	Então compramos carros, os recondicionamos e depois os vendemos e financiamos.	Verbos do negócio com pronomes naturais.
+45	Mas, para fazer isso, também tivemos de construir uma fintech, uma empresa de logística, algo como a Carfax e...	Preserva fragmento incompleto e sentido da enumeração.
+48	Vou começar dando uma visão de como é a arquitetura.	Tradução natural de framing.
+50	Com quantos agentes esse consumidor interage?	Restaura agents, omitido pelo revisor contextual.
+51	Como é a estrutura de orquestração?	Harness no contexto de agentes.
+59	Então, o agente guarda tudo na memória, formula uma estratégia e define a meta de longo prazo de maximizar o valor desse cliente ao longo do relacionamento, fazendo o que for necessário para deixá-lo satisfeito.	Restaura o agente como sujeito e evita imperativo indevido.
+65	Vamos entrar nos detalhes disso.	Equivalência idiomática.
+66	Mas, em contraste com muitas empresas que dizem “queremos nos tornar agênticas” e testam alguns fluxos de trabalho...	Agentic no contexto organizacional.
+67	Vocês adotaram uma abordagem radical — tipo, precisávamos fazer isso funcionar.	Sentido contextual de trecho acústico pouco claro.
+71	Você quer explicar isso? Obviamente, foi preciso ajustar muitas coisas para fazê-lo funcionar.	Tune em contexto técnico.
+72	Descreva a estrutura de orquestração naquela época, quais modelos vocês usavam e os detalhes específicos.	Harness no contexto de agentes.
+80	Isso significa reconstruir a maioria das APIs e os sistemas para que os agentes consigam usar tudo isso na execução das tarefas.	Referência pronominal clara.
+81	Depois, é preciso começar a gerar dados e ciclos de feedback para ajustar esses agentes.	Terminologia de aprendizado de máquina.
+83	Como ensiná-los?	Objeto plural preservado.
+84	Você os coloca em operação.	Sentido contextual de out in the open.
+85	Você os coloca diante dos clientes.	Objeto masculino preservado.
+95	Costumávamos medir quantos carros comprávamos e vendíamos e quantos freios — quantas pastilhas de freio — precisávamos comprar.	Preserva autocorreção oral e termo automotivo.
+98	Só ativar 1% dessa base de clientes representa centenas de milhões de dólares, se fizermos isso da maneira certa.	Português natural e número preservado.
+99	Foi uma aposta que fez sentido para nós por causa do setor, do alto valor das transações e porque, no fim das contas,	Ticket no contexto comercial.
+102	Ale, eu só queria aprofundar um ponto.	Equivalência idiomática de double-click.
+103	Sabe, evals em vez de demonstrações de agentes.	Correção acústica verificada e termo técnico preservado.
+105	Provavelmente você recebe muitas propostas de agentes e, sabe, nunca foi tão fácil construir coisas.	Sentido de get pitched.
+108	E acredito que cerca de 98% das interações, ou algo assim, agora são conduzidas por agentes.	Handled em contexto de atendimento.
+110	Para dar uma ideia da escala, 96% de todas as interações são conduzidas por agentes.	Handled em contexto de atendimento.
+113	Obviamente, você encontra uma pessoa quando retira o carro: há alguém fisicamente presente para entregar as chaves.	Clareza e fidelidade.
+115	Todos os dias, entre 100.000 e 200.000 agentes são instanciados.	Remove redundância temporal.
+122	E a resposta que você mencionou são as evals.	Concordância e termo técnico.
+126	Você só pisa no acelerador quando tem os freios certos.	Metáfora automotiva.
+130	Quão rápido podemos avançar?	Restaura fast.
+133	É assim que você melhora cada vez mais, sem tratar as evals como algo secundário.	Equivalência de afterthought.
+143	O importante é saber se esse cliente converteu, se isso gera valor para ele e se ele fica satisfeito em voltar a interagir conosco depois de algum tempo.	Clareza da lista de métricas.
+146	Relacionado a isso: você cria as evals certas e sabe que funciona, mas algumas empresas ainda têm certa aversão ao risco de colocar os agentes diante dos clientes e deixá-los executar as tarefas de maior impacto — que, no seu caso, seriam as vendas.	Corrige estrutura sintática sem resumir.
+149	Nunca construímos agentes de suporte nem de atendimento ao cliente.	Preserva os dois termos da fonte.
+150	Construímos agentes de vendas.	Remove artigo indevido.
+156	Então precisamos cotar esse carro.	Termo comercial correto.
+157	É um processo que, quando feito por uma pessoa — ou como a Kavak fazia em 2020 e 2021 —, exige ser extremamente bom em 15 coisas diferentes e ter 15 especialistas, em 15 equipes diferentes.	Grafia e sintaxe com números preservados.
+158	Normalmente, a pessoa falava com o especialista em financiamento, o consultor de automóveis, o especialista em compras e o especialista em seguros; juntos, eles montavam um pacote e vendiam o carro.	Papéis e sequência do processo.
+161	E é esse megaespecialista que colocamos diante do cliente.	Referência contextual ao agente descrito antes.
+165	Agora, a taxa de conversão é 2,1 vezes maior.	Interpretação correta da métrica.
+171	Esse é o ciclo de feedback que colocamos em prática, e seus efeitos aparecem no crescimento, nos resultados e na satisfação dos clientes.	Correção sintática.
+172	Uma — na verdade, duas — das coisas muito interessantes sobre a Kavak é que o mundo já se acostumou à ideia de que a IA pode fazer atendimento ao cliente.	Preserva autocorreção oral.
+177	Mas, ao examinar o que vocês fazem, vemos análise de crédito para clientes com histórico escasso ou inexistente, precificação correta e gestão do empréstimo.	Terminologia financeira de underwriting e servicing.
+181	E, se o cliente não puder mais pagar pelo carro, ele o devolve; podemos oferecer um carro mais barato, com prestação mensal menor, e ajudá-lo a sair do sufoco. Isso é o incrível da integração vertical do negócio.	Equivalência idiomática de get out of the water.
+187	Qual seria um exemplo de área em que é difícil desenhar evals, ou em que foi preciso investir tempo extra, dado que há dinheiro real e informações de identificação pessoal em risco?	Expande PII e corrige sintaxe.
+192	Em 2035, nesse ritmo de melhoria, ela provavelmente será capaz de fazê-lo.	Completa referência elíptica com base no segmento anterior.
+207	É como uma pessoa extremamente inteligente — no nível de uma Medalha Fields — examinando cada número e cada cliente, fazendo a previsão perfeita e microgerenciando tudo o que precisa ser executado diariamente para cumprir um plano.	Correção acústica verificada de Fields Medal-level.
+218	E os mecânicos têm esse assistente.	Sidekick em contexto de colaboração.
+222	Nós o chamamos de El Mike.	Grafia do segundo passe acústico.
+223	Ele lhes diz como inspecionar um carro, dá dicas e mostra como fazer.	Português natural.
+229	Como você desenharia sua organização do zero, com superinteligência abundante e barata, e simplesmente partiria para construí-la?	Go build it sem calque.
+230	Agora, esta é uma boa transição para um tema central no Vale do Silício: muita gente está preocupada com a forma que terão as organizações do futuro e com o papel que os seres humanos desempenharão.	Correção acústica de Now, não Natalie.
+247	É muito difícil. Eu mesmo conduzi o programa.	Correção acústica verificada.
+262	É nessa direção que a Kavak está avançando.	Português natural.
+271	Hoje, qualquer processo da Kavak é realmente uma colaboração entre agentes e seres humanos.	Clareza e preposição.
+276	A única maneira de continuar relevante é atualizar suas habilidades todo mês ou a cada poucos meses.	Preserva frequência imprecisa.
+278	Agora, os agentes fazem a maior parte das coisas.	Most things.
+282	Como é a estrutura da sua organização?	Org no contexto empresarial.
+284	Agora temos equipes muito horizontais, muito sêniores e altamente empoderadas.	Flat e senior no contexto organizacional.
+285	Se você olhar para uma equipe, encontrará engenharia, IA, operações — tudo.	Enumeração fiel.
+286	Elas constroem os agentes, trabalham para os agentes ou atuam no mundo físico diante do cliente.	Três alternativas preservadas.
+287	É assim que funciona a maior parte da nossa organização.	Português natural.
+291	A maneira de atender ao mundo físico ou aos clientes era diferente de quando um agente lhe diz o que fazer ou o ajuda a melhorar seu trabalho.	Correção temporal e pronominal.
+296	Acho que você o descreveu como um sistema agêntico.	Agentic em contexto técnico.
+297	Às vezes, quando ele falha, o caso é encaminhado para uma fila de atendimento humano.	Correção acústica de queue.
+302	Normalmente, se um agente encontra um obstáculo ou não consegue mais prosseguir, envia o caso ou o cliente para o suporte de nível dois e se esquece dele.	Metáfora e objeto preservados.
+303	Isso não funciona porque os ciclos não se fecham.	Close the loops.
+305	O que funciona hoje é ter um agente obcecado por cada cliente — milhões desses agentes.	Referência contextual.
+306	Eles têm acesso a todas as APIs e habilidades, e temos seres humanos construindo essas habilidades para eles.	Resolve autocorreção oral sem inverter agentes e humanos.
+307	Se um agente encontra um obstáculo ou precisa cancelar algo, chama uma API dizendo: “Preciso de ajuda”.	Metáfora e citação.
+310	Se você representar isso num organograma, verá equipes humanas que têm um agente.	Org chart.
+314	Na verdade, essa é uma transição perfeita.	Concordância.
+315	Sei que muitos líderes de instituições maiores entram em contato com você.	Inbounding em contexto profissional.
+317	Mas acho que, racionalmente, muitos líderes empresariais entendem isso de forma intuitiva.	Ordem natural.
+318	Ainda é muito difícil implantar IA em toda a organização.	Through em contexto organizacional.
+321	É um problema organizacional.	Expansão de org.
+323	Que conselho você daria, ou o que tem observado?	Pergunta natural e fiel.
+326	Se você buscar apenas adoção, não chegará a lugar nenhum, porque é difícil criar esse discernimento ou estratégia para que as pessoas decidam, de baixo para cima, o que construir e cheguem a algo que funcione para a empresa.	Bottom-up e taste em contexto estratégico.
+327	A transformação precisa ser conduzida de cima para baixo; os líderes precisam adotar a tecnologia e ter um plano muito claro do que construir.	Top-down e concisão sem perda.
+330	As pessoas apresentam casos de uso.	Come up with.
+335	Um exército não funciona se cada um cria suas próprias ideias de estratégia e tática, vai ao campo de batalha e faz o que quer.	Analogia preservada.
+341	E quanto a isso?	Pergunta breve fiel.
+344	Os tokens de nível três, os mais valiosos, são os usados por agentes cujo retorno de cada token específico pode ser calculado.	Tier e ROI explicitados sem alterar sentido.
+351	Posso avaliar o valor desses tokens, ao menos indiretamente, e então levar o resultado para produção.	Push to production.
+352	No nível um, onde está a maioria das empresas, as pessoas apenas usam Claude Code, ChatGPT, Cowork ou qualquer outra ferramenta.	Nomes de ferramentas revistos acusticamente.
+357	Já tocamos um pouco nisso, mas vale aprofundar: talvez as empresas mais ambiciosas que estão ouvindo decidam seguir o exemplo. Vocês optaram por construir um agente por cliente, em vez de por tarefa.	Clareza e contraste preservados.
+359	Explique-nos essas decisões e essa arquitetura.	Walk us through.
+360	Acho que estamos vendo os resultados agora, mas foi uma aposta muito arriscada. As pessoas geralmente passam de fluxos de trabalho — e eu aconselharia todos a não construir fluxos de trabalho agênticos — para grafos, funções ou objetivos.	Terminologia técnica e estrutura.
+361	Nós apostamos em sistemas multiagentes capazes de executar uma função inteira em torno de objetivos complexos.	Correção gramatical mantendo a afirmação.
+362	Como no exemplo que mencionei: para vender um carro, é preciso cuidar de financiamento, compra, recomendações e assim por diante.	Enumeração.
+363	Em dezembro, já tínhamos milhares — dezenas de milhares — desses agentes trabalhando em escala e operando o negócio.	Preserva autocorreção numérica.
+365	Agora, a inteligência não precisa do grafo, da malha multiagente nem da estrutura de orquestração, porque isso restringiria esse nível de inteligência.	Latticework e harness.
+366	Decidimos destruir tudo o que havíamos construído por dois anos — que funcionava, nos tornara lucrativos e gerara crescimento extraordinário — e recomeçar com uma estrutura que julgávamos robusta e escalável, capaz de aproveitar o autoaperfeiçoamento recursivo e os modelos mais inteligentes lançados a cada mês.	Terminologia técnica e sintaxe.
+367	O resultado é uma máquina virtual com um agente que tem acesso à memória, às evals, à interface de linha de comando, a todas as ferramentas e APIs da empresa e a uma meta de longo prazo.	CLI e enumeração.
+377	Você mencionou que, diante de todos os desafios de adoção da IA, via a maior oportunidade na criação de novas empresas estruturadas dessa forma e capazes de transformar os mercados.	Net new companies e disrupting markets.
+380	Existe na economia o conceito de destruição criativa, de Joseph Schumpeter.	Formulação natural.
+381	A ideia é que a inovação não chega à economia porque as empresas adotam a nova tecnologia, mas porque algumas permanecem como eram e outras, munidas da nova tecnologia, destroem as antigas.	Evita contradição sintática sem mudar o contraste.
+386	A empresa precisa assumir essa forma: “Vou destruir e reconstruir tudo o que ergui nos últimos 40 anos para me tornar uma empresa nativa de IA”.	Citação e tempo.
+387	Quantos CEOs fariam isso em uma empresa de grande porte?	Pergunta correta.
+388	Enquanto elas adotam a tecnologia, podem surgir novas empresas construídas em torno dos pontos fortes da IA, assumir a dianteira e levar novos produtos e serviços às massas.	Take over.
+398	Isso trará benefícios, sim, mas algo como 6% de eficiência.	Like como aproximação.
+400	Então se obtém uma melhoria de produtividade de cerca de 3x, que impulsionou os Estados Unidos durante o século XX.	Números e relação causal preservados.
+405	Acho que você acabou de apresentar aos futuros fundadores um argumento incrível de que é hora de construir.	Remove first-time incorporado indevidamente do segmento seguinte.
+407	Talvez um bom ponto para encerrar seja este: você construiu e expandiu sua própria empresa.	Built and scaled.
+408	Agora você transformou a Kavak numa empresa totalmente orientada por agentes.	Fully agentic.
+409	Que conselho você daria aos futuros fundadores ou aos fundadores de primeira viagem que possam estar ouvindo?	First-time founder.
+416	Eu diria: simplesmente vá em frente, mas vá fundo.	Equivalência idiomática.
+417	Imagine como será o futuro em torno da IA.	Around.
+419	Basta traçar uma tendência linear, supondo que a IA continue melhorando em ritmo linear.	Clareza sem alterar hipótese.
+420	Construa para esse futuro e você terá ideias maravilhosas, capazes de gerar muito valor para o mundo.	Come up with e bring value.
+422	Ale, obrigado por participar.	Fórmula de encerramento.
+424	Obrigado pelo convite.	Perspectiva correta de Thanks for having me.

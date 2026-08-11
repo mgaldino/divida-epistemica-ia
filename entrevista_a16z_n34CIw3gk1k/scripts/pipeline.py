@@ -36,15 +36,46 @@ METADATA_DIR = PROJECT_DIR / "metadata"
 LOG_DIR = PROJECT_DIR / "logs"
 SEGMENTS_PATH = METADATA_DIR / "segmentos_whisper.json"
 TRANSLATIONS_PATH = METADATA_DIR / "segmentos_traducao.json"
+UNICAMP_TRANSLATIONS_PATH = METADATA_DIR / "segmentos_traducao_unicamp.json"
+BR_TRANSLATIONS_PATH = METADATA_DIR / "segmentos_traducao_br.json"
+CONTEXT_TRANSLATIONS_PATH = METADATA_DIR / "segmentos_traducao_br_contexto.json"
+FINAL_TRANSLATIONS_PATH = METADATA_DIR / "segmentos_traducao_final.json"
+TRANSLATION_CORRECTIONS_PATH = METADATA_DIR / "translation_corrections.tsv"
 SPEAKERS_PATH = METADATA_DIR / "speakers.tsv"
 WAV_PATH = PROCESSED_DIR / "entrevista_16k_mono.wav"
 
 MEDIA_SUFFIXES = {".aac", ".flac", ".m4a", ".mp3", ".mp4", ".ogg", ".opus", ".wav", ".webm"}
 ALLOWED_NAMED_SPEAKERS = {"Host", "Angela", "Gabriel", "Alejandro"}
+SHORT_TRANSLATIONS_BR = {
+    "All right.": "Certo.",
+    "Amazing.": "Incrível.",
+    "Awesome.": "Ótimo.",
+    "Exactly.": "Exatamente.",
+    "Okay.": "Certo.",
+    "Right.": "Certo.",
+    "Right?": "Certo?",
+    "Thank you.": "Obrigado.",
+    "That's right.": "Isso mesmo.",
+    "Totally.": "Com certeza.",
+    "Yeah.": "Sim.",
+    "Yep.": "Sim.",
+    "Yes, totally.": "Sim, com certeza.",
+    "Yes.": "Sim.",
+}
 
 
 def load_config() -> dict[str, Any]:
     return json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+
+
+def selected_source_url() -> str:
+    config = load_config()
+    source_run = METADATA_DIR / "source_run.json"
+    if source_run.is_file():
+        selected = json.loads(source_run.read_text(encoding="utf-8")).get("selected_source")
+        if selected == "x_fallback":
+            return str(config["fallback_url"])
+    return str(config["primary_url"])
 
 
 def utc_stamp() -> str:
@@ -154,6 +185,71 @@ def cached_snapshot(model_id: str) -> Path | None:
         if config_ok and weights_ok:
             return candidate
     return None
+
+
+def prepare_translation_local_view(config: dict[str, Any]) -> Path | None:
+    """Une, por links locais, configuração e pesos NLLB que o cache separa por revisão."""
+    target = PROJECT_DIR / config["translation_model_local_dir"]
+    required = (
+        "config.json",
+        "generation_config.json",
+        "sentencepiece.bpe.model",
+        "special_tokens_map.json",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "model.safetensors",
+    )
+    if all((target / name).is_file() for name in required):
+        return target
+
+    model_dir = model_cache_root() / f"models--{config['translation_model_id'].replace('/', '--')}"
+    snapshots = model_dir / "snapshots"
+    if not snapshots.is_dir():
+        return None
+    config_source: Path | None = None
+    weights_source: Path | None = None
+    for snapshot in sorted((path for path in snapshots.iterdir() if path.is_dir()), reverse=True):
+        if (snapshot / "config.json").is_file() and (snapshot / "tokenizer.json").is_file():
+            config_source = config_source or snapshot
+        if (snapshot / "model.safetensors").is_file():
+            weights_source = weights_source or snapshot
+    if not config_source or not weights_source:
+        return None
+
+    target.mkdir(parents=True, exist_ok=True)
+    for name in required:
+        source = weights_source / name if name == "model.safetensors" else config_source / name
+        destination = target / name
+        if destination.exists() or destination.is_symlink():
+            continue
+        destination.symlink_to(source)
+    return target if all((target / name).is_file() for name in required) else None
+
+
+def materialize_nllb_shared_embeddings(model: Any, model_source: str) -> None:
+    """Corrige embeddings compartilhados deixados como meta por conversões safetensors."""
+    meta_names = [name for name, parameter in model.named_parameters() if parameter.device.type == "meta"]
+    if not meta_names:
+        return
+    allowed_meta = {"model.shared.weight"}
+    if not set(meta_names).issubset(allowed_meta):
+        raise RuntimeError(f"Tensores meta inesperados no NLLB: {meta_names[:10]}")
+
+    import torch
+    from safetensors import safe_open
+
+    weights_path = Path(model_source) / "model.safetensors"
+    if not weights_path.is_file():
+        raise RuntimeError("Pesos safetensors do NLLB não encontrados para materializar embeddings.")
+    with safe_open(weights_path, framework="pt", device="cpu") as weights:
+        shared = torch.nn.Parameter(weights.get_tensor("lm_head.weight"), requires_grad=False)
+    model.model.shared.weight = shared
+    model.model.encoder.embed_tokens.weight = shared
+    model.model.decoder.embed_tokens.weight = shared
+    model.lm_head.weight = shared
+    remaining = [name for name, parameter in model.named_parameters() if parameter.device.type == "meta"]
+    if remaining:
+        raise RuntimeError(f"Tensores meta restantes no NLLB: {remaining[:10]}")
 
 
 def tool_version(command: list[str]) -> str | None:
@@ -569,7 +665,9 @@ def format_clock(seconds: float) -> str:
     return f"{hours:02d}:{minutes:02d}:{secs:02d}"
 
 
-def load_speaker_annotations(path: Path = SPEAKERS_PATH) -> list[dict[str, Any]]:
+def load_speaker_annotations(path: Path | None = None) -> list[dict[str, Any]]:
+    if path is None:
+        path = SPEAKERS_PATH
     if not path.is_file():
         return []
     lines = [line for line in path.read_text(encoding="utf-8").splitlines() if not line.startswith("#")]
@@ -624,7 +722,7 @@ def render_english_outputs(payload: dict[str, Any], *, overwrite: bool) -> None:
     lines = [
         "# Transcrição integral em inglês",
         "",
-        f"- Fonte preferencial: {config['primary_url']}",
+        f"- Fonte utilizada: {selected_source_url()}",
         f"- Modelo: `{payload['metadata']['model']}` via `{payload['metadata']['backend']}`",
         "- Regra editorial: transcrição integral; sem resumo e sem preenchimento de lacunas.",
         "",
@@ -657,6 +755,68 @@ def translation_chunks(segments: list[dict[str, Any]], block_seconds: int, max_c
             )
         chunks.append({"start": segment["start"], "end": segment["end"], "source_text": text})
     return chunks
+
+
+def clean_translation_review(text: str) -> str:
+    cleaned = text.strip()
+    if "</think>" in cleaned:
+        cleaned = cleaned.split("</think>", 1)[1].strip()
+    cleaned = re.sub(r"^(?:tradução final|tradução|português(?: brasileiro)?):\s*", "", cleaned, flags=re.I)
+    if len(cleaned) >= 2 and cleaned[0] == cleaned[-1] and cleaned[0] in {'"', "'"}:
+        cleaned = cleaned[1:-1].strip()
+    return re.sub(r"\s+", " ", cleaned).strip()
+
+
+def normalized_numbers(text: str) -> list[str]:
+    return [re.sub(r"\D", "", item) for item in re.findall(r"\d[\d.,]*", text)]
+
+
+def integer_to_roman(value: int) -> str:
+    if not 1 <= value <= 3999:
+        return ""
+    pairs = (
+        (1000, "M"), (900, "CM"), (500, "D"), (400, "CD"),
+        (100, "C"), (90, "XC"), (50, "L"), (40, "XL"),
+        (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I"),
+    )
+    result: list[str] = []
+    remainder = value
+    for amount, numeral in pairs:
+        count, remainder = divmod(remainder, amount)
+        result.append(numeral * count)
+    return "".join(result)
+
+
+def number_has_valid_roman_century_equivalent(source: str, target: str, number: str) -> bool:
+    match = re.search(rf"\b{re.escape(number)}(?:st|nd|rd|th)\s+centur(?:y|ies)\b", source, flags=re.I)
+    if not match:
+        return False
+    roman = integer_to_roman(int(number))
+    return bool(roman and re.search(rf"\bs[ée]culo\s+{roman}\b", target, flags=re.I))
+
+
+def validate_reviewed_translation(source: str, target: str) -> list[str]:
+    problems: list[str] = []
+    if not target:
+        problems.append("tradução vazia")
+        return problems
+    ratio = len(target) / max(1, len(source))
+    if ratio < 0.25 or ratio > 2.75:
+        problems.append(f"razão de comprimento anormal: {ratio:.2f}")
+    source_numbers = normalized_numbers(source)
+    target_numbers = normalized_numbers(target)
+    for number in source_numbers:
+        if (
+            number
+            and number not in target_numbers
+            and not number_has_valid_roman_century_equivalent(source, target, number)
+        ):
+            problems.append(f"número ausente: {number}")
+    forbidden = ("está a fazer", "estou a ", "connosco", "contratámos", "lançámos")
+    for form in forbidden:
+        if form.casefold() in target.casefold():
+            problems.append(f"forma não brasileira: {form}")
+    return problems
 
 
 def command_transcribe(args: argparse.Namespace) -> int:
@@ -721,8 +881,12 @@ def command_translate(args: argparse.Namespace) -> int:
         block_seconds,
         int(config["translation_chunk_max_chars"]),
     )
+    local_view = prepare_translation_local_view(config)
     snapshot = cached_snapshot(config["translation_model_id"])
-    if snapshot:
+    if local_view:
+        model_source = str(local_view)
+        local_only = True
+    elif snapshot:
         model_source = str(snapshot)
         local_only = True
     elif args.allow_model_download:
@@ -748,7 +912,9 @@ def command_translate(args: argparse.Namespace) -> int:
         local_files_only=local_only,
         use_safetensors=True,
         dtype=dtype,
+        low_cpu_mem_usage=False,
     )
+    materialize_nllb_shared_embeddings(model, model_source)
     model.to(device)
     model.eval()
     target_token = tokenizer.convert_tokens_to_ids("por_Latn")
@@ -813,6 +979,348 @@ def command_translate(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_translate_br(args: argparse.Namespace) -> int:
+    """Gera tradução brasileira por duas traduções e revisão local Qwen3."""
+    if BR_TRANSLATIONS_PATH.exists():
+        print(f"Tradução brasileira já existe; nada foi sobrescrito: {BR_TRANSLATIONS_PATH}")
+        return 0
+    if not SEGMENTS_PATH.is_file() or not TRANSLATIONS_PATH.is_file():
+        raise FileNotFoundError("A transcrição e a tradução-base NLLB são necessárias.")
+
+    import torch
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+
+    config = load_config()
+    source_payload = json.loads(SEGMENTS_PATH.read_text(encoding="utf-8"))
+    segments = source_payload["segments"]
+    nllb_payload = json.loads(TRANSLATIONS_PATH.read_text(encoding="utf-8"))
+    nllb_chunks = nllb_payload["chunks"]
+    if len(segments) != len(nllb_chunks):
+        raise RuntimeError("Tradução NLLB desalinhada com os segmentos Whisper.")
+
+    if not UNICAMP_TRANSLATIONS_PATH.is_file():
+        snapshot = cached_snapshot(config["translation_br_model_id"])
+        if snapshot:
+            model_source = str(snapshot)
+            local_only = True
+        elif args.allow_model_download:
+            model_source = config["translation_br_model_id"]
+            local_only = False
+        else:
+            print("Modelo Unicamp ausente e download bloqueado.", file=sys.stderr)
+            return 2
+        tokenizer = AutoTokenizer.from_pretrained(model_source, local_files_only=local_only)
+        model = AutoModelForSeq2SeqLM.from_pretrained(
+            model_source,
+            local_files_only=local_only,
+            low_cpu_mem_usage=False,
+        )
+        model.to("cpu")
+        model.eval()
+        partial = UNICAMP_TRANSLATIONS_PATH.with_suffix(".partial.json")
+        translated: list[dict[str, Any]] = []
+        if partial.is_file():
+            translated = json.loads(partial.read_text(encoding="utf-8")).get("chunks", [])
+        batch_size = int(config["translation_br_batch_size"])
+        for batch_start in range(len(translated), len(segments), batch_size):
+            batch = segments[batch_start:batch_start + batch_size]
+            prompts = [f"translate English to Portuguese: {item['text']}" for item in batch]
+            encoded = tokenizer(prompts, return_tensors="pt", padding=True, truncation=True, max_length=512)
+            with torch.inference_mode():
+                generated = model.generate(
+                    **encoded,
+                    num_beams=4,
+                    do_sample=False,
+                    max_new_tokens=512,
+                )
+            targets = [text.strip() for text in tokenizer.batch_decode(generated, skip_special_tokens=True)]
+            if len(targets) != len(batch) or any(not text for text in targets):
+                raise RuntimeError(f"Saída Unicamp vazia no lote {batch_start + 1}.")
+            translated.extend(
+                {
+                    "start": source["start"],
+                    "end": source["end"],
+                    "source_text": source["text"],
+                    "target_text": target,
+                }
+                for source, target in zip(batch, targets, strict=True)
+            )
+            checkpoint = {
+                "created_at": iso_now(),
+                "model": config["translation_br_model_id"],
+                "source_language": "en",
+                "target_language": "pt_BR",
+                "chunks": translated,
+            }
+            atomic_write_json(partial, checkpoint, overwrite=True)
+            print(f"Unicamp: segmentos {batch_start + 1}–{batch_start + len(batch)}/{len(segments)}")
+        os.replace(partial, UNICAMP_TRANSLATIONS_PATH)
+        del model
+
+    unicamp_chunks = json.loads(UNICAMP_TRANSLATIONS_PATH.read_text(encoding="utf-8"))["chunks"]
+    if len(unicamp_chunks) != len(segments):
+        raise RuntimeError("Tradução Unicamp desalinhada com os segmentos Whisper.")
+
+    from mlx_lm import generate, load
+
+    qwen_snapshot = cached_snapshot(config["translation_review_model_id"])
+    if qwen_snapshot:
+        qwen_source = str(qwen_snapshot)
+    elif args.allow_model_download:
+        qwen_source = config["translation_review_model_id"]
+    else:
+        print("Modelo Qwen3 ausente e download bloqueado.", file=sys.stderr)
+        return 2
+    review_model, review_tokenizer = load(qwen_source)
+    system_prompt = (
+        "Você é um tradutor profissional brasileiro. Produza uma única tradução fiel e natural para o "
+        "português brasileiro da fonte em inglês. Os dois rascunhos são evidências falíveis: corrija "
+        "todos os erros deles. Preserve exatamente fatos, números, nomes próprios, modalizadores e "
+        "termos técnicos. Não resuma, explique, embeleze nem acrescente conteúdo. Use obrigatoriamente "
+        "gramática e uso do Brasil: gerúndio em 'está fazendo'; 'você/seu' quando necessário; 'nós "
+        "lançamos', 'nós contratamos'. É proibido usar formas europeias como 'está a fazer', "
+        "'tu/tens/teu', 'connosco', 'lançámos', 'contratámos' ou ênclises portuguesas. Exemplo: "
+        "'Thanks for having me.' = 'Obrigado pelo convite.' Retorne somente a tradução final, sem "
+        "aspas, rótulos ou comentários. /no_think"
+    )
+    partial = BR_TRANSLATIONS_PATH.with_suffix(".partial.json")
+    reviewed: list[dict[str, Any]] = []
+    if partial.is_file():
+        reviewed = json.loads(partial.read_text(encoding="utf-8")).get("chunks", [])
+        print(f"Retomando revisão brasileira no segmento {len(reviewed) + 1}.")
+    for index in range(len(reviewed), len(segments)):
+        source = segments[index]
+        target = SHORT_TRANSLATIONS_BR.get(source["text"])
+        if target is None:
+            messages = [
+                {"role": "system", "content": system_prompt},
+                {
+                    "role": "user",
+                    "content": (
+                        f"FONTE EM INGLÊS:\n{source['text']}\n\n"
+                        f"RASCUNHO A:\n{nllb_chunks[index]['target_text']}\n\n"
+                        f"RASCUNHO B:\n{unicamp_chunks[index]['target_text']}\n/no_think"
+                    ),
+                },
+            ]
+            try:
+                prompt = review_tokenizer.apply_chat_template(
+                    messages,
+                    tokenize=False,
+                    add_generation_prompt=True,
+                    enable_thinking=False,
+                )
+            except TypeError:
+                prompt = review_tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+            raw_target = generate(review_model, review_tokenizer, prompt=prompt, max_tokens=512, verbose=False)
+            target = clean_translation_review(raw_target)
+        problems = validate_reviewed_translation(source["text"], target)
+        if problems:
+            raise RuntimeError(f"Revisão brasileira inválida no segmento {index + 1}: {'; '.join(problems)}")
+        reviewed.append(
+            {
+                "start": source["start"],
+                "end": source["end"],
+                "source_text": source["text"],
+                "draft_nllb": nllb_chunks[index]["target_text"],
+                "draft_unicamp": unicamp_chunks[index]["target_text"],
+                "target_text": target,
+            }
+        )
+        checkpoint = {
+            "created_at": iso_now(),
+            "model": f"ensemble:{config['translation_review_model_id']}",
+            "base_models": [config["translation_model_id"], config["translation_br_model_id"]],
+            "source_language": "en",
+            "target_language": "pt_BR",
+            "chunks": reviewed,
+        }
+        atomic_write_json(partial, checkpoint, overwrite=True)
+        if (index + 1) % 10 == 0 or index + 1 == len(segments):
+            print(f"Qwen3 revisão pt-BR: {index + 1}/{len(segments)}")
+    os.replace(partial, BR_TRANSLATIONS_PATH)
+    render_portuguese_output(
+        json.loads(BR_TRANSLATIONS_PATH.read_text(encoding="utf-8")),
+        overwrite=True,
+    )
+    print(f"Tradução brasileira salva em {BR_TRANSLATIONS_PATH}")
+    return 0
+
+
+def command_translate_br_context(args: argparse.Namespace) -> int:
+    """Faz uma segunda revisão local usando o contexto dos segmentos vizinhos."""
+    if CONTEXT_TRANSLATIONS_PATH.exists():
+        print(f"Revisão contextual já existe; nada foi sobrescrito: {CONTEXT_TRANSLATIONS_PATH}")
+        return 0
+    if not SEGMENTS_PATH.is_file() or not BR_TRANSLATIONS_PATH.is_file():
+        raise FileNotFoundError("A transcrição e a tradução brasileira inicial são necessárias.")
+
+    config = load_config()
+    segments = json.loads(SEGMENTS_PATH.read_text(encoding="utf-8"))["segments"]
+    first_review = json.loads(BR_TRANSLATIONS_PATH.read_text(encoding="utf-8"))["chunks"]
+    if len(segments) != len(first_review):
+        raise RuntimeError("Tradução brasileira inicial desalinhada com os segmentos Whisper.")
+
+    from mlx_lm import generate, load
+
+    qwen_snapshot = cached_snapshot(config["translation_review_model_id"])
+    if qwen_snapshot:
+        qwen_source = str(qwen_snapshot)
+    elif args.allow_model_download:
+        qwen_source = config["translation_review_model_id"]
+    else:
+        print("Modelo Qwen3 ausente e download bloqueado.", file=sys.stderr)
+        return 2
+    review_model, review_tokenizer = load(qwen_source)
+    system_prompt = (
+        "Você é um editor e tradutor profissional brasileiro. Revise somente a TRADUÇÃO ATUAL contra "
+        "o SEGMENTO ATUAL EM INGLÊS. Os trechos vizinhos servem apenas para resolver fragmentos, "
+        "referências e continuidade; não incorpore na resposta nenhuma palavra que pertença apenas a "
+        "eles. Preserve exatamente fatos, números, nomes, incerteza, repetições e caráter oral. Não "
+        "resuma, explique, embeleze ou acrescente conteúdo. Produza português brasileiro natural: "
+        "traduza 'go for it' conforme o sentido, 'first-time founder' como 'fundador de primeira "
+        "viagem' e 'thanks for joining us' como 'obrigado por participar'. Evite calques e todas as "
+        "formas de português europeu. Mantenha uma frase deliberadamente incompleta se o inglês atual "
+        "também for incompleto. Retorne somente a tradução revisada do segmento atual, sem aspas, "
+        "rótulos ou comentários. /no_think"
+    )
+    partial = CONTEXT_TRANSLATIONS_PATH.with_suffix(".partial.json")
+    reviewed: list[dict[str, Any]] = []
+    if partial.is_file():
+        reviewed = json.loads(partial.read_text(encoding="utf-8")).get("chunks", [])
+        print(f"Retomando revisão contextual no segmento {len(reviewed) + 1}.")
+    for index in range(len(reviewed), len(segments)):
+        source = segments[index]
+        previous = "\n".join(
+            item["text"] for item in segments[max(0, index - 2):index]
+        ) or "[início]"
+        following = "\n".join(
+            item["text"] for item in segments[index + 1:min(len(segments), index + 3)]
+        ) or "[fim]"
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {
+                "role": "user",
+                "content": (
+                    f"CONTEXTO ANTERIOR EM INGLÊS:\n{previous}\n\n"
+                    f"SEGMENTO ATUAL EM INGLÊS:\n{source['text']}\n\n"
+                    f"TRADUÇÃO ATUAL:\n{first_review[index]['target_text']}\n\n"
+                    f"CONTEXTO POSTERIOR EM INGLÊS:\n{following}\n/no_think"
+                ),
+            },
+        ]
+        try:
+            prompt = review_tokenizer.apply_chat_template(
+                messages,
+                tokenize=False,
+                add_generation_prompt=True,
+                enable_thinking=False,
+            )
+        except TypeError:
+            prompt = review_tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+        raw_target = generate(review_model, review_tokenizer, prompt=prompt, max_tokens=512, verbose=False)
+        target = clean_translation_review(raw_target)
+        problems = validate_reviewed_translation(source["text"], target)
+        if problems:
+            raise RuntimeError(f"Revisão contextual inválida no segmento {index + 1}: {'; '.join(problems)}")
+        reviewed.append(
+            {
+                "start": source["start"],
+                "end": source["end"],
+                "source_text": source["text"],
+                "previous_target_text": first_review[index]["target_text"],
+                "target_text": target,
+            }
+        )
+        checkpoint = {
+            "created_at": iso_now(),
+            "model": f"context-review:{config['translation_review_model_id']}",
+            "base_translation": str(BR_TRANSLATIONS_PATH.relative_to(PROJECT_DIR)),
+            "source_language": "en",
+            "target_language": "pt_BR",
+            "chunks": reviewed,
+        }
+        atomic_write_json(partial, checkpoint, overwrite=True)
+        if (index + 1) % 10 == 0 or index + 1 == len(segments):
+            print(f"Qwen3 revisão contextual pt-BR: {index + 1}/{len(segments)}")
+    os.replace(partial, CONTEXT_TRANSLATIONS_PATH)
+    render_portuguese_output(
+        json.loads(CONTEXT_TRANSLATIONS_PATH.read_text(encoding="utf-8")),
+        overwrite=True,
+    )
+    print(f"Revisão contextual salva em {CONTEXT_TRANSLATIONS_PATH}")
+    return 0
+
+
+def load_translation_corrections(path: Path = TRANSLATION_CORRECTIONS_PATH) -> dict[int, dict[str, str]]:
+    if not path.is_file():
+        return {}
+    lines = [line for line in path.read_text(encoding="utf-8").splitlines() if not line.startswith("#")]
+    corrections: dict[int, dict[str, str]] = {}
+    for row in csv.DictReader(lines, delimiter="\t"):
+        index = int(row["segment_index"])
+        target = (row.get("target_text") or "").strip()
+        reason = (row.get("reason") or "").strip()
+        if index in corrections:
+            raise ValueError(f"Correção de tradução duplicada para o segmento {index}.")
+        if not target or not reason:
+            raise ValueError(f"Correção incompleta para o segmento {index}.")
+        corrections[index] = {"target_text": target, "reason": reason}
+    return corrections
+
+
+def command_finalize_translation(_: argparse.Namespace) -> int:
+    """Aplica a revisão humana documentada sem alterar os rascunhos dos modelos."""
+    if FINAL_TRANSLATIONS_PATH.exists():
+        print(f"Tradução final já existe; nada foi sobrescrito: {FINAL_TRANSLATIONS_PATH}")
+        return 0
+    if not CONTEXT_TRANSLATIONS_PATH.is_file() or not SEGMENTS_PATH.is_file():
+        raise FileNotFoundError("A revisão contextual e a transcrição revisada são necessárias.")
+    payload = json.loads(CONTEXT_TRANSLATIONS_PATH.read_text(encoding="utf-8"))
+    segments = json.loads(SEGMENTS_PATH.read_text(encoding="utf-8"))["segments"]
+    chunks = payload["chunks"]
+    if len(chunks) != len(segments):
+        raise RuntimeError("Revisão contextual desalinhada com a transcrição.")
+    corrections = load_translation_corrections()
+    unknown = sorted(set(corrections) - set(range(len(chunks))))
+    if unknown:
+        raise ValueError(f"Índices de correção fora da faixa: {unknown}")
+    final_chunks: list[dict[str, Any]] = []
+    for index, (source, chunk) in enumerate(zip(segments, chunks, strict=True)):
+        if source["start"] != chunk["start"] or source["end"] != chunk["end"]:
+            raise RuntimeError(f"Timestamp desalinhado no segmento {index}.")
+        if source["text"] != chunk["source_text"]:
+            raise RuntimeError(f"Fonte desalinhada no segmento {index}.")
+        correction = corrections.get(index)
+        target = correction["target_text"] if correction else chunk["target_text"]
+        problems = validate_reviewed_translation(source["text"], target)
+        if problems:
+            raise RuntimeError(f"Tradução final inválida no segmento {index}: {'; '.join(problems)}")
+        final_chunks.append(
+            {
+                "start": source["start"],
+                "end": source["end"],
+                "source_text": source["text"],
+                "context_target_text": chunk["target_text"],
+                "target_text": target,
+                "editorial_correction": correction["reason"] if correction else None,
+            }
+        )
+    final_payload = {
+        "created_at": iso_now(),
+        "model": payload["model"],
+        "editorial_corrections": str(TRANSLATION_CORRECTIONS_PATH.relative_to(PROJECT_DIR)),
+        "correction_count": len(corrections),
+        "source_language": "en",
+        "target_language": "pt_BR",
+        "chunks": final_chunks,
+    }
+    atomic_write_json(FINAL_TRANSLATIONS_PATH, final_payload)
+    render_portuguese_output(final_payload, overwrite=True)
+    print(f"Tradução final salva em {FINAL_TRANSLATIONS_PATH} ({len(corrections)} correções documentadas)")
+    return 0
+
+
 def render_portuguese_output(payload: dict[str, Any], *, overwrite: bool) -> None:
     config = load_config()
     annotations = load_speaker_annotations()
@@ -823,7 +1331,7 @@ def render_portuguese_output(payload: dict[str, Any], *, overwrite: bool) -> Non
     lines = [
         "# Tradução integral para o português",
         "",
-        f"- Fonte preferencial: {config['primary_url']}",
+        f"- Fonte utilizada: {selected_source_url()}",
         f"- Modelo local de tradução: `{payload['model']}`",
         "- Regra editorial: tradução integral; sem resumo e sem preenchimento de lacunas.",
         "",
@@ -847,8 +1355,16 @@ def command_render(args: argparse.Namespace) -> int:
         raise FileNotFoundError("Segmentos Whisper ausentes.")
     payload = json.loads(SEGMENTS_PATH.read_text(encoding="utf-8"))
     render_english_outputs(payload, overwrite=args.replace_generated)
-    if TRANSLATIONS_PATH.is_file():
-        translated = json.loads(TRANSLATIONS_PATH.read_text(encoding="utf-8"))
+    if FINAL_TRANSLATIONS_PATH.is_file():
+        translation_path = FINAL_TRANSLATIONS_PATH
+    elif CONTEXT_TRANSLATIONS_PATH.is_file():
+        translation_path = CONTEXT_TRANSLATIONS_PATH
+    elif BR_TRANSLATIONS_PATH.is_file():
+        translation_path = BR_TRANSLATIONS_PATH
+    else:
+        translation_path = TRANSLATIONS_PATH
+    if translation_path.is_file():
+        translated = json.loads(translation_path.read_text(encoding="utf-8"))
         render_portuguese_output(translated, overwrite=args.replace_generated)
     else:
         print("Tradução ainda ausente; apenas os arquivos em inglês foram renderizados.")
@@ -857,12 +1373,34 @@ def command_render(args: argparse.Namespace) -> int:
 
 def final_artifact_paths() -> list[Path]:
     paths = [
+        PROJECT_DIR / "README.md",
+        PROJECT_DIR / "requirements.in",
+        PROJECT_DIR / "requirements.lock.txt",
+        CONFIG_PATH,
+        PROJECT_DIR / "scripts" / "install_local_env.sh",
+        PROJECT_DIR / "scripts" / "pipeline.py",
+        PROJECT_DIR / "tests" / "test_pipeline.py",
         OUTPUT_DIR / "transcricao_ingles.txt",
         OUTPUT_DIR / "transcricao_ingles.srt",
         OUTPUT_DIR / "transcricao_ingles.md",
         OUTPUT_DIR / "traducao_portugues.md",
+        OUTPUT_DIR / "traducao_portugues_nllb.md",
+        METADATA_DIR / "SOURCES.yaml",
+        METADATA_DIR / "TRANSCRIPTION_REVIEW.md",
+        METADATA_DIR / "audio_probe.json",
+        METADATA_DIR / "executed_commands.log",
+        METADATA_DIR / "source_run.json",
+        METADATA_DIR / "speakers.tsv",
+        METADATA_DIR / "segmentos_whisper_raw.json",
         SEGMENTS_PATH,
         TRANSLATIONS_PATH,
+        METADATA_DIR / "segmentos_traducao_nllb.json",
+        UNICAMP_TRANSLATIONS_PATH,
+        BR_TRANSLATIONS_PATH,
+        CONTEXT_TRANSLATIONS_PATH,
+        FINAL_TRANSLATIONS_PATH,
+        TRANSLATION_CORRECTIONS_PATH,
+        RAW_DIR / "x_2086845184785203468.info.json",
         WAV_PATH,
     ]
     paths.extend(raw_media_files())
@@ -870,7 +1408,17 @@ def final_artifact_paths() -> list[Path]:
 
 
 def command_validate(_: argparse.Namespace) -> int:
-    required = final_artifact_paths()[:7]
+    required = [
+        OUTPUT_DIR / "transcricao_ingles.txt",
+        OUTPUT_DIR / "transcricao_ingles.srt",
+        OUTPUT_DIR / "transcricao_ingles.md",
+        OUTPUT_DIR / "traducao_portugues.md",
+        SEGMENTS_PATH,
+        TRANSLATIONS_PATH,
+        BR_TRANSLATIONS_PATH,
+        FINAL_TRANSLATIONS_PATH,
+        WAV_PATH,
+    ]
     missing = [path for path in required if not path.is_file() or path.stat().st_size == 0]
     if missing:
         for path in missing:
@@ -893,7 +1441,13 @@ def command_validate(_: argparse.Namespace) -> int:
     if srt_entries != len(segments):
         print(f"FALHA: SRT tem {srt_entries} entradas para {len(segments)} segmentos.", file=sys.stderr)
         return 1
-    translated = json.loads(TRANSLATIONS_PATH.read_text(encoding="utf-8"))
+    if FINAL_TRANSLATIONS_PATH.is_file():
+        final_translation_path = FINAL_TRANSLATIONS_PATH
+    elif CONTEXT_TRANSLATIONS_PATH.is_file():
+        final_translation_path = CONTEXT_TRANSLATIONS_PATH
+    else:
+        final_translation_path = BR_TRANSLATIONS_PATH
+    translated = json.loads(final_translation_path.read_text(encoding="utf-8"))
     if not translated.get("chunks") or any(not item.get("target_text", "").strip() for item in translated["chunks"]):
         print("FALHA: tradução vazia ou incompleta.", file=sys.stderr)
         return 1
@@ -903,6 +1457,21 @@ def command_validate(_: argparse.Namespace) -> int:
             file=sys.stderr,
         )
         return 1
+    for index, (source, target) in enumerate(zip(segments, translated["chunks"], strict=True)):
+        if (
+            source["start"] != target.get("start")
+            or source["end"] != target.get("end")
+            or source["text"] != target.get("source_text")
+        ):
+            print(f"FALHA: tradução desalinhada no segmento {index}.", file=sys.stderr)
+            return 1
+        translation_problems = validate_reviewed_translation(source["text"], target["target_text"])
+        if translation_problems:
+            print(
+                f"FALHA: tradução inválida no segmento {index}: {'; '.join(translation_problems)}",
+                file=sys.stderr,
+            )
+            return 1
     load_speaker_annotations()
 
     artifacts = []
@@ -971,6 +1540,19 @@ def command_run(args: argparse.Namespace) -> int:
     )
     if status:
         return status
+    status = command_translate_br(
+        argparse.Namespace(allow_model_download=args.allow_model_download)
+    )
+    if status:
+        return status
+    status = command_translate_br_context(
+        argparse.Namespace(allow_model_download=args.allow_model_download)
+    )
+    if status:
+        return status
+    status = command_finalize_translation(argparse.Namespace())
+    if status:
+        return status
     return command_validate(argparse.Namespace())
 
 
@@ -1002,6 +1584,23 @@ def build_parser() -> argparse.ArgumentParser:
     translate.add_argument("--allow-model-download", action="store_true")
     translate.add_argument("--device", choices=("auto", "cpu", "mps"), default="auto")
     translate.set_defaults(func=command_translate)
+
+    translate_br = subparsers.add_parser("translate-br", help="Produz tradução brasileira por revisão local em ensemble.")
+    translate_br.add_argument("--allow-model-download", action="store_true")
+    translate_br.set_defaults(func=command_translate_br)
+
+    translate_br_context = subparsers.add_parser(
+        "translate-br-context",
+        help="Refina a tradução brasileira usando somente contexto local de segmentos vizinhos.",
+    )
+    translate_br_context.add_argument("--allow-model-download", action="store_true")
+    translate_br_context.set_defaults(func=command_translate_br_context)
+
+    finalize_translation = subparsers.add_parser(
+        "finalize-translation",
+        help="Aplica correções editoriais documentadas e gera a tradução final.",
+    )
+    finalize_translation.set_defaults(func=command_finalize_translation)
 
     render = subparsers.add_parser("render", help="Gera TXT, SRT e Markdown a partir dos segmentos.")
     render.add_argument("--replace-generated", action="store_true", help="Substitui somente arquivos derivados em outputs/.")

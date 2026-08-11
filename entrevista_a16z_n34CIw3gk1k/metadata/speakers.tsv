@@ -2,3 +2,56 @@
 # Nomes permitidos: Host, Angela, Gabriel, Alejandro. Caso não haja segurança, use Speaker 1, Speaker 2 etc.
 # Uma identificação nominal exige confidence=high e evidência explícita no campo evidence.
 start_seconds	end_seconds	label	confidence	evidence
+0.00	13.28	Alejandro	high	Trechos reaparecem como respostas do convidado sobre tokens e agentes super-humanos.
+13.38	20.60	Host	high	Montagem de pergunta/comentário dirigido ao convidado; Angela e Gabriel não são distinguíveis com segurança.
+21.10	29.06	Alejandro	high	Trecho reaparece na explicação do convidado sobre agentes instanciados por cliente.
+29.06	36.08	Host	high	Montagem de comentário dos entrevistadores; Angela e Gabriel não são distinguíveis com segurança.
+36.22	53.62	Alejandro	high	Montagem de respostas do convidado sobre adoção de IA e Jedi Academy.
+53.74	57.82	Host	high	Pergunta dirigida ao convidado; Angela e Gabriel não são distinguíveis com segurança.
+57.82	59.46	Alejandro	high	Início da resposta do convidado, retomada mais tarde no episódio.
+59.46	75.35	Host	high	Apresentação do podcast e do convidado, seguida de agradecimento; Angela e Gabriel não são distinguíveis com segurança.
+75.47	76.21	Alejandro	high	Resposta do convidado ao agradecimento de apresentação.
+76.43	80.97	Host	high	Pergunta biográfica dirigida ao convidado; Angela e Gabriel não são distinguíveis com segurança.
+81.37	81.73	Alejandro	high	Confirmação do convidado sobre a empresa que fundou.
+82.19	88.15	Host	high	Continuação da pergunta biográfica; Angela e Gabriel não são distinguíveis com segurança.
+88.15	153.44	Alejandro	high	Resposta em primeira pessoa sobre sua trajetória e entrada na Kavak.
+153.88	163.20	Host	high	Transição e pergunta sobre a Kavak e o cargo do convidado; Angela e Gabriel não são distinguíveis com segurança.
+163.44	190.94	Alejandro	high	Resposta sobre o modelo de negócios da Kavak.
+191.24	202.34	Host	high	Pergunta sobre a arquitetura de agentes; Angela e Gabriel não são distinguíveis com segurança.
+202.34	284.09	Alejandro	high	Resposta sobre a transformação da Kavak e agentes por cliente.
+284.90	312.48	Host	high	Comentários e pergunta técnica dirigida ao convidado; Angela e Gabriel não são distinguíveis com segurança.
+312.88	454.80	Alejandro	high	Resposta extensa sobre redesenho organizacional, avaliações e relacionamento com clientes.
+455.12	484.10	Host	high	Pergunta sobre avaliação e escala dos agentes; Angela e Gabriel não são distinguíveis com segurança.
+484.10	641.91	Alejandro	high	Resposta com métricas de escala, transações e avaliações.
+643.01	664.80	Host	high	Comentário e pergunta sobre agentes de venda; Angela e Gabriel não são distinguíveis com segurança.
+664.96	796.34	Alejandro	high	Resposta sobre vendas, especialização, NPS e conversão.
+796.34	814.92	Host	high	Comentário dos entrevistadores sobre vendas por IA; Angela e Gabriel não são distinguíveis com segurança.
+814.98	815.18	Alejandro	high	Confirmação breve do convidado.
+815.34	844.68	Host	high	Pergunta sobre serviços financeiros regulados; Angela e Gabriel não são distinguíveis com segurança.
+844.68	949.76	Alejandro	high	Resposta sobre crédito, personalização e integração vertical.
+949.76	966.50	Host	high	Pergunta sobre uma avaliação difícil em contexto financeiro; Angela e Gabriel não são distinguíveis com segurança.
+966.76	1176.42	Alejandro	high	Resposta sobre o agente CEO, trabalhadores físicos e assistência a mecânicos.
+1177.26	1200.94	Host	high	Transição e pergunta sobre organizações futuras; Angela e Gabriel não são distinguíveis com segurança.
+1201.46	1249.18	Alejandro	high	Resposta sobre mudança de empregos e a Jedi Academy.
+1249.34	1250.40	Host	high	Intervenção curta afirmando que o convidado desenhou o programa; Angela e Gabriel não são distinguíveis com segurança.
+1250.46	1252.54	Alejandro	high	Resposta em primeira pessoa sobre ter desenhado e atualizado o programa.
+1252.62	1253.00	Host	high	Eco breve da palavra anterior; Angela e Gabriel não são distinguíveis com segurança.
+1253.18	1366.62	Alejandro	high	Continuação da resposta sobre treinamento, cultura e colaboração entre humanos e agentes.
+1366.94	1380.64	Host	high	Pergunta sobre estrutura organizacional e gestão intermediária; Angela e Gabriel não são distinguíveis com segurança.
+1380.74	1436.81	Alejandro	high	Resposta sobre equipes planas e requalificação.
+1436.81	1437.09	Host	high	Confirmação breve do entrevistador; Angela e Gabriel não são distinguíveis com segurança.
+1437.09	1441.31	Alejandro	high	Conclusão da resposta sobre mudança estrutural.
+1441.39	1454.11	Host	high	Pergunta sobre humanos trabalhando para agentes; Angela e Gabriel não são distinguíveis com segurança.
+1454.35	1515.30	Alejandro	high	Resposta sobre human-in-the-loop e fechamento dos ciclos de aprendizagem.
+1515.30	1543.70	Host	high	Transição e pergunta sobre implantação organizacional de IA; Angela e Gabriel não são distinguíveis com segurança.
+1543.70	1688.58	Alejandro	high	Resposta sobre transformação top-down, estratégia e retorno dos tokens.
+1688.58	1713.70	Host	high	Pergunta sobre agente por cliente e máquina virtual; Angela e Gabriel não são distinguíveis com segurança.
+1713.70	1819.05	Alejandro	high	Resposta sobre arquitetura, mudança após Opus 4.5 e organização autoaperfeiçoável.
+1819.11	1819.39	Host	high	Confirmação breve do entrevistador; Angela e Gabriel não são distinguíveis com segurança.
+1819.55	1875.56	Alejandro	high	Continuação da resposta sobre autoaperfeiçoamento organizacional.
+1875.56	1889.66	Host	high	Pergunta sobre novas empresas e disrupção; Angela e Gabriel não são distinguíveis com segurança.
+1889.76	2083.78	Alejandro	high	Resposta sobre destruição criativa, eletricidade e adoção profunda de IA.
+2085.24	2103.68	Host	high	Encaminhamento final e pergunta a futuros fundadores; Angela e Gabriel não são distinguíveis com segurança.
+2104.14	2171.89	Alejandro	high	Resposta final com conselhos a fundadores.
+2173.31	2175.21	Host	high	Agradecimento final dirigido a Ale; Angela e Gabriel não são distinguíveis com segurança.
+2175.21	2176.17	Alejandro	high	Agradecimento de despedida do convidado.

@@ -1,0 +1,2558 @@
+{
+  "created_at": "2026-08-11T22:02:05.558837+00:00",
+  "model": "facebook/nllb-200-distilled-600M",
+  "source_language": "eng_Latn",
+  "target_language": "por_Latn",
+  "chunks": [
+    {
+      "start": 0.0,
+      "end": 4.4,
+      "source_text": "I'm investing more today in tokens than in knowledge workers.",
+      "target_text": "Hoje estou a investir mais em tokens do que em trabalhadores do conhecimento."
+    },
+    {
+      "start": 4.74,
+      "end": 6.88,
+      "source_text": "We could build superhuman agents.",
+      "target_text": "Podemos construir agentes sobre-humanos."
+    },
+    {
+      "start": 7.2,
+      "end": 9.54,
+      "source_text": "This means that by every dimension that matters,",
+      "target_text": "Isto significa que por todas as dimensões que importam,"
+    },
+    {
+      "start": 9.74,
+      "end": 13.28,
+      "source_text": "our agents would outperform the best human we had ever hired.",
+      "target_text": "Os nossos agentes superariam o melhor humano que já contratámos."
+    },
+    {
+      "start": 13.38,
+      "end": 16.22,
+      "source_text": "The most ambitious companies listening to this will decide to follow suit,",
+      "target_text": "As empresas mais ambiciosas que ouvem isto decidirão seguir o exemplo."
+    },
+    {
+      "start": 16.5,
+      "end": 20.6,
+      "source_text": "which is you decided to build an agent per customer.",
+      "target_text": "que é que decidiu construir um agente por cliente."
+    },
+    {
+      "start": 21.1,
+      "end": 26.2,
+      "source_text": "Every day, between 100 and 200,000 agents get instantiated",
+      "target_text": "Todos os dias, entre 100 e 200 mil agentes recebem instantâneos."
+    },
+    {
+      "start": 26.2,
+      "end": 29.06,
+      "source_text": "specifically for this customer with its own virtual machine.",
+      "target_text": "especificamente para este cliente com a sua própria máquina virtual."
+    },
+    {
+      "start": 29.06,
+      "end": 33.88,
+      "source_text": "There's a lot of people worried about how the organizations of the future are going to look like",
+      "target_text": "Há muitas pessoas preocupadas com como as organizações do futuro vão ser."
+    },
+    {
+      "start": 33.88,
+      "end": 36.08,
+      "source_text": "and the role that humans are going to play.",
+      "target_text": "e o papel que os seres humanos vão desempenhar."
+    },
+    {
+      "start": 36.22,
+      "end": 40.76,
+      "source_text": "If you haven't faced fear before, you haven't felt it, then you haven't tried AI.",
+      "target_text": "Se você não enfrentou medo antes, não o sentiu, então não tentou a IA."
+    },
+    {
+      "start": 40.9,
+      "end": 44.7,
+      "source_text": "We launched a program inside Kavak that's called the Jedi Academy.",
+      "target_text": "Lançámos um programa dentro do Kavak chamado Academia Jedi."
+    },
+    {
+      "start": 44.88,
+      "end": 49.26,
+      "source_text": "From the CEO to like AI engineers to mechanics, we train everyone.",
+      "target_text": "Do CEO aos engenheiros de IA aos mecânicos, treinamos todos."
+    },
+    {
+      "start": 49.46,
+      "end": 53.62,
+      "source_text": "And after six weeks, they launch state-of-the-art agents to production.",
+      "target_text": "E depois de seis semanas, lançam agentes de última geração na produção."
+    },
+    {
+      "start": 53.74,
+      "end": 57.82,
+      "source_text": "What advice do you have to future founders or first-time founders that might be listening?",
+      "target_text": "Que conselho tem para futuros fundadores ou fundadores pela primeira vez que podem estar a ouvir?"
+    },
+    {
+      "start": 57.82,
+      "end": 59.46,
+      "source_text": "What works right now is...",
+      "target_text": "O que funciona agora é..."
+    },
+    {
+      "start": 59.46,
+      "end": 64.53,
+      "source_text": "Welcome back to the a16z podcast.",
+      "target_text": "Bem-vindo ao podcast da ACC."
+    },
+    {
+      "start": 65.01,
+      "end": 67.49,
+      "source_text": "Today, we have Ale Maza, the head of AI at Kavak.",
+      "target_text": "Hoje, temos o Ale Massa, o chefe da IA na Kavak."
+    },
+    {
+      "start": 67.65,
+      "end": 71.37,
+      "source_text": "We're going to discuss today the transformation that Ale led within Kavak",
+      "target_text": "Hoje vamos discutir a transformação que Ale levou dentro de Kavak."
+    },
+    {
+      "start": 71.37,
+      "end": 73.11,
+      "source_text": "to turn into an AI-native company.",
+      "target_text": "transformar-se numa empresa nativa de IA."
+    },
+    {
+      "start": 73.71,
+      "end": 75.35,
+      "source_text": "Thank you, Ale, for being with us today.",
+      "target_text": "Obrigado, Ale, por estar connosco hoje."
+    },
+    {
+      "start": 75.47,
+      "end": 76.21,
+      "source_text": "Thanks for having me.",
+      "target_text": "Obrigado por me teres convidado."
+    },
+    {
+      "start": 76.43,
+      "end": 80.97,
+      "source_text": "Before starting at Kavak, you were running a company called Opi Analytics.",
+      "target_text": "Antes de começar na Kavak, dirigia uma empresa chamada Opi Analytics."
+    },
+    {
+      "start": 81.37,
+      "end": 81.73,
+      "source_text": "That's right.",
+      "target_text": "- É isso mesmo."
+    },
+    {
+      "start": 82.19,
+      "end": 86.47,
+      "source_text": "And you were very much into AI before ChatGPT.",
+      "target_text": "E você estava muito interessado em IA antes do ChatGPT."
+    },
+    {
+      "start": 86.63,
+      "end": 88.15,
+      "source_text": "You want to tell us a little bit about that journey?",
+      "target_text": "Queres contar-nos um pouco sobre essa viagem?"
+    },
+    {
+      "start": 88.15,
+      "end": 89.13,
+      "source_text": "Yes, yes, of course.",
+      "target_text": "Sim, sim, claro."
+    },
+    {
+      "start": 89.27,
+      "end": 91.67,
+      "source_text": "Well, we called it machine learning back then.",
+      "target_text": "Chamávamos-lhe aprendizado automático naquela época."
+    },
+    {
+      "start": 91.75,
+      "end": 93.65,
+      "source_text": "It was a different family of algorithms.",
+      "target_text": "Era uma família diferente de algoritmos."
+    },
+    {
+      "start": 93.91,
+      "end": 101.44,
+      "source_text": "And we founded a company with this very ambitious vision there that new machine learning models",
+      "target_text": "E nós fundamos uma empresa com uma visão muito ambiciosa que os novos modelos de aprendizado de máquina"
+    },
+    {
+      "start": 101.44,
+      "end": 105.9,
+      "source_text": "would be so powerful that they could solve any complex problem.",
+      "target_text": "seriam tão poderosas que poderiam resolver qualquer problema complexo."
+    },
+    {
+      "start": 106.02,
+      "end": 107.84,
+      "source_text": "This was pre-Transformers, right?",
+      "target_text": "Isto foi antes dos Transformers, certo?"
+    },
+    {
+      "start": 107.9,
+      "end": 109.7,
+      "source_text": "This was like 2013.",
+      "target_text": "Isto foi como em 2013."
+    },
+    {
+      "start": 110.32,
+      "end": 111.98,
+      "source_text": "So we started building the company that way.",
+      "target_text": "Então começámos a construir a empresa dessa forma."
+    },
+    {
+      "start": 111.98,
+      "end": 117.6,
+      "source_text": "And I think we were like 10 years ahead of time, but we built a great company.",
+      "target_text": "E acho que estávamos 10 anos à frente do tempo, mas construímos uma grande empresa."
+    },
+    {
+      "start": 117.8,
+      "end": 125.64,
+      "source_text": "We served like 1,400, 500 companies around like risk algorithms, logistics, forecasting, marketing.",
+      "target_text": "Servimos cerca de 1.400, 500 empresas como algoritmos de risco, logística, previsão, marketing."
+    },
+    {
+      "start": 125.64,
+      "end": 138.34,
+      "source_text": "But really the power of what Transformers and then the ChatGPT moment when it arrived make things very clearly",
+      "target_text": "Mas realmente o poder do que os Transformers e depois o momento do ChatGPT quando chegou tornam as coisas muito claras"
+    },
+    {
+      "start": 138.34,
+      "end": 149.26,
+      "source_text": "that we could now build a whole new company and way of building companies.",
+      "target_text": "que agora poderíamos construir uma empresa completamente nova e forma de construir empresas."
+    },
+    {
+      "start": 149.26,
+      "end": 153.44,
+      "source_text": "And we joined Kavak and Carlos to build it.",
+      "target_text": "Juntámos-nos a Kavak e ao Carlos para construí-lo."
+    },
+    {
+      "start": 153.88,
+      "end": 154.32,
+      "source_text": "Amazing.",
+      "target_text": "É incrível."
+    },
+    {
+      "start": 154.46,
+      "end": 154.58,
+      "source_text": "All right.",
+      "target_text": "Está bem. Está bem."
+    },
+    {
+      "start": 154.62,
+      "end": 159.58,
+      "source_text": "So we're going to spend the bulk of this podcast talking about exactly how you've identified Kavak.",
+      "target_text": "Vamos passar a maior parte deste podcast a falar exatamente sobre como identificou o Kavak."
+    },
+    {
+      "start": 159.72,
+      "end": 163.2,
+      "source_text": "But maybe just to start, what does Kavak do and what is your role there?",
+      "target_text": "Mas talvez apenas para começar, o que faz o Kavak e qual é o seu papel lá?"
+    },
+    {
+      "start": 163.44,
+      "end": 167.2,
+      "source_text": "Kavak started out as a used car marketplace.",
+      "target_text": "Kavak começou como um mercado de carros usados."
+    },
+    {
+      "start": 167.2,
+      "end": 173.36,
+      "source_text": "So we buy cars, we refurbish them, and then we sell them and finance them.",
+      "target_text": "Então compramos carros, reformamos-os, e depois vendemos-os e financiamo-los."
+    },
+    {
+      "start": 173.44,
+      "end": 182.44,
+      "source_text": "But to do that, we also had to build a fintech and a logistics company and the Carfax and like",
+      "target_text": "Mas para fazer isso, também tivemos que construir uma FinTech e uma empresa de logística e o Carfax e como"
+    },
+    {
+      "start": 182.44,
+      "end": 186.44,
+      "source_text": "basically all the infrastructure for this to work didn't exist in LATAM.",
+      "target_text": "Basicamente, toda a infraestrutura para isto funcionar não existia em LATAM."
+    },
+    {
+      "start": 186.58,
+      "end": 190.94,
+      "source_text": "So we had to build everything vertically so we could serve our customers the right way.",
+      "target_text": "Então tivemos que construir tudo verticalmente para podermos servir os nossos clientes da maneira certa."
+    },
+    {
+      "start": 191.24,
+      "end": 194.26,
+      "source_text": "I'm going to sort of start with the framing of what the architecture looks like.",
+      "target_text": "Vou começar com o enquadramento do que a arquitetura parece."
+    },
+    {
+      "start": 194.26,
+      "end": 197.08,
+      "source_text": "So a consumer comes in and says, I want to sell my car.",
+      "target_text": "Um consumidor entra e diz: \"Quero vender o meu carro\"."
+    },
+    {
+      "start": 197.6,
+      "end": 199.34,
+      "source_text": "Like, how many agents do they touch?",
+      "target_text": "Como, quantos agentes tocam?"
+    },
+    {
+      "start": 199.54,
+      "end": 200.9,
+      "source_text": "Like, what's the harness look like?",
+      "target_text": "Como é que o cinto parece?"
+    },
+    {
+      "start": 200.96,
+      "end": 202.34,
+      "source_text": "Like, ground us in how you design this.",
+      "target_text": "Diz-nos como desenhas isto."
+    },
+    {
+      "start": 202.34,
+      "end": 202.56,
+      "source_text": "Right.",
+      "target_text": "- Sim, sim."
+    },
+    {
+      "start": 202.74,
+      "end": 207.94,
+      "source_text": "So we bet the company in transforming to a company run by agents.",
+      "target_text": "Então apostamos que a empresa se transformará numa empresa dirigida por agentes."
+    },
+    {
+      "start": 207.94,
+      "end": 217.36,
+      "source_text": "The questions we ask ourselves is, how would we build Kavak in 2035 with Fable 10 or GPT-10 level intelligence?",
+      "target_text": "As perguntas que nos fazemos são: como construiríamos o Kavak em 2035 com inteligência de nível Fable 10 ou GPT-10?"
+    },
+    {
+      "start": 217.9,
+      "end": 223.74,
+      "source_text": "And actually, that company looks very different than what we had built or what we had back then.",
+      "target_text": "Na verdade, essa empresa parece muito diferente daquilo que construímos ou do que tínhamos naquela época."
+    },
+    {
+      "start": 224.26,
+      "end": 232.35,
+      "source_text": "So when a customer comes in right now, agent will get spawned specifically for this customer with its own virtual machine.",
+      "target_text": "Então, quando um cliente entra agora mesmo, um agente será criado especificamente para esse cliente com sua própria máquina virtual."
+    },
+    {
+      "start": 232.35,
+      "end": 241.37,
+      "source_text": "It will remember years of interaction of these customers with Kavak, what they visited in the webpage or a call they had two years ago.",
+      "target_text": "Ele vai lembrar anos de interação desses clientes com Kavak, o que eles visitaram na página web ou uma chamada que eles tiveram há dois anos."
+    },
+    {
+      "start": 241.37,
+      "end": 254.19,
+      "source_text": "So remember everything like in its memory, come up with a strategy and set a long-term goal to maximize the lifetime value of this customer and do whatever it takes to make the customer happy.",
+      "target_text": "Então, lembre-se de tudo como na memória, invente uma estratégia e estabeleça um objetivo a longo prazo para maximizar o valor de vida deste cliente e fazer o que for preciso para fazer o cliente feliz."
+    },
+    {
+      "start": 254.19,
+      "end": 260.83,
+      "source_text": "And convert them into, like, all our different products, like, across time.",
+      "target_text": "E transformá-los em, tipo, todos os nossos diferentes produtos, tipo, ao longo do tempo."
+    },
+    {
+      "start": 261.51,
+      "end": 271.29,
+      "source_text": "And this is a completely new and groundbreaking architecture at scale, I think, because, like, people are still building multi-agent system with experts.",
+      "target_text": "E esta é uma arquitetura completamente nova e inovadora em escala, acho eu, porque, tipo, as pessoas ainda estão a construir um sistema multi-agente com especialistas."
+    },
+    {
+      "start": 271.29,
+      "end": 284.09,
+      "source_text": "And we realized to bet that long-running agents with hard goals, not just workflows, could maximize our customers' satisfaction and, obviously, their lifetime value.",
+      "target_text": "E percebemos apostar que agentes de longa duração com objetivos difíceis, não apenas fluxos de trabalho, poderiam maximizar a satisfação dos nossos clientes e, obviamente, o seu valor ao longo da vida."
+    },
+    {
+      "start": 284.9,
+      "end": 285.16,
+      "source_text": "Awesome.",
+      "target_text": "É fantástico."
+    },
+    {
+      "start": 285.52,
+      "end": 285.66,
+      "source_text": "Okay.",
+      "target_text": "Está bem. Está bem."
+    },
+    {
+      "start": 285.72,
+      "end": 287.78,
+      "source_text": "So we're going to jump to the nuances of that.",
+      "target_text": "Então vamos saltar para as nuances disso."
+    },
+    {
+      "start": 287.94,
+      "end": 293.88,
+      "source_text": "But maybe versus many companies that say, hey, we want to be agentic, and they try some workflows.",
+      "target_text": "Mas talvez contra muitas empresas que dizem: \"Queremos ser agentes\" e tentam alguns fluxos de trabalho."
+    },
+    {
+      "start": 293.88,
+      "end": 298.32,
+      "source_text": "You guys took the just rip, like, we had to make this work.",
+      "target_text": "Vocês fizeram o arranque, tivemos de fazer isto funcionar."
+    },
+    {
+      "start": 298.42,
+      "end": 299.76,
+      "source_text": "You had to downsize dramatically.",
+      "target_text": "Tinhas de reduzir drasticamente o tamanho."
+    },
+    {
+      "start": 300.06,
+      "end": 302.54,
+      "source_text": "It didn't work for a year.",
+      "target_text": "Não funcionou por um ano."
+    },
+    {
+      "start": 302.7,
+      "end": 302.92,
+      "source_text": "Right.",
+      "target_text": "- Sim, sim."
+    },
+    {
+      "start": 303.32,
+      "end": 307.46,
+      "source_text": "So do you want to talk through, obviously, you had to tune a lot of things to make that work.",
+      "target_text": "Então, você quer falar, obviamente, você teve que sintonizar muitas coisas para fazer isso funcionar."
+    },
+    {
+      "start": 307.58,
+      "end": 312.48,
+      "source_text": "Like, describe the harness at that time and, like, what models you were using and sort of specifically.",
+      "target_text": "Descreva o arame naquela altura e quais modelos usava e especificamente."
+    },
+    {
+      "start": 312.88,
+      "end": 316.92,
+      "source_text": "So there were, like, three main decisions that we had to make.",
+      "target_text": "Então, havia, tipo, três decisões principais que tínhamos de tomar."
+    },
+    {
+      "start": 317.36,
+      "end": 323.52,
+      "source_text": "The first, and this is where I think many companies are stuck right now, is the first instinct is, okay,",
+      "target_text": "O primeiro, e é aqui que eu acho que muitas empresas estão presas agora, é o primeiro instinto é, ok,"
+    },
+    {
+      "start": 323.52,
+      "end": 324.84,
+      "source_text": "let's adopt AI.",
+      "target_text": "Vamos adotar a IA."
+    },
+    {
+      "start": 325.3,
+      "end": 331.0,
+      "source_text": "And you basically leave your structure as it is and just give ChatGPT or Claude to your team.",
+      "target_text": "E basicamente deixas a tua estrutura como está e dás o ChatGPT ou o Claude à tua equipa."
+    },
+    {
+      "start": 331.18,
+      "end": 333.34,
+      "source_text": "And then there's no efficiencies.",
+      "target_text": "E não há eficiências."
+    },
+    {
+      "start": 333.52,
+      "end": 336.52,
+      "source_text": "Your customers have the same problems and nothing happens, right?",
+      "target_text": "Os teus clientes têm os mesmos problemas e nada acontece, certo?"
+    },
+    {
+      "start": 336.98,
+      "end": 343.4,
+      "source_text": "And so you need to redesign your whole company around the agents and around the future capabilities.",
+      "target_text": "Então, precisa de redesenhar toda a sua empresa em torno dos agentes e das capacidades futuras."
+    },
+    {
+      "start": 343.58,
+      "end": 352.58,
+      "source_text": "And this means really, like, rebuilding most of your APIs, rebuilding your system so the agents can use them to perform.",
+      "target_text": "Isto significa reconstruir a maior parte das suas APIs, reconstruir o sistema para que os agentes possam usá-las para executá-las."
+    },
+    {
+      "start": 352.58,
+      "end": 357.86,
+      "source_text": "Then you need to start generating the data and the feedback loops to fine-tune these agents.",
+      "target_text": "Então, você precisa começar a gerar os dados e os circuitos de feedback para ajustar estes agentes."
+    },
+    {
+      "start": 357.94,
+      "end": 361.56,
+      "source_text": "The only way to really make them work is if you teach them.",
+      "target_text": "A única maneira de fazê-los funcionar é ensiná-los."
+    },
+    {
+      "start": 361.62,
+      "end": 362.36,
+      "source_text": "Like, how do you teach them?",
+      "target_text": "Como é que os ensina?"
+    },
+    {
+      "start": 362.42,
+      "end": 364.4,
+      "source_text": "You put them out in the open.",
+      "target_text": "Põe-as ao ar livre."
+    },
+    {
+      "start": 364.58,
+      "end": 365.9,
+      "source_text": "You put them in front of customers.",
+      "target_text": "Põe-as à frente dos clientes."
+    },
+    {
+      "start": 366.06,
+      "end": 366.72,
+      "source_text": "You get that data.",
+      "target_text": "Consegues os dados."
+    },
+    {
+      "start": 366.82,
+      "end": 367.56,
+      "source_text": "You get those evals.",
+      "target_text": "Consegues essas avaliações."
+    },
+    {
+      "start": 367.56,
+      "end": 371.8,
+      "source_text": "And then you train your agents.",
+      "target_text": "E depois treinas os teus agentes."
+    },
+    {
+      "start": 372.06,
+      "end": 377.56,
+      "source_text": "And this is the second bet that we made, that we could build superhuman agents.",
+      "target_text": "E esta é a segunda aposta que fizemos, que poderíamos construir agentes sobre-humanos."
+    },
+    {
+      "start": 377.96,
+      "end": 384.82,
+      "source_text": "This means that by every dimension that matters, like conversion, lifetime value, customer experience,",
+      "target_text": "Isto significa que por todas as dimensões que importam, como conversão, valor ao longo da vida, experiência do cliente,"
+    },
+    {
+      "start": 384.96,
+      "end": 389.12,
+      "source_text": "our agents would outperform the best human we had ever hired.",
+      "target_text": "Os nossos agentes superariam o melhor humano que já contratámos."
+    },
+    {
+      "start": 389.18,
+      "end": 390.94,
+      "source_text": "And we put them in front of the hardest problems.",
+      "target_text": "E colocamo-los na frente dos problemas mais difíceis."
+    },
+    {
+      "start": 390.94,
+      "end": 397.28,
+      "source_text": "And finally, you start to change how you measure the success of the company.",
+      "target_text": "E, finalmente, começamos a mudar a forma como medimos o sucesso da empresa."
+    },
+    {
+      "start": 397.8,
+      "end": 399.94,
+      "source_text": "Kavak was a transactional company.",
+      "target_text": "A Kavak era uma empresa de transações."
+    },
+    {
+      "start": 400.2,
+      "end": 406.94,
+      "source_text": "We used to measure how many cars we bought, how many cars we sold, how many brakes we needed to, brake pads we needed to buy.",
+      "target_text": "Costumávamos medir quantos carros comprámos, quantos carros vendemos, quantos travões precisávamos, as almofadas de travões que precisávamos comprar."
+    },
+    {
+      "start": 406.94,
+      "end": 419.26,
+      "source_text": "And we moved to a relational company where now I have 10 million customers in my database and I have agents assigned to most of them with the task of maximizing their lifetime value.",
+      "target_text": "E mudámos para uma empresa de relações onde agora tenho 10 milhões de clientes na minha base de dados e tenho agentes atribuídos à maioria deles com a tarefa de maximizar o seu valor ao longo da vida."
+    },
+    {
+      "start": 419.36,
+      "end": 425.27,
+      "source_text": "Now, we're selling cars and personal loans and very high-ticket items.",
+      "target_text": "Agora, estamos a vender carros e empréstimos pessoais e itens muito caros."
+    },
+    {
+      "start": 425.55,
+      "end": 435.01,
+      "source_text": "So just activating 1% of this customer base, it's like hundreds of millions of dollars if we do it the right way.",
+      "target_text": "Assim, apenas ativando 1% desta base de clientes, é como centenas de milhões de dólares se o fizermos da maneira certa."
+    },
+    {
+      "start": 435.01,
+      "end": 441.67,
+      "source_text": "So it's a bet that made sense for us because of our industry, because of the ticket, and because at the end of the day,",
+      "target_text": "Então é uma aposta que faz sentido para nós por causa da nossa indústria, por causa do bilhete, e porque no final do dia,"
+    },
+    {
+      "start": 442.01,
+      "end": 447.42,
+      "source_text": "customers need to build trust with a company because they're buying a used car.",
+      "target_text": "Os clientes precisam construir confiança com uma empresa porque estão a comprar um carro usado."
+    },
+    {
+      "start": 447.9,
+      "end": 454.8,
+      "source_text": "And the way to build trust is to know them and to plan and nurture a long-term relationship.",
+      "target_text": "E a maneira de construir confiança é conhecê-los e planejar e cultivar um relacionamento a longo prazo."
+    },
+    {
+      "start": 455.12,
+      "end": 457.18,
+      "source_text": "Ale, I just wanted to double-click on something.",
+      "target_text": "Ale, só queria clicar duas vezes numa coisa."
+    },
+    {
+      "start": 457.38,
+      "end": 459.68,
+      "source_text": "You know, evals over agent demos.",
+      "target_text": "Sabes, o mal sobre as demonstrações de agentes."
+    },
+    {
+      "start": 460.0,
+      "end": 460.26,
+      "source_text": "Yeah.",
+      "target_text": "- Sim, sim, sim."
+    },
+    {
+      "start": 460.26,
+      "end": 467.32,
+      "source_text": "You probably get pitched a lot of agents and, you know, it's never been easier to build things like before.",
+      "target_text": "Provavelmente recebes muitos agentes e, sabes, nunca foi mais fácil construir coisas como antes."
+    },
+    {
+      "start": 467.54,
+      "end": 471.38,
+      "source_text": "But one of the questions is, like, how do you guys go about evaluating this?",
+      "target_text": "Mas uma das perguntas é, como vocês vão avaliar isto?"
+    },
+    {
+      "start": 471.42,
+      "end": 476.64,
+      "source_text": "Because not everybody tests them across 90% of the customer interactions to see if they're really working.",
+      "target_text": "Porque nem todos os testam em 90% das interações com os clientes para ver se funcionam."
+    },
+    {
+      "start": 476.96,
+      "end": 484.1,
+      "source_text": "And, you know, you guys, I believe, is about 98% of the interactions or something like that are now handled by agents.",
+      "target_text": "E, vocês sabem, eu acredito que cerca de 98% das interações ou algo assim são agora manuseadas por agentes."
+    },
+    {
+      "start": 484.1,
+      "end": 484.84,
+      "source_text": "Yes, totally.",
+      "target_text": "Sim, absolutamente."
+    },
+    {
+      "start": 485.02,
+      "end": 493.96,
+      "source_text": "So to give you a sense of the scale, like 96% of all interactions are handled by agents.",
+      "target_text": "Então, para lhe dar uma ideia da escala, como 96% de todas as interações são manuseadas por agentes."
+    },
+    {
+      "start": 494.54,
+      "end": 496.14,
+      "source_text": "So no humans there.",
+      "target_text": "Então, não há humanos lá."
+    },
+    {
+      "start": 497.24,
+      "end": 501.64,
+      "source_text": "Like 95% of all transactions are completely handled by agents.",
+      "target_text": "Como 95% de todas as transações são totalmente manuseadas por agentes."
+    },
+    {
+      "start": 501.76,
+      "end": 505.9,
+      "source_text": "Obviously, you meet a human when you pick up your car, like there's someone physically there to give you the keys.",
+      "target_text": "Obviamente, conhece-se um ser humano quando pega no carro, como se alguém estivesse lá para lhe dar as chaves."
+    },
+    {
+      "start": 505.9,
+      "end": 511.12,
+      "source_text": "But the rest of the experience of the journey is handled by an agent.",
+      "target_text": "Mas o resto da experiência da viagem é manuseado por um agente."
+    },
+    {
+      "start": 511.62,
+      "end": 518.32,
+      "source_text": "Every day, between 100,000 and 200,000 agents get instantiated in a day.",
+      "target_text": "Todos os dias, entre 100.000 e 200.000 agentes recebem instantâneo num dia."
+    },
+    {
+      "start": 518.56,
+      "end": 519.54,
+      "source_text": "They wake up.",
+      "target_text": "Eles acordam."
+    },
+    {
+      "start": 519.86,
+      "end": 524.68,
+      "source_text": "They work sometimes for three minutes, sometimes for eight hours, sometimes for three days.",
+      "target_text": "Às vezes trabalham por três minutos, às vezes por oito horas, às vezes por três dias."
+    },
+    {
+      "start": 524.86,
+      "end": 529.4,
+      "source_text": "And they, like, set an alarm clock for their next task and go back to sleep.",
+      "target_text": "E eles, como, definir um despertador para a sua próxima tarefa e voltar a dormir."
+    },
+    {
+      "start": 529.66,
+      "end": 532.96,
+      "source_text": "So the scale of this is just amazing.",
+      "target_text": "A escala disto é incrível."
+    },
+    {
+      "start": 533.14,
+      "end": 533.96,
+      "source_text": "And it's working.",
+      "target_text": "E está a funcionar."
+    },
+    {
+      "start": 533.96,
+      "end": 537.3,
+      "source_text": "Like, now, how do you get this to work at scale?",
+      "target_text": "Como é que consegues que isto funcione em escala?"
+    },
+    {
+      "start": 538.38,
+      "end": 541.2,
+      "source_text": "And the answer you mentioned is evals.",
+      "target_text": "E a resposta que mencionou é avaliações."
+    },
+    {
+      "start": 541.5,
+      "end": 544.74,
+      "source_text": "Like, I like to move extremely fast.",
+      "target_text": "Gosto de me mover extremamente rápido."
+    },
+    {
+      "start": 545.14,
+      "end": 548.16,
+      "source_text": "But in order to move fast, you need to have brakes, right?",
+      "target_text": "Mas para te moveres depressa, precisas de frenos, certo?"
+    },
+    {
+      "start": 548.18,
+      "end": 548.84,
+      "source_text": "Imagine a car.",
+      "target_text": "Imagina um carro."
+    },
+    {
+      "start": 550.18,
+      "end": 553.56,
+      "source_text": "You'll hit on the gas just if you have the right brakes.",
+      "target_text": "Você vai bater no gás só se você tem os freios certos."
+    },
+    {
+      "start": 554.18,
+      "end": 555.7,
+      "source_text": "And AI is super powerful.",
+      "target_text": "E a IA é super poderosa."
+    },
+    {
+      "start": 555.86,
+      "end": 562.34,
+      "source_text": "And I've seen many companies get this wrong because they try to go slow because they don't have the right brakes.",
+      "target_text": "E eu vi muitas empresas cometerem esse erro porque tentam ir devagar porque não têm os freios certos."
+    },
+    {
+      "start": 562.34,
+      "end": 564.36,
+      "source_text": "So I thought about it the other way around.",
+      "target_text": "Então pensei no contrário."
+    },
+    {
+      "start": 564.36,
+      "end": 565.88,
+      "source_text": "Like, how fast can we go?",
+      "target_text": "Como, a que velocidade podemos ir?"
+    },
+    {
+      "start": 566.42,
+      "end": 568.4,
+      "source_text": "Well, it depends on the quality of our evals.",
+      "target_text": "Bem, depende da qualidade das nossas avaliações."
+    },
+    {
+      "start": 568.58,
+      "end": 583.1,
+      "source_text": "So a good rule of thumb here is we spend about the same amount of time, engineer time, tokens, and money on building the evals than building the agents.",
+      "target_text": "Uma boa regra é que gastamos aproximadamente a mesma quantidade de tempo, tempo de engenharia, tokens e dinheiro na construção das avaliações que na construção dos agentes."
+    },
+    {
+      "start": 583.1,
+      "end": 588.26,
+      "source_text": "And this is how you get better and better and better, not letting evals as an afterthought.",
+      "target_text": "E é assim que se torna melhor e melhor e melhor, não deixando as avaliações como uma reflexão posterior."
+    },
+    {
+      "start": 588.4,
+      "end": 589.56,
+      "source_text": "So what do we measure?",
+      "target_text": "Então, o que medimos?"
+    },
+    {
+      "start": 590.82,
+      "end": 593.42,
+      "source_text": "First and foremost, like, the results for the business.",
+      "target_text": "Primeiro e acima de tudo, os resultados para o negócio."
+    },
+    {
+      "start": 593.56,
+      "end": 596.46,
+      "source_text": "Like, if my customer is happy, they'll buy a car.",
+      "target_text": "Se o meu cliente estiver feliz, comprará um carro."
+    },
+    {
+      "start": 596.46,
+      "end": 599.06,
+      "source_text": "They'll get their loan approved.",
+      "target_text": "Eles vão ter o empréstimo aprovado."
+    },
+    {
+      "start": 599.54,
+      "end": 601.08,
+      "source_text": "They'll sell a car to us.",
+      "target_text": "Venderão-nos um carro."
+    },
+    {
+      "start": 601.24,
+      "end": 603.48,
+      "source_text": "And that's the, like, first check.",
+      "target_text": "E esse é o primeiro cheque."
+    },
+    {
+      "start": 603.7,
+      "end": 605.02,
+      "source_text": "Like, did it convert?",
+      "target_text": "Como, converteu-se?"
+    },
+    {
+      "start": 605.56,
+      "end": 607.8,
+      "source_text": "And that's where most things break.",
+      "target_text": "E é aí que a maioria das coisas quebra."
+    },
+    {
+      "start": 607.92,
+      "end": 620.44,
+      "source_text": "Like, I see companies, like, measuring number of calls or minutes during the call or some, like, superficial KPIs that give you some information, but that doesn't really work.",
+      "target_text": "Vejo empresas a medir o número de chamadas ou minutos durante a chamada ou alguns KPIs superficiais que lhe dão alguma informação, mas isso não funciona."
+    },
+    {
+      "start": 620.44,
+      "end": 630.39,
+      "source_text": "Like, the important thing is did this customer convert, is it bringing value to the customer, and is the customer happy to re-engage with us after a while?",
+      "target_text": "Como, o importante é se este cliente se converteu, está a trazer valor ao cliente, e o cliente está feliz em voltar a envolver-se conosco depois de um tempo?"
+    },
+    {
+      "start": 630.73,
+      "end": 641.91,
+      "source_text": "And once you get those evals connected, then it's just optimizing the right agentic architecture and giving the agent skills to scale this and cater to millions of customers.",
+      "target_text": "E uma vez que você tem essas avaliações conectadas, então é apenas otimizar a arquitetura agencial certa e dar aos agentes habilidades para escalar isso e atender a milhões de clientes."
+    },
+    {
+      "start": 643.01,
+      "end": 643.93,
+      "source_text": "It's really, really amazing.",
+      "target_text": "É realmente, realmente incrível."
+    },
+    {
+      "start": 643.93,
+      "end": 662.28,
+      "source_text": "And, you know, related to this is, like, okay, so you create the right evals, you know, it's working, you know, some people, some companies still feel a little bit risk-averse and putting them in front of the customers and being able to perform the highest leverage tasks, which in your case would be selling.",
+      "target_text": "E, você sabe, relacionado a isso é, tipo, ok, então você cria as avaliações certas, você sabe, está funcionando, você sabe, algumas pessoas, algumas empresas ainda se sentem um pouco arriscado e colocá-los na frente dos clientes e ser capaz de executar as tarefas de maior alavancagem, que em seu caso seria vender."
+    },
+    {
+      "start": 662.6,
+      "end": 664.8,
+      "source_text": "Do your agents really sell to customers?",
+      "target_text": "Os seus agentes vendem mesmo a clientes?"
+    },
+    {
+      "start": 664.96,
+      "end": 665.2,
+      "source_text": "Yes.",
+      "target_text": "- Sim, sim, sim."
+    },
+    {
+      "start": 665.42,
+      "end": 668.92,
+      "source_text": "So we never built customer support or customer service agents.",
+      "target_text": "Então, nunca construímos um serviço de apoio ao cliente ou agentes de atendimento ao cliente."
+    },
+    {
+      "start": 669.08,
+      "end": 671.54,
+      "source_text": "We built, like, sales agents.",
+      "target_text": "Construímos agentes de vendas."
+    },
+    {
+      "start": 671.54,
+      "end": 675.86,
+      "source_text": "It's extremely hard to sell a car in Latin America.",
+      "target_text": "É extremamente difícil vender um carro na América Latina."
+    },
+    {
+      "start": 676.56,
+      "end": 678.76,
+      "source_text": "So imagine someone wanting to buy a car.",
+      "target_text": "Então imagine alguém querendo comprar um carro."
+    },
+    {
+      "start": 679.14,
+      "end": 682.46,
+      "source_text": "They can choose, like, amongst, like, 20,000 SKUs.",
+      "target_text": "Eles podem escolher, tipo, entre, tipo, 20.000 SKUs."
+    },
+    {
+      "start": 682.8,
+      "end": 689.5,
+      "source_text": "Then they need to pick, like, financing and go through the financing process, insurance and coverage.",
+      "target_text": "Depois precisam escolher o financiamento e passar pelo processo de financiamento, seguro e cobertura."
+    },
+    {
+      "start": 689.92,
+      "end": 692.68,
+      "source_text": "And then they're probably trading in their car.",
+      "target_text": "E provavelmente estão a trocar o carro deles."
+    },
+    {
+      "start": 692.88,
+      "end": 694.58,
+      "source_text": "So we need to quote that car.",
+      "target_text": "Então, precisamos de citar esse carro."
+    },
+    {
+      "start": 694.58,
+      "end": 708.16,
+      "source_text": "So it's a process that if someone does it or the way Kavak did it back in 2020, 2021, was you need to be extremely good at 15 different things and have 15 different experts in 15 different teams.",
+      "target_text": "Então é um processo que, se alguém o fizer ou como o Kaivak fez em 2020, 2021, era preciso ser extremamente bom em 15 coisas diferentes e ter 15 especialistas diferentes em 15 equipes diferentes."
+    },
+    {
+      "start": 708.16,
+      "end": 720.84,
+      "source_text": "And usually the person would go and speak with the expert in financing, the expert in car advisory, the expert in buying, the expert in insurance, and they'll build a package and buy a car.",
+      "target_text": "E normalmente a pessoa falava com o especialista em finanças, o especialista em consultoria de automóveis, o especialista em compras, o especialista em seguros, e eles construíram um pacote e compraram um carro."
+    },
+    {
+      "start": 720.84,
+      "end": 723.21,
+      "source_text": "And that's extremely hard to do.",
+      "target_text": "E isso é extremamente difícil de fazer."
+    },
+    {
+      "start": 723.85,
+      "end": 739.36,
+      "source_text": "But, like, the first thing we did was, okay, can we get an agent to be better than the expert in each of these things and then put it together and have, like, a mega expert that's an expert in insurance, financing, et cetera.",
+      "target_text": "Mas, como, a primeira coisa que fizemos foi, ok, podemos conseguir um agente para ser melhor do que o especialista em cada uma dessas coisas e depois juntá-lo e ter, como, um mega especialista que é um especialista em seguros, financiamento, etc."
+    },
+    {
+      "start": 739.36,
+      "end": 742.34,
+      "source_text": "And that's who we put in front of the customer.",
+      "target_text": "E é o que colocamos na frente do cliente."
+    },
+    {
+      "start": 742.46,
+      "end": 744.14,
+      "source_text": "So the experience for the customer is amazing.",
+      "target_text": "Então a experiência para o cliente é incrível."
+    },
+    {
+      "start": 744.38,
+      "end": 751.58,
+      "source_text": "We tripled NPS and customer satisfaction score by putting the agent in front of the customer.",
+      "target_text": "triplicamos o NPS e a satisfação do cliente colocando o agente na frente do cliente."
+    },
+    {
+      "start": 752.54,
+      "end": 757.1,
+      "source_text": "And at first it converted, like, 50% more than our human team.",
+      "target_text": "E, no início, converteu 50% mais do que a nossa equipa humana."
+    },
+    {
+      "start": 757.3,
+      "end": 763.36,
+      "source_text": "And now it's converting over that, like, 2.1x more.",
+      "target_text": "E agora está a converter sobre isso, tipo, 2,1x mais."
+    },
+    {
+      "start": 764.3,
+      "end": 765.6,
+      "source_text": "So it's a completely different company.",
+      "target_text": "Então é uma empresa completamente diferente."
+    },
+    {
+      "start": 765.6,
+      "end": 766.92,
+      "source_text": "So your agents are better sellers.",
+      "target_text": "Então os teus agentes são melhores vendedores."
+    },
+    {
+      "start": 767.3,
+      "end": 767.86,
+      "source_text": "Totally better.",
+      "target_text": "Muito melhor."
+    },
+    {
+      "start": 767.86,
+      "end": 779.42,
+      "source_text": "And you get this, right, because they're experts, and they're infinitely patient, and they know all your history, and they can plan for the long term, and they never get tired.",
+      "target_text": "E percebem isto, certo, porque são especialistas, e são infinitamente pacientes, e conhecem toda a vossa história, e podem planear a longo prazo, e nunca se cansam."
+    },
+    {
+      "start": 779.78,
+      "end": 789.06,
+      "source_text": "So, and if they make a mistake, they learn it, and the next day, not just them, but the other 200,000 agents will have learned from that mistake.",
+      "target_text": "Então, se cometerem um erro, aprendem, e no dia seguinte, não só eles, mas os outros 200.000 agentes aprenderão com esse erro."
+    },
+    {
+      "start": 789.18,
+      "end": 796.34,
+      "source_text": "So that's the feedback loop that we engaged, and that's showing in the growth and results and satisfaction of our customers.",
+      "target_text": "Este é o ciclo de feedback que envolvemos, e que está a mostrar o crescimento, os resultados e a satisfação dos nossos clientes."
+    },
+    {
+      "start": 796.34,
+      "end": 805.16,
+      "source_text": "One of the, well, two of the very cool things I think about Kavak is I think the world has gotten comfortable with AI can do customer service.",
+      "target_text": "Uma das duas coisas muito interessantes que penso sobre o Kavak é que acho que o mundo se tornou confortável com a IA que pode fazer serviço ao cliente."
+    },
+    {
+      "start": 805.28,
+      "end": 806.58,
+      "source_text": "It's still very hard to do well.",
+      "target_text": "Ainda é muito difícil fazer bem."
+    },
+    {
+      "start": 806.58,
+      "end": 814.92,
+      "source_text": "But, you know, as Gabe said, there's still a view that, well, customers aren't going to want to buy expensive things from AI, and you are proving them wrong.",
+      "target_text": "Mas, como disse Gabe, ainda há uma visão de que os clientes não vão querer comprar coisas caras da IA, e você está provando que eles estão errados."
+    },
+    {
+      "start": 814.98,
+      "end": 815.18,
+      "source_text": "Yes.",
+      "target_text": "- Sim, sim, sim."
+    },
+    {
+      "start": 815.34,
+      "end": 822.48,
+      "source_text": "The next layer on that is, well, you're not actually going to be able to do regulated financial services end-to-end with AI.",
+      "target_text": "A próxima camada disso é que, bem, você não vai realmente ser capaz de fazer serviços financeiros regulamentados de ponta a ponta com IA."
+    },
+    {
+      "start": 822.48,
+      "end": 831.28,
+      "source_text": "But if you walk through what you're doing, you are underwriting a thin or no-file customer, pricing them correctly, doing servicing.",
+      "target_text": "Mas se você passar pelo que está a fazer, está a subscrever um cliente magro ou sem arquivo, a preços corretos, a fazer serviço."
+    },
+    {
+      "start": 831.48,
+      "end": 844.68,
+      "source_text": "So maybe talk through how did you write the evals to get comfortable with that, and then versus, I don't know, going to a bank branch or even a fintech, sort of how is that experience that much better?",
+      "target_text": "Então talvez falem sobre como escreveram as avaliações para se sentirem confortáveis com isso, e então versus, eu não sei, ir a uma filial bancária ou até mesmo a uma fintech, como é que essa experiência é muito melhor?"
+    },
+    {
+      "start": 844.68,
+      "end": 858.32,
+      "source_text": "So the first financial product that we launched was a car loan, and usually in Mexico and in some emerging markets, it'll get like two months or more to get a car loan approved.",
+      "target_text": "O primeiro produto financeiro que lançámos foi um empréstimo de carro, e normalmente no México e em alguns mercados emergentes, leva dois meses ou mais para obter um empréstimo de carro aprovado."
+    },
+    {
+      "start": 858.32,
+      "end": 869.6,
+      "source_text": "We usually approve it in under three minutes, which is like pretty cool, because we have all this data around the customer and the car.",
+      "target_text": "Normalmente aprovamos em menos de três minutos, o que é muito legal, porque temos todos estes dados sobre o cliente e o carro."
+    },
+    {
+      "start": 870.24,
+      "end": 885.22,
+      "source_text": "And if the customer can't pay for the car anymore, they'll just return it to us, and we can give them a cheaper car, and then they pay a smaller amount each month, and they like get out of the water, which is amazing about the vertical integration of the business.",
+      "target_text": "E se o cliente não puder pagar mais o carro, devolver-nos-á, e podemos dar-lhe um carro mais barato, e depois pagam uma quantia menor a cada mês, e gostam de sair da água, o que é incrível sobre a integração vertical do negócio."
+    },
+    {
+      "start": 885.22,
+      "end": 894.66,
+      "source_text": "But then, like, when we started launching other financial products, we realized that this is a very important decision for the customer, right?",
+      "target_text": "Mas depois, quando começámos a lançar outros produtos financeiros, percebemos que esta é uma decisão muito importante para o cliente, certo?"
+    },
+    {
+      "start": 894.74,
+      "end": 908.9,
+      "source_text": "Like, they usually take three to four months to make up their mind in buying a car and getting a loan or getting a personal loan, like a large personal loan that we also do.",
+      "target_text": "Normalmente levam de três a quatro meses para decidirem comprar um carro e obter um empréstimo ou um empréstimo pessoal, como um grande empréstimo pessoal que também fazemos."
+    },
+    {
+      "start": 908.9,
+      "end": 922.1,
+      "source_text": "So if you get to know your customer throughout this process and make the process easy for them, then just your conversion and retention metrics start going through the roof.",
+      "target_text": "Então, se você conhecer o seu cliente durante este processo e facilitar o processo para eles, então apenas as suas métricas de conversão e retenção começam a passar pelo telhado."
+    },
+    {
+      "start": 922.1,
+      "end": 949.76,
+      "source_text": "It's not just the transaction, it's understanding each customer personally and get them to convert when they're ready with a very deep personalization of the interest rate, the risk, the max amount of the loan in a way that makes sense for the portfolio as a whole, obviously, but that's optimized to the risk level and probably the other offers that the customer is getting.",
+      "target_text": "Não é apenas a transação, é entender cada cliente pessoalmente e fazê-los converter quando estiverem prontos com uma personalização muito profunda da taxa de juros, do risco, do valor máximo do empréstimo de uma forma que faz sentido para o portfólio como um todo, obviamente, mas que é otimizado para o nível de risco e provavelmente as outras ofertas que o cliente está a receber."
+    },
+    {
+      "start": 949.76,
+      "end": 955.44,
+      "source_text": "And then maybe give us just to be, you know, evals are always a very hot topic, you kind of led with that.",
+      "target_text": "E então talvez nos dê apenas para ser, você sabe, avaliações são sempre um tópico muito quente, você meio que liderou com isso."
+    },
+    {
+      "start": 955.9,
+      "end": 966.36,
+      "source_text": "What is an example of maybe a hard-to-design area for evals or one where you had to spend an extra amount of time with just given the fact that, like, there's real money PII at risk?",
+      "target_text": "Qual é um exemplo de talvez uma área difícil de projetar para avaliações ou uma onde você teve que gastar uma quantidade extra de tempo com apenas dado o fato de que, como, há dinheiro real PII em risco?"
+    },
+    {
+      "start": 966.36,
+      "end": 966.5,
+      "source_text": "Right.",
+      "target_text": "- Sim, sim."
+    },
+    {
+      "start": 966.76,
+      "end": 966.92,
+      "source_text": "Yeah.",
+      "target_text": "- Sim, sim, sim."
+    },
+    {
+      "start": 966.92,
+      "end": 983.03,
+      "source_text": "So when we decided to redesign the company around AI, you asked the question, okay, is AI going to be able to do this job, like even the CEO job or jobs where the leadership is?",
+      "target_text": "Então, quando decidimos redesenhar a empresa em torno da IA, você fez a pergunta, OK, será que a IA vai ser capaz de fazer este trabalho, como mesmo o trabalho do CEO ou trabalhos onde a liderança está?"
+    },
+    {
+      "start": 983.41,
+      "end": 985.71,
+      "source_text": "And the answer, honestly, is probably yes.",
+      "target_text": "E a resposta, honestamente, é provavelmente sim."
+    },
+    {
+      "start": 985.83,
+      "end": 988.85,
+      "source_text": "Like in 2035 with a rate of improvement, it will be able to do.",
+      "target_text": "Como em 2035 com uma taxa de melhoria, será capaz de fazer."
+    },
+    {
+      "start": 988.85,
+      "end": 990.93,
+      "source_text": "So we said, okay, let's try it now.",
+      "target_text": "Então nós dissemos, ok, vamos tentar agora."
+    },
+    {
+      "start": 991.75,
+      "end": 994.41,
+      "source_text": "Let's try and build an AI CEO.",
+      "target_text": "Vamos tentar construir um CEO de IA."
+    },
+    {
+      "start": 995.3,
+      "end": 998.56,
+      "source_text": "So we carved out a city in Mexico.",
+      "target_text": "Então, arranjamos uma cidade no México."
+    },
+    {
+      "start": 998.82,
+      "end": 999.82,
+      "source_text": "It's Cuernavaca.",
+      "target_text": "É a Cuernavaca."
+    },
+    {
+      "start": 999.96,
+      "end": 1004.97,
+      "source_text": "And we put like an agent in one of our harnesses as a CEO.",
+      "target_text": "E colocamos como um agente numa das nossas armaduras como CEO."
+    },
+    {
+      "start": 1005.17,
+      "end": 1009.99,
+      "source_text": "And it starts learning and it starts making decisions and evaluating on those decisions.",
+      "target_text": "E começa a aprender e começa a tomar decisões e a avaliar essas decisões."
+    },
+    {
+      "start": 1010.57,
+      "end": 1013.43,
+      "source_text": "And it's only been running for six weeks now.",
+      "target_text": "E só está a funcionar há seis semanas."
+    },
+    {
+      "start": 1013.43,
+      "end": 1018.55,
+      "source_text": "The goal of the first month was to double the profits of Cuernavaca.",
+      "target_text": "O objetivo do primeiro mês era dobrar os lucros de Cuernavaca."
+    },
+    {
+      "start": 1018.89,
+      "end": 1029.85,
+      "source_text": "It didn't reach it, but it was 1.5x, like 50% more profits just by managing the city, which is crazy, right?",
+      "target_text": "Não alcançou, mas foi 1,5x, como 50% mais lucros só administrando a cidade, o que é loucura, certo?"
+    },
+    {
+      "start": 1029.91,
+      "end": 1030.65,
+      "source_text": "It's amazing.",
+      "target_text": "É incrível."
+    },
+    {
+      "start": 1030.91,
+      "end": 1032.09,
+      "source_text": "And it's the CEO.",
+      "target_text": "E é o CEO."
+    },
+    {
+      "start": 1032.43,
+      "end": 1036.81,
+      "source_text": "Like people were like, that was the last job AI was supposed to take.",
+      "target_text": "Como as pessoas diziam, era o último trabalho que a IA devia ter feito."
+    },
+    {
+      "start": 1036.91,
+      "end": 1038.27,
+      "source_text": "And no, it isn't really.",
+      "target_text": "E não, não é mesmo."
+    },
+    {
+      "start": 1038.81,
+      "end": 1040.59,
+      "source_text": "And how did this happen?",
+      "target_text": "E como é que isto aconteceu?"
+    },
+    {
+      "start": 1040.59,
+      "end": 1060.86,
+      "source_text": "And it's like a very smart person, like Fields Medal-level smart, like going into every single number, every single customer, making the perfect forecast and going to micromanage every single thing that needs to be executed every day to reach a plan.",
+      "target_text": "E é como uma pessoa muito inteligente, como campos, níveis de metais, inteligente, como entrar em cada número, cada cliente, fazer a previsão perfeita e micro-gerenciar todas as coisas que precisam ser executadas todos os dias para chegar a um plano."
+    },
+    {
+      "start": 1060.86,
+      "end": 1072.68,
+      "source_text": "So he'll literally send messages to all the physical workers in Cuernavaca with their plans for the day and ask them to send voice notes back to know their progress.",
+      "target_text": "Então ele literalmente vai enviar mensagens a todos os trabalhadores físicos em Cuernavaca com os seus planos para o dia e pedir-lhes para enviar notas de voz para saber o seu progresso."
+    },
+    {
+      "start": 1073.52,
+      "end": 1075.66,
+      "source_text": "So customer satisfaction grew.",
+      "target_text": "Assim, a satisfação do cliente cresceu."
+    },
+    {
+      "start": 1076.42,
+      "end": 1077.9,
+      "source_text": "We got a better inventory.",
+      "target_text": "Temos um inventário melhor."
+    },
+    {
+      "start": 1078.26,
+      "end": 1083.4,
+      "source_text": "We rotated better, better financing penetration, like every KPI started to improve.",
+      "target_text": "Nós rotamos melhor, melhor penetração do financiamento, como cada KPI começou a melhorar."
+    },
+    {
+      "start": 1083.4,
+      "end": 1086.28,
+      "source_text": "So it's super cool and super exciting.",
+      "target_text": "Então é super fixe e super emocionante."
+    },
+    {
+      "start": 1086.9,
+      "end": 1095.44,
+      "source_text": "Now, what are the jobs where we think we're still like training and hiring humans?",
+      "target_text": "Agora, quais são os empregos onde pensamos que ainda somos como treinamento e contratação de humanos?"
+    },
+    {
+      "start": 1095.98,
+      "end": 1097.84,
+      "source_text": "Those are related to the physical world.",
+      "target_text": "Estes estão relacionados ao mundo físico."
+    },
+    {
+      "start": 1097.84,
+      "end": 1104.04,
+      "source_text": "So when we talk about mechanics, Cuernavaca has around, I think in Mexico, around 800 mechanics.",
+      "target_text": "Então, quando falamos de mecânica, Cuernavaca tem por aí, eu acho que no México, cerca de 800 mecânicos."
+    },
+    {
+      "start": 1104.04,
+      "end": 1109.86,
+      "source_text": "There's lots of dexterity and senses that's super hard to substitute.",
+      "target_text": "Há muita destreza e sentidos que são muito difíceis de substituir."
+    },
+    {
+      "start": 1110.24,
+      "end": 1113.96,
+      "source_text": "So there, we also build these agents with the exact same harness that's scaling.",
+      "target_text": "Então, também construímos estes agentes com o mesmo arame que está a escalar."
+    },
+    {
+      "start": 1114.42,
+      "end": 1117.72,
+      "source_text": "And the mechanics have the sidekick.",
+      "target_text": "E os mecânicos têm o ajudante."
+    },
+    {
+      "start": 1117.72,
+      "end": 1128.5,
+      "source_text": "I was telling you guys earlier, it's like the movie Ratatouille, like the mouse that's actually a chef collaborating with a human.",
+      "target_text": "Estava a dizer-vos antes, é como no filme Ratatouille, como o rato que é um chef a colaborar com um ser humano."
+    },
+    {
+      "start": 1128.9,
+      "end": 1129.9,
+      "source_text": "It's kind of like that.",
+      "target_text": "É assim."
+    },
+    {
+      "start": 1129.96,
+      "end": 1130.76,
+      "source_text": "So it's a sidekick.",
+      "target_text": "Então é um ajudante."
+    },
+    {
+      "start": 1130.94,
+      "end": 1131.96,
+      "source_text": "We call it El Mike.",
+      "target_text": "Chamamos-lhe El Maic."
+    },
+    {
+      "start": 1132.42,
+      "end": 1139.88,
+      "source_text": "And it tells them how to inspect a car and gives them tips and shows them the way to do it.",
+      "target_text": "E diz-lhes como inspecionar um carro e dá-lhes dicas e mostra-lhes como fazê-lo."
+    },
+    {
+      "start": 1139.88,
+      "end": 1147.5,
+      "source_text": "And the quality of inspections, again, went through the roof, we're inspecting faster, we're repairing faster, it's cheaper.",
+      "target_text": "E a qualidade das inspeções, outra vez, passou pelo telhado, estamos a inspecionar mais rápido, estamos a reparar mais rápido, é mais barato."
+    },
+    {
+      "start": 1147.5,
+      "end": 1151.36,
+      "source_text": "But most importantly, we're delivering higher quality cars.",
+      "target_text": "Mas o mais importante, estamos a entregar carros de melhor qualidade."
+    },
+    {
+      "start": 1153.18,
+      "end": 1159.46,
+      "source_text": "Warranties came down around like 20, 26% since we launched.",
+      "target_text": "As garantias diminuíram cerca de 20, 26% desde o lançamento."
+    },
+    {
+      "start": 1159.7,
+      "end": 1162.82,
+      "source_text": "And customer satisfaction, again, went up.",
+      "target_text": "E a satisfação do cliente, novamente, subiu."
+    },
+    {
+      "start": 1163.1,
+      "end": 1164.88,
+      "source_text": "So it's about this.",
+      "target_text": "Então é sobre isto."
+    },
+    {
+      "start": 1164.88,
+      "end": 1176.42,
+      "source_text": "Like, how would you design your organization from scratch with abundant superintelligence that's cheap and just go build it?",
+      "target_text": "Como desenhaste a tua organização a partir do zero com uma superinteligência abundante que é barata e vais construí-la?"
+    },
+    {
+      "start": 1177.26,
+      "end": 1191.18,
+      "source_text": "Now, this is a good segue to a key topic right now in Silicon Valley where, you know, there's a lot of people worried about how the organizations of the future are going to look like and the role that humans are going to play.",
+      "target_text": "Natalie, isto é uma boa continuação para um tópico chave neste momento no Vale do Silício, onde, sabes, há muitas pessoas preocupadas com como as organizações do futuro vão parecer e o papel que os seres humanos vão desempenhar."
+    },
+    {
+      "start": 1191.24,
+      "end": 1191.46,
+      "source_text": "Yes.",
+      "target_text": "- Sim, sim, sim."
+    },
+    {
+      "start": 1191.74,
+      "end": 1193.54,
+      "source_text": "And I think you touched a little bit on that.",
+      "target_text": "E acho que tocaste um pouco nisso."
+    },
+    {
+      "start": 1193.54,
+      "end": 1197.12,
+      "source_text": "And so we'd love to hear, yeah, like how you guys are thinking about that.",
+      "target_text": "Gostaríamos de saber como pensam sobre isso."
+    },
+    {
+      "start": 1197.34,
+      "end": 1197.6,
+      "source_text": "Yes.",
+      "target_text": "- Sim, sim, sim."
+    },
+    {
+      "start": 1198.28,
+      "end": 1200.52,
+      "source_text": "And the organizations.",
+      "target_text": "E as organizações."
+    },
+    {
+      "start": 1200.84,
+      "end": 1200.94,
+      "source_text": "Yeah.",
+      "target_text": "- Sim, sim, sim."
+    },
+    {
+      "start": 1201.46,
+      "end": 1201.72,
+      "source_text": "Totally.",
+      "target_text": "Absolutamente."
+    },
+    {
+      "start": 1201.98,
+      "end": 1206.46,
+      "source_text": "So we took that question very seriously three years ago.",
+      "target_text": "Então, tomámos essa pergunta muito a sério há três anos."
+    },
+    {
+      "start": 1206.72,
+      "end": 1211.12,
+      "source_text": "And the truth is that everyone's job will change.",
+      "target_text": "E a verdade é que o trabalho de todos mudará."
+    },
+    {
+      "start": 1212.3,
+      "end": 1221.69,
+      "source_text": "So, and what we were doing a couple of years ago will probably be performed better by an AI agent.",
+      "target_text": "O que estávamos a fazer há uns anos provavelmente será melhor feito por um agente de IA."
+    },
+    {
+      "start": 1222.09,
+      "end": 1222.35,
+      "source_text": "Right?",
+      "target_text": "Não é verdade?"
+    },
+    {
+      "start": 1222.41,
+      "end": 1223.29,
+      "source_text": "So what does this mean?",
+      "target_text": "Então, o que significa isso?"
+    },
+    {
+      "start": 1223.29,
+      "end": 1225.9,
+      "source_text": "Like, we need to train everyone.",
+      "target_text": "Precisamos de treinar todos."
+    },
+    {
+      "start": 1226.64,
+      "end": 1236.22,
+      "source_text": "So, so we launched a program inside Kavak that's called the Jedi Academy where anyone from Kavak, like from the CEO to, yeah.",
+      "target_text": "Então, lançámos um programa dentro do Kavak que se chama Academia Jedi onde qualquer pessoa do Kavak, como o CEO para, sim."
+    },
+    {
+      "start": 1236.22,
+      "end": 1236.98,
+      "source_text": "And it's awesome.",
+      "target_text": "E é fantástico."
+    },
+    {
+      "start": 1237.22,
+      "end": 1243.5,
+      "source_text": "Like from the CEO to like AI engineers to mechanics, like going to the academy.",
+      "target_text": "Como o CEO para gostar de engenheiros de IA para mecânicos, como ir à academia."
+    },
+    {
+      "start": 1243.5,
+      "end": 1249.18,
+      "source_text": "It's super hard. Like, I've led it myself.",
+      "target_text": "É super difícil, como eu, eu, eu, eu, eu, como conduzido, como conduzido para mim mesmo."
+    },
+    {
+      "start": 1249.34,
+      "end": 1250.4,
+      "source_text": "You designed the program.",
+      "target_text": "Tu desenhaste o programa."
+    },
+    {
+      "start": 1250.46,
+      "end": 1251.4,
+      "source_text": "I designed the program.",
+      "target_text": "Eu desenhei o programa."
+    },
+    {
+      "start": 1251.52,
+      "end": 1252.54,
+      "source_text": "But constantly.",
+      "target_text": "Mas constantemente."
+    },
+    {
+      "start": 1252.62,
+      "end": 1253.0,
+      "source_text": "Constantly.",
+      "target_text": "Constantemente."
+    },
+    {
+      "start": 1253.18,
+      "end": 1257.12,
+      "source_text": "Because you need to be upgrading the program because everything's changing so fast.",
+      "target_text": "Porque precisas de atualizar o programa porque tudo está a mudar tão rápido."
+    },
+    {
+      "start": 1257.12,
+      "end": 1264.62,
+      "source_text": "And there's like, you can't send these people like outside to Stanford to, to learn this because like, it's new stuff.",
+      "target_text": "E não podes mandar estas pessoas para Stanford para aprenderem isto, porque é algo novo."
+    },
+    {
+      "start": 1264.62,
+      "end": 1264.9,
+      "source_text": "Right?",
+      "target_text": "Não é verdade?"
+    },
+    {
+      "start": 1265.3,
+      "end": 1267.12,
+      "source_text": "So we train everyone.",
+      "target_text": "Então nós treinamos todos."
+    },
+    {
+      "start": 1267.12,
+      "end": 1274.92,
+      "source_text": "And after six weeks, they launch state-of-the-art agents, AI agents to production.",
+      "target_text": "E depois de seis semanas, lançam agentes de última geração, agentes de IA para a produção."
+    },
+    {
+      "start": 1274.92,
+      "end": 1281.7,
+      "source_text": "And it's mechanics and finance guys and engineers, like everyone can do it.",
+      "target_text": "E são mecânicos e financiadores e engenheiros, como qualquer um pode fazê-lo."
+    },
+    {
+      "start": 1281.7,
+      "end": 1287.52,
+      "source_text": "And what this generated is maybe this person won't become an AI engineer.",
+      "target_text": "E o que isso gerou é que talvez esta pessoa não se torne um engenheiro de IA."
+    },
+    {
+      "start": 1287.68,
+      "end": 1292.04,
+      "source_text": "Some of them have, but they, they know how to collaborate with this new technology.",
+      "target_text": "Alguns têm, mas sabem como colaborar com esta nova tecnologia."
+    },
+    {
+      "start": 1292.3,
+      "end": 1292.46,
+      "source_text": "Right?",
+      "target_text": "Não é verdade?"
+    },
+    {
+      "start": 1292.56,
+      "end": 1296.58,
+      "source_text": "So the way we looked about it was, guys, there, there's no way back.",
+      "target_text": "Então, a forma como olhamos para isto foi, rapazes, não há como voltar atrás."
+    },
+    {
+      "start": 1296.72,
+      "end": 1298.22,
+      "source_text": "Like this is the way Kavak is going.",
+      "target_text": "Como se este fosse o caminho do Kavak."
+    },
+    {
+      "start": 1298.54,
+      "end": 1300.08,
+      "source_text": "This is the way the company will look like.",
+      "target_text": "É assim que a empresa vai parecer."
+    },
+    {
+      "start": 1300.4,
+      "end": 1306.7,
+      "source_text": "These are the changes for the engineering team, the finance team, the product team.",
+      "target_text": "Estas são as mudanças para a equipa de engenharia, a equipa de finanças, a equipa de produtos."
+    },
+    {
+      "start": 1306.7,
+      "end": 1308.34,
+      "source_text": "Like, this is what's going to change.",
+      "target_text": "Isto é o que vai mudar."
+    },
+    {
+      "start": 1309.69,
+      "end": 1316.89,
+      "source_text": "You have the choice to like train and, and get the skills to perform in this new reality, in this new world.",
+      "target_text": "Você tem a escolha de gostar de treinar e, e obter as habilidades para se apresentar nesta nova realidade, neste novo mundo."
+    },
+    {
+      "start": 1318.03,
+      "end": 1321.75,
+      "source_text": "Or maybe leave Kavak if this is not for you, but this is the way we're going.",
+      "target_text": "Ou talvez deixes o Kavak se não for para ti, mas é assim que vamos."
+    },
+    {
+      "start": 1322.35,
+      "end": 1323.99,
+      "source_text": "And we're great.",
+      "target_text": "E somos óptimos."
+    },
+    {
+      "start": 1324.21,
+      "end": 1327.71,
+      "source_text": "Like, like we, we, we strengthened the culture and we were super excited.",
+      "target_text": "Como nós, nós, fortalecemos a cultura e estávamos super empolgados."
+    },
+    {
+      "start": 1328.73,
+      "end": 1332.79,
+      "source_text": "And people really know how to build these agentic systems.",
+      "target_text": "E as pessoas realmente sabem como construir esses sistemas agentes."
+    },
+    {
+      "start": 1332.79,
+      "end": 1339.27,
+      "source_text": "And then if you look at Kavak now, any process, it's really a collaboration of agents and humans.",
+      "target_text": "E se olharmos para o Kavak agora, qualquer processo, é realmente uma colaboração de agentes e humanos."
+    },
+    {
+      "start": 1339.39,
+      "end": 1343.15,
+      "source_text": "And sometimes like agents are the bosses or, of, of humans.",
+      "target_text": "E, às vezes, como agentes, são os chefes ou, dos humanos."
+    },
+    {
+      "start": 1343.15,
+      "end": 1345.23,
+      "source_text": "And sometimes humans are designing the agents.",
+      "target_text": "E, às vezes, os seres humanos desenham os agentes."
+    },
+    {
+      "start": 1345.89,
+      "end": 1349.88,
+      "source_text": "But I think we, we managed to really build this and change this.",
+      "target_text": "Mas acho que conseguimos realmente construir isto e mudar isto."
+    },
+    {
+      "start": 1350.44,
+      "end": 1358.96,
+      "source_text": "And, and it's through this idea that we need to be learning every day and things will continue to change.",
+      "target_text": "E é através desta ideia que precisamos de aprender todos os dias e as coisas continuarão a mudar."
+    },
+    {
+      "start": 1358.96,
+      "end": 1366.62,
+      "source_text": "And the only way to, to continue being relevant is to upgrade your skills every month or every couple of months.",
+      "target_text": "E a única maneira de continuarmos relevantes é melhorar as nossas habilidades a cada mês ou a cada dois meses."
+    },
+    {
+      "start": 1366.94,
+      "end": 1370.84,
+      "source_text": "But you do have, or did have, you know, thousands of people.",
+      "target_text": "Mas tens, ou tens, milhares de pessoas."
+    },
+    {
+      "start": 1371.18,
+      "end": 1373.32,
+      "source_text": "Now agents do most things.",
+      "target_text": "Agora os agentes fazem a maioria das coisas."
+    },
+    {
+      "start": 1373.32,
+      "end": 1373.62,
+      "source_text": "Yes.",
+      "target_text": "- Sim, sim, sim."
+    },
+    {
+      "start": 1373.86,
+      "end": 1376.86,
+      "source_text": "So like, what is the org structure of Kavak?",
+      "target_text": "Então, qual é a estrutura orgânica do Kavak?"
+    },
+    {
+      "start": 1377.1,
+      "end": 1379.62,
+      "source_text": "Like, does the middle management concept even exist anymore?",
+      "target_text": "Como, o conceito de gerenciamento médio já existe?"
+    },
+    {
+      "start": 1379.76,
+      "end": 1380.64,
+      "source_text": "Like, what does your org look like?",
+      "target_text": "Como é que parece o teu órgão?"
+    },
+    {
+      "start": 1380.74,
+      "end": 1380.96,
+      "source_text": "Right.",
+      "target_text": "- Sim, sim."
+    },
+    {
+      "start": 1381.1,
+      "end": 1386.21,
+      "source_text": "So the way it looks like now is very flat teams, very senior teams, super empowered.",
+      "target_text": "Assim, a forma como parece agora são equipes muito planas, equipes muito antigas, super empoderadas."
+    },
+    {
+      "start": 1386.21,
+      "end": 1393.49,
+      "source_text": "If you look at a team, you'll have engineering, AI, like operations, like everything.",
+      "target_text": "Se olharmos para uma equipa, temos engenharia, IA, como operações, como tudo."
+    },
+    {
+      "start": 1393.77,
+      "end": 1401.99,
+      "source_text": "And they're either building the agents, working for the agents, or being in the physical world in front of the customer.",
+      "target_text": "E eles estão a construir os agentes, a trabalhar para os agentes, ou a estar no mundo físico na frente do cliente."
+    },
+    {
+      "start": 1402.65,
+      "end": 1404.81,
+      "source_text": "Like most of our organization looks like that.",
+      "target_text": "A maior parte da nossa organização parece assim."
+    },
+    {
+      "start": 1404.95,
+      "end": 1416.07,
+      "source_text": "So, so it's really built around, around the idea of how organizations will look like in the future and around AI and really harnessing this, this new technology.",
+      "target_text": "Então, é realmente construído em torno da ideia de como as organizações serão no futuro e em torno da IA e realmente aproveitando esta nova tecnologia."
+    },
+    {
+      "start": 1416.69,
+      "end": 1423.01,
+      "source_text": "Obviously, this required lots of retraining because in 2023 or 2022, no one was building agents.",
+      "target_text": "Obviamente, isso exigia muita reformulação porque em 2023 ou 2022, ninguém estava a construir agentes."
+    },
+    {
+      "start": 1423.43,
+      "end": 1427.17,
+      "source_text": "No one was helping agents or taking orders from, from agents.",
+      "target_text": "Ninguém estava a ajudar agentes ou a receber ordens de agentes."
+    },
+    {
+      "start": 1427.35,
+      "end": 1436.81,
+      "source_text": "And the way you cater to the physical world or the customers was in a different way than if an agent's telling you what to do or helping you make your job better.",
+      "target_text": "E a forma como atendemos ao mundo físico ou aos clientes era diferente de quando um agente nos diz o que fazer ou nos ajuda a melhorar o nosso trabalho."
+    },
+    {
+      "start": 1436.81,
+      "end": 1437.09,
+      "source_text": "Yep.",
+      "target_text": "- Sim, sim, sim."
+    },
+    {
+      "start": 1437.09,
+      "end": 1441.31,
+      "source_text": "And so it's a completely different structure than, than we had just two years ago.",
+      "target_text": "E é uma estrutura completamente diferente do que tínhamos há apenas dois anos."
+    },
+    {
+      "start": 1441.39,
+      "end": 1441.51,
+      "source_text": "Yeah.",
+      "target_text": "- Sim, sim, sim."
+    },
+    {
+      "start": 1441.89,
+      "end": 1445.71,
+      "source_text": "Explain, we talked about this before, what working for the agents look like.",
+      "target_text": "Explique, já falámos sobre isto antes, como é trabalhar para os agentes."
+    },
+    {
+      "start": 1445.79,
+      "end": 1447.91,
+      "source_text": "Like, I think the way you described it was an agentic system.",
+      "target_text": "Acho que a forma como descreveu foi um sistema de agentes."
+    },
+    {
+      "start": 1448.05,
+      "end": 1451.47,
+      "source_text": "And then sometimes when it fails, it's like, oh, that's kicked out to kind of a human queue.",
+      "target_text": "E às vezes, quando falha, é como, oh, isso é jogado para uma espécie de sinal humano."
+    },
+    {
+      "start": 1451.55,
+      "end": 1451.73,
+      "source_text": "Right.",
+      "target_text": "- Sim, sim."
+    },
+    {
+      "start": 1451.73,
+      "end": 1452.95,
+      "source_text": "But then that's lost.",
+      "target_text": "Mas depois isso está perdido."
+    },
+    {
+      "start": 1453.05,
+      "end": 1454.11,
+      "source_text": "And so how have you brought that together?",
+      "target_text": "E como é que conseguiste juntar isso?"
+    },
+    {
+      "start": 1454.35,
+      "end": 1462.46,
+      "source_text": "So like the, the, we see human in the loops and, and, and most of these agentic systems in production right now, like large scale agentic systems.",
+      "target_text": "Então, como o, o, vemos humanos nos circuitos e, e, e a maioria desses sistemas agentes em produção agora, como sistemas agentes em grande escala."
+    },
+    {
+      "start": 1462.46,
+      "end": 1473.92,
+      "source_text": "Usually if an agent hits a wall or can't perform anymore, it'll like send the, this case or this customer to a tier two support and forget about it.",
+      "target_text": "Normalmente, se um agente atinge uma parede ou não consegue atuar mais, vai enviar o caso ou o cliente para um suporte de nível dois e esquecer."
+    },
+    {
+      "start": 1474.08,
+      "end": 1477.64,
+      "source_text": "That doesn't really work because you don't close the loops.",
+      "target_text": "Isso não funciona porque não fechamos os circuitos."
+    },
+    {
+      "start": 1477.64,
+      "end": 1481.24,
+      "source_text": "So you don't generate the data to train the agent to do this better.",
+      "target_text": "Então, não gera os dados para treinar o agente a fazer isso melhor."
+    },
+    {
+      "start": 1481.56,
+      "end": 1486.54,
+      "source_text": "What works right now is we have an agent that's obsessed with each of the customers, like millions of this.",
+      "target_text": "O que funciona agora é que temos um agente obcecado por cada um dos clientes, como milhões disto."
+    },
+    {
+      "start": 1486.54,
+      "end": 1495.0,
+      "source_text": "They have access to every single API, every single skill, like, and we have agents building those humans, building those skills for them.",
+      "target_text": "Eles têm acesso a cada API, a cada habilidade, e nós temos agentes a construir esses seres humanos, a construir essas habilidades para eles."
+    },
+    {
+      "start": 1495.56,
+      "end": 1502.06,
+      "source_text": "And then if an agent hits a wall or cancel something, it'll call this API saying, I need help.",
+      "target_text": "E depois, se um agente bater numa parede ou cancelar algo, chama esta API dizendo, preciso de ajuda."
+    },
+    {
+      "start": 1502.34,
+      "end": 1505.9,
+      "source_text": "And on the other side, it's not an agent or software.",
+      "target_text": "E por outro lado, não é um agente nem um software."
+    },
+    {
+      "start": 1506.02,
+      "end": 1508.18,
+      "source_text": "It's a human helping them out.",
+      "target_text": "É um ser humano a ajudá-los."
+    },
+    {
+      "start": 1508.34,
+      "end": 1514.02,
+      "source_text": "But if you map this out in an org chart, it's really human teams that have an agent.",
+      "target_text": "Mas se você mapear isto em um gráfico org, são realmente equipes humanas que têm um agente."
+    },
+    {
+      "start": 1514.16,
+      "end": 1515.3,
+      "source_text": "I'm getting better results.",
+      "target_text": "Estou a obter melhores resultados."
+    },
+    {
+      "start": 1515.3,
+      "end": 1516.72,
+      "source_text": "It's super clear.",
+      "target_text": "Está super claro."
+    },
+    {
+      "start": 1516.84,
+      "end": 1518.26,
+      "source_text": "Like, it makes sense.",
+      "target_text": "Como, faz sentido."
+    },
+    {
+      "start": 1518.26,
+      "end": 1519.34,
+      "source_text": "That's actually a perfect segue.",
+      "target_text": "Na verdade, é uma sequência perfeita."
+    },
+    {
+      "start": 1519.46,
+      "end": 1524.12,
+      "source_text": "And I know you get lots of leaders at larger institutions inbounding to you.",
+      "target_text": "E sei que tens muitos líderes em instituições maiores a chegar até ti."
+    },
+    {
+      "start": 1524.3,
+      "end": 1525.84,
+      "source_text": "So maybe this will save you many phone calls.",
+      "target_text": "Então, talvez isso lhe economize muitas chamadas telefónicas."
+    },
+    {
+      "start": 1525.9,
+      "end": 1531.88,
+      "source_text": "But I think rationally, many leaders of companies intuitively understand this.",
+      "target_text": "Mas acho que racionalmente, muitos líderes de empresas intuitivamente entendem isso."
+    },
+    {
+      "start": 1531.94,
+      "end": 1537.06,
+      "source_text": "It is very hard still to deploy AI through their organization.",
+      "target_text": "Ainda é muito difícil implementar a IA através da sua organização."
+    },
+    {
+      "start": 1537.36,
+      "end": 1538.38,
+      "source_text": "Like, the models are good enough.",
+      "target_text": "Os modelos são bons o suficiente."
+    },
+    {
+      "start": 1538.46,
+      "end": 1539.0,
+      "source_text": "You know that.",
+      "target_text": "Tu sabes disso."
+    },
+    {
+      "start": 1539.14,
+      "end": 1540.16,
+      "source_text": "It's an org problem.",
+      "target_text": "É um problema org."
+    },
+    {
+      "start": 1540.16,
+      "end": 1541.3,
+      "source_text": "It's a psychology problem.",
+      "target_text": "É um problema psicológico."
+    },
+    {
+      "start": 1541.4,
+      "end": 1543.7,
+      "source_text": "Like, what advice do you have or what have you seen?",
+      "target_text": "Como, que conselhos tens ou o que viste?"
+    },
+    {
+      "start": 1543.7,
+      "end": 1545.2,
+      "source_text": "I think it's two things.",
+      "target_text": "Acho que são duas coisas."
+    },
+    {
+      "start": 1545.54,
+      "end": 1549.88,
+      "source_text": "The first is it has to be top down because of this.",
+      "target_text": "A primeira é que tem que ser de cima para baixo por causa disto."
+    },
+    {
+      "start": 1550.08,
+      "end": 1564.26,
+      "source_text": "Like, if you just get adoption, it won't go anywhere because it's hard to generate this taste or strategy for people to bottom up, decide what to build and whatnot, and come up with something that works for the company.",
+      "target_text": "Por exemplo, se conseguirmos a adoção, não vai a lado nenhum, porque é difícil gerar esse gosto ou estratégia para as pessoas chegarem ao fundo, decidirem o que construir e o que não, e chegarem a algo que funcione para a empresa."
+    },
+    {
+      "start": 1564.26,
+      "end": 1572.18,
+      "source_text": "So the transformation has to be top down, and leaders need to adopt, and leaders have to have a very clear plan on what to build.",
+      "target_text": "Portanto, a transformação tem de ser de cima para baixo, e os líderes têm de adotar, e os líderes têm de ter um plano muito claro sobre o que construir."
+    },
+    {
+      "start": 1572.66,
+      "end": 1574.38,
+      "source_text": "I've seen so many companies.",
+      "target_text": "Já vi tantas empresas."
+    },
+    {
+      "start": 1574.62,
+      "end": 1576.76,
+      "source_text": "It's just like, oh, like, we're doing a hackathon.",
+      "target_text": "É como se estivéssemos a fazer um hackathon."
+    },
+    {
+      "start": 1576.96,
+      "end": 1578.36,
+      "source_text": "People are coming up with use cases.",
+      "target_text": "As pessoas estão a pensar em casos de uso."
+    },
+    {
+      "start": 1578.36,
+      "end": 1580.5,
+      "source_text": "We're sponsoring some of these use cases.",
+      "target_text": "Estamos a patrocinar alguns destes casos de uso."
+    },
+    {
+      "start": 1580.64,
+      "end": 1581.66,
+      "source_text": "That doesn't work.",
+      "target_text": "- Isso não funciona."
+    },
+    {
+      "start": 1581.84,
+      "end": 1590.57,
+      "source_text": "It's like, be very clear on what the company will look like in three or five years, and then start building that.",
+      "target_text": "É como, ter muito claro como será a empresa daqui a três ou cinco anos, e depois começar a construir isso."
+    },
+    {
+      "start": 1590.71,
+      "end": 1594.91,
+      "source_text": "And be, like, very vertical in guiding your troops towards that.",
+      "target_text": "E sejam muito verticais a guiar as suas tropas para isso."
+    },
+    {
+      "start": 1595.03,
+      "end": 1602.67,
+      "source_text": "Like, an army doesn't really work if everyone comes up with ideas on the strategy and tactics and goes to the battlefield and, like, does whatever they want.",
+      "target_text": "Um exército não funciona se todos tiverem ideias sobre estratégia e tática e vão ao campo de batalha e fazem o que quiserem."
+    },
+    {
+      "start": 1602.67,
+      "end": 1605.95,
+      "source_text": "Like, you need a very clear strategy, and that's what we need now.",
+      "target_text": "Precisas de uma estratégia muito clara, e é isso que precisamos agora."
+    },
+    {
+      "start": 1606.01,
+      "end": 1607.67,
+      "source_text": "It's at, like, transformation stage.",
+      "target_text": "Está numa fase de transformação."
+    },
+    {
+      "start": 1608.19,
+      "end": 1613.83,
+      "source_text": "The second one is you need to measure what really matters, and it's evals, but it's also the right evals.",
+      "target_text": "A segunda é que você precisa medir o que realmente importa, e são avaliações, mas também são as avaliações certas."
+    },
+    {
+      "start": 1614.27,
+      "end": 1620.45,
+      "source_text": "So I see a lot of companies spending now huge amounts, and they say, okay, I got adoption.",
+      "target_text": "Vejo muitas empresas gastando agora enormes quantias, e dizem, está bem, eu tenho adoção."
+    },
+    {
+      "start": 1620.79,
+      "end": 1624.73,
+      "source_text": "I'm just spending, like, hundreds of millions of dollars in tokens now.",
+      "target_text": "Estou a gastar centenas de milhões de dólares em tokens agora."
+    },
+    {
+      "start": 1624.99,
+      "end": 1625.87,
+      "source_text": "What about that?",
+      "target_text": "Que tal isso?"
+    },
+    {
+      "start": 1626.03,
+      "end": 1627.93,
+      "source_text": "Like, there's quality in the tokens.",
+      "target_text": "Há qualidade nos tokens."
+    },
+    {
+      "start": 1627.93,
+      "end": 1630.57,
+      "source_text": "So I have a framework here that's also useful.",
+      "target_text": "Então eu tenho uma estrutura aqui que também é útil."
+    },
+    {
+      "start": 1631.23,
+      "end": 1641.16,
+      "source_text": "Like, tier three tokens, the most valuable, are these agents where you can get the ROI of each specific token.",
+      "target_text": "Como, tokens de nível três, os mais valiosos, são estes agentes onde você pode obter o ROI de cada token específico."
+    },
+    {
+      "start": 1641.3,
+      "end": 1642.22,
+      "source_text": "And I can do that now.",
+      "target_text": "E posso fazer isso agora."
+    },
+    {
+      "start": 1642.3,
+      "end": 1643.48,
+      "source_text": "That's great news for me.",
+      "target_text": "Isso é ótima notícia para mim."
+    },
+    {
+      "start": 1644.02,
+      "end": 1652.46,
+      "source_text": "Because I'm growing, and because I know the ROI of each token, because it goes to agents that are performing the job of the organization, right?",
+      "target_text": "Porque estou a crescer, e porque sei o ROI de cada token, porque vai para os agentes que estão a executar o trabalho da organização, certo?"
+    },
+    {
+      "start": 1652.52,
+      "end": 1653.5,
+      "source_text": "These are the best tokens.",
+      "target_text": "Estes são os melhores tokens."
+    },
+    {
+      "start": 1653.92,
+      "end": 1658.32,
+      "source_text": "Tier two tokens are things that you can measure indirectly.",
+      "target_text": "Tokens de nível dois são coisas que você pode medir indiretamente."
+    },
+    {
+      "start": 1658.52,
+      "end": 1660.88,
+      "source_text": "Do I see devs in the code base?",
+      "target_text": "Vejo desenvolvedores na base de código?"
+    },
+    {
+      "start": 1661.18,
+      "end": 1665.78,
+      "source_text": "And I can evaluate the value of these tokens, at least indirectly, and then push those to productions.",
+      "target_text": "E posso avaliar o valor desses tokens, pelo menos indiretamente, e depois empurrá-los para produções."
+    },
+    {
+      "start": 1666.56,
+      "end": 1673.18,
+      "source_text": "Tier one, when most companies are, is people are just using plug code or chat GPT or co-work or whatever.",
+      "target_text": "O primeiro nível, quando a maioria das empresas estão, é que as pessoas estão apenas a usar código plug ou chat GPT ou cowork ou o que quer que seja."
+    },
+    {
+      "start": 1673.58,
+      "end": 1674.36,
+      "source_text": "What happened with those?",
+      "target_text": "O que aconteceu com eles?"
+    },
+    {
+      "start": 1674.56,
+      "end": 1675.7,
+      "source_text": "I have no idea.",
+      "target_text": "- Não faço ideia."
+    },
+    {
+      "start": 1676.32,
+      "end": 1677.98,
+      "source_text": "So it's not just about adoption.",
+      "target_text": "Então não se trata apenas de adoção."
+    },
+    {
+      "start": 1677.98,
+      "end": 1688.58,
+      "source_text": "It's really about having a very clear vision and then measuring that each token you spend is bringing you those benefits and just iterate, iterate, iterate from there.",
+      "target_text": "Trata-se de ter uma visão muito clara e depois medir que cada token que você gasta lhe traz esses benefícios e apenas iterar, iterar, iterar a partir daí."
+    },
+    {
+      "start": 1688.58,
+      "end": 1702.76,
+      "source_text": "And we touched on this a little bit, but I think it's worth a dive as maybe the most ambitious companies listening to this will decide to follow suit, which is you decided to build an agent per customer versus per task.",
+      "target_text": "E nós tocámos sobre isso um pouco, mas acho que vale a pena mergulhar, pois talvez as empresas mais ambiciosas que ouvem isto decidam seguir o exemplo, que é que você decidiu construir um agente por cliente versus por tarefa."
+    },
+    {
+      "start": 1702.76,
+      "end": 1709.1,
+      "source_text": "And then discovered along the way that each one of those agents needs its own micro-virtual machine.",
+      "target_text": "E depois descobri ao longo do caminho que cada um desses agentes precisa de sua própria máquina micro-virtual."
+    },
+    {
+      "start": 1709.32,
+      "end": 1713.7,
+      "source_text": "So maybe kind of walk us through those decisions, that architecture.",
+      "target_text": "Então, talvez nos acompanhe nessas decisões, naquela arquitetura."
+    },
+    {
+      "start": 1713.7,
+      "end": 1731.68,
+      "source_text": "And I think we're seeing these results now, but it was a really risky bet because people usually go from workflows, like if I could advise everyone, don't build agentic workflows, to graphs or functions or objectives.",
+      "target_text": "E acho que estamos a ver estes resultados agora, mas era uma aposta muito arriscada porque as pessoas costumam passar de fluxos de trabalho, como se eu pudesse aconselhar a todos, não construir fluxos de trabalho agentes, para gráficos ou funções ou objetivos."
+    },
+    {
+      "start": 1731.68,
+      "end": 1737.96,
+      "source_text": "And we built that, that these are multi-agent systems that can perform a whole function for a complex goals.",
+      "target_text": "E construímos isso, que estes são sistemas multi-agentes que podem executar uma função inteira para um objetivo complexo."
+    },
+    {
+      "start": 1738.18,
+      "end": 1744.76,
+      "source_text": "Like the ones I told you that to sell a car, you need to do financing, purchasing, like recommendations, et cetera.",
+      "target_text": "Como aqueles que eu disse que para vender um carro, você precisa fazer financiamento, compras, como recomendações, etc."
+    },
+    {
+      "start": 1745.38,
+      "end": 1751.12,
+      "source_text": "And we had thousands, like tens of thousands of these agents working at scale, running the business back in December.",
+      "target_text": "E tínhamos milhares, dezenas de milhares destes agentes a trabalhar em escala, a gerir o negócio em dezembro."
+    },
+    {
+      "start": 1751.12,
+      "end": 1758.36,
+      "source_text": "But then Opus 4.5 came out and I realized like, this isn't the right paradigm anymore.",
+      "target_text": "Mas depois o Opus 4.5 saiu e percebi que este não é mais o paradigma certo."
+    },
+    {
+      "start": 1759.16,
+      "end": 1770.88,
+      "source_text": "Like the intelligence now doesn't need like the graph and the multi-agent lattice work and harness because it will constrain this level of intelligence.",
+      "target_text": "Como a inteligência agora não precisa como o gráfico e a grelha multi-agente trabalho e uso porque vai restringir este nível de inteligência."
+    },
+    {
+      "start": 1770.88,
+      "end": 1794.2,
+      "source_text": "So we decided to like destroy everything we had been building for two years that was working, that brought us to profitability, that brought us amazing growth and start over with a harness that we thought would be robust and scalable and leverage recursive self-improvement or new models, more intelligent models coming out every month.",
+      "target_text": "Então decidimos destruir tudo o que tivemos construído durante dois anos que funcionou, que nos trouxe à rentabilidade, que nos trouxe um crescimento incrível e começarmos de novo com um arame que pensávamos ser robusto e escalável e aproveitar a auto-melhoria recorrente ou novos modelos, modelos mais inteligentes que saem a cada mês."
+    },
+    {
+      "start": 1794.2,
+      "end": 1808.84,
+      "source_text": "So the way this looks like it's a virtual machine with an agent, with access to memory and evals and the CLI where they can access every tool and every API in my company and the long-term goal.",
+      "target_text": "Assim, a forma como isto parece ser uma máquina virtual com um agente, com acesso à memória e avaliações e o CLI onde eles podem acessar todas as ferramentas e todas as API na minha empresa e o objetivo a longo prazo."
+    },
+    {
+      "start": 1809.22,
+      "end": 1817.11,
+      "source_text": "And I instantiate hundreds of thousands of these each day with long-term goals, like maximizing the lifetime value.",
+      "target_text": "E apresento centenas de milhares destes todos os dias com metas a longo prazo, como maximizar o valor ao longo da vida."
+    },
+    {
+      "start": 1817.27,
+      "end": 1819.05,
+      "source_text": "The self-improving organization.",
+      "target_text": "A organização de auto-melhoria."
+    },
+    {
+      "start": 1819.11,
+      "end": 1819.39,
+      "source_text": "Exactly.",
+      "target_text": "- É isso mesmo."
+    },
+    {
+      "start": 1819.55,
+      "end": 1820.55,
+      "source_text": "The self-improving organization.",
+      "target_text": "A organização de auto-melhoria."
+    },
+    {
+      "start": 1820.55,
+      "end": 1829.43,
+      "source_text": "And I think people are super obsessed with RSI now, and this will improve the models.",
+      "target_text": "E acho que as pessoas estão super obcecadas com o RSI agora, e isso vai melhorar os modelos."
+    },
+    {
+      "start": 1830.01,
+      "end": 1841.84,
+      "source_text": "But if you look at it this way, economic value in humanity for the past 4,000 years has been delivered by organization, not by individuals.",
+      "target_text": "Mas se olharmos desta forma, o valor econômico na humanidade nos últimos 4.000 anos foi fornecido por organizações, não por indivíduos."
+    },
+    {
+      "start": 1841.84,
+      "end": 1849.26,
+      "source_text": "So what you want to self-improve and to engage in that loop is the organization that can deliver more economic value, right?",
+      "target_text": "Então, o que você quer auto-melhorar e envolver-se nesse ciclo é a organização que pode fornecer mais valor econômico, certo?"
+    },
+    {
+      "start": 1849.26,
+      "end": 1873.56,
+      "source_text": "So that's the loop that I think companies will start to focus on because if you get that loop working and it's an organization that is really self-improving and harnessing the newer models and the better intelligence that we're getting every couple of days now, then you hit the exponential, not just in intelligence, but in the value that you can generate as a company.",
+      "target_text": "Esse é o ciclo em que penso que as empresas vão começar a concentrar-se, porque se conseguirmos que esse ciclo funcione e é uma organização que realmente se auto-melhora e aproveita os modelos mais recentes e a melhor inteligência que estamos a obter a cada dois dias, então atingimos o exponencial, não apenas na inteligência, mas no valor que podemos gerar como empresa."
+    },
+    {
+      "start": 1873.56,
+      "end": 1875.56,
+      "source_text": "So that's really exciting.",
+      "target_text": "Isso é muito emocionante."
+    },
+    {
+      "start": 1875.56,
+      "end": 1888.06,
+      "source_text": "You mentioned that because of all the challenges in adopting AI, you saw the biggest opportunity on net new companies being formed working on this new way and then disrupting markets.",
+      "target_text": "Você mencionou que, por causa de todos os desafios na adoção da IA, viu a maior oportunidade na formação de novas empresas a trabalhar nesta nova maneira e, em seguida, perturbar os mercados."
+    },
+    {
+      "start": 1888.3,
+      "end": 1889.66,
+      "source_text": "You want to talk a little bit about that?",
+      "target_text": "Queres falar um pouco sobre isso?"
+    },
+    {
+      "start": 1889.76,
+      "end": 1890.02,
+      "source_text": "Yes.",
+      "target_text": "- Sim, sim, sim."
+    },
+    {
+      "start": 1890.02,
+      "end": 1897.47,
+      "source_text": "There's this concept in economics about creative destruction from Joseph Schumpeter.",
+      "target_text": "Há um conceito na economia sobre destruição criativa de Joseph Schumpeter."
+    },
+    {
+      "start": 1898.19,
+      "end": 1916.09,
+      "source_text": "And what it says is that the way innovation hits the economy isn't by companies adopting the new technology, but by companies remaining the way they were and incumbents with the new technology destroying the old companies.",
+      "target_text": "E o que diz é que a forma como a inovação atinge a economia não é através das empresas adotando a nova tecnologia, mas através das empresas mantendo-se como eram e os incumbentes com a nova tecnologia destruindo as velhas empresas."
+    },
+    {
+      "start": 1916.09,
+      "end": 1928.51,
+      "source_text": "So this destroys value in the short term in the economy, but in the long term, it's better for everyone because these new, more efficient, more effective companies will provide better products and services for the economy as a whole.",
+      "target_text": "Isto destrói valor a curto prazo na economia, mas a longo prazo, é melhor para todos porque estas novas empresas mais eficientes e eficazes fornecerão melhores produtos e serviços para a economia como um todo."
+    },
+    {
+      "start": 1928.95,
+      "end": 1933.11,
+      "source_text": "And this has happened in the past industrial revolutions, and this has always happened.",
+      "target_text": "E isto aconteceu nas revoluções industriais passadas, e sempre aconteceu."
+    },
+    {
+      "start": 1933.11,
+      "end": 1943.88,
+      "source_text": "And it's a great opportunity for entrepreneurs and people today because it's hard to adopt AI deeply.",
+      "target_text": "E é uma ótima oportunidade para os empreendedores e as pessoas de hoje porque é difícil adotar a IA profundamente."
+    },
+    {
+      "start": 1944.95,
+      "end": 1952.95,
+      "source_text": "It's really hard for a CEO today, especially of a large company or public company, to go and say, hey, like I'm betting everything on AI.",
+      "target_text": "É muito difícil para um CEO hoje em dia, especialmente de uma grande empresa ou empresa pública, ir e dizer, como se estivesse a apostar tudo na IA."
+    },
+    {
+      "start": 1952.95,
+      "end": 1964.65,
+      "source_text": "The company has to look this way, I'll destroy and rebuild everything I've been building for the past 40 years to become an AI native company.",
+      "target_text": "A empresa tem que olhar assim, vou destruir e reconstruir tudo o que tenho construído nos últimos 40 anos para se tornar uma empresa nativa de IA."
+    },
+    {
+      "start": 1965.09,
+      "end": 1968.41,
+      "source_text": "Like how many CEOs will do that in a company at scale?",
+      "target_text": "Quantos CEOs farão isso numa empresa em escala?"
+    },
+    {
+      "start": 1968.41,
+      "end": 1983.4,
+      "source_text": "So while they adopt, new companies can be formed that are built around the strengths of AI and take over and bring new products and services to the masses.",
+      "target_text": "Assim, enquanto adotam, novas empresas podem ser formadas que são construídas em torno dos pontos fortes da IA e assumem e trazem novos produtos e serviços para as massas."
+    },
+    {
+      "start": 1984.16,
+      "end": 1986.0,
+      "source_text": "And this has happened before.",
+      "target_text": "E isto já aconteceu antes."
+    },
+    {
+      "start": 1986.26,
+      "end": 1987.52,
+      "source_text": "Like this happened with electricity.",
+      "target_text": "Como se isto tivesse acontecido com a eletricidade."
+    },
+    {
+      "start": 1987.52,
+      "end": 1989.62,
+      "source_text": "This is a story I always tell my team.",
+      "target_text": "Esta é uma história que sempre conto à minha equipa."
+    },
+    {
+      "start": 1990.62,
+      "end": 1998.08,
+      "source_text": "The technologies for Ford's production line were developed in 1879 and 1881.",
+      "target_text": "As tecnologias para a linha de produção da Ford foram desenvolvidas em 1879 e 1881."
+    },
+    {
+      "start": 1999.08,
+      "end": 2007.5,
+      "source_text": "Edison started commercializing electricity in New York and then London, and he invented a dynamo that was extremely efficient.",
+      "target_text": "Edison começou a comercializar eletricidade em Nova York e depois em Londres, e inventou um dinamo extremamente eficiente."
+    },
+    {
+      "start": 2007.96,
+      "end": 2014.97,
+      "source_text": "So you could have built Ford's factory 40 years before Ford.",
+      "target_text": "Podia ter construído a fábrica da Ford 40 anos antes da Ford."
+    },
+    {
+      "start": 2015.09,
+      "end": 2015.87,
+      "source_text": "The technology was there.",
+      "target_text": "A tecnologia estava lá."
+    },
+    {
+      "start": 2015.97,
+      "end": 2016.59,
+      "source_text": "Everything was there.",
+      "target_text": "Estava tudo lá."
+    },
+    {
+      "start": 2016.59,
+      "end": 2029.09,
+      "source_text": "But the way people adopted electricity and Ford's dynamo was, okay, I'm going to leave my factory like four floors, shafts and belts, and just change my coal engine for an electric engine.",
+      "target_text": "Mas a forma como as pessoas adotaram a eletricidade e a dinâmica da Ford foi, ok, vou deixar a minha fábrica como quatro andares, poços e cintos, e apenas trocar o meu motor de carvão por um motor elétrico."
+    },
+    {
+      "start": 2029.09,
+      "end": 2032.93,
+      "source_text": "And this will bring you benefits, yes, but like 6% efficiency.",
+      "target_text": "E isso lhe trará benefícios, sim, mas como uma eficiência de 6%."
+    },
+    {
+      "start": 2033.86,
+      "end": 2050.06,
+      "source_text": "What needed to be done was to destroy that factory, build it in a flat surface, not in the center of New York, but in Connecticut or New Jersey, and redesign your whole factory around small dynamos and electricity.",
+      "target_text": "O que precisava ser feito era destruir aquela fábrica, construí-la numa superfície plana, não no centro de Nova York, mas em Connecticut ou New Jersey, e redesenhar toda a sua fábrica em torno de pequenos dinamos e eletricidade."
+    },
+    {
+      "start": 2050.06,
+      "end": 2060.04,
+      "source_text": "And then you get like the 3x improvement in productivity that powered the U.S. during the 20th century.",
+      "target_text": "E depois temos como a melhoria 3x na produtividade que alimentou os EUA durante o século 20."
+    },
+    {
+      "start": 2060.28,
+      "end": 2063.54,
+      "source_text": "And the same happened again with the computer, and the same is happening again today.",
+      "target_text": "E o mesmo aconteceu novamente com o computador, e o mesmo está acontecendo novamente hoje."
+    },
+    {
+      "start": 2063.62,
+      "end": 2069.94,
+      "source_text": "People want to adopt it, but they're not willing to redesign the whole company, and they just adopt it superficially.",
+      "target_text": "As pessoas querem adotá-lo, mas não estão dispostas a redesenhar toda a empresa, e adotam-no superficialmente."
+    },
+    {
+      "start": 2069.94,
+      "end": 2077.22,
+      "source_text": "And in the end, that'll give you a 6% or a 10% improvement, not a 10x improvement.",
+      "target_text": "E no final, isso lhe dará uma melhoria de 6% ou 10%, não uma melhoria de 10x."
+    },
+    {
+      "start": 2077.42,
+      "end": 2083.78,
+      "source_text": "And it's like the innovator's dilemma at an industrial scale again.",
+      "target_text": "E é como o dilema do inovador em escala industrial novamente."
+    },
+    {
+      "start": 2085.24,
+      "end": 2090.58,
+      "source_text": "I think you've just made an amazing case for any future founders out there that it's time to build.",
+      "target_text": "Acho que acabaste de fazer um caso incrível para os futuros fundadores que é hora de construir."
+    },
+    {
+      "start": 2090.7,
+      "end": 2091.36,
+      "source_text": "It's time to build.",
+      "target_text": "É hora de construir."
+    },
+    {
+      "start": 2091.36,
+      "end": 2096.2,
+      "source_text": "And maybe a great place to end is, you know, you've built and scaled your own company.",
+      "target_text": "E talvez um ótimo lugar para acabar seja, sabes, teres construído e expandido a tua própria empresa."
+    },
+    {
+      "start": 2096.4,
+      "end": 2098.9,
+      "source_text": "You've now turned Kavak fully agentic.",
+      "target_text": "Agora tornaste o Kavak totalmente agente."
+    },
+    {
+      "start": 2099.18,
+      "end": 2103.68,
+      "source_text": "Like, what advice do you have to future founders or first-time founders that might be listening?",
+      "target_text": "Como, que conselhos tens para futuros fundadores ou fundadores pela primeira vez que podem estar a ouvir?"
+    },
+    {
+      "start": 2104.14,
+      "end": 2107.68,
+      "source_text": "So this is the most exciting time in human history.",
+      "target_text": "Portanto, este é o momento mais emocionante da história humana."
+    },
+    {
+      "start": 2107.84,
+      "end": 2108.62,
+      "source_text": "I believe that.",
+      "target_text": "Eu acredito nisso."
+    },
+    {
+      "start": 2108.76,
+      "end": 2111.8,
+      "source_text": "Like, we're living in the most exciting time in human history.",
+      "target_text": "Estamos a viver no momento mais emocionante da história humana."
+    },
+    {
+      "start": 2111.8,
+      "end": 2129.68,
+      "source_text": "And it's the most exciting time to be a founder because it's the first time that anyone has access to the most powerful tools and intelligence in the world, like, almost for free or for $20 a month.",
+      "target_text": "E é o momento mais emocionante para ser um fundador porque é a primeira vez que alguém tem acesso às ferramentas e inteligência mais poderosas do mundo, quase de graça ou por 20 dólares por mês."
+    },
+    {
+      "start": 2129.92,
+      "end": 2138.3,
+      "source_text": "So literally, the democratization of the tools for people to build has never been this way in human history.",
+      "target_text": "Literalmente, a democratização das ferramentas para as pessoas construir nunca foi assim na história humana."
+    },
+    {
+      "start": 2138.3,
+      "end": 2145.98,
+      "source_text": "And there's so much problems to be solved and a new reality to be built around this new paradigm.",
+      "target_text": "E há tantos problemas a serem resolvidos e uma nova realidade a ser construída em torno deste novo paradigma."
+    },
+    {
+      "start": 2146.26,
+      "end": 2149.88,
+      "source_text": "So say, like, just go for it, but go for it deep.",
+      "target_text": "Então, digamos, apenas vá para lá, mas vá para lá profundamente."
+    },
+    {
+      "start": 2150.04,
+      "end": 2153.66,
+      "source_text": "Like, imagine what the future around the AI will look like.",
+      "target_text": "Imagine como será o futuro da IA."
+    },
+    {
+      "start": 2154.79,
+      "end": 2157.05,
+      "source_text": "It's not even an exponential.",
+      "target_text": "Nem sequer é um exponencial."
+    },
+    {
+      "start": 2157.33,
+      "end": 2164.01,
+      "source_text": "Just map a trend that's linear if things keep getting, like, AI keeps getting better at a linear scale.",
+      "target_text": "Basta mapear uma tendência que é linear se as coisas continuarem a melhorar, como, a IA continua a melhorar em escala linear."
+    },
+    {
+      "start": 2164.01,
+      "end": 2171.89,
+      "source_text": "And just build for that, and you'll come up with wonderful ideas that will, like, bring a lot of value to the world.",
+      "target_text": "E apenas construir para isso, e você vai vir com ideias maravilhosas que, como, trazer um monte de valor para o mundo."
+    },
+    {
+      "start": 2173.31,
+      "end": 2173.71,
+      "source_text": "Amazing.",
+      "target_text": "É incrível."
+    },
+    {
+      "start": 2174.19,
+      "end": 2175.21,
+      "source_text": "Ale, thank you for joining us.",
+      "target_text": "Ale, obrigado por se juntar a nós."
+    },
+    {
+      "start": 2175.21,
+      "end": 2175.47,
+      "source_text": "Thank you.",
+      "target_text": "- Não, obrigado."
+    },
+    {
+      "start": 2175.51,
+      "end": 2176.17,
+      "source_text": "Thanks for having me.",
+      "target_text": "Obrigado por me teres convidado."
+    }
+  ]
+}

@@ -1,0 +1,1699 @@
+1
+00:00:00,000 --> 00:00:04,400
+I'm investing more today in tokens than in knowledge workers.
+
+2
+00:00:04,740 --> 00:00:06,880
+We could build superhuman agents.
+
+3
+00:00:07,200 --> 00:00:09,540
+This means that by every dimension that matters,
+
+4
+00:00:09,740 --> 00:00:13,280
+our agents would outperform the best human we had ever hired.
+
+5
+00:00:13,380 --> 00:00:16,220
+The most ambitious companies listening to this will decide to follow suit,
+
+6
+00:00:16,500 --> 00:00:20,600
+which is you decided to build an agent per customer.
+
+7
+00:00:21,100 --> 00:00:26,200
+Every day, between 100 and 200,000 agents get instantiated
+
+8
+00:00:26,200 --> 00:00:29,060
+specifically for this customer with its own virtual machine.
+
+9
+00:00:29,060 --> 00:00:33,880
+There's a lot of people worried about how the organizations of the future are going to look like
+
+10
+00:00:33,880 --> 00:00:36,080
+and the role that humans are going to play.
+
+11
+00:00:36,220 --> 00:00:40,760
+If you haven't faced fear before, you haven't felt it, then you haven't tried AI.
+
+12
+00:00:40,900 --> 00:00:44,700
+We launched a program inside Kavak that's called the Jedi Academy.
+
+13
+00:00:44,880 --> 00:00:49,260
+From the CEO to like AI engineers to mechanics, we train everyone.
+
+14
+00:00:49,460 --> 00:00:53,620
+And after six weeks, they launch state-of-the-art agents to production.
+
+15
+00:00:53,740 --> 00:00:57,820
+What advice do you have to future founders or first-time founders that might be listening?
+
+16
+00:00:57,820 --> 00:00:59,460
+What works right now is...
+
+17
+00:00:59,460 --> 00:01:04,530
+Welcome back to the a16z podcast.
+
+18
+00:01:05,010 --> 00:01:07,490
+Today, we have Ale Maza, the head of AI at Kavak.
+
+19
+00:01:07,650 --> 00:01:11,370
+We're going to discuss today the transformation that Ale led within Kavak
+
+20
+00:01:11,370 --> 00:01:13,110
+to turn into an AI-native company.
+
+21
+00:01:13,710 --> 00:01:15,350
+Thank you, Ale, for being with us today.
+
+22
+00:01:15,470 --> 00:01:16,210
+Thanks for having me.
+
+23
+00:01:16,430 --> 00:01:20,970
+Before starting at Kavak, you were running a company called Opi Analytics.
+
+24
+00:01:21,370 --> 00:01:21,730
+That's right.
+
+25
+00:01:22,190 --> 00:01:26,470
+And you were very much into AI before ChatGPT.
+
+26
+00:01:26,630 --> 00:01:28,150
+You want to tell us a little bit about that journey?
+
+27
+00:01:28,150 --> 00:01:29,130
+Yes, yes, of course.
+
+28
+00:01:29,270 --> 00:01:31,670
+Well, we called it machine learning back then.
+
+29
+00:01:31,750 --> 00:01:33,650
+It was a different family of algorithms.
+
+30
+00:01:33,910 --> 00:01:41,440
+And we founded a company with this very ambitious vision there that new machine learning models
+
+31
+00:01:41,440 --> 00:01:45,900
+would be so powerful that they could solve any complex problem.
+
+32
+00:01:46,020 --> 00:01:47,840
+This was pre-Transformers, right?
+
+33
+00:01:47,900 --> 00:01:49,700
+This was like 2013.
+
+34
+00:01:50,320 --> 00:01:51,980
+So we started building the company that way.
+
+35
+00:01:51,980 --> 00:01:57,600
+And I think we were like 10 years ahead of time, but we built a great company.
+
+36
+00:01:57,800 --> 00:02:05,640
+We served like 1,400, 500 companies around like risk algorithms, logistics, forecasting, marketing.
+
+37
+00:02:05,640 --> 00:02:18,340
+But really the power of what Transformers and then the ChatGPT moment when it arrived make things very clearly
+
+38
+00:02:18,340 --> 00:02:29,260
+that we could now build a whole new company and way of building companies.
+
+39
+00:02:29,260 --> 00:02:33,440
+And we joined Kavak and Carlos to build it.
+
+40
+00:02:33,880 --> 00:02:34,320
+Amazing.
+
+41
+00:02:34,460 --> 00:02:34,580
+All right.
+
+42
+00:02:34,620 --> 00:02:39,580
+So we're going to spend the bulk of this podcast talking about exactly how you've identified Kavak.
+
+43
+00:02:39,720 --> 00:02:43,200
+But maybe just to start, what does Kavak do and what is your role there?
+
+44
+00:02:43,440 --> 00:02:47,200
+Kavak started out as a used car marketplace.
+
+45
+00:02:47,200 --> 00:02:53,360
+So we buy cars, we refurbish them, and then we sell them and finance them.
+
+46
+00:02:53,440 --> 00:03:02,440
+But to do that, we also had to build a fintech and a logistics company and the Carfax and like
+
+47
+00:03:02,440 --> 00:03:06,440
+basically all the infrastructure for this to work didn't exist in LATAM.
+
+48
+00:03:06,580 --> 00:03:10,940
+So we had to build everything vertically so we could serve our customers the right way.
+
+49
+00:03:11,240 --> 00:03:14,260
+I'm going to sort of start with the framing of what the architecture looks like.
+
+50
+00:03:14,260 --> 00:03:17,080
+So a consumer comes in and says, I want to sell my car.
+
+51
+00:03:17,600 --> 00:03:19,340
+Like, how many agents do they touch?
+
+52
+00:03:19,540 --> 00:03:20,900
+Like, what's the harness look like?
+
+53
+00:03:20,960 --> 00:03:22,340
+Like, ground us in how you design this.
+
+54
+00:03:22,340 --> 00:03:22,560
+Right.
+
+55
+00:03:22,740 --> 00:03:27,940
+So we bet the company in transforming to a company run by agents.
+
+56
+00:03:27,940 --> 00:03:37,360
+The questions we ask ourselves is, how would we build Kavak in 2035 with Fable 10 or GPT-10 level intelligence?
+
+57
+00:03:37,900 --> 00:03:43,740
+And actually, that company looks very different than what we had built or what we had back then.
+
+58
+00:03:44,260 --> 00:03:52,350
+So when a customer comes in right now, agent will get spawned specifically for this customer with its own virtual machine.
+
+59
+00:03:52,350 --> 00:04:01,370
+It will remember years of interaction of these customers with Kavak, what they visited in the webpage or a call they had two years ago.
+
+60
+00:04:01,370 --> 00:04:14,190
+So remember everything like in its memory, come up with a strategy and set a long-term goal to maximize the lifetime value of this customer and do whatever it takes to make the customer happy.
+
+61
+00:04:14,190 --> 00:04:20,830
+And convert them into, like, all our different products, like, across time.
+
+62
+00:04:21,510 --> 00:04:31,290
+And this is a completely new and groundbreaking architecture at scale, I think, because, like, people are still building multi-agent system with experts.
+
+63
+00:04:31,290 --> 00:04:44,090
+And we realized to bet that long-running agents with hard goals, not just workflows, could maximize our customers' satisfaction and, obviously, their lifetime value.
+
+64
+00:04:44,900 --> 00:04:45,160
+Awesome.
+
+65
+00:04:45,520 --> 00:04:45,660
+Okay.
+
+66
+00:04:45,720 --> 00:04:47,780
+So we're going to jump to the nuances of that.
+
+67
+00:04:47,940 --> 00:04:53,880
+But maybe versus many companies that say, hey, we want to be agentic, and they try some workflows.
+
+68
+00:04:53,880 --> 00:04:58,320
+You guys took the just rip, like, we had to make this work.
+
+69
+00:04:58,420 --> 00:04:59,760
+You had to downsize dramatically.
+
+70
+00:05:00,060 --> 00:05:02,540
+It didn't work for a year.
+
+71
+00:05:02,700 --> 00:05:02,920
+Right.
+
+72
+00:05:03,320 --> 00:05:07,460
+So do you want to talk through, obviously, you had to tune a lot of things to make that work.
+
+73
+00:05:07,580 --> 00:05:12,480
+Like, describe the harness at that time and, like, what models you were using and sort of specifically.
+
+74
+00:05:12,880 --> 00:05:16,920
+So there were, like, three main decisions that we had to make.
+
+75
+00:05:17,360 --> 00:05:23,520
+The first, and this is where I think many companies are stuck right now, is the first instinct is, okay,
+
+76
+00:05:23,520 --> 00:05:24,840
+let's adopt AI.
+
+77
+00:05:25,300 --> 00:05:31,000
+And you basically leave your structure as it is and just give ChatGPT or Claude to your team.
+
+78
+00:05:31,180 --> 00:05:33,340
+And then there's no efficiencies.
+
+79
+00:05:33,520 --> 00:05:36,520
+Your customers have the same problems and nothing happens, right?
+
+80
+00:05:36,980 --> 00:05:43,400
+And so you need to redesign your whole company around the agents and around the future capabilities.
+
+81
+00:05:43,580 --> 00:05:52,580
+And this means really, like, rebuilding most of your APIs, rebuilding your system so the agents can use them to perform.
+
+82
+00:05:52,580 --> 00:05:57,860
+Then you need to start generating the data and the feedback loops to fine-tune these agents.
+
+83
+00:05:57,940 --> 00:06:01,560
+The only way to really make them work is if you teach them.
+
+84
+00:06:01,620 --> 00:06:02,360
+Like, how do you teach them?
+
+85
+00:06:02,420 --> 00:06:04,400
+You put them out in the open.
+
+86
+00:06:04,580 --> 00:06:05,900
+You put them in front of customers.
+
+87
+00:06:06,060 --> 00:06:06,720
+You get that data.
+
+88
+00:06:06,820 --> 00:06:07,560
+You get those evals.
+
+89
+00:06:07,560 --> 00:06:11,800
+And then you train your agents.
+
+90
+00:06:12,060 --> 00:06:17,560
+And this is the second bet that we made, that we could build superhuman agents.
+
+91
+00:06:17,960 --> 00:06:24,820
+This means that by every dimension that matters, like conversion, lifetime value, customer experience,
+
+92
+00:06:24,960 --> 00:06:29,120
+our agents would outperform the best human we had ever hired.
+
+93
+00:06:29,180 --> 00:06:30,940
+And we put them in front of the hardest problems.
+
+94
+00:06:30,940 --> 00:06:37,280
+And finally, you start to change how you measure the success of the company.
+
+95
+00:06:37,800 --> 00:06:39,940
+Kavak was a transactional company.
+
+96
+00:06:40,200 --> 00:06:46,940
+We used to measure how many cars we bought, how many cars we sold, how many brakes we needed to, brake pads we needed to buy.
+
+97
+00:06:46,940 --> 00:06:59,260
+And we moved to a relational company where now I have 10 million customers in my database and I have agents assigned to most of them with the task of maximizing their lifetime value.
+
+98
+00:06:59,360 --> 00:07:05,270
+Now, we're selling cars and personal loans and very high-ticket items.
+
+99
+00:07:05,550 --> 00:07:15,010
+So just activating 1% of this customer base, it's like hundreds of millions of dollars if we do it the right way.
+
+100
+00:07:15,010 --> 00:07:21,670
+So it's a bet that made sense for us because of our industry, because of the ticket, and because at the end of the day,
+
+101
+00:07:22,010 --> 00:07:27,420
+customers need to build trust with a company because they're buying a used car.
+
+102
+00:07:27,900 --> 00:07:34,800
+And the way to build trust is to know them and to plan and nurture a long-term relationship.
+
+103
+00:07:35,120 --> 00:07:37,180
+Ale, I just wanted to double-click on something.
+
+104
+00:07:37,380 --> 00:07:39,680
+You know, evals over agent demos.
+
+105
+00:07:40,000 --> 00:07:40,260
+Yeah.
+
+106
+00:07:40,260 --> 00:07:47,320
+You probably get pitched a lot of agents and, you know, it's never been easier to build things like before.
+
+107
+00:07:47,540 --> 00:07:51,380
+But one of the questions is, like, how do you guys go about evaluating this?
+
+108
+00:07:51,420 --> 00:07:56,640
+Because not everybody tests them across 90% of the customer interactions to see if they're really working.
+
+109
+00:07:56,960 --> 00:08:04,100
+And, you know, you guys, I believe, is about 98% of the interactions or something like that are now handled by agents.
+
+110
+00:08:04,100 --> 00:08:04,840
+Yes, totally.
+
+111
+00:08:05,020 --> 00:08:13,960
+So to give you a sense of the scale, like 96% of all interactions are handled by agents.
+
+112
+00:08:14,540 --> 00:08:16,140
+So no humans there.
+
+113
+00:08:17,240 --> 00:08:21,640
+Like 95% of all transactions are completely handled by agents.
+
+114
+00:08:21,760 --> 00:08:25,900
+Obviously, you meet a human when you pick up your car, like there's someone physically there to give you the keys.
+
+115
+00:08:25,900 --> 00:08:31,120
+But the rest of the experience of the journey is handled by an agent.
+
+116
+00:08:31,620 --> 00:08:38,320
+Every day, between 100,000 and 200,000 agents get instantiated in a day.
+
+117
+00:08:38,560 --> 00:08:39,540
+They wake up.
+
+118
+00:08:39,860 --> 00:08:44,680
+They work sometimes for three minutes, sometimes for eight hours, sometimes for three days.
+
+119
+00:08:44,860 --> 00:08:49,400
+And they, like, set an alarm clock for their next task and go back to sleep.
+
+120
+00:08:49,660 --> 00:08:52,960
+So the scale of this is just amazing.
+
+121
+00:08:53,140 --> 00:08:53,960
+And it's working.
+
+122
+00:08:53,960 --> 00:08:57,300
+Like, now, how do you get this to work at scale?
+
+123
+00:08:58,380 --> 00:09:01,200
+And the answer you mentioned is evals.
+
+124
+00:09:01,500 --> 00:09:04,740
+Like, I like to move extremely fast.
+
+125
+00:09:05,140 --> 00:09:08,160
+But in order to move fast, you need to have brakes, right?
+
+126
+00:09:08,180 --> 00:09:08,840
+Imagine a car.
+
+127
+00:09:10,180 --> 00:09:13,560
+You'll hit on the gas just if you have the right brakes.
+
+128
+00:09:14,180 --> 00:09:15,700
+And AI is super powerful.
+
+129
+00:09:15,860 --> 00:09:22,340
+And I've seen many companies get this wrong because they try to go slow because they don't have the right brakes.
+
+130
+00:09:22,340 --> 00:09:24,360
+So I thought about it the other way around.
+
+131
+00:09:24,360 --> 00:09:25,880
+Like, how fast can we go?
+
+132
+00:09:26,420 --> 00:09:28,400
+Well, it depends on the quality of our evals.
+
+133
+00:09:28,580 --> 00:09:43,100
+So a good rule of thumb here is we spend about the same amount of time, engineer time, tokens, and money on building the evals than building the agents.
+
+134
+00:09:43,100 --> 00:09:48,260
+And this is how you get better and better and better, not letting evals as an afterthought.
+
+135
+00:09:48,400 --> 00:09:49,560
+So what do we measure?
+
+136
+00:09:50,820 --> 00:09:53,420
+First and foremost, like, the results for the business.
+
+137
+00:09:53,560 --> 00:09:56,460
+Like, if my customer is happy, they'll buy a car.
+
+138
+00:09:56,460 --> 00:09:59,060
+They'll get their loan approved.
+
+139
+00:09:59,540 --> 00:10:01,080
+They'll sell a car to us.
+
+140
+00:10:01,240 --> 00:10:03,480
+And that's the, like, first check.
+
+141
+00:10:03,700 --> 00:10:05,020
+Like, did it convert?
+
+142
+00:10:05,560 --> 00:10:07,800
+And that's where most things break.
+
+143
+00:10:07,920 --> 00:10:20,440
+Like, I see companies, like, measuring number of calls or minutes during the call or some, like, superficial KPIs that give you some information, but that doesn't really work.
+
+144
+00:10:20,440 --> 00:10:30,390
+Like, the important thing is did this customer convert, is it bringing value to the customer, and is the customer happy to re-engage with us after a while?
+
+145
+00:10:30,730 --> 00:10:41,910
+And once you get those evals connected, then it's just optimizing the right agentic architecture and giving the agent skills to scale this and cater to millions of customers.
+
+146
+00:10:43,010 --> 00:10:43,930
+It's really, really amazing.
+
+147
+00:10:43,930 --> 00:11:02,280
+And, you know, related to this is, like, okay, so you create the right evals, you know, it's working, you know, some people, some companies still feel a little bit risk-averse and putting them in front of the customers and being able to perform the highest leverage tasks, which in your case would be selling.
+
+148
+00:11:02,600 --> 00:11:04,800
+Do your agents really sell to customers?
+
+149
+00:11:04,960 --> 00:11:05,200
+Yes.
+
+150
+00:11:05,420 --> 00:11:08,920
+So we never built customer support or customer service agents.
+
+151
+00:11:09,080 --> 00:11:11,540
+We built, like, sales agents.
+
+152
+00:11:11,540 --> 00:11:15,860
+It's extremely hard to sell a car in Latin America.
+
+153
+00:11:16,560 --> 00:11:18,760
+So imagine someone wanting to buy a car.
+
+154
+00:11:19,140 --> 00:11:22,460
+They can choose, like, amongst, like, 20,000 SKUs.
+
+155
+00:11:22,800 --> 00:11:29,500
+Then they need to pick, like, financing and go through the financing process, insurance and coverage.
+
+156
+00:11:29,920 --> 00:11:32,680
+And then they're probably trading in their car.
+
+157
+00:11:32,880 --> 00:11:34,580
+So we need to quote that car.
+
+158
+00:11:34,580 --> 00:11:48,160
+So it's a process that if someone does it or the way Kavak did it back in 2020, 2021, was you need to be extremely good at 15 different things and have 15 different experts in 15 different teams.
+
+159
+00:11:48,160 --> 00:12:00,840
+And usually the person would go and speak with the expert in financing, the expert in car advisory, the expert in buying, the expert in insurance, and they'll build a package and buy a car.
+
+160
+00:12:00,840 --> 00:12:03,210
+And that's extremely hard to do.
+
+161
+00:12:03,850 --> 00:12:19,360
+But, like, the first thing we did was, okay, can we get an agent to be better than the expert in each of these things and then put it together and have, like, a mega expert that's an expert in insurance, financing, et cetera.
+
+162
+00:12:19,360 --> 00:12:22,340
+And that's who we put in front of the customer.
+
+163
+00:12:22,460 --> 00:12:24,140
+So the experience for the customer is amazing.
+
+164
+00:12:24,380 --> 00:12:31,580
+We tripled NPS and customer satisfaction score by putting the agent in front of the customer.
+
+165
+00:12:32,540 --> 00:12:37,100
+And at first it converted, like, 50% more than our human team.
+
+166
+00:12:37,300 --> 00:12:43,360
+And now it's converting over that, like, 2.1x more.
+
+167
+00:12:44,300 --> 00:12:45,600
+So it's a completely different company.
+
+168
+00:12:45,600 --> 00:12:46,920
+So your agents are better sellers.
+
+169
+00:12:47,300 --> 00:12:47,860
+Totally better.
+
+170
+00:12:47,860 --> 00:12:59,420
+And you get this, right, because they're experts, and they're infinitely patient, and they know all your history, and they can plan for the long term, and they never get tired.
+
+171
+00:12:59,780 --> 00:13:09,060
+So, and if they make a mistake, they learn it, and the next day, not just them, but the other 200,000 agents will have learned from that mistake.
+
+172
+00:13:09,180 --> 00:13:16,340
+So that's the feedback loop that we engaged, and that's showing in the growth and results and satisfaction of our customers.
+
+173
+00:13:16,340 --> 00:13:25,160
+One of the, well, two of the very cool things I think about Kavak is I think the world has gotten comfortable with AI can do customer service.
+
+174
+00:13:25,280 --> 00:13:26,580
+It's still very hard to do well.
+
+175
+00:13:26,580 --> 00:13:34,920
+But, you know, as Gabe said, there's still a view that, well, customers aren't going to want to buy expensive things from AI, and you are proving them wrong.
+
+176
+00:13:34,980 --> 00:13:35,180
+Yes.
+
+177
+00:13:35,340 --> 00:13:42,480
+The next layer on that is, well, you're not actually going to be able to do regulated financial services end-to-end with AI.
+
+178
+00:13:42,480 --> 00:13:51,280
+But if you walk through what you're doing, you are underwriting a thin or no-file customer, pricing them correctly, doing servicing.
+
+179
+00:13:51,480 --> 00:14:04,680
+So maybe talk through how did you write the evals to get comfortable with that, and then versus, I don't know, going to a bank branch or even a fintech, sort of how is that experience that much better?
+
+180
+00:14:04,680 --> 00:14:18,320
+So the first financial product that we launched was a car loan, and usually in Mexico and in some emerging markets, it'll get like two months or more to get a car loan approved.
+
+181
+00:14:18,320 --> 00:14:29,600
+We usually approve it in under three minutes, which is like pretty cool, because we have all this data around the customer and the car.
+
+182
+00:14:30,240 --> 00:14:45,220
+And if the customer can't pay for the car anymore, they'll just return it to us, and we can give them a cheaper car, and then they pay a smaller amount each month, and they like get out of the water, which is amazing about the vertical integration of the business.
+
+183
+00:14:45,220 --> 00:14:54,660
+But then, like, when we started launching other financial products, we realized that this is a very important decision for the customer, right?
+
+184
+00:14:54,740 --> 00:15:08,900
+Like, they usually take three to four months to make up their mind in buying a car and getting a loan or getting a personal loan, like a large personal loan that we also do.
+
+185
+00:15:08,900 --> 00:15:22,100
+So if you get to know your customer throughout this process and make the process easy for them, then just your conversion and retention metrics start going through the roof.
+
+186
+00:15:22,100 --> 00:15:49,760
+It's not just the transaction, it's understanding each customer personally and get them to convert when they're ready with a very deep personalization of the interest rate, the risk, the max amount of the loan in a way that makes sense for the portfolio as a whole, obviously, but that's optimized to the risk level and probably the other offers that the customer is getting.
+
+187
+00:15:49,760 --> 00:15:55,440
+And then maybe give us just to be, you know, evals are always a very hot topic, you kind of led with that.
+
+188
+00:15:55,900 --> 00:16:06,360
+What is an example of maybe a hard-to-design area for evals or one where you had to spend an extra amount of time with just given the fact that, like, there's real money PII at risk?
+
+189
+00:16:06,360 --> 00:16:06,500
+Right.
+
+190
+00:16:06,760 --> 00:16:06,920
+Yeah.
+
+191
+00:16:06,920 --> 00:16:23,030
+So when we decided to redesign the company around AI, you asked the question, okay, is AI going to be able to do this job, like even the CEO job or jobs where the leadership is?
+
+192
+00:16:23,410 --> 00:16:25,710
+And the answer, honestly, is probably yes.
+
+193
+00:16:25,830 --> 00:16:28,850
+Like in 2035 with a rate of improvement, it will be able to do.
+
+194
+00:16:28,850 --> 00:16:30,930
+So we said, okay, let's try it now.
+
+195
+00:16:31,750 --> 00:16:34,410
+Let's try and build an AI CEO.
+
+196
+00:16:35,300 --> 00:16:38,560
+So we carved out a city in Mexico.
+
+197
+00:16:38,820 --> 00:16:39,820
+It's Cuernavaca.
+
+198
+00:16:39,960 --> 00:16:44,970
+And we put like an agent in one of our harnesses as a CEO.
+
+199
+00:16:45,170 --> 00:16:49,990
+And it starts learning and it starts making decisions and evaluating on those decisions.
+
+200
+00:16:50,570 --> 00:16:53,430
+And it's only been running for six weeks now.
+
+201
+00:16:53,430 --> 00:16:58,550
+The goal of the first month was to double the profits of Cuernavaca.
+
+202
+00:16:58,890 --> 00:17:09,850
+It didn't reach it, but it was 1.5x, like 50% more profits just by managing the city, which is crazy, right?
+
+203
+00:17:09,910 --> 00:17:10,650
+It's amazing.
+
+204
+00:17:10,910 --> 00:17:12,090
+And it's the CEO.
+
+205
+00:17:12,430 --> 00:17:16,810
+Like people were like, that was the last job AI was supposed to take.
+
+206
+00:17:16,910 --> 00:17:18,270
+And no, it isn't really.
+
+207
+00:17:18,810 --> 00:17:20,590
+And how did this happen?
+
+208
+00:17:20,590 --> 00:17:40,860
+And it's like a very smart person, like Fields Medal-level smart, like going into every single number, every single customer, making the perfect forecast and going to micromanage every single thing that needs to be executed every day to reach a plan.
+
+209
+00:17:40,860 --> 00:17:52,680
+So he'll literally send messages to all the physical workers in Cuernavaca with their plans for the day and ask them to send voice notes back to know their progress.
+
+210
+00:17:53,520 --> 00:17:55,660
+So customer satisfaction grew.
+
+211
+00:17:56,420 --> 00:17:57,900
+We got a better inventory.
+
+212
+00:17:58,260 --> 00:18:03,400
+We rotated better, better financing penetration, like every KPI started to improve.
+
+213
+00:18:03,400 --> 00:18:06,280
+So it's super cool and super exciting.
+
+214
+00:18:06,900 --> 00:18:15,440
+Now, what are the jobs where we think we're still like training and hiring humans?
+
+215
+00:18:15,980 --> 00:18:17,840
+Those are related to the physical world.
+
+216
+00:18:17,840 --> 00:18:24,040
+So when we talk about mechanics, Cuernavaca has around, I think in Mexico, around 800 mechanics.
+
+217
+00:18:24,040 --> 00:18:29,860
+There's lots of dexterity and senses that's super hard to substitute.
+
+218
+00:18:30,240 --> 00:18:33,960
+So there, we also build these agents with the exact same harness that's scaling.
+
+219
+00:18:34,420 --> 00:18:37,720
+And the mechanics have the sidekick.
+
+220
+00:18:37,720 --> 00:18:48,500
+I was telling you guys earlier, it's like the movie Ratatouille, like the mouse that's actually a chef collaborating with a human.
+
+221
+00:18:48,900 --> 00:18:49,900
+It's kind of like that.
+
+222
+00:18:49,960 --> 00:18:50,760
+So it's a sidekick.
+
+223
+00:18:50,940 --> 00:18:51,960
+We call it El Mike.
+
+224
+00:18:52,420 --> 00:18:59,880
+And it tells them how to inspect a car and gives them tips and shows them the way to do it.
+
+225
+00:18:59,880 --> 00:19:07,500
+And the quality of inspections, again, went through the roof, we're inspecting faster, we're repairing faster, it's cheaper.
+
+226
+00:19:07,500 --> 00:19:11,360
+But most importantly, we're delivering higher quality cars.
+
+227
+00:19:13,180 --> 00:19:19,460
+Warranties came down around like 20, 26% since we launched.
+
+228
+00:19:19,700 --> 00:19:22,820
+And customer satisfaction, again, went up.
+
+229
+00:19:23,100 --> 00:19:24,880
+So it's about this.
+
+230
+00:19:24,880 --> 00:19:36,420
+Like, how would you design your organization from scratch with abundant superintelligence that's cheap and just go build it?
+
+231
+00:19:37,260 --> 00:19:51,180
+Now, this is a good segue to a key topic right now in Silicon Valley where, you know, there's a lot of people worried about how the organizations of the future are going to look like and the role that humans are going to play.
+
+232
+00:19:51,240 --> 00:19:51,460
+Yes.
+
+233
+00:19:51,740 --> 00:19:53,540
+And I think you touched a little bit on that.
+
+234
+00:19:53,540 --> 00:19:57,120
+And so we'd love to hear, yeah, like how you guys are thinking about that.
+
+235
+00:19:57,340 --> 00:19:57,600
+Yes.
+
+236
+00:19:58,280 --> 00:20:00,520
+And the organizations.
+
+237
+00:20:00,840 --> 00:20:00,940
+Yeah.
+
+238
+00:20:01,460 --> 00:20:01,720
+Totally.
+
+239
+00:20:01,980 --> 00:20:06,460
+So we took that question very seriously three years ago.
+
+240
+00:20:06,720 --> 00:20:11,120
+And the truth is that everyone's job will change.
+
+241
+00:20:12,300 --> 00:20:21,690
+So, and what we were doing a couple of years ago will probably be performed better by an AI agent.
+
+242
+00:20:22,090 --> 00:20:22,350
+Right?
+
+243
+00:20:22,410 --> 00:20:23,290
+So what does this mean?
+
+244
+00:20:23,290 --> 00:20:25,900
+Like, we need to train everyone.
+
+245
+00:20:26,640 --> 00:20:36,220
+So, so we launched a program inside Kavak that's called the Jedi Academy where anyone from Kavak, like from the CEO to, yeah.
+
+246
+00:20:36,220 --> 00:20:36,980
+And it's awesome.
+
+247
+00:20:37,220 --> 00:20:43,500
+Like from the CEO to like AI engineers to mechanics, like going to the academy.
+
+248
+00:20:43,500 --> 00:20:49,180
+It's super hard. Like, I've led it myself.
+
+249
+00:20:49,340 --> 00:20:50,400
+You designed the program.
+
+250
+00:20:50,460 --> 00:20:51,400
+I designed the program.
+
+251
+00:20:51,520 --> 00:20:52,540
+But constantly.
+
+252
+00:20:52,620 --> 00:20:53,000
+Constantly.
+
+253
+00:20:53,180 --> 00:20:57,120
+Because you need to be upgrading the program because everything's changing so fast.
+
+254
+00:20:57,120 --> 00:21:04,620
+And there's like, you can't send these people like outside to Stanford to, to learn this because like, it's new stuff.
+
+255
+00:21:04,620 --> 00:21:04,900
+Right?
+
+256
+00:21:05,300 --> 00:21:07,120
+So we train everyone.
+
+257
+00:21:07,120 --> 00:21:14,920
+And after six weeks, they launch state-of-the-art agents, AI agents to production.
+
+258
+00:21:14,920 --> 00:21:21,700
+And it's mechanics and finance guys and engineers, like everyone can do it.
+
+259
+00:21:21,700 --> 00:21:27,520
+And what this generated is maybe this person won't become an AI engineer.
+
+260
+00:21:27,680 --> 00:21:32,040
+Some of them have, but they, they know how to collaborate with this new technology.
+
+261
+00:21:32,300 --> 00:21:32,460
+Right?
+
+262
+00:21:32,560 --> 00:21:36,580
+So the way we looked about it was, guys, there, there's no way back.
+
+263
+00:21:36,720 --> 00:21:38,220
+Like this is the way Kavak is going.
+
+264
+00:21:38,540 --> 00:21:40,080
+This is the way the company will look like.
+
+265
+00:21:40,400 --> 00:21:46,700
+These are the changes for the engineering team, the finance team, the product team.
+
+266
+00:21:46,700 --> 00:21:48,340
+Like, this is what's going to change.
+
+267
+00:21:49,690 --> 00:21:56,890
+You have the choice to like train and, and get the skills to perform in this new reality, in this new world.
+
+268
+00:21:58,030 --> 00:22:01,750
+Or maybe leave Kavak if this is not for you, but this is the way we're going.
+
+269
+00:22:02,350 --> 00:22:03,990
+And we're great.
+
+270
+00:22:04,210 --> 00:22:07,710
+Like, like we, we, we strengthened the culture and we were super excited.
+
+271
+00:22:08,730 --> 00:22:12,790
+And people really know how to build these agentic systems.
+
+272
+00:22:12,790 --> 00:22:19,270
+And then if you look at Kavak now, any process, it's really a collaboration of agents and humans.
+
+273
+00:22:19,390 --> 00:22:23,150
+And sometimes like agents are the bosses or, of, of humans.
+
+274
+00:22:23,150 --> 00:22:25,230
+And sometimes humans are designing the agents.
+
+275
+00:22:25,890 --> 00:22:29,880
+But I think we, we managed to really build this and change this.
+
+276
+00:22:30,440 --> 00:22:38,960
+And, and it's through this idea that we need to be learning every day and things will continue to change.
+
+277
+00:22:38,960 --> 00:22:46,620
+And the only way to, to continue being relevant is to upgrade your skills every month or every couple of months.
+
+278
+00:22:46,940 --> 00:22:50,840
+But you do have, or did have, you know, thousands of people.
+
+279
+00:22:51,180 --> 00:22:53,320
+Now agents do most things.
+
+280
+00:22:53,320 --> 00:22:53,620
+Yes.
+
+281
+00:22:53,860 --> 00:22:56,860
+So like, what is the org structure of Kavak?
+
+282
+00:22:57,100 --> 00:22:59,620
+Like, does the middle management concept even exist anymore?
+
+283
+00:22:59,760 --> 00:23:00,640
+Like, what does your org look like?
+
+284
+00:23:00,740 --> 00:23:00,960
+Right.
+
+285
+00:23:01,100 --> 00:23:06,210
+So the way it looks like now is very flat teams, very senior teams, super empowered.
+
+286
+00:23:06,210 --> 00:23:13,490
+If you look at a team, you'll have engineering, AI, like operations, like everything.
+
+287
+00:23:13,770 --> 00:23:21,990
+And they're either building the agents, working for the agents, or being in the physical world in front of the customer.
+
+288
+00:23:22,650 --> 00:23:24,810
+Like most of our organization looks like that.
+
+289
+00:23:24,950 --> 00:23:36,070
+So, so it's really built around, around the idea of how organizations will look like in the future and around AI and really harnessing this, this new technology.
+
+290
+00:23:36,690 --> 00:23:43,010
+Obviously, this required lots of retraining because in 2023 or 2022, no one was building agents.
+
+291
+00:23:43,430 --> 00:23:47,170
+No one was helping agents or taking orders from, from agents.
+
+292
+00:23:47,350 --> 00:23:56,810
+And the way you cater to the physical world or the customers was in a different way than if an agent's telling you what to do or helping you make your job better.
+
+293
+00:23:56,810 --> 00:23:57,090
+Yep.
+
+294
+00:23:57,090 --> 00:24:01,310
+And so it's a completely different structure than, than we had just two years ago.
+
+295
+00:24:01,390 --> 00:24:01,510
+Yeah.
+
+296
+00:24:01,890 --> 00:24:05,710
+Explain, we talked about this before, what working for the agents look like.
+
+297
+00:24:05,790 --> 00:24:07,910
+Like, I think the way you described it was an agentic system.
+
+298
+00:24:08,050 --> 00:24:11,470
+And then sometimes when it fails, it's like, oh, that's kicked out to kind of a human queue.
+
+299
+00:24:11,550 --> 00:24:11,730
+Right.
+
+300
+00:24:11,730 --> 00:24:12,950
+But then that's lost.
+
+301
+00:24:13,050 --> 00:24:14,110
+And so how have you brought that together?
+
+302
+00:24:14,350 --> 00:24:22,460
+So like the, the, we see human in the loops and, and, and most of these agentic systems in production right now, like large scale agentic systems.
+
+303
+00:24:22,460 --> 00:24:33,920
+Usually if an agent hits a wall or can't perform anymore, it'll like send the, this case or this customer to a tier two support and forget about it.
+
+304
+00:24:34,080 --> 00:24:37,640
+That doesn't really work because you don't close the loops.
+
+305
+00:24:37,640 --> 00:24:41,240
+So you don't generate the data to train the agent to do this better.
+
+306
+00:24:41,560 --> 00:24:46,540
+What works right now is we have an agent that's obsessed with each of the customers, like millions of this.
+
+307
+00:24:46,540 --> 00:24:55,000
+They have access to every single API, every single skill, like, and we have agents building those humans, building those skills for them.
+
+308
+00:24:55,560 --> 00:25:02,060
+And then if an agent hits a wall or cancel something, it'll call this API saying, I need help.
+
+309
+00:25:02,340 --> 00:25:05,900
+And on the other side, it's not an agent or software.
+
+310
+00:25:06,020 --> 00:25:08,180
+It's a human helping them out.
+
+311
+00:25:08,340 --> 00:25:14,020
+But if you map this out in an org chart, it's really human teams that have an agent.
+
+312
+00:25:14,160 --> 00:25:15,300
+I'm getting better results.
+
+313
+00:25:15,300 --> 00:25:16,720
+It's super clear.
+
+314
+00:25:16,840 --> 00:25:18,260
+Like, it makes sense.
+
+315
+00:25:18,260 --> 00:25:19,340
+That's actually a perfect segue.
+
+316
+00:25:19,460 --> 00:25:24,120
+And I know you get lots of leaders at larger institutions inbounding to you.
+
+317
+00:25:24,300 --> 00:25:25,840
+So maybe this will save you many phone calls.
+
+318
+00:25:25,900 --> 00:25:31,880
+But I think rationally, many leaders of companies intuitively understand this.
+
+319
+00:25:31,940 --> 00:25:37,060
+It is very hard still to deploy AI through their organization.
+
+320
+00:25:37,360 --> 00:25:38,380
+Like, the models are good enough.
+
+321
+00:25:38,460 --> 00:25:39,000
+You know that.
+
+322
+00:25:39,140 --> 00:25:40,160
+It's an org problem.
+
+323
+00:25:40,160 --> 00:25:41,300
+It's a psychology problem.
+
+324
+00:25:41,400 --> 00:25:43,700
+Like, what advice do you have or what have you seen?
+
+325
+00:25:43,700 --> 00:25:45,200
+I think it's two things.
+
+326
+00:25:45,540 --> 00:25:49,880
+The first is it has to be top down because of this.
+
+327
+00:25:50,080 --> 00:26:04,260
+Like, if you just get adoption, it won't go anywhere because it's hard to generate this taste or strategy for people to bottom up, decide what to build and whatnot, and come up with something that works for the company.
+
+328
+00:26:04,260 --> 00:26:12,180
+So the transformation has to be top down, and leaders need to adopt, and leaders have to have a very clear plan on what to build.
+
+329
+00:26:12,660 --> 00:26:14,380
+I've seen so many companies.
+
+330
+00:26:14,620 --> 00:26:16,760
+It's just like, oh, like, we're doing a hackathon.
+
+331
+00:26:16,960 --> 00:26:18,360
+People are coming up with use cases.
+
+332
+00:26:18,360 --> 00:26:20,500
+We're sponsoring some of these use cases.
+
+333
+00:26:20,640 --> 00:26:21,660
+That doesn't work.
+
+334
+00:26:21,840 --> 00:26:30,570
+It's like, be very clear on what the company will look like in three or five years, and then start building that.
+
+335
+00:26:30,710 --> 00:26:34,910
+And be, like, very vertical in guiding your troops towards that.
+
+336
+00:26:35,030 --> 00:26:42,670
+Like, an army doesn't really work if everyone comes up with ideas on the strategy and tactics and goes to the battlefield and, like, does whatever they want.
+
+337
+00:26:42,670 --> 00:26:45,950
+Like, you need a very clear strategy, and that's what we need now.
+
+338
+00:26:46,010 --> 00:26:47,670
+It's at, like, transformation stage.
+
+339
+00:26:48,190 --> 00:26:53,830
+The second one is you need to measure what really matters, and it's evals, but it's also the right evals.
+
+340
+00:26:54,270 --> 00:27:00,450
+So I see a lot of companies spending now huge amounts, and they say, okay, I got adoption.
+
+341
+00:27:00,790 --> 00:27:04,730
+I'm just spending, like, hundreds of millions of dollars in tokens now.
+
+342
+00:27:04,990 --> 00:27:05,870
+What about that?
+
+343
+00:27:06,030 --> 00:27:07,930
+Like, there's quality in the tokens.
+
+344
+00:27:07,930 --> 00:27:10,570
+So I have a framework here that's also useful.
+
+345
+00:27:11,230 --> 00:27:21,160
+Like, tier three tokens, the most valuable, are these agents where you can get the ROI of each specific token.
+
+346
+00:27:21,300 --> 00:27:22,220
+And I can do that now.
+
+347
+00:27:22,300 --> 00:27:23,480
+That's great news for me.
+
+348
+00:27:24,020 --> 00:27:32,460
+Because I'm growing, and because I know the ROI of each token, because it goes to agents that are performing the job of the organization, right?
+
+349
+00:27:32,520 --> 00:27:33,500
+These are the best tokens.
+
+350
+00:27:33,920 --> 00:27:38,320
+Tier two tokens are things that you can measure indirectly.
+
+351
+00:27:38,520 --> 00:27:40,880
+Do I see devs in the code base?
+
+352
+00:27:41,180 --> 00:27:45,780
+And I can evaluate the value of these tokens, at least indirectly, and then push those to productions.
+
+353
+00:27:46,560 --> 00:27:53,180
+Tier one, when most companies are, is people are just using plug code or chat GPT or co-work or whatever.
+
+354
+00:27:53,580 --> 00:27:54,360
+What happened with those?
+
+355
+00:27:54,560 --> 00:27:55,700
+I have no idea.
+
+356
+00:27:56,320 --> 00:27:57,980
+So it's not just about adoption.
+
+357
+00:27:57,980 --> 00:28:08,580
+It's really about having a very clear vision and then measuring that each token you spend is bringing you those benefits and just iterate, iterate, iterate from there.
+
+358
+00:28:08,580 --> 00:28:22,760
+And we touched on this a little bit, but I think it's worth a dive as maybe the most ambitious companies listening to this will decide to follow suit, which is you decided to build an agent per customer versus per task.
+
+359
+00:28:22,760 --> 00:28:29,100
+And then discovered along the way that each one of those agents needs its own micro-virtual machine.
+
+360
+00:28:29,320 --> 00:28:33,700
+So maybe kind of walk us through those decisions, that architecture.
+
+361
+00:28:33,700 --> 00:28:51,680
+And I think we're seeing these results now, but it was a really risky bet because people usually go from workflows, like if I could advise everyone, don't build agentic workflows, to graphs or functions or objectives.
+
+362
+00:28:51,680 --> 00:28:57,960
+And we built that, that these are multi-agent systems that can perform a whole function for a complex goals.
+
+363
+00:28:58,180 --> 00:29:04,760
+Like the ones I told you that to sell a car, you need to do financing, purchasing, like recommendations, et cetera.
+
+364
+00:29:05,380 --> 00:29:11,120
+And we had thousands, like tens of thousands of these agents working at scale, running the business back in December.
+
+365
+00:29:11,120 --> 00:29:18,360
+But then Opus 4.5 came out and I realized like, this isn't the right paradigm anymore.
+
+366
+00:29:19,160 --> 00:29:30,880
+Like the intelligence now doesn't need like the graph and the multi-agent lattice work and harness because it will constrain this level of intelligence.
+
+367
+00:29:30,880 --> 00:29:54,200
+So we decided to like destroy everything we had been building for two years that was working, that brought us to profitability, that brought us amazing growth and start over with a harness that we thought would be robust and scalable and leverage recursive self-improvement or new models, more intelligent models coming out every month.
+
+368
+00:29:54,200 --> 00:30:08,840
+So the way this looks like it's a virtual machine with an agent, with access to memory and evals and the CLI where they can access every tool and every API in my company and the long-term goal.
+
+369
+00:30:09,220 --> 00:30:17,110
+And I instantiate hundreds of thousands of these each day with long-term goals, like maximizing the lifetime value.
+
+370
+00:30:17,270 --> 00:30:19,050
+The self-improving organization.
+
+371
+00:30:19,110 --> 00:30:19,390
+Exactly.
+
+372
+00:30:19,550 --> 00:30:20,550
+The self-improving organization.
+
+373
+00:30:20,550 --> 00:30:29,430
+And I think people are super obsessed with RSI now, and this will improve the models.
+
+374
+00:30:30,010 --> 00:30:41,840
+But if you look at it this way, economic value in humanity for the past 4,000 years has been delivered by organization, not by individuals.
+
+375
+00:30:41,840 --> 00:30:49,260
+So what you want to self-improve and to engage in that loop is the organization that can deliver more economic value, right?
+
+376
+00:30:49,260 --> 00:31:13,560
+So that's the loop that I think companies will start to focus on because if you get that loop working and it's an organization that is really self-improving and harnessing the newer models and the better intelligence that we're getting every couple of days now, then you hit the exponential, not just in intelligence, but in the value that you can generate as a company.
+
+377
+00:31:13,560 --> 00:31:15,560
+So that's really exciting.
+
+378
+00:31:15,560 --> 00:31:28,060
+You mentioned that because of all the challenges in adopting AI, you saw the biggest opportunity on net new companies being formed working on this new way and then disrupting markets.
+
+379
+00:31:28,300 --> 00:31:29,660
+You want to talk a little bit about that?
+
+380
+00:31:29,760 --> 00:31:30,020
+Yes.
+
+381
+00:31:30,020 --> 00:31:37,470
+There's this concept in economics about creative destruction from Joseph Schumpeter.
+
+382
+00:31:38,190 --> 00:31:56,090
+And what it says is that the way innovation hits the economy isn't by companies adopting the new technology, but by companies remaining the way they were and incumbents with the new technology destroying the old companies.
+
+383
+00:31:56,090 --> 00:32:08,510
+So this destroys value in the short term in the economy, but in the long term, it's better for everyone because these new, more efficient, more effective companies will provide better products and services for the economy as a whole.
+
+384
+00:32:08,950 --> 00:32:13,110
+And this has happened in the past industrial revolutions, and this has always happened.
+
+385
+00:32:13,110 --> 00:32:23,880
+And it's a great opportunity for entrepreneurs and people today because it's hard to adopt AI deeply.
+
+386
+00:32:24,950 --> 00:32:32,950
+It's really hard for a CEO today, especially of a large company or public company, to go and say, hey, like I'm betting everything on AI.
+
+387
+00:32:32,950 --> 00:32:44,650
+The company has to look this way, I'll destroy and rebuild everything I've been building for the past 40 years to become an AI native company.
+
+388
+00:32:45,090 --> 00:32:48,410
+Like how many CEOs will do that in a company at scale?
+
+389
+00:32:48,410 --> 00:33:03,400
+So while they adopt, new companies can be formed that are built around the strengths of AI and take over and bring new products and services to the masses.
+
+390
+00:33:04,160 --> 00:33:06,000
+And this has happened before.
+
+391
+00:33:06,260 --> 00:33:07,520
+Like this happened with electricity.
+
+392
+00:33:07,520 --> 00:33:09,620
+This is a story I always tell my team.
+
+393
+00:33:10,620 --> 00:33:18,080
+The technologies for Ford's production line were developed in 1879 and 1881.
+
+394
+00:33:19,080 --> 00:33:27,500
+Edison started commercializing electricity in New York and then London, and he invented a dynamo that was extremely efficient.
+
+395
+00:33:27,960 --> 00:33:34,970
+So you could have built Ford's factory 40 years before Ford.
+
+396
+00:33:35,090 --> 00:33:35,870
+The technology was there.
+
+397
+00:33:35,970 --> 00:33:36,590
+Everything was there.
+
+398
+00:33:36,590 --> 00:33:49,090
+But the way people adopted electricity and Ford's dynamo was, okay, I'm going to leave my factory like four floors, shafts and belts, and just change my coal engine for an electric engine.
+
+399
+00:33:49,090 --> 00:33:52,930
+And this will bring you benefits, yes, but like 6% efficiency.
+
+400
+00:33:53,860 --> 00:34:10,060
+What needed to be done was to destroy that factory, build it in a flat surface, not in the center of New York, but in Connecticut or New Jersey, and redesign your whole factory around small dynamos and electricity.
+
+401
+00:34:10,060 --> 00:34:20,040
+And then you get like the 3x improvement in productivity that powered the U.S. during the 20th century.
+
+402
+00:34:20,280 --> 00:34:23,540
+And the same happened again with the computer, and the same is happening again today.
+
+403
+00:34:23,620 --> 00:34:29,940
+People want to adopt it, but they're not willing to redesign the whole company, and they just adopt it superficially.
+
+404
+00:34:29,940 --> 00:34:37,220
+And in the end, that'll give you a 6% or a 10% improvement, not a 10x improvement.
+
+405
+00:34:37,420 --> 00:34:43,780
+And it's like the innovator's dilemma at an industrial scale again.
+
+406
+00:34:45,240 --> 00:34:50,580
+I think you've just made an amazing case for any future founders out there that it's time to build.
+
+407
+00:34:50,700 --> 00:34:51,360
+It's time to build.
+
+408
+00:34:51,360 --> 00:34:56,200
+And maybe a great place to end is, you know, you've built and scaled your own company.
+
+409
+00:34:56,400 --> 00:34:58,900
+You've now turned Kavak fully agentic.
+
+410
+00:34:59,180 --> 00:35:03,680
+Like, what advice do you have to future founders or first-time founders that might be listening?
+
+411
+00:35:04,140 --> 00:35:07,680
+So this is the most exciting time in human history.
+
+412
+00:35:07,840 --> 00:35:08,620
+I believe that.
+
+413
+00:35:08,760 --> 00:35:11,800
+Like, we're living in the most exciting time in human history.
+
+414
+00:35:11,800 --> 00:35:29,680
+And it's the most exciting time to be a founder because it's the first time that anyone has access to the most powerful tools and intelligence in the world, like, almost for free or for $20 a month.
+
+415
+00:35:29,920 --> 00:35:38,300
+So literally, the democratization of the tools for people to build has never been this way in human history.
+
+416
+00:35:38,300 --> 00:35:45,980
+And there's so much problems to be solved and a new reality to be built around this new paradigm.
+
+417
+00:35:46,260 --> 00:35:49,880
+So say, like, just go for it, but go for it deep.
+
+418
+00:35:50,040 --> 00:35:53,660
+Like, imagine what the future around the AI will look like.
+
+419
+00:35:54,790 --> 00:35:57,050
+It's not even an exponential.
+
+420
+00:35:57,330 --> 00:36:04,010
+Just map a trend that's linear if things keep getting, like, AI keeps getting better at a linear scale.
+
+421
+00:36:04,010 --> 00:36:11,890
+And just build for that, and you'll come up with wonderful ideas that will, like, bring a lot of value to the world.
+
+422
+00:36:13,310 --> 00:36:13,710
+Amazing.
+
+423
+00:36:14,190 --> 00:36:15,210
+Ale, thank you for joining us.
+
+424
+00:36:15,210 --> 00:36:15,470
+Thank you.
+
+425
+00:36:15,510 --> 00:36:16,170
+Thanks for having me.

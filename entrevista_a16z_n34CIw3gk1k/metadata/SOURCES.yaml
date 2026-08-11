@@ -1,6 +1,6 @@
 project: a16z_n34CIw3gk1k
 prepared_at: "2026-08-11"
-access_status: "Pendente; nenhum URL foi acessado durante a preparação"
+access_status: "Concluído pelo fallback oficial do X após falha do YouTube"
 expected_language: en
 expected_duration_minutes: 37
 sources:
@@ -10,18 +10,23 @@ sources:
     url: "https://www.youtube.com/watch?v=n34CIw3gk1k"
     access_method: "yt-dlp; seleção bestaudio; sem playlist"
     requires_credentials: false
-    date_accessed: null
-    status: pending
-    notes: "Fonte preferencial indicada pelo usuário."
+    date_accessed: "2026-08-11"
+    status: failed
+    notes: >-
+      Fonte preferencial tentada primeiro. Falhou com HTTP 429 e confirmação
+      contra robôs; não foram usados cookies nem contornos de autenticação.
   - id: x_fallback
     priority: 2
     provider: X
     url: "https://x.com/a16z/status/2086845184785203468"
     access_method: "yt-dlp; somente se o YouTube falhar"
     requires_credentials: false
-    date_accessed: null
-    status: pending
-    notes: "Fallback indicado pelo usuário; não será consultado se o YouTube funcionar."
+    date_accessed: "2026-08-11"
+    status: used
+    notes: >-
+      Fallback indicado pelo usuário. Download concluído como MP4 contendo
+      somente áudio AAC estéreo, sem vídeo; duração de 2191.081361 segundos.
 rights_note: >-
-  Material preservado localmente para o uso solicitado pelo usuário. Licença e
-  condições de redistribuição não foram verificadas porque não houve acesso à rede.
+  Material preservado localmente para o uso solicitado pelo usuário. A fonte e
+  a data de acesso estão documentadas; condições de redistribuição não foram
+  verificadas e o conteúdo não deve ser redistribuído sem essa verificação.

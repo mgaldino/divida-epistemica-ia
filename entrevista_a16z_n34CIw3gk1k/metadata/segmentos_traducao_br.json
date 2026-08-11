@@ -1,0 +1,3412 @@
+{
+  "created_at": "2026-08-11T22:25:54.787369+00:00",
+  "model": "ensemble:mlx-community/Qwen3-8B-4bit",
+  "base_models": [
+    "facebook/nllb-200-distilled-600M",
+    "unicamp-dl/translation-en-pt-t5"
+  ],
+  "source_language": "en",
+  "target_language": "pt_BR",
+  "chunks": [
+    {
+      "start": 0.0,
+      "end": 4.4,
+      "source_text": "I'm investing more today in tokens than in knowledge workers.",
+      "draft_nllb": "Hoje estou a investir mais em tokens do que em trabalhadores do conhecimento.",
+      "draft_unicamp": "Estou investindo mais hoje em tokens do que em profissionais do conhecimento.",
+      "target_text": "Estou investindo mais hoje em tokens do que em profissionais do conhecimento."
+    },
+    {
+      "start": 4.74,
+      "end": 6.88,
+      "source_text": "We could build superhuman agents.",
+      "draft_nllb": "Podemos construir agentes sobre-humanos.",
+      "draft_unicamp": "Poder-se-ia construir agentes super-humanos.",
+      "target_text": "Podemos construir agentes super-humanos."
+    },
+    {
+      "start": 7.2,
+      "end": 9.54,
+      "source_text": "This means that by every dimension that matters,",
+      "draft_nllb": "Isto significa que por todas as dimensões que importam,",
+      "draft_unicamp": "Isto significa que por toda dimensão que importa,",
+      "target_text": "Isto significa que por todas as dimensões que importam."
+    },
+    {
+      "start": 9.74,
+      "end": 13.28,
+      "source_text": "our agents would outperform the best human we had ever hired.",
+      "draft_nllb": "Os nossos agentes superariam o melhor humano que já contratámos.",
+      "draft_unicamp": "nossos agentes superam o melhor humano que tivemos sempre contratado.",
+      "target_text": "Nossos agentes superariam o melhor humano que já contratamos."
+    },
+    {
+      "start": 13.38,
+      "end": 16.22,
+      "source_text": "The most ambitious companies listening to this will decide to follow suit,",
+      "draft_nllb": "As empresas mais ambiciosas que ouvem isto decidirão seguir o exemplo.",
+      "draft_unicamp": "As empresas mais ambiciosas que a escutam decidirão seguir o acto,",
+      "target_text": "As empresas mais ambiciosas que ouvem isso decidirão seguir o exemplo."
+    },
+    {
+      "start": 16.5,
+      "end": 20.6,
+      "source_text": "which is you decided to build an agent per customer.",
+      "draft_nllb": "que é que decidiu construir um agente por cliente.",
+      "draft_unicamp": "que é decidido construir um agente por cliente.",
+      "target_text": "Que é que você decidiu construir um agente por cliente."
+    },
+    {
+      "start": 21.1,
+      "end": 26.2,
+      "source_text": "Every day, between 100 and 200,000 agents get instantiated",
+      "draft_nllb": "Todos os dias, entre 100 e 200 mil agentes recebem instantâneos.",
+      "draft_unicamp": "Todos os dias, entre 100 e 200.000 agentes se instalam.",
+      "target_text": "Todos os dias, entre 100 e 200.000 agentes são instanciados."
+    },
+    {
+      "start": 26.2,
+      "end": 29.06,
+      "source_text": "specifically for this customer with its own virtual machine.",
+      "draft_nllb": "especificamente para este cliente com a sua própria máquina virtual.",
+      "draft_unicamp": "especificamente para este cliente com sua própria máquina virtual.",
+      "target_text": "especificamente para este cliente com sua própria máquina virtual."
+    },
+    {
+      "start": 29.06,
+      "end": 33.88,
+      "source_text": "There's a lot of people worried about how the organizations of the future are going to look like",
+      "draft_nllb": "Há muitas pessoas preocupadas com como as organizações do futuro vão ser.",
+      "draft_unicamp": "Tem muita gente preocupada com o modo como as organizações do futuro vão parecer.",
+      "target_text": "Há muitas pessoas preocupadas com como as organizações do futuro vão ser."
+    },
+    {
+      "start": 33.88,
+      "end": 36.08,
+      "source_text": "and the role that humans are going to play.",
+      "draft_nllb": "e o papel que os seres humanos vão desempenhar.",
+      "draft_unicamp": "e o papel que o ser humano está desempenhando.",
+      "target_text": "e o papel que os seres humanos vão desempenhar."
+    },
+    {
+      "start": 36.22,
+      "end": 40.76,
+      "source_text": "If you haven't faced fear before, you haven't felt it, then you haven't tried AI.",
+      "draft_nllb": "Se você não enfrentou medo antes, não o sentiu, então não tentou a IA.",
+      "draft_unicamp": "Se você não enfrentou medo antes, você não sentiu isso, então você não tentou AI.",
+      "target_text": "Se você não enfrentou medo antes, não o sentiu, então não tentou a IA."
+    },
+    {
+      "start": 40.9,
+      "end": 44.7,
+      "source_text": "We launched a program inside Kavak that's called the Jedi Academy.",
+      "draft_nllb": "Lançámos um programa dentro do Kavak chamado Academia Jedi.",
+      "draft_unicamp": "Nós lançamos um programa dentro de Kavak que é chamado de Academia de Jedi.",
+      "target_text": "Nós lançamos um programa dentro do Kavak chamado Academia Jedi."
+    },
+    {
+      "start": 44.88,
+      "end": 49.26,
+      "source_text": "From the CEO to like AI engineers to mechanics, we train everyone.",
+      "draft_nllb": "Do CEO aos engenheiros de IA aos mecânicos, treinamos todos.",
+      "draft_unicamp": "Do CEO a gostar de engenheiros de IA à mecânica, nós treinamos todos.",
+      "target_text": "Do CEO aos engenheiros de IA aos mecânicos, nós treinamos todos."
+    },
+    {
+      "start": 49.46,
+      "end": 53.62,
+      "source_text": "And after six weeks, they launch state-of-the-art agents to production.",
+      "draft_nllb": "E depois de seis semanas, lançam agentes de última geração na produção.",
+      "draft_unicamp": "E, após seis semanas, lançam os agentes mais avançados para a produção.",
+      "target_text": "E, após seis semanas, lançam os agentes mais avançados para a produção."
+    },
+    {
+      "start": 53.74,
+      "end": 57.82,
+      "source_text": "What advice do you have to future founders or first-time founders that might be listening?",
+      "draft_nllb": "Que conselho tem para futuros fundadores ou fundadores pela primeira vez que podem estar a ouvir?",
+      "draft_unicamp": "Que conselhos você tem para futuros fundadores ou pioneiros que possam estar escutando?",
+      "target_text": "Que conselho você tem para futuros fundadores ou primeiros fundadores que podem estar ouvindo?"
+    },
+    {
+      "start": 57.82,
+      "end": 59.46,
+      "source_text": "What works right now is...",
+      "draft_nllb": "O que funciona agora é...",
+      "draft_unicamp": "O que funciona agora é...",
+      "target_text": "O que funciona agora é..."
+    },
+    {
+      "start": 59.46,
+      "end": 64.53,
+      "source_text": "Welcome back to the a16z podcast.",
+      "draft_nllb": "Bem-vindo ao podcast da ACC.",
+      "draft_unicamp": "Congratular-se com a podcast do ACC.",
+      "target_text": "Bem-vindo ao podcast da ACC."
+    },
+    {
+      "start": 65.01,
+      "end": 67.49,
+      "source_text": "Today, we have Ale Maza, the head of AI at Kavak.",
+      "draft_nllb": "Hoje, temos o Ale Massa, o chefe da IA na Kavak.",
+      "draft_unicamp": "Hoje temos o Ale Massa, a cabeça do AI em Kavak.",
+      "target_text": "Hoje temos o Ale Massa, o chefe da IA na Kavak."
+    },
+    {
+      "start": 67.65,
+      "end": 71.37,
+      "source_text": "We're going to discuss today the transformation that Ale led within Kavak",
+      "draft_nllb": "Hoje vamos discutir a transformação que Ale levou dentro de Kavak.",
+      "draft_unicamp": "Vamos discutir hoje a transformação que Ale levou dentro de Kavak",
+      "target_text": "Hoje vamos discutir a transformação que Ale levou dentro de Kavak."
+    },
+    {
+      "start": 71.37,
+      "end": 73.11,
+      "source_text": "to turn into an AI-native company.",
+      "draft_nllb": "transformar-se numa empresa nativa de IA.",
+      "draft_unicamp": "tornar- se uma empresa AI- originária.",
+      "target_text": "tornar-se uma empresa nativa de IA."
+    },
+    {
+      "start": 73.71,
+      "end": 75.35,
+      "source_text": "Thank you, Ale, for being with us today.",
+      "draft_nllb": "Obrigado, Ale, por estar connosco hoje.",
+      "draft_unicamp": "Agradecer, Ale, por estar com a gente hoje.",
+      "target_text": "Obrigado, Ale, por estar com a gente hoje."
+    },
+    {
+      "start": 75.47,
+      "end": 76.21,
+      "source_text": "Thanks for having me.",
+      "draft_nllb": "Obrigado por me teres convidado.",
+      "draft_unicamp": "Agradecer por me ter.",
+      "target_text": "Obrigado pelo convite."
+    },
+    {
+      "start": 76.43,
+      "end": 80.97,
+      "source_text": "Before starting at Kavak, you were running a company called Opi Analytics.",
+      "draft_nllb": "Antes de começar na Kavak, dirigia uma empresa chamada Opi Analytics.",
+      "draft_unicamp": "Antes de começar na Kavak, estava em funcionamento uma empresa chamada Opi Analytics.",
+      "target_text": "Antes de começar na Kavak, dirigia uma empresa chamada Opi Analytics."
+    },
+    {
+      "start": 81.37,
+      "end": 81.73,
+      "source_text": "That's right.",
+      "draft_nllb": "- É isso mesmo.",
+      "draft_unicamp": "Isso é certo.",
+      "target_text": "Isso é certo."
+    },
+    {
+      "start": 82.19,
+      "end": 86.47,
+      "source_text": "And you were very much into AI before ChatGPT.",
+      "draft_nllb": "E você estava muito interessado em IA antes do ChatGPT.",
+      "draft_unicamp": "E você estava muito em AI antes do TTP-Chat.",
+      "target_text": "E você estava muito envolvido com IA antes do ChatGPT."
+    },
+    {
+      "start": 86.63,
+      "end": 88.15,
+      "source_text": "You want to tell us a little bit about that journey?",
+      "draft_nllb": "Queres contar-nos um pouco sobre essa viagem?",
+      "draft_unicamp": "Você quer dizer um pouco sobre essa viagem?",
+      "target_text": "Você quer nos contar um pouco sobre essa viagem?"
+    },
+    {
+      "start": 88.15,
+      "end": 89.13,
+      "source_text": "Yes, yes, of course.",
+      "draft_nllb": "Sim, sim, claro.",
+      "draft_unicamp": "Sim, sim, claro.",
+      "target_text": "Sim, sim, claro."
+    },
+    {
+      "start": 89.27,
+      "end": 91.67,
+      "source_text": "Well, we called it machine learning back then.",
+      "draft_nllb": "Chamávamos-lhe aprendizado automático naquela época.",
+      "draft_unicamp": "Então, a gente chamou de máquina aprendendo.",
+      "target_text": "Chamávamos de aprendizado de máquina naquela época."
+    },
+    {
+      "start": 91.75,
+      "end": 93.65,
+      "source_text": "It was a different family of algorithms.",
+      "draft_nllb": "Era uma família diferente de algoritmos.",
+      "draft_unicamp": "Tratava-se de uma família diferente de algoritmos.",
+      "target_text": "Era uma família diferente de algoritmos."
+    },
+    {
+      "start": 93.91,
+      "end": 101.44,
+      "source_text": "And we founded a company with this very ambitious vision there that new machine learning models",
+      "draft_nllb": "E nós fundamos uma empresa com uma visão muito ambiciosa que os novos modelos de aprendizado de máquina",
+      "draft_unicamp": "E fundamos uma empresa com essa visão muito ambiciosa lá que novos modelos de aprendizado de máquina",
+      "target_text": "E nós fundamos uma empresa com essa visão muito ambiciosa lá de que novos modelos de aprendizado de máquina"
+    },
+    {
+      "start": 101.44,
+      "end": 105.9,
+      "source_text": "would be so powerful that they could solve any complex problem.",
+      "draft_nllb": "seriam tão poderosas que poderiam resolver qualquer problema complexo.",
+      "draft_unicamp": "seriam tão potentes que poderiam resolver qualquer problema complexo.",
+      "target_text": "Seriam tão poderosas que poderiam resolver qualquer problema complexo."
+    },
+    {
+      "start": 106.02,
+      "end": 107.84,
+      "source_text": "This was pre-Transformers, right?",
+      "draft_nllb": "Isto foi antes dos Transformers, certo?",
+      "draft_unicamp": "Isso era pré-transformadores, né?",
+      "target_text": "Isso foi antes dos Transformers, certo?"
+    },
+    {
+      "start": 107.9,
+      "end": 109.7,
+      "source_text": "This was like 2013.",
+      "draft_nllb": "Isto foi como em 2013.",
+      "draft_unicamp": "Este foi o caso de 2013.",
+      "target_text": "Isso foi como em 2013."
+    },
+    {
+      "start": 110.32,
+      "end": 111.98,
+      "source_text": "So we started building the company that way.",
+      "draft_nllb": "Então começámos a construir a empresa dessa forma.",
+      "draft_unicamp": "Então começamos a construir a empresa assim.",
+      "target_text": "Então começamos a construir a empresa dessa forma."
+    },
+    {
+      "start": 111.98,
+      "end": 117.6,
+      "source_text": "And I think we were like 10 years ahead of time, but we built a great company.",
+      "draft_nllb": "E acho que estávamos 10 anos à frente do tempo, mas construímos uma grande empresa.",
+      "draft_unicamp": "E eu acho que a gente estava há 10 anos atrás, mas a gente construiu uma grande empresa.",
+      "target_text": "E acho que estávamos 10 anos à frente do tempo, mas construímos uma grande empresa."
+    },
+    {
+      "start": 117.8,
+      "end": 125.64,
+      "source_text": "We served like 1,400, 500 companies around like risk algorithms, logistics, forecasting, marketing.",
+      "draft_nllb": "Servimos cerca de 1.400, 500 empresas como algoritmos de risco, logística, previsão, marketing.",
+      "draft_unicamp": "Servimos como 1.400, 500 empresas em torno de algoritmos de risco, logística, previsão, marketing.",
+      "target_text": "Servimos como 1.400, 500 empresas em torno de algoritmos de risco, logística, previsão e marketing."
+    },
+    {
+      "start": 125.64,
+      "end": 138.34,
+      "source_text": "But really the power of what Transformers and then the ChatGPT moment when it arrived make things very clearly",
+      "draft_nllb": "Mas realmente o poder do que os Transformers e depois o momento do ChatGPT quando chegou tornam as coisas muito claras",
+      "draft_unicamp": "Mas realmente o poder do que Transformers e depois o ChatGPT, quando ele chegou, tornam as coisas bem claras.",
+      "target_text": "Mas realmente o poder dos Transformers e depois o momento do ChatGPT quando ele chegou torna as coisas muito claras."
+    },
+    {
+      "start": 138.34,
+      "end": 149.26,
+      "source_text": "that we could now build a whole new company and way of building companies.",
+      "draft_nllb": "que agora poderíamos construir uma empresa completamente nova e forma de construir empresas.",
+      "draft_unicamp": "que agora pudéssemos construir uma empresa e uma forma de construção de empresas.",
+      "target_text": "que agora poderíamos construir uma empresa completamente nova e uma forma de construir empresas."
+    },
+    {
+      "start": 149.26,
+      "end": 153.44,
+      "source_text": "And we joined Kavak and Carlos to build it.",
+      "draft_nllb": "Juntámos-nos a Kavak e ao Carlos para construí-lo.",
+      "draft_unicamp": "E a gente entrou em contato com Kavak e Carlos para construí-lo.",
+      "target_text": "Unimos-nos a Kavak e ao Carlos para construí-lo."
+    },
+    {
+      "start": 153.88,
+      "end": 154.32,
+      "source_text": "Amazing.",
+      "draft_nllb": "É incrível.",
+      "draft_unicamp": "Surpreendente.",
+      "target_text": "Incrível."
+    },
+    {
+      "start": 154.46,
+      "end": 154.58,
+      "source_text": "All right.",
+      "draft_nllb": "Está bem. Está bem.",
+      "draft_unicamp": "Tudo certo.",
+      "target_text": "Tudo certo."
+    },
+    {
+      "start": 154.62,
+      "end": 159.58,
+      "source_text": "So we're going to spend the bulk of this podcast talking about exactly how you've identified Kavak.",
+      "draft_nllb": "Vamos passar a maior parte deste podcast a falar exatamente sobre como identificou o Kavak.",
+      "draft_unicamp": "Então a gente vai gastar a maior parte desse podcast falando exatamente como você identificou Kavak.",
+      "target_text": "Vamos passar a maior parte deste podcast falando exatamente sobre como você identificou o Kavak."
+    },
+    {
+      "start": 159.72,
+      "end": 163.2,
+      "source_text": "But maybe just to start, what does Kavak do and what is your role there?",
+      "draft_nllb": "Mas talvez apenas para começar, o que faz o Kavak e qual é o seu papel lá?",
+      "draft_unicamp": "Mas talvez só para começar, o que faz o Kavak e o que é o seu papel lá?",
+      "target_text": "Mas talvez apenas para começar, o que o Kavak faz e qual é o seu papel lá?"
+    },
+    {
+      "start": 163.44,
+      "end": 167.2,
+      "source_text": "Kavak started out as a used car marketplace.",
+      "draft_nllb": "Kavak começou como um mercado de carros usados.",
+      "draft_unicamp": "Kavak iniciou-se como um mercado de automóveis utilizado.",
+      "target_text": "Kavak começou como um mercado de carros usados."
+    },
+    {
+      "start": 167.2,
+      "end": 173.36,
+      "source_text": "So we buy cars, we refurbish them, and then we sell them and finance them.",
+      "draft_nllb": "Então compramos carros, reformamos-os, e depois vendemos-os e financiamo-los.",
+      "draft_unicamp": "Então a gente compra carro, a gente reformula, e depois a gente vende e financia.",
+      "target_text": "Então compramos carros, reformamos-os, e depois vendemos e financiamos-os."
+    },
+    {
+      "start": 173.44,
+      "end": 182.44,
+      "source_text": "But to do that, we also had to build a fintech and a logistics company and the Carfax and like",
+      "draft_nllb": "Mas para fazer isso, também tivemos que construir uma FinTech e uma empresa de logística e o Carfax e como",
+      "draft_unicamp": "Mas para isso, também tivemos que construir uma fintech e uma empresa de logística e a Carfax e como",
+      "target_text": "Mas para isso, também tivemos que construir uma fintech e uma empresa de logística e a Carfax e como"
+    },
+    {
+      "start": 182.44,
+      "end": 186.44,
+      "source_text": "basically all the infrastructure for this to work didn't exist in LATAM.",
+      "draft_nllb": "Basicamente, toda a infraestrutura para isto funcionar não existia em LATAM.",
+      "draft_unicamp": "basicamente toda a infraestrutura para que isso funcione não existia no LATAM.",
+      "target_text": "Basicamente, toda a infraestrutura para que isso funcione não existia no LATAM."
+    },
+    {
+      "start": 186.58,
+      "end": 190.94,
+      "source_text": "So we had to build everything vertically so we could serve our customers the right way.",
+      "draft_nllb": "Então tivemos que construir tudo verticalmente para podermos servir os nossos clientes da maneira certa.",
+      "draft_unicamp": "Então a gente teve que construir tudo verticalmente para poder atender os nossos clientes da maneira certa.",
+      "target_text": "Tivemos que construir tudo verticalmente para servir os nossos clientes da maneira certa."
+    },
+    {
+      "start": 191.24,
+      "end": 194.26,
+      "source_text": "I'm going to sort of start with the framing of what the architecture looks like.",
+      "draft_nllb": "Vou começar com o enquadramento do que a arquitetura parece.",
+      "draft_unicamp": "Eu vou começar com o enquadramento do que a arquitetura parece.",
+      "target_text": "Vou começar com o enquadramento do que a arquitetura parece."
+    },
+    {
+      "start": 194.26,
+      "end": 197.08,
+      "source_text": "So a consumer comes in and says, I want to sell my car.",
+      "draft_nllb": "Um consumidor entra e diz: \"Quero vender o meu carro\".",
+      "draft_unicamp": "Então um consumidor entra e fala, eu quero vender meu carro.",
+      "target_text": "Então um consumidor entra e diz: \"Quero vender o meu carro\"."
+    },
+    {
+      "start": 197.6,
+      "end": 199.34,
+      "source_text": "Like, how many agents do they touch?",
+      "draft_nllb": "Como, quantos agentes tocam?",
+      "draft_unicamp": "Assim, quantos agentes eles tocam?",
+      "target_text": "Assim, quantos agentes eles tocam?"
+    },
+    {
+      "start": 199.54,
+      "end": 200.9,
+      "source_text": "Like, what's the harness look like?",
+      "draft_nllb": "Como é que o cinto parece?",
+      "draft_unicamp": "Assim, como é a artimação?",
+      "target_text": "Como é que o cinto fica?"
+    },
+    {
+      "start": 200.96,
+      "end": 202.34,
+      "source_text": "Like, ground us in how you design this.",
+      "draft_nllb": "Diz-nos como desenhas isto.",
+      "draft_unicamp": "Assim, nos embaraçamos na forma como vocês desenham isso.",
+      "target_text": "Diz-nos como você desenha isso."
+    },
+    {
+      "start": 202.34,
+      "end": 202.56,
+      "source_text": "Right.",
+      "draft_nllb": "- Sim, sim.",
+      "draft_unicamp": "É certo.",
+      "target_text": "Sim, sim."
+    },
+    {
+      "start": 202.74,
+      "end": 207.94,
+      "source_text": "So we bet the company in transforming to a company run by agents.",
+      "draft_nllb": "Então apostamos que a empresa se transformará numa empresa dirigida por agentes.",
+      "draft_unicamp": "Então a gente aposta a empresa na transformação para uma empresa gerida por agentes.",
+      "target_text": "Então apostamos a empresa na transformação para uma empresa gerida por agentes."
+    },
+    {
+      "start": 207.94,
+      "end": 217.36,
+      "source_text": "The questions we ask ourselves is, how would we build Kavak in 2035 with Fable 10 or GPT-10 level intelligence?",
+      "draft_nllb": "As perguntas que nos fazemos são: como construiríamos o Kavak em 2035 com inteligência de nível Fable 10 ou GPT-10?",
+      "draft_unicamp": "As perguntas que nos perguntamos são: como construímos Kavak em 2035 com inteligência de nível Fable 10 ou GPT-10?",
+      "target_text": "As perguntas que nos fazemos são: como construiríamos o Kavak em 2035 com inteligência de nível Fable 10 ou GPT-10?"
+    },
+    {
+      "start": 217.9,
+      "end": 223.74,
+      "source_text": "And actually, that company looks very different than what we had built or what we had back then.",
+      "draft_nllb": "Na verdade, essa empresa parece muito diferente daquilo que construímos ou do que tínhamos naquela época.",
+      "draft_unicamp": "E, de fato, aquela empresa tem um olhar muito diferente do que construímos ou do que já tivemos de volta.",
+      "target_text": "Na verdade, essa empresa parece muito diferente daquilo que construímos ou do que tínhamos naquela época."
+    },
+    {
+      "start": 224.26,
+      "end": 232.35,
+      "source_text": "So when a customer comes in right now, agent will get spawned specifically for this customer with its own virtual machine.",
+      "draft_nllb": "Então, quando um cliente entra agora mesmo, um agente será criado especificamente para esse cliente com sua própria máquina virtual.",
+      "draft_unicamp": "Assim, quando um cliente entra no momento certo, o agente vai ganhar desdobramento específico para esse cliente com sua própria máquina virtual.",
+      "target_text": "Então, quando um cliente entra agora mesmo, um agente será criado especificamente para esse cliente com sua própria máquina virtual."
+    },
+    {
+      "start": 232.35,
+      "end": 241.37,
+      "source_text": "It will remember years of interaction of these customers with Kavak, what they visited in the webpage or a call they had two years ago.",
+      "draft_nllb": "Ele vai lembrar anos de interação desses clientes com Kavak, o que eles visitaram na página web ou uma chamada que eles tiveram há dois anos.",
+      "draft_unicamp": "Lembrará os anos de interação desses clientes com Kavak, o que eles visitaram na página web ou um telefone que tinham há dois anos.",
+      "target_text": "Ele vai lembrar os anos de interação desses clientes com Kavak, o que eles visitaram na página web ou uma chamada que eles tiveram há dois anos."
+    },
+    {
+      "start": 241.37,
+      "end": 254.19,
+      "source_text": "So remember everything like in its memory, come up with a strategy and set a long-term goal to maximize the lifetime value of this customer and do whatever it takes to make the customer happy.",
+      "draft_nllb": "Então, lembre-se de tudo como na memória, invente uma estratégia e estabeleça um objetivo a longo prazo para maximizar o valor de vida deste cliente e fazer o que for preciso para fazer o cliente feliz.",
+      "draft_unicamp": "Assim, lembre-se de tudo como em sua memória, chegue a uma estratégia e estabeleça um objetivo de longo prazo para maximizar o valor de vida desse cliente e faça o que é necessário para que o cliente esteja satisfeito.",
+      "target_text": "Então, lembre-se de tudo como na memória, invente uma estratégia e estabeleça um objetivo a longo prazo para maximizar o valor de vida deste cliente e faça o que for preciso para fazer o cliente feliz."
+    },
+    {
+      "start": 254.19,
+      "end": 260.83,
+      "source_text": "And convert them into, like, all our different products, like, across time.",
+      "draft_nllb": "E transformá-los em, tipo, todos os nossos diferentes produtos, tipo, ao longo do tempo.",
+      "draft_unicamp": "E convertê-los em, como, todos os nossos diferentes produtos, como, ao longo do tempo.",
+      "target_text": "E convertê-los em, como, todos os nossos diferentes produtos, como, ao longo do tempo."
+    },
+    {
+      "start": 261.51,
+      "end": 271.29,
+      "source_text": "And this is a completely new and groundbreaking architecture at scale, I think, because, like, people are still building multi-agent system with experts.",
+      "draft_nllb": "E esta é uma arquitetura completamente nova e inovadora em escala, acho eu, porque, tipo, as pessoas ainda estão a construir um sistema multi-agente com especialistas.",
+      "draft_unicamp": "E essa é uma arquitetura completamente nova e em escala, eu acho que, porque, assim, as pessoas ainda estão construindo sistemas multiagentes com especialistas.",
+      "target_text": "E essa é uma arquitetura completamente nova e inovadora em escala, eu acho que, porque, assim, as pessoas ainda estão construindo sistemas multiagentes com especialistas."
+    },
+    {
+      "start": 271.29,
+      "end": 284.09,
+      "source_text": "And we realized to bet that long-running agents with hard goals, not just workflows, could maximize our customers' satisfaction and, obviously, their lifetime value.",
+      "draft_nllb": "E percebemos apostar que agentes de longa duração com objetivos difíceis, não apenas fluxos de trabalho, poderiam maximizar a satisfação dos nossos clientes e, obviamente, o seu valor ao longo da vida.",
+      "draft_unicamp": "E percebemos apostar que agentes de longa duração com objetivos duros, não apenas fluxos de trabalho, poderiam maximizar a satisfação dos nossos clientes e, obviamente, o seu valor ao longo da vida.",
+      "target_text": "E percebemos que apostar em agentes de longa duração com objetivos difíceis, não apenas fluxos de trabalho, poderia maximizar a satisfação dos nossos clientes e, obviamente, o seu valor ao longo da vida."
+    },
+    {
+      "start": 284.9,
+      "end": 285.16,
+      "source_text": "Awesome.",
+      "draft_nllb": "É fantástico.",
+      "draft_unicamp": "Aviso.",
+      "target_text": "Fantástico."
+    },
+    {
+      "start": 285.52,
+      "end": 285.66,
+      "source_text": "Okay.",
+      "draft_nllb": "Está bem. Está bem.",
+      "draft_unicamp": "Olha.",
+      "target_text": "Certo."
+    },
+    {
+      "start": 285.72,
+      "end": 287.78,
+      "source_text": "So we're going to jump to the nuances of that.",
+      "draft_nllb": "Então vamos saltar para as nuances disso.",
+      "draft_unicamp": "Então a gente vai saltar para as nuances disso.",
+      "target_text": "Então vamos saltar para as nuances disso."
+    },
+    {
+      "start": 287.94,
+      "end": 293.88,
+      "source_text": "But maybe versus many companies that say, hey, we want to be agentic, and they try some workflows.",
+      "draft_nllb": "Mas talvez contra muitas empresas que dizem: \"Queremos ser agentes\" e tentam alguns fluxos de trabalho.",
+      "draft_unicamp": "Mas talvez versus muitas empresas que dizem, né, queremos ser agenciadas, e elas experimentam alguns fluxos de trabalho.",
+      "target_text": "Mas talvez contra muitas empresas que dizem: \"Queremos ser agentes\" e tentam alguns fluxos de trabalho."
+    },
+    {
+      "start": 293.88,
+      "end": 298.32,
+      "source_text": "You guys took the just rip, like, we had to make this work.",
+      "draft_nllb": "Vocês fizeram o arranque, tivemos de fazer isto funcionar.",
+      "draft_unicamp": "Vocês levaram a ripinha, assim, a gente teve que fazer esse trabalho.",
+      "target_text": "Vocês levaram a ripinha, assim, a gente teve que fazer esse trabalho."
+    },
+    {
+      "start": 298.42,
+      "end": 299.76,
+      "source_text": "You had to downsize dramatically.",
+      "draft_nllb": "Tinhas de reduzir drasticamente o tamanho.",
+      "draft_unicamp": "Você teve que diminuir dramaticamente.",
+      "target_text": "Você teve que reduzir drasticamente."
+    },
+    {
+      "start": 300.06,
+      "end": 302.54,
+      "source_text": "It didn't work for a year.",
+      "draft_nllb": "Não funcionou por um ano.",
+      "draft_unicamp": "Não funcionava há um ano.",
+      "target_text": "Não funcionou por um ano."
+    },
+    {
+      "start": 302.7,
+      "end": 302.92,
+      "source_text": "Right.",
+      "draft_nllb": "- Sim, sim.",
+      "draft_unicamp": "É certo.",
+      "target_text": "Certo."
+    },
+    {
+      "start": 303.32,
+      "end": 307.46,
+      "source_text": "So do you want to talk through, obviously, you had to tune a lot of things to make that work.",
+      "draft_nllb": "Então, você quer falar, obviamente, você teve que sintonizar muitas coisas para fazer isso funcionar.",
+      "draft_unicamp": "Então, você quer falar, obviamente, teve que sintonizar muita coisa para fazer aquele trabalho.",
+      "target_text": "Então, você quer falar, obviamente, você teve que sintonizar muitas coisas para fazer isso funcionar."
+    },
+    {
+      "start": 307.58,
+      "end": 312.48,
+      "source_text": "Like, describe the harness at that time and, like, what models you were using and sort of specifically.",
+      "draft_nllb": "Descreva o arame naquela altura e quais modelos usava e especificamente.",
+      "draft_unicamp": "Como, descrever o arnês naquela época e, assim, quais os modelos que você estava usando e tipo de forma específica.",
+      "target_text": "Descreva o arnês naquela época e, assim, quais modelos você estava usando e especificamente."
+    },
+    {
+      "start": 312.88,
+      "end": 316.92,
+      "source_text": "So there were, like, three main decisions that we had to make.",
+      "draft_nllb": "Então, havia, tipo, três decisões principais que tínhamos de tomar.",
+      "draft_unicamp": "Então houve, assim, três decisões principais que tivemos que tomar.",
+      "target_text": "Então havia, tipo, três decisões principais que tínhamos de tomar."
+    },
+    {
+      "start": 317.36,
+      "end": 323.52,
+      "source_text": "The first, and this is where I think many companies are stuck right now, is the first instinct is, okay,",
+      "draft_nllb": "O primeiro, e é aqui que eu acho que muitas empresas estão presas agora, é o primeiro instinto é, ok,",
+      "draft_unicamp": "A primeira, e é aí que eu acho que muitas empresas estão presas agora, é o primeiro instinto, né,",
+      "target_text": "O primeiro, e é aí que eu acho que muitas empresas estão presas agora, é o primeiro instinto é, ok,"
+    },
+    {
+      "start": 323.52,
+      "end": 324.84,
+      "source_text": "let's adopt AI.",
+      "draft_nllb": "Vamos adotar a IA.",
+      "draft_unicamp": "vamos adotar AI.",
+      "target_text": "Vamos adotar a IA."
+    },
+    {
+      "start": 325.3,
+      "end": 331.0,
+      "source_text": "And you basically leave your structure as it is and just give ChatGPT or Claude to your team.",
+      "draft_nllb": "E basicamente deixas a tua estrutura como está e dás o ChatGPT ou o Claude à tua equipa.",
+      "draft_unicamp": "E você sai basicamente de sua estrutura como é e só dá ChatGPT ou Claude para sua equipe.",
+      "target_text": "E você basicamente deixa sua estrutura como está e dá o ChatGPT ou o Claude para sua equipe."
+    },
+    {
+      "start": 331.18,
+      "end": 333.34,
+      "source_text": "And then there's no efficiencies.",
+      "draft_nllb": "E não há eficiências.",
+      "draft_unicamp": "E, então, não há eficiência.",
+      "target_text": "E então não há eficiência."
+    },
+    {
+      "start": 333.52,
+      "end": 336.52,
+      "source_text": "Your customers have the same problems and nothing happens, right?",
+      "draft_nllb": "Os teus clientes têm os mesmos problemas e nada acontece, certo?",
+      "draft_unicamp": "Seus clientes têm os mesmos problemas e nada acontece, né?",
+      "target_text": "Seus clientes têm os mesmos problemas e nada acontece, né?"
+    },
+    {
+      "start": 336.98,
+      "end": 343.4,
+      "source_text": "And so you need to redesign your whole company around the agents and around the future capabilities.",
+      "draft_nllb": "Então, precisa de redesenhar toda a sua empresa em torno dos agentes e das capacidades futuras.",
+      "draft_unicamp": "E, assim, é preciso redefinir toda a sua empresa em torno dos agentes e em torno das capacidades futuras.",
+      "target_text": "Então, precisa redesenhar toda a sua empresa em torno dos agentes e das capacidades futuras."
+    },
+    {
+      "start": 343.58,
+      "end": 352.58,
+      "source_text": "And this means really, like, rebuilding most of your APIs, rebuilding your system so the agents can use them to perform.",
+      "draft_nllb": "Isto significa reconstruir a maior parte das suas APIs, reconstruir o sistema para que os agentes possam usá-las para executá-las.",
+      "draft_unicamp": "E isso significa realmente, como, reconstruir a maioria de seus APIs, reconstruir o seu sistema para que os agentes possam utilizá-los.",
+      "target_text": "Isso significa realmente, como, reconstruir a maioria das suas APIs, reconstruir o sistema para que os agentes possam utilizá-las."
+    },
+    {
+      "start": 352.58,
+      "end": 357.86,
+      "source_text": "Then you need to start generating the data and the feedback loops to fine-tune these agents.",
+      "draft_nllb": "Então, você precisa começar a gerar os dados e os circuitos de feedback para ajustar estes agentes.",
+      "draft_unicamp": "Então, é preciso começar a gerar os dados e as alças de feedback para afinar esses agentes.",
+      "target_text": "Então, você precisa começar a gerar os dados e as alças de feedback para afinar esses agentes."
+    },
+    {
+      "start": 357.94,
+      "end": 361.56,
+      "source_text": "The only way to really make them work is if you teach them.",
+      "draft_nllb": "A única maneira de fazê-los funcionar é ensiná-los.",
+      "draft_unicamp": "A única maneira de fazer com que eles funcionem é se vocês os ensinam.",
+      "target_text": "A única maneira de fazê-los funcionar é se você os ensina."
+    },
+    {
+      "start": 361.62,
+      "end": 362.36,
+      "source_text": "Like, how do you teach them?",
+      "draft_nllb": "Como é que os ensina?",
+      "draft_unicamp": "Como vocês ensinam?",
+      "target_text": "Como você ensina?"
+    },
+    {
+      "start": 362.42,
+      "end": 364.4,
+      "source_text": "You put them out in the open.",
+      "draft_nllb": "Põe-as ao ar livre.",
+      "draft_unicamp": "Coloque- as na abertura.",
+      "target_text": "Coloque-as ao ar livre."
+    },
+    {
+      "start": 364.58,
+      "end": 365.9,
+      "source_text": "You put them in front of customers.",
+      "draft_nllb": "Põe-as à frente dos clientes.",
+      "draft_unicamp": "Você coloca-los à frente dos clientes.",
+      "target_text": "Coloca-as à frente dos clientes."
+    },
+    {
+      "start": 366.06,
+      "end": 366.72,
+      "source_text": "You get that data.",
+      "draft_nllb": "Consegues os dados.",
+      "draft_unicamp": "Você recebe esses dados.",
+      "target_text": "Você recebe esses dados."
+    },
+    {
+      "start": 366.82,
+      "end": 367.56,
+      "source_text": "You get those evals.",
+      "draft_nllb": "Consegues essas avaliações.",
+      "draft_unicamp": "Você recebe essas avaliações.",
+      "target_text": "Você recebe essas avaliações."
+    },
+    {
+      "start": 367.56,
+      "end": 371.8,
+      "source_text": "And then you train your agents.",
+      "draft_nllb": "E depois treinas os teus agentes.",
+      "draft_unicamp": "E depois você treina os seus agentes.",
+      "target_text": "E depois você treina os seus agentes."
+    },
+    {
+      "start": 372.06,
+      "end": 377.56,
+      "source_text": "And this is the second bet that we made, that we could build superhuman agents.",
+      "draft_nllb": "E esta é a segunda aposta que fizemos, que poderíamos construir agentes sobre-humanos.",
+      "draft_unicamp": "E essa é a segunda aposta que fizemos, que pudéssemos construir agentes super-humanos.",
+      "target_text": "E essa é a segunda aposta que fizemos, que poderíamos construir agentes superhumanos."
+    },
+    {
+      "start": 377.96,
+      "end": 384.82,
+      "source_text": "This means that by every dimension that matters, like conversion, lifetime value, customer experience,",
+      "draft_nllb": "Isto significa que por todas as dimensões que importam, como conversão, valor ao longo da vida, experiência do cliente,",
+      "draft_unicamp": "Isto significa que por todas as dimensões que interessa, como conversão, valor de vida, experiência do cliente,",
+      "target_text": "Isso significa que por todas as dimensões que importam, como conversão, valor ao longo da vida, experiência do cliente,"
+    },
+    {
+      "start": 384.96,
+      "end": 389.12,
+      "source_text": "our agents would outperform the best human we had ever hired.",
+      "draft_nllb": "Os nossos agentes superariam o melhor humano que já contratámos.",
+      "draft_unicamp": "nossos agentes superam o melhor humano que tivemos sempre contratado.",
+      "target_text": "Nossos agentes superariam o melhor humano que já contratamos."
+    },
+    {
+      "start": 389.18,
+      "end": 390.94,
+      "source_text": "And we put them in front of the hardest problems.",
+      "draft_nllb": "E colocamo-los na frente dos problemas mais difíceis.",
+      "draft_unicamp": "E os colocamos diante dos mais difíceis problemas.",
+      "target_text": "E nós os colocamos diante dos problemas mais difíceis."
+    },
+    {
+      "start": 390.94,
+      "end": 397.28,
+      "source_text": "And finally, you start to change how you measure the success of the company.",
+      "draft_nllb": "E, finalmente, começamos a mudar a forma como medimos o sucesso da empresa.",
+      "draft_unicamp": "E, por fim, você começa a mudar como você mede o sucesso da empresa.",
+      "target_text": "E, por fim, você começa a mudar como você mede o sucesso da empresa."
+    },
+    {
+      "start": 397.8,
+      "end": 399.94,
+      "source_text": "Kavak was a transactional company.",
+      "draft_nllb": "A Kavak era uma empresa de transações.",
+      "draft_unicamp": "A Kavak era uma empresa transaccional.",
+      "target_text": "A Kavak era uma empresa transacional."
+    },
+    {
+      "start": 400.2,
+      "end": 406.94,
+      "source_text": "We used to measure how many cars we bought, how many cars we sold, how many brakes we needed to, brake pads we needed to buy.",
+      "draft_nllb": "Costumávamos medir quantos carros comprámos, quantos carros vendemos, quantos travões precisávamos, as almofadas de travões que precisávamos comprar.",
+      "draft_unicamp": "Nós medimos quantos carros compramos, quantos carros vendemos, quantos freios precisamos, freios precisamos comprar.",
+      "target_text": "Nós usávamos medir quantos carros comprávamos, quantos carros vendíamos, quantos freios precisávamos, quantas almofadas de freio precisávamos comprar."
+    },
+    {
+      "start": 406.94,
+      "end": 419.26,
+      "source_text": "And we moved to a relational company where now I have 10 million customers in my database and I have agents assigned to most of them with the task of maximizing their lifetime value.",
+      "draft_nllb": "E mudámos para uma empresa de relações onde agora tenho 10 milhões de clientes na minha base de dados e tenho agentes atribuídos à maioria deles com a tarefa de maximizar o seu valor ao longo da vida.",
+      "draft_unicamp": "E passamos para uma empresa relacional, onde hoje eu tenho 10 milhões de clientes em minha base de dados e eu tenho agentes atribuídos à maioria deles com a tarefa de maximizar o seu valor ao longo da vida.",
+      "target_text": "E passamos para uma empresa relacional, onde hoje eu tenho 10 milhões de clientes em minha base de dados e eu tenho agentes atribuídos à maioria deles com a tarefa de maximizar o valor ao longo da vida."
+    },
+    {
+      "start": 419.36,
+      "end": 425.27,
+      "source_text": "Now, we're selling cars and personal loans and very high-ticket items.",
+      "draft_nllb": "Agora, estamos a vender carros e empréstimos pessoais e itens muito caros.",
+      "draft_unicamp": "Agora, a gente está vendendo carro e empréstimos pessoais e muito alto.",
+      "target_text": "Agora, estamos vendendo carros e empréstimos pessoais e itens de muito alto valor."
+    },
+    {
+      "start": 425.55,
+      "end": 435.01,
+      "source_text": "So just activating 1% of this customer base, it's like hundreds of millions of dollars if we do it the right way.",
+      "draft_nllb": "Assim, apenas ativando 1% desta base de clientes, é como centenas de milhões de dólares se o fizermos da maneira certa.",
+      "draft_unicamp": "Então, apenas ativando 1% dessa base de clientes, é como centenas de milhões de dólares se a fizermos da maneira correta.",
+      "target_text": "Assim, apenas ativando 1% desta base de clientes, é como centenas de milhões de dólares se o fizermos da maneira certa."
+    },
+    {
+      "start": 435.01,
+      "end": 441.67,
+      "source_text": "So it's a bet that made sense for us because of our industry, because of the ticket, and because at the end of the day,",
+      "draft_nllb": "Então é uma aposta que faz sentido para nós por causa da nossa indústria, por causa do bilhete, e porque no final do dia,",
+      "draft_unicamp": "Então é uma aposta que nos fez sentido por causa da nossa indústria, por causa do bilhete, e por causa do fim do dia,",
+      "target_text": "Então é uma aposta que faz sentido para nós por causa da nossa indústria, por causa do bilhete, e porque no final do dia,"
+    },
+    {
+      "start": 442.01,
+      "end": 447.42,
+      "source_text": "customers need to build trust with a company because they're buying a used car.",
+      "draft_nllb": "Os clientes precisam construir confiança com uma empresa porque estão a comprar um carro usado.",
+      "draft_unicamp": "os clientes precisam construir a confiança com a empresa, pois estão comprando um carro usado.",
+      "target_text": "Os clientes precisam construir confiança com a empresa porque estão comprando um carro usado."
+    },
+    {
+      "start": 447.9,
+      "end": 454.8,
+      "source_text": "And the way to build trust is to know them and to plan and nurture a long-term relationship.",
+      "draft_nllb": "E a maneira de construir confiança é conhecê-los e planejar e cultivar um relacionamento a longo prazo.",
+      "draft_unicamp": "E a maneira de construir a confiança é conhecê-los e planejar e nutrir uma relação de longo prazo.",
+      "target_text": "E a maneira de construir a confiança é conhecê-los e planejar e nutrir uma relação de longo prazo."
+    },
+    {
+      "start": 455.12,
+      "end": 457.18,
+      "source_text": "Ale, I just wanted to double-click on something.",
+      "draft_nllb": "Ale, só queria clicar duas vezes numa coisa.",
+      "draft_unicamp": "Ale, eu só queria fazer o duplo clique em alguma coisa.",
+      "target_text": "Ale, eu só queria fazer o duplo clique em algo."
+    },
+    {
+      "start": 457.38,
+      "end": 459.68,
+      "source_text": "You know, evals over agent demos.",
+      "draft_nllb": "Sabes, o mal sobre as demonstrações de agentes.",
+      "draft_unicamp": "Sabe, os males sobre o agente demos.",
+      "target_text": "Sabe, os males sobre as demonstrações de agentes."
+    },
+    {
+      "start": 460.0,
+      "end": 460.26,
+      "source_text": "Yeah.",
+      "draft_nllb": "- Sim, sim, sim.",
+      "draft_unicamp": "Sim.",
+      "target_text": "Sim."
+    },
+    {
+      "start": 460.26,
+      "end": 467.32,
+      "source_text": "You probably get pitched a lot of agents and, you know, it's never been easier to build things like before.",
+      "draft_nllb": "Provavelmente recebes muitos agentes e, sabes, nunca foi mais fácil construir coisas como antes.",
+      "draft_unicamp": "Você, provavelmente, pega muito agente e, sabe, nunca foi mais fácil construir coisas como antes.",
+      "target_text": "Provavelmente você recebe muitos agentes e, sabe, nunca foi mais fácil construir coisas como antes."
+    },
+    {
+      "start": 467.54,
+      "end": 471.38,
+      "source_text": "But one of the questions is, like, how do you guys go about evaluating this?",
+      "draft_nllb": "Mas uma das perguntas é, como vocês vão avaliar isto?",
+      "draft_unicamp": "Mas uma das perguntas é, assim, como vocês sabem avaliar isso?",
+      "target_text": "Mas uma das perguntas é, como vocês vão avaliar isso?"
+    },
+    {
+      "start": 471.42,
+      "end": 476.64,
+      "source_text": "Because not everybody tests them across 90% of the customer interactions to see if they're really working.",
+      "draft_nllb": "Porque nem todos os testam em 90% das interações com os clientes para ver se funcionam.",
+      "draft_unicamp": "Porque nem todos os testam em 90% das interações dos clientes para ver se eles estão realmente trabalhando.",
+      "target_text": "Porque nem todos os testam em 90% das interações com os clientes para ver se estão realmente funcionando."
+    },
+    {
+      "start": 476.96,
+      "end": 484.1,
+      "source_text": "And, you know, you guys, I believe, is about 98% of the interactions or something like that are now handled by agents.",
+      "draft_nllb": "E, vocês sabem, eu acredito que cerca de 98% das interações ou algo assim são agora manuseadas por agentes.",
+      "draft_unicamp": "E, sabe, vocês, eu acho, é cerca de 98% das interações ou algo assim que agora são manejados pelos agentes.",
+      "target_text": "E, vocês sabem, eu acredito que cerca de 98% das interações ou algo assim são agora manuseadas pelos agentes."
+    },
+    {
+      "start": 484.1,
+      "end": 484.84,
+      "source_text": "Yes, totally.",
+      "draft_nllb": "Sim, absolutamente.",
+      "draft_unicamp": "Sim, totalmente.",
+      "target_text": "Sim, com certeza."
+    },
+    {
+      "start": 485.02,
+      "end": 493.96,
+      "source_text": "So to give you a sense of the scale, like 96% of all interactions are handled by agents.",
+      "draft_nllb": "Então, para lhe dar uma ideia da escala, como 96% de todas as interações são manuseadas por agentes.",
+      "draft_unicamp": "Assim, para dar-lhe um sentido da escala, como 96% de todas as interações são manipuladas pelos agentes.",
+      "target_text": "Então, para lhe dar uma ideia da escala, como 96% de todas as interações são manuseadas por agentes."
+    },
+    {
+      "start": 494.54,
+      "end": 496.14,
+      "source_text": "So no humans there.",
+      "draft_nllb": "Então, não há humanos lá.",
+      "draft_unicamp": "Então, não há seres humanos.",
+      "target_text": "Então, não há humanos lá."
+    },
+    {
+      "start": 497.24,
+      "end": 501.64,
+      "source_text": "Like 95% of all transactions are completely handled by agents.",
+      "draft_nllb": "Como 95% de todas as transações são totalmente manuseadas por agentes.",
+      "draft_unicamp": "Como 95% de todas as operações são manipuladas completamente pelos agentes.",
+      "target_text": "Como 95% de todas as transações são totalmente manipuladas pelos agentes."
+    },
+    {
+      "start": 501.76,
+      "end": 505.9,
+      "source_text": "Obviously, you meet a human when you pick up your car, like there's someone physically there to give you the keys.",
+      "draft_nllb": "Obviamente, conhece-se um ser humano quando pega no carro, como se alguém estivesse lá para lhe dar as chaves.",
+      "draft_unicamp": "Obviamente, você encontra um ser humano ao pegar o carro, como tem uma pessoa física lá para dar as chaves.",
+      "target_text": "Obviamente, você encontra um ser humano ao pegar o carro, como se alguém estivesse lá para lhe dar as chaves."
+    },
+    {
+      "start": 505.9,
+      "end": 511.12,
+      "source_text": "But the rest of the experience of the journey is handled by an agent.",
+      "draft_nllb": "Mas o resto da experiência da viagem é manuseado por um agente.",
+      "draft_unicamp": "Mas o restante da experiência da viagem é manejado por um agente.",
+      "target_text": "Mas o restante da experiência da viagem é gerenciado por um agente."
+    },
+    {
+      "start": 511.62,
+      "end": 518.32,
+      "source_text": "Every day, between 100,000 and 200,000 agents get instantiated in a day.",
+      "draft_nllb": "Todos os dias, entre 100.000 e 200.000 agentes recebem instantâneo num dia.",
+      "draft_unicamp": "Todos os dias, entre 100.000 e 200.000 agentes se instalam em um dia.",
+      "target_text": "Todos os dias, entre 100.000 e 200.000 agentes são instanciados em um dia."
+    },
+    {
+      "start": 518.56,
+      "end": 519.54,
+      "source_text": "They wake up.",
+      "draft_nllb": "Eles acordam.",
+      "draft_unicamp": "Eles acordam.",
+      "target_text": "Eles acordam."
+    },
+    {
+      "start": 519.86,
+      "end": 524.68,
+      "source_text": "They work sometimes for three minutes, sometimes for eight hours, sometimes for three days.",
+      "draft_nllb": "Às vezes trabalham por três minutos, às vezes por oito horas, às vezes por três dias.",
+      "draft_unicamp": "Trabalham ora por três minutos, ora por oito horas, ora por três dias.",
+      "target_text": "Trabalham ora por três minutos, ora por oito horas, ora por três dias."
+    },
+    {
+      "start": 524.86,
+      "end": 529.4,
+      "source_text": "And they, like, set an alarm clock for their next task and go back to sleep.",
+      "draft_nllb": "E eles, como, definir um despertador para a sua próxima tarefa e voltar a dormir.",
+      "draft_unicamp": "E eles, assim, fixam um relógio de alarme para sua próxima tarefa e voltam a dormir.",
+      "target_text": "Eles, assim, definem um despertador para a próxima tarefa e voltam a dormir."
+    },
+    {
+      "start": 529.66,
+      "end": 532.96,
+      "source_text": "So the scale of this is just amazing.",
+      "draft_nllb": "A escala disto é incrível.",
+      "draft_unicamp": "Então, a escala disso é apenas surpreendente.",
+      "target_text": "A escala disso é apenas incrível."
+    },
+    {
+      "start": 533.14,
+      "end": 533.96,
+      "source_text": "And it's working.",
+      "draft_nllb": "E está a funcionar.",
+      "draft_unicamp": "E está funcionando.",
+      "target_text": "E está funcionando."
+    },
+    {
+      "start": 533.96,
+      "end": 537.3,
+      "source_text": "Like, now, how do you get this to work at scale?",
+      "draft_nllb": "Como é que consegues que isto funcione em escala?",
+      "draft_unicamp": "Como, agora, como você consegue isso pra trabalhar em escala?",
+      "target_text": "Como é que você consegue fazer isso funcionar em escala?"
+    },
+    {
+      "start": 538.38,
+      "end": 541.2,
+      "source_text": "And the answer you mentioned is evals.",
+      "draft_nllb": "E a resposta que mencionou é avaliações.",
+      "draft_unicamp": "E a resposta que você mencionou é a avaliação.",
+      "target_text": "E a resposta que você mencionou é a avaliação."
+    },
+    {
+      "start": 541.5,
+      "end": 544.74,
+      "source_text": "Like, I like to move extremely fast.",
+      "draft_nllb": "Gosto de me mover extremamente rápido.",
+      "draft_unicamp": "Como eu gosto de mexer muito rápido.",
+      "target_text": "Gosto de me mover extremamente rápido."
+    },
+    {
+      "start": 545.14,
+      "end": 548.16,
+      "source_text": "But in order to move fast, you need to have brakes, right?",
+      "draft_nllb": "Mas para te moveres depressa, precisas de frenos, certo?",
+      "draft_unicamp": "Mas para se mover rápido, tem que ter freios, né?",
+      "target_text": "Mas para se mover rápido, tem que ter freios, né?"
+    },
+    {
+      "start": 548.18,
+      "end": 548.84,
+      "source_text": "Imagine a car.",
+      "draft_nllb": "Imagina um carro.",
+      "draft_unicamp": "Imagine a car.",
+      "target_text": "Imagine um carro."
+    },
+    {
+      "start": 550.18,
+      "end": 553.56,
+      "source_text": "You'll hit on the gas just if you have the right brakes.",
+      "draft_nllb": "Você vai bater no gás só se você tem os freios certos.",
+      "draft_unicamp": "Aperte o gás apenas se tiver os freios certos.",
+      "target_text": "Você vai bater no gás só se tiver os freios certos."
+    },
+    {
+      "start": 554.18,
+      "end": 555.7,
+      "source_text": "And AI is super powerful.",
+      "draft_nllb": "E a IA é super poderosa.",
+      "draft_unicamp": "E a AI é superpotencial.",
+      "target_text": "E a IA é super poderosa."
+    },
+    {
+      "start": 555.86,
+      "end": 562.34,
+      "source_text": "And I've seen many companies get this wrong because they try to go slow because they don't have the right brakes.",
+      "draft_nllb": "E eu vi muitas empresas cometerem esse erro porque tentam ir devagar porque não têm os freios certos.",
+      "draft_unicamp": "E eu vejo muitas empresas com isso errado, porque elas tentam ficar lentas, porque não têm o freio certo.",
+      "target_text": "E eu vi muitas empresas cometerem esse erro porque tentam ir devagar porque não têm os freios certos."
+    },
+    {
+      "start": 562.34,
+      "end": 564.36,
+      "source_text": "So I thought about it the other way around.",
+      "draft_nllb": "Então pensei no contrário.",
+      "draft_unicamp": "Então eu pensei sobre isso de outra forma.",
+      "target_text": "Então eu pensei nisso de outra forma."
+    },
+    {
+      "start": 564.36,
+      "end": 565.88,
+      "source_text": "Like, how fast can we go?",
+      "draft_nllb": "Como, a que velocidade podemos ir?",
+      "draft_unicamp": "Como é que a gente vai?",
+      "target_text": "Como a gente vai?"
+    },
+    {
+      "start": 566.42,
+      "end": 568.4,
+      "source_text": "Well, it depends on the quality of our evals.",
+      "draft_nllb": "Bem, depende da qualidade das nossas avaliações.",
+      "draft_unicamp": "Ora, ela depende da qualidade de nossas avaliações.",
+      "target_text": "Bem, depende da qualidade das nossas avaliações."
+    },
+    {
+      "start": 568.58,
+      "end": 583.1,
+      "source_text": "So a good rule of thumb here is we spend about the same amount of time, engineer time, tokens, and money on building the evals than building the agents.",
+      "draft_nllb": "Uma boa regra é que gastamos aproximadamente a mesma quantidade de tempo, tempo de engenharia, tokens e dinheiro na construção das avaliações que na construção dos agentes.",
+      "draft_unicamp": "Então, uma boa regra do polegar aqui é a mesma quantidade de tempo, tempo do engenheiro, tokens e dinheiro na construção das avaliações do que na construção dos agentes.",
+      "target_text": "Uma boa regra é que gastamos aproximadamente a mesma quantidade de tempo, tempo de engenharia, tokens e dinheiro na construção das avaliações que na construção dos agentes."
+    },
+    {
+      "start": 583.1,
+      "end": 588.26,
+      "source_text": "And this is how you get better and better and better, not letting evals as an afterthought.",
+      "draft_nllb": "E é assim que se torna melhor e melhor e melhor, não deixando as avaliações como uma reflexão posterior.",
+      "draft_unicamp": "E isso é como você consegue melhor e melhor e melhor, não deixando a avaliação como um afterthought.",
+      "target_text": "E isso é como você consegue melhor e melhor e melhor, não deixando as avaliações como uma reflexão posterior."
+    },
+    {
+      "start": 588.4,
+      "end": 589.56,
+      "source_text": "So what do we measure?",
+      "draft_nllb": "Então, o que medimos?",
+      "draft_unicamp": "Então, o que a gente mede?",
+      "target_text": "Então, o que medimos?"
+    },
+    {
+      "start": 590.82,
+      "end": 593.42,
+      "source_text": "First and foremost, like, the results for the business.",
+      "draft_nllb": "Primeiro e acima de tudo, os resultados para o negócio.",
+      "draft_unicamp": "Em primeiro lugar, como os resultados para o negócio.",
+      "target_text": "Em primeiro lugar, os resultados para o negócio."
+    },
+    {
+      "start": 593.56,
+      "end": 596.46,
+      "source_text": "Like, if my customer is happy, they'll buy a car.",
+      "draft_nllb": "Se o meu cliente estiver feliz, comprará um carro.",
+      "draft_unicamp": "Como, se meu cliente estiver satisfeito, eles compram um carro.",
+      "target_text": "Se o meu cliente estiver feliz, ele comprará um carro."
+    },
+    {
+      "start": 596.46,
+      "end": 599.06,
+      "source_text": "They'll get their loan approved.",
+      "draft_nllb": "Eles vão ter o empréstimo aprovado.",
+      "draft_unicamp": "Eles vão conseguir o seu empréstimo aprovado.",
+      "target_text": "Eles vão ter o empréstimo aprovado."
+    },
+    {
+      "start": 599.54,
+      "end": 601.08,
+      "source_text": "They'll sell a car to us.",
+      "draft_nllb": "Venderão-nos um carro.",
+      "draft_unicamp": "Eles vão vender um carro pra gente.",
+      "target_text": "Eles vão vender um carro para a gente."
+    },
+    {
+      "start": 601.24,
+      "end": 603.48,
+      "source_text": "And that's the, like, first check.",
+      "draft_nllb": "E esse é o primeiro cheque.",
+      "draft_unicamp": "E essa é a primeira checagem, assim,.",
+      "target_text": "E esse é o primeiro cheque."
+    },
+    {
+      "start": 603.7,
+      "end": 605.02,
+      "source_text": "Like, did it convert?",
+      "draft_nllb": "Como, converteu-se?",
+      "draft_unicamp": "Assim, ela se converteu?",
+      "target_text": "Como, converteu?"
+    },
+    {
+      "start": 605.56,
+      "end": 607.8,
+      "source_text": "And that's where most things break.",
+      "draft_nllb": "E é aí que a maioria das coisas quebra.",
+      "draft_unicamp": "E é aí que a maioria das coisas quebra.",
+      "target_text": "E é aí que a maioria das coisas quebra."
+    },
+    {
+      "start": 607.92,
+      "end": 620.44,
+      "source_text": "Like, I see companies, like, measuring number of calls or minutes during the call or some, like, superficial KPIs that give you some information, but that doesn't really work.",
+      "draft_nllb": "Vejo empresas a medir o número de chamadas ou minutos durante a chamada ou alguns KPIs superficiais que lhe dão alguma informação, mas isso não funciona.",
+      "draft_unicamp": "Assim, eu vejo empresas, como, mensurar o número de ligações ou minutos durante a ligação ou alguns, como KPIs superficiais que lhe dão alguma informação, mas que não funciona mesmo.",
+      "target_text": "Vejo empresas medindo o número de chamadas ou minutos durante a chamada ou alguns KPIs superficiais que lhe dão alguma informação, mas que não funcionam mesmo."
+    },
+    {
+      "start": 620.44,
+      "end": 630.39,
+      "source_text": "Like, the important thing is did this customer convert, is it bringing value to the customer, and is the customer happy to re-engage with us after a while?",
+      "draft_nllb": "Como, o importante é se este cliente se converteu, está a trazer valor ao cliente, e o cliente está feliz em voltar a envolver-se conosco depois de um tempo?",
+      "draft_unicamp": "Da mesma forma, a coisa importante que esse cliente converteu, é trazer valor para o cliente, e o cliente está satisfeito em reengajar com a gente depois de um tempo?",
+      "target_text": "O importante é se este cliente se converteu, se está trazendo valor ao cliente e se o cliente está feliz em voltar a se envolver conosco depois de um tempo?"
+    },
+    {
+      "start": 630.73,
+      "end": 641.91,
+      "source_text": "And once you get those evals connected, then it's just optimizing the right agentic architecture and giving the agent skills to scale this and cater to millions of customers.",
+      "draft_nllb": "E uma vez que você tem essas avaliações conectadas, então é apenas otimizar a arquitetura agencial certa e dar aos agentes habilidades para escalar isso e atender a milhões de clientes.",
+      "draft_unicamp": "E, uma vez conectadas essas avaliações, é apenas otimizar a arquitetura agenética correta e dar a habilidade do agente para dimensioná-la e atender a milhões de clientes.",
+      "target_text": "E, uma vez conectadas essas avaliações, é apenas otimizar a arquitetura agente certa e dar aos agentes habilidades para escalar isso e atender a milhões de clientes."
+    },
+    {
+      "start": 643.01,
+      "end": 643.93,
+      "source_text": "It's really, really amazing.",
+      "draft_nllb": "É realmente, realmente incrível.",
+      "draft_unicamp": "É realmente, realmente surpreendente.",
+      "target_text": "É realmente, realmente incrível."
+    },
+    {
+      "start": 643.93,
+      "end": 662.28,
+      "source_text": "And, you know, related to this is, like, okay, so you create the right evals, you know, it's working, you know, some people, some companies still feel a little bit risk-averse and putting them in front of the customers and being able to perform the highest leverage tasks, which in your case would be selling.",
+      "draft_nllb": "E, você sabe, relacionado a isso é, tipo, ok, então você cria as avaliações certas, você sabe, está funcionando, você sabe, algumas pessoas, algumas empresas ainda se sentem um pouco arriscado e colocá-los na frente dos clientes e ser capaz de executar as tarefas de maior alavancagem, que em seu caso seria vender.",
+      "draft_unicamp": "E, sabe, relacionado a isso é, assim, né, então você cria as avaliações corretas, né, está trabalhando, né, tem gente, tem empresa que ainda sente um pouco pouco de risco-averso e coloca-las diante dos clientes e é capaz de realizar as tarefas de maior alavanca, o que, em seu caso, seria vender.",
+      "target_text": "E, você sabe, relacionado a isso é, tipo, ok, então você cria as avaliações certas, você sabe, está funcionando, você sabe, algumas pessoas, algumas empresas ainda se sentem um pouco arriscadas e colocá-las na frente dos clientes e ser capaz de executar as tarefas de maior alavancagem, que em seu caso seria vender."
+    },
+    {
+      "start": 662.6,
+      "end": 664.8,
+      "source_text": "Do your agents really sell to customers?",
+      "draft_nllb": "Os seus agentes vendem mesmo a clientes?",
+      "draft_unicamp": "Seus agentes realmente vendem aos clientes?",
+      "target_text": "Seus agentes realmente vendem aos clientes?"
+    },
+    {
+      "start": 664.96,
+      "end": 665.2,
+      "source_text": "Yes.",
+      "draft_nllb": "- Sim, sim, sim.",
+      "draft_unicamp": "Sim.",
+      "target_text": "Sim."
+    },
+    {
+      "start": 665.42,
+      "end": 668.92,
+      "source_text": "So we never built customer support or customer service agents.",
+      "draft_nllb": "Então, nunca construímos um serviço de apoio ao cliente ou agentes de atendimento ao cliente.",
+      "draft_unicamp": "Então nós nunca construímos os agentes de apoio ou de atendimento dos clientes.",
+      "target_text": "Então nós nunca construímos um serviço de apoio ao cliente ou agentes de atendimento ao cliente."
+    },
+    {
+      "start": 669.08,
+      "end": 671.54,
+      "source_text": "We built, like, sales agents.",
+      "draft_nllb": "Construímos agentes de vendas.",
+      "draft_unicamp": "Nós construímos, assim, os agentes de vendas.",
+      "target_text": "Nós construímos os agentes de vendas."
+    },
+    {
+      "start": 671.54,
+      "end": 675.86,
+      "source_text": "It's extremely hard to sell a car in Latin America.",
+      "draft_nllb": "É extremamente difícil vender um carro na América Latina.",
+      "draft_unicamp": "É extremamente difícil vender um carro na América Latina.",
+      "target_text": "É extremamente difícil vender um carro na América Latina."
+    },
+    {
+      "start": 676.56,
+      "end": 678.76,
+      "source_text": "So imagine someone wanting to buy a car.",
+      "draft_nllb": "Então imagine alguém querendo comprar um carro.",
+      "draft_unicamp": "Então imaginar alguém querendo comprar um carro.",
+      "target_text": "Então imagine alguém querendo comprar um carro."
+    },
+    {
+      "start": 679.14,
+      "end": 682.46,
+      "source_text": "They can choose, like, amongst, like, 20,000 SKUs.",
+      "draft_nllb": "Eles podem escolher, tipo, entre, tipo, 20.000 SKUs.",
+      "draft_unicamp": "Podem optar, como, entre, como, por exemplo, 20.000 SKUs.",
+      "target_text": "Eles podem escolher, tipo, entre, tipo, 20.000 SKUs."
+    },
+    {
+      "start": 682.8,
+      "end": 689.5,
+      "source_text": "Then they need to pick, like, financing and go through the financing process, insurance and coverage.",
+      "draft_nllb": "Depois precisam escolher o financiamento e passar pelo processo de financiamento, seguro e cobertura.",
+      "draft_unicamp": "Então, eles precisam captar, como, financiar e passar pelo processo de financiamento, seguro e cobertura.",
+      "target_text": "Depois precisam escolher o financiamento e passar pelo processo de financiamento, seguro e cobertura."
+    },
+    {
+      "start": 689.92,
+      "end": 692.68,
+      "source_text": "And then they're probably trading in their car.",
+      "draft_nllb": "E provavelmente estão a trocar o carro deles.",
+      "draft_unicamp": "E depois eles estão negociando em seu carro.",
+      "target_text": "E provavelmente estão trocando o carro deles."
+    },
+    {
+      "start": 692.88,
+      "end": 694.58,
+      "source_text": "So we need to quote that car.",
+      "draft_nllb": "Então, precisamos de citar esse carro.",
+      "draft_unicamp": "Então, precisamos citar aquele carro.",
+      "target_text": "Então, precisamos citar esse carro."
+    },
+    {
+      "start": 694.58,
+      "end": 708.16,
+      "source_text": "So it's a process that if someone does it or the way Kavak did it back in 2020, 2021, was you need to be extremely good at 15 different things and have 15 different experts in 15 different teams.",
+      "draft_nllb": "Então é um processo que, se alguém o fizer ou como o Kaivak fez em 2020, 2021, era preciso ser extremamente bom em 15 coisas diferentes e ter 15 especialistas diferentes em 15 equipes diferentes.",
+      "draft_unicamp": "Então, é um processo que se alguém o faz ou o jeito que Kaivak fez em 2020, 2021, você precisa ser extremamente bom em 15 coisas diferentes e ter 15 especialistas diferentes em 15 equipes diferentes.",
+      "target_text": "É um processo que se alguém o fizer ou o jeito que Kaivak fez em 2020, 2021, você precisa ser extremamente bom em 15 coisas diferentes e ter 15 especialistas diferentes em 15 equipes diferentes."
+    },
+    {
+      "start": 708.16,
+      "end": 720.84,
+      "source_text": "And usually the person would go and speak with the expert in financing, the expert in car advisory, the expert in buying, the expert in insurance, and they'll build a package and buy a car.",
+      "draft_nllb": "E normalmente a pessoa falava com o especialista em finanças, o especialista em consultoria de automóveis, o especialista em compras, o especialista em seguros, e eles construíram um pacote e compraram um carro.",
+      "draft_unicamp": "E geralmente a pessoa vai e fala com o especialista em financiamento, o especialista em assessoria de carro, o especialista em compra, o especialista em seguro, e eles vão construir uma embalagem e compram um carro.",
+      "target_text": "E geralmente a pessoa vai e fala com o especialista em financiamento, o especialista em assessoria de carro, o especialista em compra, o especialista em seguro, e eles vão construir um pacote e comprar um carro."
+    },
+    {
+      "start": 720.84,
+      "end": 723.21,
+      "source_text": "And that's extremely hard to do.",
+      "draft_nllb": "E isso é extremamente difícil de fazer.",
+      "draft_unicamp": "E isso é extremamente difícil.",
+      "target_text": "E isso é extremamente difícil de fazer."
+    },
+    {
+      "start": 723.85,
+      "end": 739.36,
+      "source_text": "But, like, the first thing we did was, okay, can we get an agent to be better than the expert in each of these things and then put it together and have, like, a mega expert that's an expert in insurance, financing, et cetera.",
+      "draft_nllb": "Mas, como, a primeira coisa que fizemos foi, ok, podemos conseguir um agente para ser melhor do que o especialista em cada uma dessas coisas e depois juntá-lo e ter, como, um mega especialista que é um especialista em seguros, financiamento, etc.",
+      "draft_unicamp": "Mas, assim, a primeira coisa que fizemos foi, né, conseguir um agente para ser melhor do que o especialista em cada uma dessas coisas e depois colocá-lo e ter, assim, um mega especialista que é um especialista em seguro, financiamento, et cetera.",
+      "target_text": "Mas, como, a primeira coisa que fizemos foi, ok, conseguir um agente para ser melhor do que o especialista em cada uma dessas coisas e depois juntá-lo e ter, como, um mega especialista que é um especialista em seguros, financiamento, et cetera."
+    },
+    {
+      "start": 739.36,
+      "end": 742.34,
+      "source_text": "And that's who we put in front of the customer.",
+      "draft_nllb": "E é o que colocamos na frente do cliente.",
+      "draft_unicamp": "E é assim que a gente coloca a frente do cliente.",
+      "target_text": "E é o que colocamos na frente do cliente."
+    },
+    {
+      "start": 742.46,
+      "end": 744.14,
+      "source_text": "So the experience for the customer is amazing.",
+      "draft_nllb": "Então a experiência para o cliente é incrível.",
+      "draft_unicamp": "Então, a experiência para o cliente é surpreendente.",
+      "target_text": "Então a experiência para o cliente é incrível."
+    },
+    {
+      "start": 744.38,
+      "end": 751.58,
+      "source_text": "We tripled NPS and customer satisfaction score by putting the agent in front of the customer.",
+      "draft_nllb": "triplicamos o NPS e a satisfação do cliente colocando o agente na frente do cliente.",
+      "draft_unicamp": "A NPS e o escore de satisfação dos clientes foram triplicados colocando o agente em frente ao cliente.",
+      "target_text": "Triplicamos o NPS e a pontuação de satisfação do cliente colocando o agente em frente ao cliente."
+    },
+    {
+      "start": 752.54,
+      "end": 757.1,
+      "source_text": "And at first it converted, like, 50% more than our human team.",
+      "draft_nllb": "E, no início, converteu 50% mais do que a nossa equipa humana.",
+      "draft_unicamp": "E, em um primeiro momento, converteu, assim, 50% mais do que a nossa equipe humana.",
+      "target_text": "E, no início, converteu 50% mais do que a nossa equipe humana."
+    },
+    {
+      "start": 757.3,
+      "end": 763.36,
+      "source_text": "And now it's converting over that, like, 2.1x more.",
+      "draft_nllb": "E agora está a converter sobre isso, tipo, 2,1x mais.",
+      "draft_unicamp": "E agora está convertendo sobre isso, assim, 2,1x mais.",
+      "target_text": "E agora está convertendo sobre isso, assim, 2,1x mais."
+    },
+    {
+      "start": 764.3,
+      "end": 765.6,
+      "source_text": "So it's a completely different company.",
+      "draft_nllb": "Então é uma empresa completamente diferente.",
+      "draft_unicamp": "Então é uma empresa completamente diferente.",
+      "target_text": "Então é uma empresa completamente diferente."
+    },
+    {
+      "start": 765.6,
+      "end": 766.92,
+      "source_text": "So your agents are better sellers.",
+      "draft_nllb": "Então os teus agentes são melhores vendedores.",
+      "draft_unicamp": "Então seus agentes são melhores vendedores.",
+      "target_text": "Então seus agentes são melhores vendedores."
+    },
+    {
+      "start": 767.3,
+      "end": 767.86,
+      "source_text": "Totally better.",
+      "draft_nllb": "Muito melhor.",
+      "draft_unicamp": "Melhor.",
+      "target_text": "Muito melhor."
+    },
+    {
+      "start": 767.86,
+      "end": 779.42,
+      "source_text": "And you get this, right, because they're experts, and they're infinitely patient, and they know all your history, and they can plan for the long term, and they never get tired.",
+      "draft_nllb": "E percebem isto, certo, porque são especialistas, e são infinitamente pacientes, e conhecem toda a vossa história, e podem planear a longo prazo, e nunca se cansam.",
+      "draft_unicamp": "E você consegue isso, né, porque é especialista, e é paciente, e sabe toda a sua história, e pode planejar a longo prazo, e nunca se cansa.",
+      "target_text": "E você consegue isso, né, porque são especialistas, e são infinitamente pacientes, e conhecem toda a sua história, e podem planejar a longo prazo, e nunca se cansam."
+    },
+    {
+      "start": 779.78,
+      "end": 789.06,
+      "source_text": "So, and if they make a mistake, they learn it, and the next day, not just them, but the other 200,000 agents will have learned from that mistake.",
+      "draft_nllb": "Então, se cometerem um erro, aprendem, e no dia seguinte, não só eles, mas os outros 200.000 agentes aprenderão com esse erro.",
+      "draft_unicamp": "Então, e se cometerem um erro, aprendem, e no dia seguinte, não só eles, mas os outros 200.000 agentes terão aprendido com esse erro.",
+      "target_text": "Então, e se cometerem um erro, aprendem, e no dia seguinte, não só eles, mas os outros 200.000 agentes estarão aprendendo com esse erro."
+    },
+    {
+      "start": 789.18,
+      "end": 796.34,
+      "source_text": "So that's the feedback loop that we engaged, and that's showing in the growth and results and satisfaction of our customers.",
+      "draft_nllb": "Este é o ciclo de feedback que envolvemos, e que está a mostrar o crescimento, os resultados e a satisfação dos nossos clientes.",
+      "draft_unicamp": "Então, essa é a alça de feedback que envolvemos, e isso está mostrando o crescimento e os resultados e a satisfação dos nossos clientes.",
+      "target_text": "Então, esse é o ciclo de feedback que envolvemos, e isso está mostrando o crescimento, os resultados e a satisfação dos nossos clientes."
+    },
+    {
+      "start": 796.34,
+      "end": 805.16,
+      "source_text": "One of the, well, two of the very cool things I think about Kavak is I think the world has gotten comfortable with AI can do customer service.",
+      "draft_nllb": "Uma das duas coisas muito interessantes que penso sobre o Kavak é que acho que o mundo se tornou confortável com a IA que pode fazer serviço ao cliente.",
+      "draft_unicamp": "Uma das coisas muito frias que eu penso sobre Kavak é que eu acho que o mundo tem conseguido conforto com que a AI pode fazer o serviço do cliente.",
+      "target_text": "Uma das duas coisas muito interessantes que penso sobre o Kavak é que acho que o mundo está se tornando confortável com a IA que pode fazer serviço ao cliente."
+    },
+    {
+      "start": 805.28,
+      "end": 806.58,
+      "source_text": "It's still very hard to do well.",
+      "draft_nllb": "Ainda é muito difícil fazer bem.",
+      "draft_unicamp": "Ainda é muito difícil fazer bem.",
+      "target_text": "Ainda é muito difícil fazer bem."
+    },
+    {
+      "start": 806.58,
+      "end": 814.92,
+      "source_text": "But, you know, as Gabe said, there's still a view that, well, customers aren't going to want to buy expensive things from AI, and you are proving them wrong.",
+      "draft_nllb": "Mas, como disse Gabe, ainda há uma visão de que os clientes não vão querer comprar coisas caras da IA, e você está provando que eles estão errados.",
+      "draft_unicamp": "Mas, sabe, como Gabe disse, ainda há uma visão de que, bem, os clientes não vão querer comprar coisas caras da AI, e você está comprovando que elas estão erradas.",
+      "target_text": "Mas, sabe, como Gabe disse, ainda há uma visão de que, bem, os clientes não vão querer comprar coisas caras da IA, e você está provando que eles estão errados."
+    },
+    {
+      "start": 814.98,
+      "end": 815.18,
+      "source_text": "Yes.",
+      "draft_nllb": "- Sim, sim, sim.",
+      "draft_unicamp": "Sim.",
+      "target_text": "Sim."
+    },
+    {
+      "start": 815.34,
+      "end": 822.48,
+      "source_text": "The next layer on that is, well, you're not actually going to be able to do regulated financial services end-to-end with AI.",
+      "draft_nllb": "A próxima camada disso é que, bem, você não vai realmente ser capaz de fazer serviços financeiros regulamentados de ponta a ponta com IA.",
+      "draft_unicamp": "A próxima camada sobre isso, bem, não está realmente conseguindo fazer os serviços financeiros regulados de fim a fim com AI.",
+      "target_text": "A próxima camada disso é que, bem, você não vai realmente ser capaz de fazer serviços financeiros regulamentados de ponta a ponta com IA."
+    },
+    {
+      "start": 822.48,
+      "end": 831.28,
+      "source_text": "But if you walk through what you're doing, you are underwriting a thin or no-file customer, pricing them correctly, doing servicing.",
+      "draft_nllb": "Mas se você passar pelo que está a fazer, está a subscrever um cliente magro ou sem arquivo, a preços corretos, a fazer serviço.",
+      "draft_unicamp": "Mas se você caminha pelo que você está fazendo, você está fazendo um cliente fino ou sem fio, precendo-os corretamente, fazendo atendimento.",
+      "target_text": "Mas se você estiver passando pelo que está fazendo, está subscrevendo um cliente magro ou sem arquivo, precificando-os corretamente, fazendo serviço."
+    },
+    {
+      "start": 831.48,
+      "end": 844.68,
+      "source_text": "So maybe talk through how did you write the evals to get comfortable with that, and then versus, I don't know, going to a bank branch or even a fintech, sort of how is that experience that much better?",
+      "draft_nllb": "Então talvez falem sobre como escreveram as avaliações para se sentirem confortáveis com isso, e então versus, eu não sei, ir a uma filial bancária ou até mesmo a uma fintech, como é que essa experiência é muito melhor?",
+      "draft_unicamp": "Então, talvez fale de como você escreveu as avaliações para se acomodar com isso, e depois versus, eu não sei, indo para um banco ou até mesmo uma fintech, tipo de experiência tão melhor?",
+      "target_text": "Então talvez fale como você escreveu as avaliações para se sentir confortável com isso, e então versus, eu não sei, ir a uma filial bancária ou até mesmo a uma fintech, como essa experiência é muito melhor?"
+    },
+    {
+      "start": 844.68,
+      "end": 858.32,
+      "source_text": "So the first financial product that we launched was a car loan, and usually in Mexico and in some emerging markets, it'll get like two months or more to get a car loan approved.",
+      "draft_nllb": "O primeiro produto financeiro que lançámos foi um empréstimo de carro, e normalmente no México e em alguns mercados emergentes, leva dois meses ou mais para obter um empréstimo de carro aprovado.",
+      "draft_unicamp": "Então o primeiro produto financeiro que lançamos foi um empréstimo de carro, e geralmente no México e em alguns mercados emergentes, vai chegar a dois meses ou mais para conseguir um empréstimo de carro aprovado.",
+      "target_text": "O primeiro produto financeiro que lançamos foi um empréstimo de carro, e normalmente no México e em alguns mercados emergentes, leva dois meses ou mais para obter um empréstimo de carro aprovado."
+    },
+    {
+      "start": 858.32,
+      "end": 869.6,
+      "source_text": "We usually approve it in under three minutes, which is like pretty cool, because we have all this data around the customer and the car.",
+      "draft_nllb": "Normalmente aprovamos em menos de três minutos, o que é muito legal, porque temos todos estes dados sobre o cliente e o carro.",
+      "draft_unicamp": "A gente costuma aprová-la em menos de três minutos, o que é bem legal, pois temos todos esses dados ao redor do cliente e do carro.",
+      "target_text": "Normalmente aprovamos em menos de três minutos, o que é muito legal, porque temos todos esses dados sobre o cliente e o carro."
+    },
+    {
+      "start": 870.24,
+      "end": 885.22,
+      "source_text": "And if the customer can't pay for the car anymore, they'll just return it to us, and we can give them a cheaper car, and then they pay a smaller amount each month, and they like get out of the water, which is amazing about the vertical integration of the business.",
+      "draft_nllb": "E se o cliente não puder pagar mais o carro, devolver-nos-á, e podemos dar-lhe um carro mais barato, e depois pagam uma quantia menor a cada mês, e gostam de sair da água, o que é incrível sobre a integração vertical do negócio.",
+      "draft_unicamp": "E se o cliente não pagar mais o carro, ele só vai devolvê-lo, e a gente pode dar um carro mais barato, e depois ele paga uma quantidade menor a cada mês, e gosta de sair da água, o que é surpreendente sobre a integração vertical do negócio.",
+      "target_text": "E se o cliente não puder pagar mais o carro, ele vai devolvê-lo a nós, e nós podemos dar um carro mais barato, e depois ele paga uma quantia menor a cada mês, e gosta de sair da água, o que é incrível sobre a integração vertical do negócio."
+    },
+    {
+      "start": 885.22,
+      "end": 894.66,
+      "source_text": "But then, like, when we started launching other financial products, we realized that this is a very important decision for the customer, right?",
+      "draft_nllb": "Mas depois, quando começámos a lançar outros produtos financeiros, percebemos que esta é uma decisão muito importante para o cliente, certo?",
+      "draft_unicamp": "Mas, assim, quando começamos a lançar outros produtos financeiros, percebemos que essa é uma decisão muito importante para o cliente, né?",
+      "target_text": "Mas, assim, quando começamos a lançar outros produtos financeiros, percebemos que essa é uma decisão muito importante para o cliente, né?"
+    },
+    {
+      "start": 894.74,
+      "end": 908.9,
+      "source_text": "Like, they usually take three to four months to make up their mind in buying a car and getting a loan or getting a personal loan, like a large personal loan that we also do.",
+      "draft_nllb": "Normalmente levam de três a quatro meses para decidirem comprar um carro e obter um empréstimo ou um empréstimo pessoal, como um grande empréstimo pessoal que também fazemos.",
+      "draft_unicamp": "Assim, geralmente levam de três a quatro meses para compor a mente na compra de um carro e no recebimento de um empréstimo ou no recebimento de um empréstimo pessoal, como um grande empréstimo pessoal que também fazemos.",
+      "target_text": "Normalmente levam de três a quatro meses para decidirem comprar um carro e obter um empréstimo ou um empréstimo pessoal, como um grande empréstimo pessoal que também fazemos."
+    },
+    {
+      "start": 908.9,
+      "end": 922.1,
+      "source_text": "So if you get to know your customer throughout this process and make the process easy for them, then just your conversion and retention metrics start going through the roof.",
+      "draft_nllb": "Então, se você conhecer o seu cliente durante este processo e facilitar o processo para eles, então apenas as suas métricas de conversão e retenção começam a passar pelo telhado.",
+      "draft_unicamp": "Então, se você conseguir conhecer o seu cliente durante todo esse processo e facilitar o processo, então apenas suas métricas de conversão e retenção passam a passar pelo teto.",
+      "target_text": "Então, se você conhecer o seu cliente durante este processo e facilitar o processo para eles, então suas métricas de conversão e retenção começam a subir muito."
+    },
+    {
+      "start": 922.1,
+      "end": 949.76,
+      "source_text": "It's not just the transaction, it's understanding each customer personally and get them to convert when they're ready with a very deep personalization of the interest rate, the risk, the max amount of the loan in a way that makes sense for the portfolio as a whole, obviously, but that's optimized to the risk level and probably the other offers that the customer is getting.",
+      "draft_nllb": "Não é apenas a transação, é entender cada cliente pessoalmente e fazê-los converter quando estiverem prontos com uma personalização muito profunda da taxa de juros, do risco, do valor máximo do empréstimo de uma forma que faz sentido para o portfólio como um todo, obviamente, mas que é otimizado para o nível de risco e provavelmente as outras ofertas que o cliente está a receber.",
+      "draft_unicamp": "Não é apenas a operação, é entender cada cliente pessoalmente e convertê-los quando estão preparados com uma personalização muito profunda da taxa de juros, o risco, o montante máximo do empréstimo de modo a fazer sentido para o portfólio como um todo, obviamente, mas isso é otimizado para o nível de risco e, provavelmente, as demais ofertas que o cliente está obtendo.",
+      "target_text": "Não é apenas a transação, é entender cada cliente pessoalmente e convertê-los quando estiverem prontos com uma personalização muito profunda da taxa de juros, do risco, do valor máximo do empréstimo, de uma forma que faz sentido para o portfólio como um todo, obviamente, mas que é otimizada para o nível de risco e provavelmente as outras ofertas que o cliente está recebendo."
+    },
+    {
+      "start": 949.76,
+      "end": 955.44,
+      "source_text": "And then maybe give us just to be, you know, evals are always a very hot topic, you kind of led with that.",
+      "draft_nllb": "E então talvez nos dê apenas para ser, você sabe, avaliações são sempre um tópico muito quente, você meio que liderou com isso.",
+      "draft_unicamp": "E aí pode nos dar só para ser, né, as avaliações são sempre um tema muito quente, você tipo de led com isso.",
+      "target_text": "E então talvez nos dê apenas para ser, você sabe, as avaliações são sempre um tópico muito quente, você meio que levou isso à frente."
+    },
+    {
+      "start": 955.9,
+      "end": 966.36,
+      "source_text": "What is an example of maybe a hard-to-design area for evals or one where you had to spend an extra amount of time with just given the fact that, like, there's real money PII at risk?",
+      "draft_nllb": "Qual é um exemplo de talvez uma área difícil de projetar para avaliações ou uma onde você teve que gastar uma quantidade extra de tempo com apenas dado o fato de que, como, há dinheiro real PII em risco?",
+      "draft_unicamp": "Qual é um exemplo de uma área de difícil desenho para avaliação ou de uma em que você teve que passar uma quantidade extra de tempo apenas dado o fato de que, assim, existe um dinheiro real PII de risco?",
+      "target_text": "Qual é um exemplo de uma área difícil de projetar para avaliações ou uma em que você teve que passar uma quantidade extra de tempo, apenas dado o fato de que, assim, existe dinheiro real PII em risco?"
+    },
+    {
+      "start": 966.36,
+      "end": 966.5,
+      "source_text": "Right.",
+      "draft_nllb": "- Sim, sim.",
+      "draft_unicamp": "É certo.",
+      "target_text": "Certo."
+    },
+    {
+      "start": 966.76,
+      "end": 966.92,
+      "source_text": "Yeah.",
+      "draft_nllb": "- Sim, sim, sim.",
+      "draft_unicamp": "Sim.",
+      "target_text": "Sim."
+    },
+    {
+      "start": 966.92,
+      "end": 983.03,
+      "source_text": "So when we decided to redesign the company around AI, you asked the question, okay, is AI going to be able to do this job, like even the CEO job or jobs where the leadership is?",
+      "draft_nllb": "Então, quando decidimos redesenhar a empresa em torno da IA, você fez a pergunta, OK, será que a IA vai ser capaz de fazer este trabalho, como mesmo o trabalho do CEO ou trabalhos onde a liderança está?",
+      "draft_unicamp": "Então, quando a gente decidiu reformular a empresa em torno da AI, você perguntou a questão, né, se a AI vai conseguir fazer esse trabalho, como até mesmo o trabalho do CEO ou os trabalhos em que a liderança está?",
+      "target_text": "Então, quando decidimos redesenhar a empresa em torno da IA, você perguntou a questão, né, se a IA vai conseguir fazer esse trabalho, como até mesmo o trabalho do CEO ou os trabalhos em que a liderança está?"
+    },
+    {
+      "start": 983.41,
+      "end": 985.71,
+      "source_text": "And the answer, honestly, is probably yes.",
+      "draft_nllb": "E a resposta, honestamente, é provavelmente sim.",
+      "draft_unicamp": "E a resposta, de forma holística, é provavelmente sim.",
+      "target_text": "E a resposta, honestamente, é provavelmente sim."
+    },
+    {
+      "start": 985.83,
+      "end": 988.85,
+      "source_text": "Like in 2035 with a rate of improvement, it will be able to do.",
+      "draft_nllb": "Como em 2035 com uma taxa de melhoria, será capaz de fazer.",
+      "draft_unicamp": "Como em 2035, com uma taxa de melhora, ela será capaz de fazer.",
+      "target_text": "Como em 2035, com uma taxa de melhoria, ela será capaz de fazer."
+    },
+    {
+      "start": 988.85,
+      "end": 990.93,
+      "source_text": "So we said, okay, let's try it now.",
+      "draft_nllb": "Então nós dissemos, ok, vamos tentar agora.",
+      "draft_unicamp": "Então a gente falou, né, vamos tentar agora.",
+      "target_text": "Então nós dissemos, ok, vamos tentar agora."
+    },
+    {
+      "start": 991.75,
+      "end": 994.41,
+      "source_text": "Let's try and build an AI CEO.",
+      "draft_nllb": "Vamos tentar construir um CEO de IA.",
+      "draft_unicamp": "Vamos tentar e construir um CEO de AI.",
+      "target_text": "Vamos tentar construir um CEO de IA."
+    },
+    {
+      "start": 995.3,
+      "end": 998.56,
+      "source_text": "So we carved out a city in Mexico.",
+      "draft_nllb": "Então, arranjamos uma cidade no México.",
+      "draft_unicamp": "Então, fizemos uma cidade no México.",
+      "target_text": "Então, criamos uma cidade no México."
+    },
+    {
+      "start": 998.82,
+      "end": 999.82,
+      "source_text": "It's Cuernavaca.",
+      "draft_nllb": "É a Cuernavaca.",
+      "draft_unicamp": "É Cuernavaca.",
+      "target_text": "É Cuernavaca."
+    },
+    {
+      "start": 999.96,
+      "end": 1004.97,
+      "source_text": "And we put like an agent in one of our harnesses as a CEO.",
+      "draft_nllb": "E colocamos como um agente numa das nossas armaduras como CEO.",
+      "draft_unicamp": "E a gente coloca como agente em uma de nossas mãos como CEO.",
+      "target_text": "E colocamos um agente numa das nossas armaduras como CEO."
+    },
+    {
+      "start": 1005.17,
+      "end": 1009.99,
+      "source_text": "And it starts learning and it starts making decisions and evaluating on those decisions.",
+      "draft_nllb": "E começa a aprender e começa a tomar decisões e a avaliar essas decisões.",
+      "draft_unicamp": "E começa a aprender e começa a tomar decisões e a avaliar sobre essas decisões.",
+      "target_text": "E começa a aprender e começa a tomar decisões e a avaliar essas decisões."
+    },
+    {
+      "start": 1010.57,
+      "end": 1013.43,
+      "source_text": "And it's only been running for six weeks now.",
+      "draft_nllb": "E só está a funcionar há seis semanas.",
+      "draft_unicamp": "E só está em funcionamento há seis semanas.",
+      "target_text": "E só está funcionando há seis semanas."
+    },
+    {
+      "start": 1013.43,
+      "end": 1018.55,
+      "source_text": "The goal of the first month was to double the profits of Cuernavaca.",
+      "draft_nllb": "O objetivo do primeiro mês era dobrar os lucros de Cuernavaca.",
+      "draft_unicamp": "O objetivo do primeiro mês foi duplicar os lucros de Cuernavaca.",
+      "target_text": "O objetivo do primeiro mês foi duplicar os lucros de Cuernavaca."
+    },
+    {
+      "start": 1018.89,
+      "end": 1029.85,
+      "source_text": "It didn't reach it, but it was 1.5x, like 50% more profits just by managing the city, which is crazy, right?",
+      "draft_nllb": "Não alcançou, mas foi 1,5x, como 50% mais lucros só administrando a cidade, o que é loucura, certo?",
+      "draft_unicamp": "Não chegou a isso, mas foi 1,5x, como 50% mais lucro só pela gestão da cidade, que é louco, né?",
+      "target_text": "Não chegou a isso, mas foi 1,5x, como 50% mais lucros só administrando a cidade, o que é louco, certo?"
+    },
+    {
+      "start": 1029.91,
+      "end": 1030.65,
+      "source_text": "It's amazing.",
+      "draft_nllb": "É incrível.",
+      "draft_unicamp": "É surpreendente.",
+      "target_text": "É incrível."
+    },
+    {
+      "start": 1030.91,
+      "end": 1032.09,
+      "source_text": "And it's the CEO.",
+      "draft_nllb": "E é o CEO.",
+      "draft_unicamp": "E é o CEO.",
+      "target_text": "E é o CEO."
+    },
+    {
+      "start": 1032.43,
+      "end": 1036.81,
+      "source_text": "Like people were like, that was the last job AI was supposed to take.",
+      "draft_nllb": "Como as pessoas diziam, era o último trabalho que a IA devia ter feito.",
+      "draft_unicamp": "Como as pessoas eram assim, esse era o último trabalho que o AI deveria assumir.",
+      "target_text": "Como as pessoas diziam, era o último trabalho que a IA deveria ter feito."
+    },
+    {
+      "start": 1036.91,
+      "end": 1038.27,
+      "source_text": "And no, it isn't really.",
+      "draft_nllb": "E não, não é mesmo.",
+      "draft_unicamp": "E não, não é mesmo.",
+      "target_text": "E não, não é mesmo."
+    },
+    {
+      "start": 1038.81,
+      "end": 1040.59,
+      "source_text": "And how did this happen?",
+      "draft_nllb": "E como é que isto aconteceu?",
+      "draft_unicamp": "E como isso aconteceu?",
+      "target_text": "E como isso aconteceu?"
+    },
+    {
+      "start": 1040.59,
+      "end": 1060.86,
+      "source_text": "And it's like a very smart person, like Fields Medal-level smart, like going into every single number, every single customer, making the perfect forecast and going to micromanage every single thing that needs to be executed every day to reach a plan.",
+      "draft_nllb": "E é como uma pessoa muito inteligente, como campos, níveis de metais, inteligente, como entrar em cada número, cada cliente, fazer a previsão perfeita e micro-gerenciar todas as coisas que precisam ser executadas todos os dias para chegar a um plano.",
+      "draft_unicamp": "E é como uma pessoa muito smart, como campos, níveis metálicos, smart, como entrar em cada número único, cada cliente único, fazendo a previsão perfeita e indo para microgerar toda coisa única que precisa ser executada todos os dias para chegar a um plano.",
+      "target_text": "E é como uma pessoa muito inteligente, como campos, níveis de metais, inteligente, como entrar em cada número, cada cliente, fazendo a previsão perfeita e microgerenciando todas as coisas que precisam ser executadas todos os dias para chegar a um plano."
+    },
+    {
+      "start": 1060.86,
+      "end": 1072.68,
+      "source_text": "So he'll literally send messages to all the physical workers in Cuernavaca with their plans for the day and ask them to send voice notes back to know their progress.",
+      "draft_nllb": "Então ele literalmente vai enviar mensagens a todos os trabalhadores físicos em Cuernavaca com os seus planos para o dia e pedir-lhes para enviar notas de voz para saber o seu progresso.",
+      "draft_unicamp": "Assim, enviará literalmente mensagens a todos os trabalhadores físicos de Cuernavaca com seus planos para o dia e pedir-lhes para enviar notas de voz para conhecer o seu progresso.",
+      "target_text": "Então ele literalmente está enviando mensagens a todos os trabalhadores físicos em Cuernavaca com seus planos para o dia e pede-lhes para enviar notas de voz para saber o seu progresso."
+    },
+    {
+      "start": 1073.52,
+      "end": 1075.66,
+      "source_text": "So customer satisfaction grew.",
+      "draft_nllb": "Assim, a satisfação do cliente cresceu.",
+      "draft_unicamp": "Assim, a satisfação dos clientes cresceu.",
+      "target_text": "Assim, a satisfação dos clientes cresceu."
+    },
+    {
+      "start": 1076.42,
+      "end": 1077.9,
+      "source_text": "We got a better inventory.",
+      "draft_nllb": "Temos um inventário melhor.",
+      "draft_unicamp": "Obtivemos um melhor inventário.",
+      "target_text": "Temos um inventário melhor."
+    },
+    {
+      "start": 1078.26,
+      "end": 1083.4,
+      "source_text": "We rotated better, better financing penetration, like every KPI started to improve.",
+      "draft_nllb": "Nós rotamos melhor, melhor penetração do financiamento, como cada KPI começou a melhorar.",
+      "draft_unicamp": "Nós rotamos melhor, melhor penetração de financiamento, como todo KPI começou a melhorar.",
+      "target_text": "Nós rotamos melhor, melhor penetração de financiamento, como todo KPI começou a melhorar."
+    },
+    {
+      "start": 1083.4,
+      "end": 1086.28,
+      "source_text": "So it's super cool and super exciting.",
+      "draft_nllb": "Então é super fixe e super emocionante.",
+      "draft_unicamp": "Então é super legal e super excitante.",
+      "target_text": "Então é super legal e super emocionante."
+    },
+    {
+      "start": 1086.9,
+      "end": 1095.44,
+      "source_text": "Now, what are the jobs where we think we're still like training and hiring humans?",
+      "draft_nllb": "Agora, quais são os empregos onde pensamos que ainda somos como treinamento e contratação de humanos?",
+      "draft_unicamp": "Agora, quais são os trabalhos em que a gente acha que ainda é como capacitação e contratação de seres humanos?",
+      "target_text": "Agora, quais são os empregos em que a gente acha que ainda é como treinamento e contratação de humanos?"
+    },
+    {
+      "start": 1095.98,
+      "end": 1097.84,
+      "source_text": "Those are related to the physical world.",
+      "draft_nllb": "Estes estão relacionados ao mundo físico.",
+      "draft_unicamp": "Estas estão relacionadas ao mundo físico.",
+      "target_text": "Estas estão relacionadas ao mundo físico."
+    },
+    {
+      "start": 1097.84,
+      "end": 1104.04,
+      "source_text": "So when we talk about mechanics, Cuernavaca has around, I think in Mexico, around 800 mechanics.",
+      "draft_nllb": "Então, quando falamos de mecânica, Cuernavaca tem por aí, eu acho que no México, cerca de 800 mecânicos.",
+      "draft_unicamp": "Então quando falamos de mecânica, Cuernavaca tem em torno, eu penso no México, em torno de 800 mecânica.",
+      "target_text": "Então quando falamos de mecânica, Cuernavaca tem por aí, eu acho que no México, cerca de 800 mecânicos."
+    },
+    {
+      "start": 1104.04,
+      "end": 1109.86,
+      "source_text": "There's lots of dexterity and senses that's super hard to substitute.",
+      "draft_nllb": "Há muita destreza e sentidos que são muito difíceis de substituir.",
+      "draft_unicamp": "Há muita destreza e sentidos que é super difícil de substituir.",
+      "target_text": "Há muita destreza e sentidos que são muito difíceis de substituir."
+    },
+    {
+      "start": 1110.24,
+      "end": 1113.96,
+      "source_text": "So there, we also build these agents with the exact same harness that's scaling.",
+      "draft_nllb": "Então, também construímos estes agentes com o mesmo arame que está a escalar.",
+      "draft_unicamp": "Então, também construímos esses agentes com a mesma artimanha que é dimensionada.",
+      "target_text": "Então, também construímos esses agentes com o mesmo mecanismo que está escalando."
+    },
+    {
+      "start": 1114.42,
+      "end": 1117.72,
+      "source_text": "And the mechanics have the sidekick.",
+      "draft_nllb": "E os mecânicos têm o ajudante.",
+      "draft_unicamp": "E a mecânica tem o chute lateral.",
+      "target_text": "E os mecânicos têm o ajudante."
+    },
+    {
+      "start": 1117.72,
+      "end": 1128.5,
+      "source_text": "I was telling you guys earlier, it's like the movie Ratatouille, like the mouse that's actually a chef collaborating with a human.",
+      "draft_nllb": "Estava a dizer-vos antes, é como no filme Ratatouille, como o rato que é um chef a colaborar com um ser humano.",
+      "draft_unicamp": "Eu estava contando os caras mais cedo, é como o filme Ratatouille, como o rato que é realmente um chef colaborando com um homem.",
+      "target_text": "Estava dizendo vocês antes, é como no filme Ratatouille, como o rato que é realmente um chef colaborando com um homem."
+    },
+    {
+      "start": 1128.9,
+      "end": 1129.9,
+      "source_text": "It's kind of like that.",
+      "draft_nllb": "É assim.",
+      "draft_unicamp": "É assim.",
+      "target_text": "É assim."
+    },
+    {
+      "start": 1129.96,
+      "end": 1130.76,
+      "source_text": "So it's a sidekick.",
+      "draft_nllb": "Então é um ajudante.",
+      "draft_unicamp": "Então é um chute lateral.",
+      "target_text": "Então é um ajudante."
+    },
+    {
+      "start": 1130.94,
+      "end": 1131.96,
+      "source_text": "We call it El Mike.",
+      "draft_nllb": "Chamamos-lhe El Maic.",
+      "draft_unicamp": "A gente chama de El Maic.",
+      "target_text": "Chamamos de El Maic."
+    },
+    {
+      "start": 1132.42,
+      "end": 1139.88,
+      "source_text": "And it tells them how to inspect a car and gives them tips and shows them the way to do it.",
+      "draft_nllb": "E diz-lhes como inspecionar um carro e dá-lhes dicas e mostra-lhes como fazê-lo.",
+      "draft_unicamp": "E lhes diz como inspeccionar um carro e lhes dá dicas e mostra a maneira de fazê-lo.",
+      "target_text": "E diz-lhes como inspecionar um carro e dá-lhes dicas e mostra-lhes como fazê-lo."
+    },
+    {
+      "start": 1139.88,
+      "end": 1147.5,
+      "source_text": "And the quality of inspections, again, went through the roof, we're inspecting faster, we're repairing faster, it's cheaper.",
+      "draft_nllb": "E a qualidade das inspeções, outra vez, passou pelo telhado, estamos a inspecionar mais rápido, estamos a reparar mais rápido, é mais barato.",
+      "draft_unicamp": "E a qualidade das inspeções, novamente, passou pelo teto, a gente está inspecionando mais rápido, a gente está reparando mais rápido, é mais barato.",
+      "target_text": "E a qualidade das inspeções, novamente, passou pelo teto, estamos inspecionando mais rápido, estamos reparando mais rápido, é mais barato."
+    },
+    {
+      "start": 1147.5,
+      "end": 1151.36,
+      "source_text": "But most importantly, we're delivering higher quality cars.",
+      "draft_nllb": "Mas o mais importante, estamos a entregar carros de melhor qualidade.",
+      "draft_unicamp": "Mas, mais importante, estamos entregando carros de maior qualidade.",
+      "target_text": "Mas, mais importante, estamos entregando carros de maior qualidade."
+    },
+    {
+      "start": 1153.18,
+      "end": 1159.46,
+      "source_text": "Warranties came down around like 20, 26% since we launched.",
+      "draft_nllb": "As garantias diminuíram cerca de 20, 26% desde o lançamento.",
+      "draft_unicamp": "As armas caíram em torno de 20, 26% desde o lançamento.",
+      "target_text": "As garantias diminuíram cerca de 20 a 26% desde o lançamento."
+    },
+    {
+      "start": 1159.7,
+      "end": 1162.82,
+      "source_text": "And customer satisfaction, again, went up.",
+      "draft_nllb": "E a satisfação do cliente, novamente, subiu.",
+      "draft_unicamp": "E a satisfação dos clientes voltou a surgir.",
+      "target_text": "E a satisfação dos clientes, novamente, subiu."
+    },
+    {
+      "start": 1163.1,
+      "end": 1164.88,
+      "source_text": "So it's about this.",
+      "draft_nllb": "Então é sobre isto.",
+      "draft_unicamp": "Então é isso.",
+      "target_text": "Então é isso."
+    },
+    {
+      "start": 1164.88,
+      "end": 1176.42,
+      "source_text": "Like, how would you design your organization from scratch with abundant superintelligence that's cheap and just go build it?",
+      "draft_nllb": "Como desenhaste a tua organização a partir do zero com uma superinteligência abundante que é barata e vais construí-la?",
+      "draft_unicamp": "Assim, como projetaria sua organização a partir de desenhos com abundante superinteireza que é barata e só a construiria?",
+      "target_text": "Como você desenharia sua organização do zero, com superinteligência abundante e barata, e simplesmente partiria para construí-la?"
+    },
+    {
+      "start": 1177.26,
+      "end": 1191.18,
+      "source_text": "Now, this is a good segue to a key topic right now in Silicon Valley where, you know, there's a lot of people worried about how the organizations of the future are going to look like and the role that humans are going to play.",
+      "draft_nllb": "Natalie, isto é uma boa continuação para um tópico chave neste momento no Vale do Silício, onde, sabes, há muitas pessoas preocupadas com como as organizações do futuro vão parecer e o papel que os seres humanos vão desempenhar.",
+      "draft_unicamp": "Natalie, esse é um bom passo para um tema-chave agora no Vale do Silício onde, sabe, há muita gente preocupada com o modo como as organizações do futuro vão parecer e com o papel que o homem vai desempenhar.",
+      "target_text": "Natalie, esse é um bom segue para um tema-chave agora no Vale do Silício, onde, sabe, há muita gente preocupada com o modo como as organizações do futuro vão parecer e com o papel que os seres humanos vão desempenhar."
+    },
+    {
+      "start": 1191.24,
+      "end": 1191.46,
+      "source_text": "Yes.",
+      "draft_nllb": "- Sim, sim, sim.",
+      "draft_unicamp": "Sim.",
+      "target_text": "Sim."
+    },
+    {
+      "start": 1191.74,
+      "end": 1193.54,
+      "source_text": "And I think you touched a little bit on that.",
+      "draft_nllb": "E acho que tocaste um pouco nisso.",
+      "draft_unicamp": "E eu acho que você tocou um pouco nisso.",
+      "target_text": "E eu acho que você tocou um pouco nisso."
+    },
+    {
+      "start": 1193.54,
+      "end": 1197.12,
+      "source_text": "And so we'd love to hear, yeah, like how you guys are thinking about that.",
+      "draft_nllb": "Gostaríamos de saber como pensam sobre isso.",
+      "draft_unicamp": "E então a gente adoraria ouvir, né, como vocês estão pensando nisso.",
+      "target_text": "E então a gente adoraria ouvir, né, como vocês estão pensando nisso."
+    },
+    {
+      "start": 1197.34,
+      "end": 1197.6,
+      "source_text": "Yes.",
+      "draft_nllb": "- Sim, sim, sim.",
+      "draft_unicamp": "Sim.",
+      "target_text": "Sim."
+    },
+    {
+      "start": 1198.28,
+      "end": 1200.52,
+      "source_text": "And the organizations.",
+      "draft_nllb": "E as organizações.",
+      "draft_unicamp": "E as organizações.",
+      "target_text": "E as organizações."
+    },
+    {
+      "start": 1200.84,
+      "end": 1200.94,
+      "source_text": "Yeah.",
+      "draft_nllb": "- Sim, sim, sim.",
+      "draft_unicamp": "Sim.",
+      "target_text": "Sim."
+    },
+    {
+      "start": 1201.46,
+      "end": 1201.72,
+      "source_text": "Totally.",
+      "draft_nllb": "Absolutamente.",
+      "draft_unicamp": "Totalmente.",
+      "target_text": "Com certeza."
+    },
+    {
+      "start": 1201.98,
+      "end": 1206.46,
+      "source_text": "So we took that question very seriously three years ago.",
+      "draft_nllb": "Então, tomámos essa pergunta muito a sério há três anos.",
+      "draft_unicamp": "Então a gente levou essa questão muito séria há três anos.",
+      "target_text": "Então nós levamos essa questão muito a sério há três anos."
+    },
+    {
+      "start": 1206.72,
+      "end": 1211.12,
+      "source_text": "And the truth is that everyone's job will change.",
+      "draft_nllb": "E a verdade é que o trabalho de todos mudará.",
+      "draft_unicamp": "E a verdade é que o trabalho de todos vai mudar.",
+      "target_text": "E a verdade é que o trabalho de todos mudará."
+    },
+    {
+      "start": 1212.3,
+      "end": 1221.69,
+      "source_text": "So, and what we were doing a couple of years ago will probably be performed better by an AI agent.",
+      "draft_nllb": "O que estávamos a fazer há uns anos provavelmente será melhor feito por um agente de IA.",
+      "draft_unicamp": "Então, e o que está fazendo um casal de anos atrás provavelmente será melhor realizado por um agente de AI.",
+      "target_text": "Então, e o que estávamos fazendo há uns anos provavelmente será melhor feito por um agente de IA."
+    },
+    {
+      "start": 1222.09,
+      "end": 1222.35,
+      "source_text": "Right?",
+      "draft_nllb": "Não é verdade?",
+      "draft_unicamp": "Tá certo?",
+      "target_text": "Certo?"
+    },
+    {
+      "start": 1222.41,
+      "end": 1223.29,
+      "source_text": "So what does this mean?",
+      "draft_nllb": "Então, o que significa isso?",
+      "draft_unicamp": "Então, o que isso significa?",
+      "target_text": "Então, o que isso significa?"
+    },
+    {
+      "start": 1223.29,
+      "end": 1225.9,
+      "source_text": "Like, we need to train everyone.",
+      "draft_nllb": "Precisamos de treinar todos.",
+      "draft_unicamp": "Como a gente precisa treinar todos.",
+      "target_text": "Precisamos de treinar todos."
+    },
+    {
+      "start": 1226.64,
+      "end": 1236.22,
+      "source_text": "So, so we launched a program inside Kavak that's called the Jedi Academy where anyone from Kavak, like from the CEO to, yeah.",
+      "draft_nllb": "Então, lançámos um programa dentro do Kavak que se chama Academia Jedi onde qualquer pessoa do Kavak, como o CEO para, sim.",
+      "draft_unicamp": "Assim, lançamos um programa dentro de Kavak que é chamado de Academia de Jedi onde qualquer pessoa de Kavak, como do CEO para o yeah.",
+      "target_text": "Então, lançamos um programa dentro do Kavak que se chama Academia Jedi onde qualquer pessoa do Kavak, como o CEO, para sim."
+    },
+    {
+      "start": 1236.22,
+      "end": 1236.98,
+      "source_text": "And it's awesome.",
+      "draft_nllb": "E é fantástico.",
+      "draft_unicamp": "E é estranho.",
+      "target_text": "E é fantástico."
+    },
+    {
+      "start": 1237.22,
+      "end": 1243.5,
+      "source_text": "Like from the CEO to like AI engineers to mechanics, like going to the academy.",
+      "draft_nllb": "Como o CEO para gostar de engenheiros de IA para mecânicos, como ir à academia.",
+      "draft_unicamp": "Como do CEO para gostar de engenheiros de IA para a mecânica, como ir para a academia.",
+      "target_text": "Como do CEO para gostar de engenheiros de IA para mecânicos, como ir à academia."
+    },
+    {
+      "start": 1243.5,
+      "end": 1249.18,
+      "source_text": "It's super hard. Like, I've led it myself.",
+      "draft_nllb": "É super difícil, como eu, eu, eu, eu, eu, como conduzido, como conduzido para mim mesmo.",
+      "draft_unicamp": "É super difícil, como eu, eu, eu, eu, eu tenho, como led, como led pra mim.",
+      "target_text": "É super difícil, como eu, eu, eu, eu, eu estou fazendo, como conduzi, como conduzi para mim mesmo."
+    },
+    {
+      "start": 1249.34,
+      "end": 1250.4,
+      "source_text": "You designed the program.",
+      "draft_nllb": "Tu desenhaste o programa.",
+      "draft_unicamp": "Você desenhou o programa.",
+      "target_text": "Você desenhou o programa."
+    },
+    {
+      "start": 1250.46,
+      "end": 1251.4,
+      "source_text": "I designed the program.",
+      "draft_nllb": "Eu desenhei o programa.",
+      "draft_unicamp": "Eu desenjei o programa.",
+      "target_text": "Eu desenhei o programa."
+    },
+    {
+      "start": 1251.52,
+      "end": 1252.54,
+      "source_text": "But constantly.",
+      "draft_nllb": "Mas constantemente.",
+      "draft_unicamp": "Mas sempre.",
+      "target_text": "Mas constantemente."
+    },
+    {
+      "start": 1252.62,
+      "end": 1253.0,
+      "source_text": "Constantly.",
+      "draft_nllb": "Constantemente.",
+      "draft_unicamp": "Constantemente.",
+      "target_text": "Constantemente."
+    },
+    {
+      "start": 1253.18,
+      "end": 1257.12,
+      "source_text": "Because you need to be upgrading the program because everything's changing so fast.",
+      "draft_nllb": "Porque precisas de atualizar o programa porque tudo está a mudar tão rápido.",
+      "draft_unicamp": "Porque você precisa estar aprimorando o programa, porque tudo está mudando tão rápido.",
+      "target_text": "Porque você precisa estar atualizando o programa porque tudo está mudando tão rápido."
+    },
+    {
+      "start": 1257.12,
+      "end": 1264.62,
+      "source_text": "And there's like, you can't send these people like outside to Stanford to, to learn this because like, it's new stuff.",
+      "draft_nllb": "E não podes mandar estas pessoas para Stanford para aprenderem isto, porque é algo novo.",
+      "draft_unicamp": "E tem assim, você não consegue enviar essas pessoas como fora de Stanford para, para aprender isso porque assim, é uma coisa nova.",
+      "target_text": "E você não consegue mandar estas pessoas para fora de Stanford para aprender isso, porque é uma coisa nova."
+    },
+    {
+      "start": 1264.62,
+      "end": 1264.9,
+      "source_text": "Right?",
+      "draft_nllb": "Não é verdade?",
+      "draft_unicamp": "Tá certo?",
+      "target_text": "Certo?"
+    },
+    {
+      "start": 1265.3,
+      "end": 1267.12,
+      "source_text": "So we train everyone.",
+      "draft_nllb": "Então nós treinamos todos.",
+      "draft_unicamp": "Então a gente treina todos.",
+      "target_text": "Então nós treinamos todos."
+    },
+    {
+      "start": 1267.12,
+      "end": 1274.92,
+      "source_text": "And after six weeks, they launch state-of-the-art agents, AI agents to production.",
+      "draft_nllb": "E depois de seis semanas, lançam agentes de última geração, agentes de IA para a produção.",
+      "draft_unicamp": "E, após seis semanas, lançam os agentes mais modernos, os AI para a produção.",
+      "target_text": "E, após seis semanas, lançam agentes de última geração, agentes de IA para a produção."
+    },
+    {
+      "start": 1274.92,
+      "end": 1281.7,
+      "source_text": "And it's mechanics and finance guys and engineers, like everyone can do it.",
+      "draft_nllb": "E são mecânicos e financiadores e engenheiros, como qualquer um pode fazê-lo.",
+      "draft_unicamp": "E é mecânico e finance guys e engenheiros, como todo mundo pode fazer.",
+      "target_text": "E são mecânicos e profissionais de finanças e engenheiros, como qualquer um pode fazê-lo."
+    },
+    {
+      "start": 1281.7,
+      "end": 1287.52,
+      "source_text": "And what this generated is maybe this person won't become an AI engineer.",
+      "draft_nllb": "E o que isso gerou é que talvez esta pessoa não se torne um engenheiro de IA.",
+      "draft_unicamp": "E o que isso gera é que talvez essa pessoa não se torne um engenheiro de AI.",
+      "target_text": "E o que isso gerou é que talvez esta pessoa não se torne um engenheiro de IA."
+    },
+    {
+      "start": 1287.68,
+      "end": 1292.04,
+      "source_text": "Some of them have, but they, they know how to collaborate with this new technology.",
+      "draft_nllb": "Alguns têm, mas sabem como colaborar com esta nova tecnologia.",
+      "draft_unicamp": "Alguns têm, mas sabem colaborar com essa nova tecnologia.",
+      "target_text": "Alguns têm, mas sabem colaborar com essa nova tecnologia."
+    },
+    {
+      "start": 1292.3,
+      "end": 1292.46,
+      "source_text": "Right?",
+      "draft_nllb": "Não é verdade?",
+      "draft_unicamp": "Tá certo?",
+      "target_text": "Certo?"
+    },
+    {
+      "start": 1292.56,
+      "end": 1296.58,
+      "source_text": "So the way we looked about it was, guys, there, there's no way back.",
+      "draft_nllb": "Então, a forma como olhamos para isto foi, rapazes, não há como voltar atrás.",
+      "draft_unicamp": "Então a maneira que a gente olhou foi, caras, lá, não tem como voltar.",
+      "target_text": "Então a forma como a gente olhou para isso foi, caras, lá, não há como voltar atrás."
+    },
+    {
+      "start": 1296.72,
+      "end": 1298.22,
+      "source_text": "Like this is the way Kavak is going.",
+      "draft_nllb": "Como se este fosse o caminho do Kavak.",
+      "draft_unicamp": "Como é o caso de Kavak.",
+      "target_text": "Assim é o caso do Kavak."
+    },
+    {
+      "start": 1298.54,
+      "end": 1300.08,
+      "source_text": "This is the way the company will look like.",
+      "draft_nllb": "É assim que a empresa vai parecer.",
+      "draft_unicamp": "Esta é a maneira como a empresa vai parecer.",
+      "target_text": "Esta é a maneira como a empresa vai parecer."
+    },
+    {
+      "start": 1300.4,
+      "end": 1306.7,
+      "source_text": "These are the changes for the engineering team, the finance team, the product team.",
+      "draft_nllb": "Estas são as mudanças para a equipa de engenharia, a equipa de finanças, a equipa de produtos.",
+      "draft_unicamp": "Estas são as mudanças para a equipe de engenharia, a equipe de finanças, a equipe de produtos.",
+      "target_text": "Estas são as mudanças para a equipe de engenharia, a equipe de finanças, a equipe de produtos."
+    },
+    {
+      "start": 1306.7,
+      "end": 1308.34,
+      "source_text": "Like, this is what's going to change.",
+      "draft_nllb": "Isto é o que vai mudar.",
+      "draft_unicamp": "Assim, isso é o que vai mudar.",
+      "target_text": "Assim, isso é o que vai mudar."
+    },
+    {
+      "start": 1309.69,
+      "end": 1316.89,
+      "source_text": "You have the choice to like train and, and get the skills to perform in this new reality, in this new world.",
+      "draft_nllb": "Você tem a escolha de gostar de treinar e, e obter as habilidades para se apresentar nesta nova realidade, neste novo mundo.",
+      "draft_unicamp": "Você tem a opção de gostar de treinar e, e conseguir as habilidades para realizar nessa nova realidade, nesse novo mundo.",
+      "target_text": "Você tem a escolha de gostar de treinar e, e obter as habilidades para se apresentar nesta nova realidade, neste novo mundo."
+    },
+    {
+      "start": 1318.03,
+      "end": 1321.75,
+      "source_text": "Or maybe leave Kavak if this is not for you, but this is the way we're going.",
+      "draft_nllb": "Ou talvez deixes o Kavak se não for para ti, mas é assim que vamos.",
+      "draft_unicamp": "Ou talvez deixe Kavak se isso não for para você, mas é assim que a gente está indo.",
+      "target_text": "Ou talvez deixe Kavak se isso não for para você, mas é assim que a gente está indo."
+    },
+    {
+      "start": 1322.35,
+      "end": 1323.99,
+      "source_text": "And we're great.",
+      "draft_nllb": "E somos óptimos.",
+      "draft_unicamp": "E a gente é grande.",
+      "target_text": "E somos ótimos."
+    },
+    {
+      "start": 1324.21,
+      "end": 1327.71,
+      "source_text": "Like, like we, we, we strengthened the culture and we were super excited.",
+      "draft_nllb": "Como nós, nós, fortalecemos a cultura e estávamos super empolgados.",
+      "draft_unicamp": "Assim, como nós, nós, fortalecemos a cultura e fomos super excitados.",
+      "target_text": "Assim como nós, nós, fortalecemos a cultura e estávamos super empolgados."
+    },
+    {
+      "start": 1328.73,
+      "end": 1332.79,
+      "source_text": "And people really know how to build these agentic systems.",
+      "draft_nllb": "E as pessoas realmente sabem como construir esses sistemas agentes.",
+      "draft_unicamp": "E as pessoas realmente sabem construir esses sistemas agenéticos.",
+      "target_text": "E as pessoas realmente sabem como construir esses sistemas agentes."
+    },
+    {
+      "start": 1332.79,
+      "end": 1339.27,
+      "source_text": "And then if you look at Kavak now, any process, it's really a collaboration of agents and humans.",
+      "draft_nllb": "E se olharmos para o Kavak agora, qualquer processo, é realmente uma colaboração de agentes e humanos.",
+      "draft_unicamp": "E se você olhar para o Kavak agora, qualquer processo, é realmente uma colaboração dos agentes e dos seres humanos.",
+      "target_text": "E se você olhar para o Kavak agora, qualquer processo, é realmente uma colaboração de agentes e humanos."
+    },
+    {
+      "start": 1339.39,
+      "end": 1343.15,
+      "source_text": "And sometimes like agents are the bosses or, of, of humans.",
+      "draft_nllb": "E, às vezes, como agentes, são os chefes ou, dos humanos.",
+      "draft_unicamp": "E, às vezes, como os agentes são os chefes ou, de, dos seres humanos.",
+      "target_text": "E, às vezes, os agentes são os chefes ou, de, dos humanos."
+    },
+    {
+      "start": 1343.15,
+      "end": 1345.23,
+      "source_text": "And sometimes humans are designing the agents.",
+      "draft_nllb": "E, às vezes, os seres humanos desenham os agentes.",
+      "draft_unicamp": "E, por vezes, os seres humanos estão projetando os agentes.",
+      "target_text": "E, por vezes, os seres humanos estão projetando os agentes."
+    },
+    {
+      "start": 1345.89,
+      "end": 1349.88,
+      "source_text": "But I think we, we managed to really build this and change this.",
+      "draft_nllb": "Mas acho que conseguimos realmente construir isto e mudar isto.",
+      "draft_unicamp": "Mas eu acho que a gente conseguiu realmente construir isso e mudar isso.",
+      "target_text": "Mas eu acho que a gente conseguiu realmente construir isso e mudar isso."
+    },
+    {
+      "start": 1350.44,
+      "end": 1358.96,
+      "source_text": "And, and it's through this idea that we need to be learning every day and things will continue to change.",
+      "draft_nllb": "E é através desta ideia que precisamos de aprender todos os dias e as coisas continuarão a mudar.",
+      "draft_unicamp": "E, e é por meio dessa ideia que precisamos estar aprendendo todos os dias e que as coisas vão continuar mudando.",
+      "target_text": "E é por meio dessa ideia que precisamos estar aprendendo todos os dias e as coisas continuarão a mudar."
+    },
+    {
+      "start": 1358.96,
+      "end": 1366.62,
+      "source_text": "And the only way to, to continue being relevant is to upgrade your skills every month or every couple of months.",
+      "draft_nllb": "E a única maneira de continuarmos relevantes é melhorar as nossas habilidades a cada mês ou a cada dois meses.",
+      "draft_unicamp": "E a única maneira de continuar sendo relevante é a atualização de suas habilidades a cada mês ou a cada casal de meses.",
+      "target_text": "E a única maneira de continuar sendo relevante é atualizar suas habilidades a cada mês ou a cada dois meses."
+    },
+    {
+      "start": 1366.94,
+      "end": 1370.84,
+      "source_text": "But you do have, or did have, you know, thousands of people.",
+      "draft_nllb": "Mas tens, ou tens, milhares de pessoas.",
+      "draft_unicamp": "Mas você tem, ou teve, sabe, milhares de pessoas.",
+      "target_text": "Mas você tem, ou teve, sabe-se lá, milhares de pessoas."
+    },
+    {
+      "start": 1371.18,
+      "end": 1373.32,
+      "source_text": "Now agents do most things.",
+      "draft_nllb": "Agora os agentes fazem a maioria das coisas.",
+      "draft_unicamp": "Agora os agentes fazem a maioria das coisas.",
+      "target_text": "Agora os agentes estão fazendo a maioria das coisas."
+    },
+    {
+      "start": 1373.32,
+      "end": 1373.62,
+      "source_text": "Yes.",
+      "draft_nllb": "- Sim, sim, sim.",
+      "draft_unicamp": "Sim.",
+      "target_text": "Sim."
+    },
+    {
+      "start": 1373.86,
+      "end": 1376.86,
+      "source_text": "So like, what is the org structure of Kavak?",
+      "draft_nllb": "Então, qual é a estrutura orgânica do Kavak?",
+      "draft_unicamp": "Assim, qual a estrutura do org de Kavak?",
+      "target_text": "Então, qual é a estrutura organizacional do Kavak?"
+    },
+    {
+      "start": 1377.1,
+      "end": 1379.62,
+      "source_text": "Like, does the middle management concept even exist anymore?",
+      "draft_nllb": "Como, o conceito de gerenciamento médio já existe?",
+      "draft_unicamp": "Assim, o conceito de gerência média ainda existe?",
+      "target_text": "Assim, o conceito de gerenciamento médio ainda existe?"
+    },
+    {
+      "start": 1379.76,
+      "end": 1380.64,
+      "source_text": "Like, what does your org look like?",
+      "draft_nllb": "Como é que parece o teu órgão?",
+      "draft_unicamp": "Como é que o seu org parece?",
+      "target_text": "Como é que parece a sua organização?"
+    },
+    {
+      "start": 1380.74,
+      "end": 1380.96,
+      "source_text": "Right.",
+      "draft_nllb": "- Sim, sim.",
+      "draft_unicamp": "É certo.",
+      "target_text": "Certo."
+    },
+    {
+      "start": 1381.1,
+      "end": 1386.21,
+      "source_text": "So the way it looks like now is very flat teams, very senior teams, super empowered.",
+      "draft_nllb": "Assim, a forma como parece agora são equipes muito planas, equipes muito antigas, super empoderadas.",
+      "draft_unicamp": "Então a maneira como parece agora são equipes muito planas, equipes muito avançadas, superempoderadas.",
+      "target_text": "A maneira como parece agora é de equipes muito planas, equipes muito senior, super empoderadas."
+    },
+    {
+      "start": 1386.21,
+      "end": 1393.49,
+      "source_text": "If you look at a team, you'll have engineering, AI, like operations, like everything.",
+      "draft_nllb": "Se olharmos para uma equipa, temos engenharia, IA, como operações, como tudo.",
+      "draft_unicamp": "Se você olhar para uma equipe, você vai ter engenharia, AI, tipo operações, tipo tudo.",
+      "target_text": "Se você olhar para uma equipe, você está fazendo engenharia, IA, como operações, como tudo."
+    },
+    {
+      "start": 1393.77,
+      "end": 1401.99,
+      "source_text": "And they're either building the agents, working for the agents, or being in the physical world in front of the customer.",
+      "draft_nllb": "E eles estão a construir os agentes, a trabalhar para os agentes, ou a estar no mundo físico na frente do cliente.",
+      "draft_unicamp": "E eles estão construindo os agentes, trabalhando com os agentes, ou estando no mundo físico em frente ao cliente.",
+      "target_text": "Eles estão construindo os agentes, trabalhando com os agentes, ou estando no mundo físico em frente ao cliente."
+    },
+    {
+      "start": 1402.65,
+      "end": 1404.81,
+      "source_text": "Like most of our organization looks like that.",
+      "draft_nllb": "A maior parte da nossa organização parece assim.",
+      "draft_unicamp": "Como a maioria de nossa organização parece assim.",
+      "target_text": "A maior parte da nossa organização parece assim."
+    },
+    {
+      "start": 1404.95,
+      "end": 1416.07,
+      "source_text": "So, so it's really built around, around the idea of how organizations will look like in the future and around AI and really harnessing this, this new technology.",
+      "draft_nllb": "Então, é realmente construído em torno da ideia de como as organizações serão no futuro e em torno da IA e realmente aproveitando esta nova tecnologia.",
+      "draft_unicamp": "Assim, é realmente construído em torno, em torno da ideia de como as organizações se comportarão no futuro e em torno da AI e, de fato, aproveitando essa nova tecnologia.",
+      "target_text": "Então, é realmente construído em torno da ideia de como as organizações serão no futuro e em torno da IA e, de fato, aproveitando essa nova tecnologia."
+    },
+    {
+      "start": 1416.69,
+      "end": 1423.01,
+      "source_text": "Obviously, this required lots of retraining because in 2023 or 2022, no one was building agents.",
+      "draft_nllb": "Obviamente, isso exigia muita reformulação porque em 2023 ou 2022, ninguém estava a construir agentes.",
+      "draft_unicamp": "Obviamente, isso necessitou de muitos retreinos, pois, em 2023 ou 2022, nenhum era construtor.",
+      "target_text": "Evidentemente, isso exigia muita retrainamento porque em 2023 ou 2022, ninguém estava construindo agentes."
+    },
+    {
+      "start": 1423.43,
+      "end": 1427.17,
+      "source_text": "No one was helping agents or taking orders from, from agents.",
+      "draft_nllb": "Ninguém estava a ajudar agentes ou a receber ordens de agentes.",
+      "draft_unicamp": "Ninguém estava ajudando os agentes ou tomando ordens dos agentes.",
+      "target_text": "Ninguém estava ajudando os agentes ou tomando ordens dos agentes."
+    },
+    {
+      "start": 1427.35,
+      "end": 1436.81,
+      "source_text": "And the way you cater to the physical world or the customers was in a different way than if an agent's telling you what to do or helping you make your job better.",
+      "draft_nllb": "E a forma como atendemos ao mundo físico ou aos clientes era diferente de quando um agente nos diz o que fazer ou nos ajuda a melhorar o nosso trabalho.",
+      "draft_unicamp": "E a maneira como você atende ao mundo físico ou aos clientes foi de uma maneira diferente de se um agente lhe dizer o que fazer ou ajudar você a fazer o seu trabalho melhor.",
+      "target_text": "E a maneira como você atende ao mundo físico ou aos clientes foi diferente de quando um agente lhe diz o que fazer ou lhe ajuda a melhorar o seu trabalho."
+    },
+    {
+      "start": 1436.81,
+      "end": 1437.09,
+      "source_text": "Yep.",
+      "draft_nllb": "- Sim, sim, sim.",
+      "draft_unicamp": "Yep.",
+      "target_text": "Sim."
+    },
+    {
+      "start": 1437.09,
+      "end": 1441.31,
+      "source_text": "And so it's a completely different structure than, than we had just two years ago.",
+      "draft_nllb": "E é uma estrutura completamente diferente do que tínhamos há apenas dois anos.",
+      "draft_unicamp": "E então é uma estrutura completamente diferente do que, do que a gente tinha há apenas dois anos.",
+      "target_text": "E é uma estrutura completamente diferente da que tínhamos há apenas dois anos."
+    },
+    {
+      "start": 1441.39,
+      "end": 1441.51,
+      "source_text": "Yeah.",
+      "draft_nllb": "- Sim, sim, sim.",
+      "draft_unicamp": "Sim.",
+      "target_text": "Sim."
+    },
+    {
+      "start": 1441.89,
+      "end": 1445.71,
+      "source_text": "Explain, we talked about this before, what working for the agents look like.",
+      "draft_nllb": "Explique, já falámos sobre isto antes, como é trabalhar para os agentes.",
+      "draft_unicamp": "Explicitamos, discutimos isso antes, o que parece o trabalho dos agentes.",
+      "target_text": "Explique, já falamos sobre isso antes, como é trabalhar para os agentes."
+    },
+    {
+      "start": 1445.79,
+      "end": 1447.91,
+      "source_text": "Like, I think the way you described it was an agentic system.",
+      "draft_nllb": "Acho que a forma como descreveu foi um sistema de agentes.",
+      "draft_unicamp": "Assim, eu acho que a forma como você descreveu foi um sistema agenético.",
+      "target_text": "Acho que a forma como você descreveu foi um sistema agente."
+    },
+    {
+      "start": 1448.05,
+      "end": 1451.47,
+      "source_text": "And then sometimes when it fails, it's like, oh, that's kicked out to kind of a human queue.",
+      "draft_nllb": "E às vezes, quando falha, é como, oh, isso é jogado para uma espécie de sinal humano.",
+      "draft_unicamp": "E depois, quando ela falha, é assim, ah, que é jogada pra tipo de dicas humanas.",
+      "target_text": "E depois, quando ela falha, é assim, oh, que é jogada para uma espécie de sinal humano."
+    },
+    {
+      "start": 1451.55,
+      "end": 1451.73,
+      "source_text": "Right.",
+      "draft_nllb": "- Sim, sim.",
+      "draft_unicamp": "É certo.",
+      "target_text": "Certo."
+    },
+    {
+      "start": 1451.73,
+      "end": 1452.95,
+      "source_text": "But then that's lost.",
+      "draft_nllb": "Mas depois isso está perdido.",
+      "draft_unicamp": "Mas aí isso foi perdido.",
+      "target_text": "Mas aí isso está perdido."
+    },
+    {
+      "start": 1453.05,
+      "end": 1454.11,
+      "source_text": "And so how have you brought that together?",
+      "draft_nllb": "E como é que conseguiste juntar isso?",
+      "draft_unicamp": "E como oa sr.a juntou isso?",
+      "target_text": "E como você juntou isso?"
+    },
+    {
+      "start": 1454.35,
+      "end": 1462.46,
+      "source_text": "So like the, the, we see human in the loops and, and, and most of these agentic systems in production right now, like large scale agentic systems.",
+      "draft_nllb": "Então, como o, o, vemos humanos nos circuitos e, e, e a maioria desses sistemas agentes em produção agora, como sistemas agentes em grande escala.",
+      "draft_unicamp": "Assim como o, o, vemos o homem nas alças e, e, e a maioria desses sistemas agenéticos em produção agora, como os sistemas agenéticos de grande escala.",
+      "target_text": "Então, como o, o, vemos humanos nos loops e, e, e a maioria desses sistemas agentes em produção agora, como sistemas agentes em grande escala."
+    },
+    {
+      "start": 1462.46,
+      "end": 1473.92,
+      "source_text": "Usually if an agent hits a wall or can't perform anymore, it'll like send the, this case or this customer to a tier two support and forget about it.",
+      "draft_nllb": "Normalmente, se um agente atinge uma parede ou não consegue atuar mais, vai enviar o caso ou o cliente para um suporte de nível dois e esquecer.",
+      "draft_unicamp": "Usualmente, se um agente bate uma parede ou não consegue fazer mais, é como mandar o, neste caso ou esse cliente para uma fila dois apoios e esquecê-lo.",
+      "target_text": "Normalmente, se um agente bate uma parede ou não consegue fazer mais, vai enviar o caso ou o cliente para um suporte de nível dois e esquecer."
+    },
+    {
+      "start": 1474.08,
+      "end": 1477.64,
+      "source_text": "That doesn't really work because you don't close the loops.",
+      "draft_nllb": "Isso não funciona porque não fechamos os circuitos.",
+      "draft_unicamp": "Isso não funciona mesmo porque você não fecha as alças.",
+      "target_text": "Isso não funciona porque você não fecha as alças."
+    },
+    {
+      "start": 1477.64,
+      "end": 1481.24,
+      "source_text": "So you don't generate the data to train the agent to do this better.",
+      "draft_nllb": "Então, não gera os dados para treinar o agente a fazer isso melhor.",
+      "draft_unicamp": "Então, você não gera os dados para treinar o agente para fazer isso melhor.",
+      "target_text": "Então, você não gera os dados para treinar o agente a fazer isso melhor."
+    },
+    {
+      "start": 1481.56,
+      "end": 1486.54,
+      "source_text": "What works right now is we have an agent that's obsessed with each of the customers, like millions of this.",
+      "draft_nllb": "O que funciona agora é que temos um agente obcecado por cada um dos clientes, como milhões disto.",
+      "draft_unicamp": "O que funciona agora é que temos um agente que é obcedido com cada um dos clientes, como milhões disso.",
+      "target_text": "O que funciona agora é que temos um agente que está obcecado com cada um dos clientes, como milhões disso."
+    },
+    {
+      "start": 1486.54,
+      "end": 1495.0,
+      "source_text": "They have access to every single API, every single skill, like, and we have agents building those humans, building those skills for them.",
+      "draft_nllb": "Eles têm acesso a cada API, a cada habilidade, e nós temos agentes a construir esses seres humanos, a construir essas habilidades para eles.",
+      "draft_unicamp": "Eles têm acesso a cada API, a cada habilidade única, como, e nós temos agentes que constroem esses seres humanos, constroem essas habilidades para eles.",
+      "target_text": "Eles têm acesso a cada API, a cada habilidade, e nós temos agentes que estão construindo esses seres humanos, construindo essas habilidades para eles."
+    },
+    {
+      "start": 1495.56,
+      "end": 1502.06,
+      "source_text": "And then if an agent hits a wall or cancel something, it'll call this API saying, I need help.",
+      "draft_nllb": "E depois, se um agente bater numa parede ou cancelar algo, chama esta API dizendo, preciso de ajuda.",
+      "draft_unicamp": "E depois se um agente bater uma parede ou anular alguma coisa, vai chamar esse API dizendo, eu preciso ajuda.",
+      "target_text": "E depois, se um agente bater numa parede ou cancelar algo, vai chamar essa API dizendo, eu preciso de ajuda."
+    },
+    {
+      "start": 1502.34,
+      "end": 1505.9,
+      "source_text": "And on the other side, it's not an agent or software.",
+      "draft_nllb": "E por outro lado, não é um agente nem um software.",
+      "draft_unicamp": "E, por outro lado, não é um agente ou um software.",
+      "target_text": "E, por outro lado, não é um agente ou um software."
+    },
+    {
+      "start": 1506.02,
+      "end": 1508.18,
+      "source_text": "It's a human helping them out.",
+      "draft_nllb": "É um ser humano a ajudá-los.",
+      "draft_unicamp": "É um homem que está ajudando.",
+      "target_text": "É um ser humano que está ajudando."
+    },
+    {
+      "start": 1508.34,
+      "end": 1514.02,
+      "source_text": "But if you map this out in an org chart, it's really human teams that have an agent.",
+      "draft_nllb": "Mas se você mapear isto em um gráfico org, são realmente equipes humanas que têm um agente.",
+      "draft_unicamp": "Mas se você mapear isso em um mapa de org, é realmente a equipe humana que tem um agente.",
+      "target_text": "Mas se você mapear isso em um mapa de org, é realmente a equipe humana que tem um agente."
+    },
+    {
+      "start": 1514.16,
+      "end": 1515.3,
+      "source_text": "I'm getting better results.",
+      "draft_nllb": "Estou a obter melhores resultados.",
+      "draft_unicamp": "Eu estou obtendo melhores resultados.",
+      "target_text": "Estou obtendo melhores resultados."
+    },
+    {
+      "start": 1515.3,
+      "end": 1516.72,
+      "source_text": "It's super clear.",
+      "draft_nllb": "Está super claro.",
+      "draft_unicamp": "É super claro.",
+      "target_text": "É super claro."
+    },
+    {
+      "start": 1516.84,
+      "end": 1518.26,
+      "source_text": "Like, it makes sense.",
+      "draft_nllb": "Como, faz sentido.",
+      "draft_unicamp": "Assim, faz sentido.",
+      "target_text": "Assim, faz sentido."
+    },
+    {
+      "start": 1518.26,
+      "end": 1519.34,
+      "source_text": "That's actually a perfect segue.",
+      "draft_nllb": "Na verdade, é uma sequência perfeita.",
+      "draft_unicamp": "Isso é, na verdade, um passo perfeito.",
+      "target_text": "Na verdade, é uma sequência perfeita."
+    },
+    {
+      "start": 1519.46,
+      "end": 1524.12,
+      "source_text": "And I know you get lots of leaders at larger institutions inbounding to you.",
+      "draft_nllb": "E sei que tens muitos líderes em instituições maiores a chegar até ti.",
+      "draft_unicamp": "E eu sei que você tem muitos líderes em instituições maiores que se ligam a você.",
+      "target_text": "E sei que você tem muitos líderes em instituições maiores que estão se ligando a você."
+    },
+    {
+      "start": 1524.3,
+      "end": 1525.84,
+      "source_text": "So maybe this will save you many phone calls.",
+      "draft_nllb": "Então, talvez isso lhe economize muitas chamadas telefónicas.",
+      "draft_unicamp": "Assim, talvez isso lhe evite muitos telefonemas.",
+      "target_text": "Então, talvez isso lhe evite muitos telefonemas."
+    },
+    {
+      "start": 1525.9,
+      "end": 1531.88,
+      "source_text": "But I think rationally, many leaders of companies intuitively understand this.",
+      "draft_nllb": "Mas acho que racionalmente, muitos líderes de empresas intuitivamente entendem isso.",
+      "draft_unicamp": "Mas eu acho racional, muitos líderes das empresas entendem intuitivamente isso.",
+      "target_text": "Mas acho que racionalmente, muitos líderes de empresas intuitivamente entendem isso."
+    },
+    {
+      "start": 1531.94,
+      "end": 1537.06,
+      "source_text": "It is very hard still to deploy AI through their organization.",
+      "draft_nllb": "Ainda é muito difícil implementar a IA através da sua organização.",
+      "draft_unicamp": "É muito difícil ainda implantar a IA através de sua organização.",
+      "target_text": "É muito difícil ainda implantar a IA através de sua organização."
+    },
+    {
+      "start": 1537.36,
+      "end": 1538.38,
+      "source_text": "Like, the models are good enough.",
+      "draft_nllb": "Os modelos são bons o suficiente.",
+      "draft_unicamp": "Assim, os modelos são bons o bastante.",
+      "target_text": "Os modelos são bons o suficiente."
+    },
+    {
+      "start": 1538.46,
+      "end": 1539.0,
+      "source_text": "You know that.",
+      "draft_nllb": "Tu sabes disso.",
+      "draft_unicamp": "Você sabe isso.",
+      "target_text": "Você sabe disso."
+    },
+    {
+      "start": 1539.14,
+      "end": 1540.16,
+      "source_text": "It's an org problem.",
+      "draft_nllb": "É um problema org.",
+      "draft_unicamp": "É um problema de org.",
+      "target_text": "É um problema de org."
+    },
+    {
+      "start": 1540.16,
+      "end": 1541.3,
+      "source_text": "It's a psychology problem.",
+      "draft_nllb": "É um problema psicológico.",
+      "draft_unicamp": "É um problema de psicologia.",
+      "target_text": "É um problema psicológico."
+    },
+    {
+      "start": 1541.4,
+      "end": 1543.7,
+      "source_text": "Like, what advice do you have or what have you seen?",
+      "draft_nllb": "Como, que conselhos tens ou o que viste?",
+      "draft_unicamp": "Como, que conselhos você tem ou o que você viu?",
+      "target_text": "Como, que conselhos você tem ou o que você viu?"
+    },
+    {
+      "start": 1543.7,
+      "end": 1545.2,
+      "source_text": "I think it's two things.",
+      "draft_nllb": "Acho que são duas coisas.",
+      "draft_unicamp": "Eu acho que é duas coisas.",
+      "target_text": "Acho que são duas coisas."
+    },
+    {
+      "start": 1545.54,
+      "end": 1549.88,
+      "source_text": "The first is it has to be top down because of this.",
+      "draft_nllb": "A primeira é que tem que ser de cima para baixo por causa disto.",
+      "draft_unicamp": "A primeira é que tem que ser top down por causa disso.",
+      "target_text": "A primeira é que tem que ser de cima para baixo por causa disso."
+    },
+    {
+      "start": 1550.08,
+      "end": 1564.26,
+      "source_text": "Like, if you just get adoption, it won't go anywhere because it's hard to generate this taste or strategy for people to bottom up, decide what to build and whatnot, and come up with something that works for the company.",
+      "draft_nllb": "Por exemplo, se conseguirmos a adoção, não vai a lado nenhum, porque é difícil gerar esse gosto ou estratégia para as pessoas chegarem ao fundo, decidirem o que construir e o que não, e chegarem a algo que funcione para a empresa.",
+      "draft_unicamp": "Como, se você só conseguir a adoção, não vai em nada porque é difícil gerar esse gosto ou estratégia para que as pessoas atinjam, decidam o que construir e o que não, e venha com algo que funcione para a empresa.",
+      "target_text": "Como, se você só conseguir a adoção, não vai a lugar nenhum porque é difícil gerar esse gosto ou estratégia para as pessoas chegarem ao fundo, decidirem o que construir e o que não, e conseguirem algo que funcione para a empresa."
+    },
+    {
+      "start": 1564.26,
+      "end": 1572.18,
+      "source_text": "So the transformation has to be top down, and leaders need to adopt, and leaders have to have a very clear plan on what to build.",
+      "draft_nllb": "Portanto, a transformação tem de ser de cima para baixo, e os líderes têm de adotar, e os líderes têm de ter um plano muito claro sobre o que construir.",
+      "draft_unicamp": "Então, a transformação tem que ser top down, e os líderes precisam adotar, e os líderes têm que ter um plano bem claro sobre o que construir.",
+      "target_text": "Portanto, a transformação tem de ser de cima para baixo, e os líderes têm de adotar, e os líderes têm de ter um plano muito claro sobre o que construir."
+    },
+    {
+      "start": 1572.66,
+      "end": 1574.38,
+      "source_text": "I've seen so many companies.",
+      "draft_nllb": "Já vi tantas empresas.",
+      "draft_unicamp": "Eu vi tantas empresas.",
+      "target_text": "Já vi tantas empresas."
+    },
+    {
+      "start": 1574.62,
+      "end": 1576.76,
+      "source_text": "It's just like, oh, like, we're doing a hackathon.",
+      "draft_nllb": "É como se estivéssemos a fazer um hackathon.",
+      "draft_unicamp": "É assim, ah, assim, a gente está fazendo uma maratona.",
+      "target_text": "É assim, ah, assim, a gente está fazendo um hackathon."
+    },
+    {
+      "start": 1576.96,
+      "end": 1578.36,
+      "source_text": "People are coming up with use cases.",
+      "draft_nllb": "As pessoas estão a pensar em casos de uso.",
+      "draft_unicamp": "As pessoas estão surgindo com casos de uso.",
+      "target_text": "As pessoas estão surgindo com casos de uso."
+    },
+    {
+      "start": 1578.36,
+      "end": 1580.5,
+      "source_text": "We're sponsoring some of these use cases.",
+      "draft_nllb": "Estamos a patrocinar alguns destes casos de uso.",
+      "draft_unicamp": "Estamos patrocinando alguns desses casos de uso.",
+      "target_text": "Estamos patrocinando alguns desses casos de uso."
+    },
+    {
+      "start": 1580.64,
+      "end": 1581.66,
+      "source_text": "That doesn't work.",
+      "draft_nllb": "- Isso não funciona.",
+      "draft_unicamp": "Isso não funciona.",
+      "target_text": "Isso não funciona."
+    },
+    {
+      "start": 1581.84,
+      "end": 1590.57,
+      "source_text": "It's like, be very clear on what the company will look like in three or five years, and then start building that.",
+      "draft_nllb": "É como, ter muito claro como será a empresa daqui a três ou cinco anos, e depois começar a construir isso.",
+      "draft_unicamp": "É assim, estar muito claro sobre o que a empresa vai parecer em três ou cinco anos, e depois começar a construir isso.",
+      "target_text": "É assim, estar muito claro sobre o que a empresa vai parecer em três ou cinco anos, e depois começar a construir isso."
+    },
+    {
+      "start": 1590.71,
+      "end": 1594.91,
+      "source_text": "And be, like, very vertical in guiding your troops towards that.",
+      "draft_nllb": "E sejam muito verticais a guiar as suas tropas para isso.",
+      "draft_unicamp": "E ser, assim, muito vertical no direcionamento de suas tropas para isso.",
+      "target_text": "E ser, assim, muito vertical no direcionamento de suas tropas para isso."
+    },
+    {
+      "start": 1595.03,
+      "end": 1602.67,
+      "source_text": "Like, an army doesn't really work if everyone comes up with ideas on the strategy and tactics and goes to the battlefield and, like, does whatever they want.",
+      "draft_nllb": "Um exército não funciona se todos tiverem ideias sobre estratégia e tática e vão ao campo de batalha e fazem o que quiserem.",
+      "draft_unicamp": "Assim, um exército não funciona realmente se todos entram com ideias sobre a estratégia e tática e vão para o campo de batalha e, assim, fazem o que querem.",
+      "target_text": "Um exército não funciona se todos tiverem ideias sobre estratégia e tática e vão ao campo de batalha e fazem o que quiserem."
+    },
+    {
+      "start": 1602.67,
+      "end": 1605.95,
+      "source_text": "Like, you need a very clear strategy, and that's what we need now.",
+      "draft_nllb": "Precisas de uma estratégia muito clara, e é isso que precisamos agora.",
+      "draft_unicamp": "Assim, você precisa de uma estratégia bem clara, e isso é o que a gente precisa agora.",
+      "target_text": "Você precisa de uma estratégia muito clara, e isso é o que a gente precisa agora."
+    },
+    {
+      "start": 1606.01,
+      "end": 1607.67,
+      "source_text": "It's at, like, transformation stage.",
+      "draft_nllb": "Está numa fase de transformação.",
+      "draft_unicamp": "Está na fase de transformação.",
+      "target_text": "Está na fase de transformação."
+    },
+    {
+      "start": 1608.19,
+      "end": 1613.83,
+      "source_text": "The second one is you need to measure what really matters, and it's evals, but it's also the right evals.",
+      "draft_nllb": "A segunda é que você precisa medir o que realmente importa, e são avaliações, mas também são as avaliações certas.",
+      "draft_unicamp": "A segunda é a necessidade de mensurar o que realmente interessa, e são as avaliações, mas também são as avaliações corretas.",
+      "target_text": "A segunda é que você precisa medir o que realmente importa, e são as avaliações, mas também são as avaliações certas."
+    },
+    {
+      "start": 1614.27,
+      "end": 1620.45,
+      "source_text": "So I see a lot of companies spending now huge amounts, and they say, okay, I got adoption.",
+      "draft_nllb": "Vejo muitas empresas gastando agora enormes quantias, e dizem, está bem, eu tenho adoção.",
+      "draft_unicamp": "Então eu vejo muita empresa gastando agora enormes quantidades, e elas dizem, né, eu cheguei a adotar.",
+      "target_text": "Vejo muitas empresas gastando agora enormes quantias, e dizem, está bem, eu tenho adoção."
+    },
+    {
+      "start": 1620.79,
+      "end": 1624.73,
+      "source_text": "I'm just spending, like, hundreds of millions of dollars in tokens now.",
+      "draft_nllb": "Estou a gastar centenas de milhões de dólares em tokens agora.",
+      "draft_unicamp": "Estou gastando, assim, centenas de milhões de dólares em tokens agora.",
+      "target_text": "Estou gastando centenas de milhões de dólares em tokens agora."
+    },
+    {
+      "start": 1624.99,
+      "end": 1625.87,
+      "source_text": "What about that?",
+      "draft_nllb": "Que tal isso?",
+      "draft_unicamp": "E sobre isso?",
+      "target_text": "Como fica isso?"
+    },
+    {
+      "start": 1626.03,
+      "end": 1627.93,
+      "source_text": "Like, there's quality in the tokens.",
+      "draft_nllb": "Há qualidade nos tokens.",
+      "draft_unicamp": "Assim, há qualidade nas tokens.",
+      "target_text": "Há qualidade nos tokens."
+    },
+    {
+      "start": 1627.93,
+      "end": 1630.57,
+      "source_text": "So I have a framework here that's also useful.",
+      "draft_nllb": "Então eu tenho uma estrutura aqui que também é útil.",
+      "draft_unicamp": "Então eu tenho um quadro aqui que também é útil.",
+      "target_text": "Então eu tenho uma estrutura aqui que também é útil."
+    },
+    {
+      "start": 1631.23,
+      "end": 1641.16,
+      "source_text": "Like, tier three tokens, the most valuable, are these agents where you can get the ROI of each specific token.",
+      "draft_nllb": "Como, tokens de nível três, os mais valiosos, são estes agentes onde você pode obter o ROI de cada token específico.",
+      "draft_unicamp": "Da mesma forma, o mais valioso são esses agentes onde se pode obter o ROI de cada uma delas.",
+      "target_text": "Como os tokens de nível três, os mais valiosos, são estes agentes onde você pode obter o ROI de cada token específico."
+    },
+    {
+      "start": 1641.3,
+      "end": 1642.22,
+      "source_text": "And I can do that now.",
+      "draft_nllb": "E posso fazer isso agora.",
+      "draft_unicamp": "E eu posso fazer isso agora.",
+      "target_text": "E eu posso fazer isso agora."
+    },
+    {
+      "start": 1642.3,
+      "end": 1643.48,
+      "source_text": "That's great news for me.",
+      "draft_nllb": "Isso é ótima notícia para mim.",
+      "draft_unicamp": "Isso é muito novo para mim.",
+      "target_text": "Isso é ótima notícia para mim."
+    },
+    {
+      "start": 1644.02,
+      "end": 1652.46,
+      "source_text": "Because I'm growing, and because I know the ROI of each token, because it goes to agents that are performing the job of the organization, right?",
+      "draft_nllb": "Porque estou a crescer, e porque sei o ROI de cada token, porque vai para os agentes que estão a executar o trabalho da organização, certo?",
+      "draft_unicamp": "Porque eu estou crescendo, e porque eu sei o ROI de cada token, porque vai para agentes que estão exercendo o trabalho da organização, né?",
+      "target_text": "Porque eu estou crescendo, e porque sei o ROI de cada token, porque vai para os agentes que estão executando o trabalho da organização, né?"
+    },
+    {
+      "start": 1652.52,
+      "end": 1653.5,
+      "source_text": "These are the best tokens.",
+      "draft_nllb": "Estes são os melhores tokens.",
+      "draft_unicamp": "Estas são as melhores tokens.",
+      "target_text": "Estes são os melhores tokens."
+    },
+    {
+      "start": 1653.92,
+      "end": 1658.32,
+      "source_text": "Tier two tokens are things that you can measure indirectly.",
+      "draft_nllb": "Tokens de nível dois são coisas que você pode medir indiretamente.",
+      "draft_unicamp": "Tier dois tokens são coisas que se medem indiretamente.",
+      "target_text": "Tier dois tokens são coisas que você pode medir indiretamente."
+    },
+    {
+      "start": 1658.52,
+      "end": 1660.88,
+      "source_text": "Do I see devs in the code base?",
+      "draft_nllb": "Vejo desenvolvedores na base de código?",
+      "draft_unicamp": "Eu vejo devs na base de código?",
+      "target_text": "Você vê desenvolvedores na base de código?"
+    },
+    {
+      "start": 1661.18,
+      "end": 1665.78,
+      "source_text": "And I can evaluate the value of these tokens, at least indirectly, and then push those to productions.",
+      "draft_nllb": "E posso avaliar o valor desses tokens, pelo menos indiretamente, e depois empurrá-los para produções.",
+      "draft_unicamp": "E eu posso avaliar o valor dessas tokens, pelo menos indiretamente, e depois empurre-as para as produções.",
+      "target_text": "E posso avaliar o valor desses tokens, pelo menos indiretamente, e depois empurrá-los para produções."
+    },
+    {
+      "start": 1666.56,
+      "end": 1673.18,
+      "source_text": "Tier one, when most companies are, is people are just using plug code or chat GPT or co-work or whatever.",
+      "draft_nllb": "O primeiro nível, quando a maioria das empresas estão, é que as pessoas estão apenas a usar código plug ou chat GPT ou cowork ou o que quer que seja.",
+      "draft_unicamp": "Tier um, quando a maioria das empresas está, é a pessoa que está usando apenas o código plug ou chat GPT ou cowork ou qualquer coisa.",
+      "target_text": "Tier um, quando a maioria das empresas está, é que as pessoas estão apenas usando código plug ou chat GPT ou co-work ou qualquer coisa."
+    },
+    {
+      "start": 1673.58,
+      "end": 1674.36,
+      "source_text": "What happened with those?",
+      "draft_nllb": "O que aconteceu com eles?",
+      "draft_unicamp": "O que aconteceu com aqueles?",
+      "target_text": "O que aconteceu com aqueles?"
+    },
+    {
+      "start": 1674.56,
+      "end": 1675.7,
+      "source_text": "I have no idea.",
+      "draft_nllb": "- Não faço ideia.",
+      "draft_unicamp": "Não tenho ideia.",
+      "target_text": "Não tenho ideia."
+    },
+    {
+      "start": 1676.32,
+      "end": 1677.98,
+      "source_text": "So it's not just about adoption.",
+      "draft_nllb": "Então não se trata apenas de adoção.",
+      "draft_unicamp": "Então não é só a adoção.",
+      "target_text": "Então não se trata apenas de adoção."
+    },
+    {
+      "start": 1677.98,
+      "end": 1688.58,
+      "source_text": "It's really about having a very clear vision and then measuring that each token you spend is bringing you those benefits and just iterate, iterate, iterate from there.",
+      "draft_nllb": "Trata-se de ter uma visão muito clara e depois medir que cada token que você gasta lhe traz esses benefícios e apenas iterar, iterar, iterar a partir daí.",
+      "draft_unicamp": "É realmente ter uma visão bem clara e então medir que cada token que você gasta é trazer esses benefícios e só iterar, iterar, iterar ali.",
+      "target_text": "É realmente ter uma visão muito clara e então medir se cada token que você gasta está trazendo esses benefícios e apenas iterar, iterar, iterar a partir daí."
+    },
+    {
+      "start": 1688.58,
+      "end": 1702.76,
+      "source_text": "And we touched on this a little bit, but I think it's worth a dive as maybe the most ambitious companies listening to this will decide to follow suit, which is you decided to build an agent per customer versus per task.",
+      "draft_nllb": "E nós tocámos sobre isso um pouco, mas acho que vale a pena mergulhar, pois talvez as empresas mais ambiciosas que ouvem isto decidam seguir o exemplo, que é que você decidiu construir um agente por cliente versus por tarefa.",
+      "draft_unicamp": "E a gente tocou um pouco nisso, mas eu acho que vale um mergulho, pois talvez as empresas mais ambiciosas que escutam isso decidam seguir o que é você optar por construir um agente por cliente versus por tarefa.",
+      "target_text": "E nós tocamos um pouco nisso, mas acho que vale a pena mergulhar, pois talvez as empresas mais ambiciosas que ouvem isso decidam seguir o exemplo, que é você decidiu construir um agente por cliente versus por tarefa."
+    },
+    {
+      "start": 1702.76,
+      "end": 1709.1,
+      "source_text": "And then discovered along the way that each one of those agents needs its own micro-virtual machine.",
+      "draft_nllb": "E depois descobri ao longo do caminho que cada um desses agentes precisa de sua própria máquina micro-virtual.",
+      "draft_unicamp": "E depois descobriu-se ao longo do modo como cada um desses agentes precisa de sua própria máquina microvirtual.",
+      "target_text": "E depois descobri ao longo do caminho que cada um desses agentes precisa de sua própria máquina microvirtual."
+    },
+    {
+      "start": 1709.32,
+      "end": 1713.7,
+      "source_text": "So maybe kind of walk us through those decisions, that architecture.",
+      "draft_nllb": "Então, talvez nos acompanhe nessas decisões, naquela arquitetura.",
+      "draft_unicamp": "Então, talvez, passemos por essas decisões, aquela arquitetura.",
+      "target_text": "Então, talvez nos acompanhe nessas decisões, naquela arquitetura."
+    },
+    {
+      "start": 1713.7,
+      "end": 1731.68,
+      "source_text": "And I think we're seeing these results now, but it was a really risky bet because people usually go from workflows, like if I could advise everyone, don't build agentic workflows, to graphs or functions or objectives.",
+      "draft_nllb": "E acho que estamos a ver estes resultados agora, mas era uma aposta muito arriscada porque as pessoas costumam passar de fluxos de trabalho, como se eu pudesse aconselhar a todos, não construir fluxos de trabalho agentes, para gráficos ou funções ou objetivos.",
+      "draft_unicamp": "E eu acho que estamos vendo esses resultados agora, mas era um risco mesmo porque as pessoas geralmente saem dos fluxos de trabalho, como se eu pudesse aconselhar todos, não constroem fluxos de trabalho agenéticos, para grafos ou funções ou objetivos.",
+      "target_text": "E eu acho que estamos vendo esses resultados agora, mas era uma aposta muito arriscada porque as pessoas costumam sair dos fluxos de trabalho, como se eu pudesse aconselhar a todos, não construir fluxos de trabalho agentes, para grafos ou funções ou objetivos."
+    },
+    {
+      "start": 1731.68,
+      "end": 1737.96,
+      "source_text": "And we built that, that these are multi-agent systems that can perform a whole function for a complex goals.",
+      "draft_nllb": "E construímos isso, que estes são sistemas multi-agentes que podem executar uma função inteira para um objetivo complexo.",
+      "draft_unicamp": "E construímos isso, que estes são sistemas multiagentes que podem desempenhar toda uma função para um objetivo complexo.",
+      "target_text": "E construímos isso, que estes são sistemas multiagentes que podem desempenhar toda uma função para um objetivo complexo."
+    },
+    {
+      "start": 1738.18,
+      "end": 1744.76,
+      "source_text": "Like the ones I told you that to sell a car, you need to do financing, purchasing, like recommendations, et cetera.",
+      "draft_nllb": "Como aqueles que eu disse que para vender um carro, você precisa fazer financiamento, compras, como recomendações, etc.",
+      "draft_unicamp": "Como os que eu falei que vender um carro, você precisa fazer financiamento, compra, como recomendação, et cetera.",
+      "target_text": "Como os que eu falei que para vender um carro, você precisa fazer financiamento, compras, como recomendações, etc."
+    },
+    {
+      "start": 1745.38,
+      "end": 1751.12,
+      "source_text": "And we had thousands, like tens of thousands of these agents working at scale, running the business back in December.",
+      "draft_nllb": "E tínhamos milhares, dezenas de milhares destes agentes a trabalhar em escala, a gerir o negócio em dezembro.",
+      "draft_unicamp": "E nós tivemos milhares, como dezenas de milhares desses agentes trabalhando em escala, retomando o negócio em dezembro.",
+      "target_text": "E nós tínhamos milhares, dezenas de milhares desses agentes trabalhando em escala, gerindo o negócio em dezembro."
+    },
+    {
+      "start": 1751.12,
+      "end": 1758.36,
+      "source_text": "But then Opus 4.5 came out and I realized like, this isn't the right paradigm anymore.",
+      "draft_nllb": "Mas depois o Opus 4.5 saiu e percebi que este não é mais o paradigma certo.",
+      "draft_unicamp": "Mas aí opus 4.5 saiu e eu percebi assim, esse não é mais o paradigma certo.",
+      "target_text": "Mas aí o Opus 4.5 saiu e eu percebi que esse não é mais o paradigma certo."
+    },
+    {
+      "start": 1759.16,
+      "end": 1770.88,
+      "source_text": "Like the intelligence now doesn't need like the graph and the multi-agent lattice work and harness because it will constrain this level of intelligence.",
+      "draft_nllb": "Como a inteligência agora não precisa como o gráfico e a grelha multi-agente trabalho e uso porque vai restringir este nível de inteligência.",
+      "draft_unicamp": "Como a inteligência não precisa agora, como o gráfico e a rede multiagentes funcionam e se valem, pois ela irá restringir esse nível de inteligência.",
+      "target_text": "A inteligência agora não precisa do gráfico e da rede multiagente, nem do seu funcionamento e uso, porque ela irá restringir esse nível de inteligência."
+    },
+    {
+      "start": 1770.88,
+      "end": 1794.2,
+      "source_text": "So we decided to like destroy everything we had been building for two years that was working, that brought us to profitability, that brought us amazing growth and start over with a harness that we thought would be robust and scalable and leverage recursive self-improvement or new models, more intelligent models coming out every month.",
+      "draft_nllb": "Então decidimos destruir tudo o que tivemos construído durante dois anos que funcionou, que nos trouxe à rentabilidade, que nos trouxe um crescimento incrível e começarmos de novo com um arame que pensávamos ser robusto e escalável e aproveitar a auto-melhoria recorrente ou novos modelos, modelos mais inteligentes que saem a cada mês.",
+      "draft_unicamp": "Então, resolvemos gostar de destruir tudo o que estávamos construindo há dois anos, que nos trouxe para a lucratividade, que nos trouxe crescimento surpreendente e começamos com uma artimanha que pensamos ser robusta e escalonável e alavancar a auto-avaliação recursiva ou novos modelos, modelos mais inteligentes saindo a cada mês.",
+      "target_text": "Então decidimos destruir tudo o que tínhamos construído durante dois anos, que funcionava, que nos trouxe à rentabilidade, que nos trouxe um crescimento incrível, e começarmos de novo com um sistema que pensávamos ser robusto e escalável e aproveitar a auto-melhoria recorrente ou novos modelos, modelos mais inteligentes que saem a cada mês."
+    },
+    {
+      "start": 1794.2,
+      "end": 1808.84,
+      "source_text": "So the way this looks like it's a virtual machine with an agent, with access to memory and evals and the CLI where they can access every tool and every API in my company and the long-term goal.",
+      "draft_nllb": "Assim, a forma como isto parece ser uma máquina virtual com um agente, com acesso à memória e avaliações e o CLI onde eles podem acessar todas as ferramentas e todas as API na minha empresa e o objetivo a longo prazo.",
+      "draft_unicamp": "Então, como isso parece, é uma máquina virtual com um agente, com acesso à memória e avaliação e à LI, onde eles podem acessar toda a ferramenta e todo o API em minha empresa e o objetivo de longo prazo.",
+      "target_text": "Assim, a forma como isso parece é uma máquina virtual com um agente, com acesso à memória e às avaliações e ao CLI, onde eles podem acessar todas as ferramentas e todas as APIs na minha empresa e o objetivo a longo prazo."
+    },
+    {
+      "start": 1809.22,
+      "end": 1817.11,
+      "source_text": "And I instantiate hundreds of thousands of these each day with long-term goals, like maximizing the lifetime value.",
+      "draft_nllb": "E apresento centenas de milhares destes todos os dias com metas a longo prazo, como maximizar o valor ao longo da vida.",
+      "draft_unicamp": "E instancio centenas de milhares desses cada dia com metas de longo prazo, como maximizar o valor da vida.",
+      "target_text": "E instancio centenas de milhares desses cada dia com metas de longo prazo, como maximizar o valor ao longo da vida."
+    },
+    {
+      "start": 1817.27,
+      "end": 1819.05,
+      "source_text": "The self-improving organization.",
+      "draft_nllb": "A organização de auto-melhoria.",
+      "draft_unicamp": "A organização de autoaperfeiçoamento.",
+      "target_text": "A organização de autoaperfeiçoamento."
+    },
+    {
+      "start": 1819.11,
+      "end": 1819.39,
+      "source_text": "Exactly.",
+      "draft_nllb": "- É isso mesmo.",
+      "draft_unicamp": "Exatamente.",
+      "target_text": "Exatamente."
+    },
+    {
+      "start": 1819.55,
+      "end": 1820.55,
+      "source_text": "The self-improving organization.",
+      "draft_nllb": "A organização de auto-melhoria.",
+      "draft_unicamp": "A organização de autoaperfeiçoamento.",
+      "target_text": "A organização de autoaperfeiçoamento."
+    },
+    {
+      "start": 1820.55,
+      "end": 1829.43,
+      "source_text": "And I think people are super obsessed with RSI now, and this will improve the models.",
+      "draft_nllb": "E acho que as pessoas estão super obcecadas com o RSI agora, e isso vai melhorar os modelos.",
+      "draft_unicamp": "E eu acho que as pessoas estão super-observadas com a LER agora, e isso vai melhorar os modelos.",
+      "target_text": "E acho que as pessoas estão super obcecadas com o RSI agora, e isso vai melhorar os modelos."
+    },
+    {
+      "start": 1830.01,
+      "end": 1841.84,
+      "source_text": "But if you look at it this way, economic value in humanity for the past 4,000 years has been delivered by organization, not by individuals.",
+      "draft_nllb": "Mas se olharmos desta forma, o valor econômico na humanidade nos últimos 4.000 anos foi fornecido por organizações, não por indivíduos.",
+      "draft_unicamp": "Mas se você olha para isso, o valor econômico na humanidade nos últimos 4.000 anos foi dado pela organização, não pelos indivíduos.",
+      "target_text": "Mas se você olhar para isso, o valor econômico na humanidade nos últimos 4.000 anos tem sido entregue por organizações, não por indivíduos."
+    },
+    {
+      "start": 1841.84,
+      "end": 1849.26,
+      "source_text": "So what you want to self-improve and to engage in that loop is the organization that can deliver more economic value, right?",
+      "draft_nllb": "Então, o que você quer auto-melhorar e envolver-se nesse ciclo é a organização que pode fornecer mais valor econômico, certo?",
+      "draft_unicamp": "Então o que você quer se autoaperfeiçoar e se engajar nessa alça é a organização que pode dar mais valor econômico, né?",
+      "target_text": "Então, o que você quer se autoaperfeiçoar e se engajar nesse ciclo é a organização que pode gerar mais valor econômico, certo?"
+    },
+    {
+      "start": 1849.26,
+      "end": 1873.56,
+      "source_text": "So that's the loop that I think companies will start to focus on because if you get that loop working and it's an organization that is really self-improving and harnessing the newer models and the better intelligence that we're getting every couple of days now, then you hit the exponential, not just in intelligence, but in the value that you can generate as a company.",
+      "draft_nllb": "Esse é o ciclo em que penso que as empresas vão começar a concentrar-se, porque se conseguirmos que esse ciclo funcione e é uma organização que realmente se auto-melhora e aproveita os modelos mais recentes e a melhor inteligência que estamos a obter a cada dois dias, então atingimos o exponencial, não apenas na inteligência, mas no valor que podemos gerar como empresa.",
+      "draft_unicamp": "Então, é a alça que eu acho que as empresas vão começar a focalizar, porque se você conseguir essa alça trabalhar e é uma organização que está realmente se autoaprimorando e usufruindo dos modelos mais novos e da melhor inteligência que a gente está conseguindo a cada casal de dias agora, então você bate no exponencial, não só na inteligência, mas no valor que você pode gerar como uma empresa.",
+      "target_text": "Esse é o ciclo em que penso que as empresas vão começar a concentrar-se, porque se conseguir que esse ciclo funcione e é uma organização que está realmente se auto-aprimorando e aproveitando os modelos mais recentes e a melhor inteligência que estamos obtendo a cada dois dias agora, então você atinge o exponencial, não apenas na inteligência, mas no valor que pode gerar como empresa."
+    },
+    {
+      "start": 1873.56,
+      "end": 1875.56,
+      "source_text": "So that's really exciting.",
+      "draft_nllb": "Isso é muito emocionante.",
+      "draft_unicamp": "Então isso é realmente animador.",
+      "target_text": "Então isso é realmente emocionante."
+    },
+    {
+      "start": 1875.56,
+      "end": 1888.06,
+      "source_text": "You mentioned that because of all the challenges in adopting AI, you saw the biggest opportunity on net new companies being formed working on this new way and then disrupting markets.",
+      "draft_nllb": "Você mencionou que, por causa de todos os desafios na adoção da IA, viu a maior oportunidade na formação de novas empresas a trabalhar nesta nova maneira e, em seguida, perturbar os mercados.",
+      "draft_unicamp": "Você mencionou que devido a todos os desafios na adoção de AI, viu a maior oportunidade de se formarem novas empresas líquidas trabalhando dessa nova forma e, então, desvinculando os mercados.",
+      "target_text": "Você mencionou que, por causa de todos os desafios na adoção da IA, viu a maior oportunidade na formação de novas empresas trabalhando nesta nova maneira e, em seguida, disruptivas dos mercados."
+    },
+    {
+      "start": 1888.3,
+      "end": 1889.66,
+      "source_text": "You want to talk a little bit about that?",
+      "draft_nllb": "Queres falar um pouco sobre isso?",
+      "draft_unicamp": "Você quer falar um pouco sobre isso?",
+      "target_text": "Você quer falar um pouco sobre isso?"
+    },
+    {
+      "start": 1889.76,
+      "end": 1890.02,
+      "source_text": "Yes.",
+      "draft_nllb": "- Sim, sim, sim.",
+      "draft_unicamp": "Sim.",
+      "target_text": "Sim."
+    },
+    {
+      "start": 1890.02,
+      "end": 1897.47,
+      "source_text": "There's this concept in economics about creative destruction from Joseph Schumpeter.",
+      "draft_nllb": "Há um conceito na economia sobre destruição criativa de Joseph Schumpeter.",
+      "draft_unicamp": "Há esse conceito na economia sobre a destruição criativa de Joseph Schumpeter.",
+      "target_text": "Há esse conceito na economia sobre a destruição criativa de Joseph Schumpeter."
+    },
+    {
+      "start": 1898.19,
+      "end": 1916.09,
+      "source_text": "And what it says is that the way innovation hits the economy isn't by companies adopting the new technology, but by companies remaining the way they were and incumbents with the new technology destroying the old companies.",
+      "draft_nllb": "E o que diz é que a forma como a inovação atinge a economia não é através das empresas adotando a nova tecnologia, mas através das empresas mantendo-se como eram e os incumbentes com a nova tecnologia destruindo as velhas empresas.",
+      "draft_unicamp": "E o que se diz é que o modo como a inovação atinge a economia não é por parte das empresas adotarem a nova tecnologia, mas por parte das empresas continuarem a ser e incumbentes com a nova tecnologia destruindo as antigas empresas.",
+      "target_text": "E o que se diz é que o modo como a inovação atinge a economia não é por empresas adotarem a nova tecnologia, mas por empresas continuarem a ser como eram e incumbentes com a nova tecnologia destruindo as velhas empresas."
+    },
+    {
+      "start": 1916.09,
+      "end": 1928.51,
+      "source_text": "So this destroys value in the short term in the economy, but in the long term, it's better for everyone because these new, more efficient, more effective companies will provide better products and services for the economy as a whole.",
+      "draft_nllb": "Isto destrói valor a curto prazo na economia, mas a longo prazo, é melhor para todos porque estas novas empresas mais eficientes e eficazes fornecerão melhores produtos e serviços para a economia como um todo.",
+      "draft_unicamp": "Assim, isso destrói o valor em curto prazo na economia, mas em longo prazo, é melhor para todos, pois estas empresas novas, mais eficientes, mais eficazes irão fornecer melhores produtos e serviços para a economia como um todo.",
+      "target_text": "Isso destrói valor a curto prazo na economia, mas a longo prazo é melhor para todos, pois estas novas empresas mais eficientes e eficazes fornecerão melhores produtos e serviços para a economia como um todo."
+    },
+    {
+      "start": 1928.95,
+      "end": 1933.11,
+      "source_text": "And this has happened in the past industrial revolutions, and this has always happened.",
+      "draft_nllb": "E isto aconteceu nas revoluções industriais passadas, e sempre aconteceu.",
+      "draft_unicamp": "E isso aconteceu nas revoluções industriais passadas, e isso sempre aconteceu.",
+      "target_text": "E isso aconteceu nas revoluções industriais passadas, e isso sempre aconteceu."
+    },
+    {
+      "start": 1933.11,
+      "end": 1943.88,
+      "source_text": "And it's a great opportunity for entrepreneurs and people today because it's hard to adopt AI deeply.",
+      "draft_nllb": "E é uma ótima oportunidade para os empreendedores e as pessoas de hoje porque é difícil adotar a IA profundamente.",
+      "draft_unicamp": "E é uma grande oportunidade para empreendedores e pessoas hoje, pois é difícil adotar a IA de forma profunda.",
+      "target_text": "E é uma grande oportunidade para os empreendedores e as pessoas de hoje, pois é difícil adotar a IA de forma profunda."
+    },
+    {
+      "start": 1944.95,
+      "end": 1952.95,
+      "source_text": "It's really hard for a CEO today, especially of a large company or public company, to go and say, hey, like I'm betting everything on AI.",
+      "draft_nllb": "É muito difícil para um CEO hoje em dia, especialmente de uma grande empresa ou empresa pública, ir e dizer, como se estivesse a apostar tudo na IA.",
+      "draft_unicamp": "É muito difícil um CEO hoje, especialmente de uma empresa grande ou de uma empresa pública, ir e dizer, né, como eu estou apostando tudo na AI.",
+      "target_text": "É muito difícil para um CEO hoje em dia, especialmente de uma grande empresa ou empresa pública, ir e dizer, hey, como se estivesse apostando tudo na IA."
+    },
+    {
+      "start": 1952.95,
+      "end": 1964.65,
+      "source_text": "The company has to look this way, I'll destroy and rebuild everything I've been building for the past 40 years to become an AI native company.",
+      "draft_nllb": "A empresa tem que olhar assim, vou destruir e reconstruir tudo o que tenho construído nos últimos 40 anos para se tornar uma empresa nativa de IA.",
+      "draft_unicamp": "A empresa tem que olhar assim, vou destruir e reconstruir tudo o que eu estou construindo nos últimos 40 anos para se tornar uma empresa nativa de AI.",
+      "target_text": "A empresa tem que olhar assim, vou destruir e reconstruir tudo o que construí para os últimos 40 anos para se tornar uma empresa nativa de IA."
+    },
+    {
+      "start": 1965.09,
+      "end": 1968.41,
+      "source_text": "Like how many CEOs will do that in a company at scale?",
+      "draft_nllb": "Quantos CEOs farão isso numa empresa em escala?",
+      "draft_unicamp": "Como muitos CEOs vão fazer isso em uma empresa em escala?",
+      "target_text": "Com quantos CEOs farão isso numa empresa em escala?"
+    },
+    {
+      "start": 1968.41,
+      "end": 1983.4,
+      "source_text": "So while they adopt, new companies can be formed that are built around the strengths of AI and take over and bring new products and services to the masses.",
+      "draft_nllb": "Assim, enquanto adotam, novas empresas podem ser formadas que são construídas em torno dos pontos fortes da IA e assumem e trazem novos produtos e serviços para as massas.",
+      "draft_unicamp": "Assim, enquanto adotam, novas empresas podem ser formadas que se constroem em torno dos pontos fortes da IA e assumem e trazem novos produtos e serviços para as massas.",
+      "target_text": "Assim, enquanto adotam, novas empresas podem ser formadas que são construídas em torno dos pontos fortes da IA e assumem e trazem novos produtos e serviços para as massas."
+    },
+    {
+      "start": 1984.16,
+      "end": 1986.0,
+      "source_text": "And this has happened before.",
+      "draft_nllb": "E isto já aconteceu antes.",
+      "draft_unicamp": "E isso já aconteceu.",
+      "target_text": "E isso já aconteceu antes."
+    },
+    {
+      "start": 1986.26,
+      "end": 1987.52,
+      "source_text": "Like this happened with electricity.",
+      "draft_nllb": "Como se isto tivesse acontecido com a eletricidade.",
+      "draft_unicamp": "Assim aconteceu com a eletricidade.",
+      "target_text": "Assim aconteceu com a eletricidade."
+    },
+    {
+      "start": 1987.52,
+      "end": 1989.62,
+      "source_text": "This is a story I always tell my team.",
+      "draft_nllb": "Esta é uma história que sempre conto à minha equipa.",
+      "draft_unicamp": "Essa é uma história que eu sempre conto para a minha equipe.",
+      "target_text": "Essa é uma história que sempre conto para a minha equipe."
+    },
+    {
+      "start": 1990.62,
+      "end": 1998.08,
+      "source_text": "The technologies for Ford's production line were developed in 1879 and 1881.",
+      "draft_nllb": "As tecnologias para a linha de produção da Ford foram desenvolvidas em 1879 e 1881.",
+      "draft_unicamp": "As tecnologias para a linha de produção de Ford foram desenvolvidas em 1879 e 1881.",
+      "target_text": "As tecnologias para a linha de produção da Ford foram desenvolvidas em 1879 e 1881."
+    },
+    {
+      "start": 1999.08,
+      "end": 2007.5,
+      "source_text": "Edison started commercializing electricity in New York and then London, and he invented a dynamo that was extremely efficient.",
+      "draft_nllb": "Edison começou a comercializar eletricidade em Nova York e depois em Londres, e inventou um dinamo extremamente eficiente.",
+      "draft_unicamp": "Edison começou a comercializar a eletricidade em Nova York e depois em Londres, e inventou um dinamismo extremamente eficiente.",
+      "target_text": "Edison começou a comercializar a eletricidade em Nova York e depois em Londres, e inventou um dinamo extremamente eficiente."
+    },
+    {
+      "start": 2007.96,
+      "end": 2014.97,
+      "source_text": "So you could have built Ford's factory 40 years before Ford.",
+      "draft_nllb": "Podia ter construído a fábrica da Ford 40 anos antes da Ford.",
+      "draft_unicamp": "Então, você poderia ter construído a fábrica de Ford 40 anos antes de Ford.",
+      "target_text": "Então você poderia ter construído a fábrica da Ford 40 anos antes da Ford."
+    },
+    {
+      "start": 2015.09,
+      "end": 2015.87,
+      "source_text": "The technology was there.",
+      "draft_nllb": "A tecnologia estava lá.",
+      "draft_unicamp": "A tecnologia estava lá.",
+      "target_text": "A tecnologia estava lá."
+    },
+    {
+      "start": 2015.97,
+      "end": 2016.59,
+      "source_text": "Everything was there.",
+      "draft_nllb": "Estava tudo lá.",
+      "draft_unicamp": "Tudo estava lá.",
+      "target_text": "Tudo estava lá."
+    },
+    {
+      "start": 2016.59,
+      "end": 2029.09,
+      "source_text": "But the way people adopted electricity and Ford's dynamo was, okay, I'm going to leave my factory like four floors, shafts and belts, and just change my coal engine for an electric engine.",
+      "draft_nllb": "Mas a forma como as pessoas adotaram a eletricidade e a dinâmica da Ford foi, ok, vou deixar a minha fábrica como quatro andares, poços e cintos, e apenas trocar o meu motor de carvão por um motor elétrico.",
+      "draft_unicamp": "Mas a maneira como as pessoas adotaram a eletricidade e o dinamismo de Ford foi, né, eu vou deixar minha fábrica como quatro pisos, eixos e cintos, e só mudar meu motor de carvão para um motor elétrico.",
+      "target_text": "Mas a maneira como as pessoas adotaram a eletricidade e o dinamismo de Ford foi, né, eu vou deixar minha fábrica com quatro pisos, eixos e cintos, e só mudar meu motor de carvão para um motor elétrico."
+    },
+    {
+      "start": 2029.09,
+      "end": 2032.93,
+      "source_text": "And this will bring you benefits, yes, but like 6% efficiency.",
+      "draft_nllb": "E isso lhe trará benefícios, sim, mas como uma eficiência de 6%.",
+      "draft_unicamp": "E isso lhe trará benefícios, sim, mas como 6% de eficiência.",
+      "target_text": "E isso lhe trará benefícios, sim, mas com 6% de eficiência."
+    },
+    {
+      "start": 2033.86,
+      "end": 2050.06,
+      "source_text": "What needed to be done was to destroy that factory, build it in a flat surface, not in the center of New York, but in Connecticut or New Jersey, and redesign your whole factory around small dynamos and electricity.",
+      "draft_nllb": "O que precisava ser feito era destruir aquela fábrica, construí-la numa superfície plana, não no centro de Nova York, mas em Connecticut ou New Jersey, e redesenhar toda a sua fábrica em torno de pequenos dinamos e eletricidade.",
+      "draft_unicamp": "O que se fazia era destruir essa fábrica, construí-la numa superfície plana, não no centro de Nova York, mas em Connecticut ou em Nova Jersey, e redesenhar toda a sua fábrica em torno de pequenos dinamismos e de eletricidade.",
+      "target_text": "O que precisava ser feito era destruir aquela fábrica, construí-la numa superfície plana, não no centro de Nova York, mas em Connecticut ou New Jersey, e redesenhar toda a sua fábrica em torno de pequenos dinamos e eletricidade."
+    },
+    {
+      "start": 2050.06,
+      "end": 2060.04,
+      "source_text": "And then you get like the 3x improvement in productivity that powered the U.S. during the 20th century.",
+      "draft_nllb": "E depois temos como a melhoria 3x na produtividade que alimentou os EUA durante o século 20.",
+      "draft_unicamp": "E, então, vocês se aproximam da melhoria 3x da produtividade que impulsionou os Estados Unidos durante o século XX.",
+      "target_text": "E, então, você tem uma melhoria de 3x na produtividade que impulsionou os Estados Unidos durante o século XX."
+    },
+    {
+      "start": 2060.28,
+      "end": 2063.54,
+      "source_text": "And the same happened again with the computer, and the same is happening again today.",
+      "draft_nllb": "E o mesmo aconteceu novamente com o computador, e o mesmo está acontecendo novamente hoje.",
+      "draft_unicamp": "E o mesmo aconteceu novamente com o computador, e o mesmo acontece hoje.",
+      "target_text": "E o mesmo aconteceu novamente com o computador, e o mesmo está acontecendo novamente hoje."
+    },
+    {
+      "start": 2063.62,
+      "end": 2069.94,
+      "source_text": "People want to adopt it, but they're not willing to redesign the whole company, and they just adopt it superficially.",
+      "draft_nllb": "As pessoas querem adotá-lo, mas não estão dispostas a redesenhar toda a empresa, e adotam-no superficialmente.",
+      "draft_unicamp": "As pessoas querem adotá-la, mas não estão dispostas a redimensionar toda a empresa, e só a adotam superficialmente.",
+      "target_text": "As pessoas querem adotá-lo, mas não estão dispostas a redesenhar toda a empresa, e adotam-no superficialmente."
+    },
+    {
+      "start": 2069.94,
+      "end": 2077.22,
+      "source_text": "And in the end, that'll give you a 6% or a 10% improvement, not a 10x improvement.",
+      "draft_nllb": "E no final, isso lhe dará uma melhoria de 6% ou 10%, não uma melhoria de 10x.",
+      "draft_unicamp": "E, ao final, isso te dará uma melhora de 6% ou 10%, não uma melhora de 10x.",
+      "target_text": "E no final, isso lhe dará uma melhoria de 6% ou 10%, não uma melhoria de 10x."
+    },
+    {
+      "start": 2077.42,
+      "end": 2083.78,
+      "source_text": "And it's like the innovator's dilemma at an industrial scale again.",
+      "draft_nllb": "E é como o dilema do inovador em escala industrial novamente.",
+      "draft_unicamp": "E é como o dilema do inovador em uma escala industrial novamente.",
+      "target_text": "E é como o dilema do inovador em escala industrial novamente."
+    },
+    {
+      "start": 2085.24,
+      "end": 2090.58,
+      "source_text": "I think you've just made an amazing case for any future founders out there that it's time to build.",
+      "draft_nllb": "Acho que acabaste de fazer um caso incrível para os futuros fundadores que é hora de construir.",
+      "draft_unicamp": "Eu acho que você só fez um caso surpreendente para qualquer futuro fundador lá fora que é o tempo de construir.",
+      "target_text": "Acho que você acabou de fazer um caso incrível para os futuros fundadores que é hora de construir."
+    },
+    {
+      "start": 2090.7,
+      "end": 2091.36,
+      "source_text": "It's time to build.",
+      "draft_nllb": "É hora de construir.",
+      "draft_unicamp": "É hora de se construir.",
+      "target_text": "É hora de construir."
+    },
+    {
+      "start": 2091.36,
+      "end": 2096.2,
+      "source_text": "And maybe a great place to end is, you know, you've built and scaled your own company.",
+      "draft_nllb": "E talvez um ótimo lugar para acabar seja, sabes, teres construído e expandido a tua própria empresa.",
+      "draft_unicamp": "E talvez um grande lugar para acabar é, né, você tenha construído e dimensionado sua própria empresa.",
+      "target_text": "E talvez um grande lugar para acabar seja, né, você tenha construído e escalado sua própria empresa."
+    },
+    {
+      "start": 2096.4,
+      "end": 2098.9,
+      "source_text": "You've now turned Kavak fully agentic.",
+      "draft_nllb": "Agora tornaste o Kavak totalmente agente.",
+      "draft_unicamp": "Agora, virou o Kavak completamente agentic.",
+      "target_text": "Agora tornou o Kavak totalmente agente."
+    },
+    {
+      "start": 2099.18,
+      "end": 2103.68,
+      "source_text": "Like, what advice do you have to future founders or first-time founders that might be listening?",
+      "draft_nllb": "Como, que conselhos tens para futuros fundadores ou fundadores pela primeira vez que podem estar a ouvir?",
+      "draft_unicamp": "Assim como, que conselhos você tem para futuros fundadores ou fundadores de primeira vez que possam estar escutando?",
+      "target_text": "Assim como, que conselhos você tem para futuros fundadores ou fundadores de primeira vez que podem estar escutando?"
+    },
+    {
+      "start": 2104.14,
+      "end": 2107.68,
+      "source_text": "So this is the most exciting time in human history.",
+      "draft_nllb": "Portanto, este é o momento mais emocionante da história humana.",
+      "draft_unicamp": "Assim, este é o momento mais animado da história humana.",
+      "target_text": "Portanto, este é o momento mais emocionante da história humana."
+    },
+    {
+      "start": 2107.84,
+      "end": 2108.62,
+      "source_text": "I believe that.",
+      "draft_nllb": "Eu acredito nisso.",
+      "draft_unicamp": "Eu acho que.",
+      "target_text": "Eu acredito nisso."
+    },
+    {
+      "start": 2108.76,
+      "end": 2111.8,
+      "source_text": "Like, we're living in the most exciting time in human history.",
+      "draft_nllb": "Estamos a viver no momento mais emocionante da história humana.",
+      "draft_unicamp": "Assim, estamos vivendo no momento mais animado da história humana.",
+      "target_text": "Estamos vivendo no momento mais emocionante da história humana."
+    },
+    {
+      "start": 2111.8,
+      "end": 2129.68,
+      "source_text": "And it's the most exciting time to be a founder because it's the first time that anyone has access to the most powerful tools and intelligence in the world, like, almost for free or for $20 a month.",
+      "draft_nllb": "E é o momento mais emocionante para ser um fundador porque é a primeira vez que alguém tem acesso às ferramentas e inteligência mais poderosas do mundo, quase de graça ou por 20 dólares por mês.",
+      "draft_unicamp": "E é o momento mais animado para ser fundador, pois é a primeira vez que qualquer pessoa tem acesso às mais poderosas ferramentas e inteligência no mundo, como, por exemplo, quase gratuitamente ou por 20 meses.",
+      "target_text": "E é o momento mais emocionante para ser um fundador, porque é a primeira vez que alguém tem acesso às ferramentas e inteligência mais poderosas do mundo, quase de graça ou por 20 dólares por mês."
+    },
+    {
+      "start": 2129.92,
+      "end": 2138.3,
+      "source_text": "So literally, the democratization of the tools for people to build has never been this way in human history.",
+      "draft_nllb": "Literalmente, a democratização das ferramentas para as pessoas construir nunca foi assim na história humana.",
+      "draft_unicamp": "Assim, literalmente, a democratização das ferramentas para a construção das pessoas nunca foi assim na história humana.",
+      "target_text": "A democratização das ferramentas para as pessoas construírem nunca foi assim na história humana."
+    },
+    {
+      "start": 2138.3,
+      "end": 2145.98,
+      "source_text": "And there's so much problems to be solved and a new reality to be built around this new paradigm.",
+      "draft_nllb": "E há tantos problemas a serem resolvidos e uma nova realidade a ser construída em torno deste novo paradigma.",
+      "draft_unicamp": "E há tantos problemas a serem resolvidos e uma nova realidade a ser construída em torno desse novo paradigma.",
+      "target_text": "E há tantos problemas a serem resolvidos e uma nova realidade a ser construída em torno desse novo paradigma."
+    },
+    {
+      "start": 2146.26,
+      "end": 2149.88,
+      "source_text": "So say, like, just go for it, but go for it deep.",
+      "draft_nllb": "Então, digamos, apenas vá para lá, mas vá para lá profundamente.",
+      "draft_unicamp": "Então, assim, só vai pra isso, mas vai pra isso de forma profunda.",
+      "target_text": "Então, digamos, apenas vá para lá, mas vá para lá de maneira profunda."
+    },
+    {
+      "start": 2150.04,
+      "end": 2153.66,
+      "source_text": "Like, imagine what the future around the AI will look like.",
+      "draft_nllb": "Imagine como será o futuro da IA.",
+      "draft_unicamp": "Assim, imaginar como será o futuro em torno do AI.",
+      "target_text": "Imagine como será o futuro em torno da IA."
+    },
+    {
+      "start": 2154.79,
+      "end": 2157.05,
+      "source_text": "It's not even an exponential.",
+      "draft_nllb": "Nem sequer é um exponencial.",
+      "draft_unicamp": "Nem é exponencial.",
+      "target_text": "Nem é exponencial."
+    },
+    {
+      "start": 2157.33,
+      "end": 2164.01,
+      "source_text": "Just map a trend that's linear if things keep getting, like, AI keeps getting better at a linear scale.",
+      "draft_nllb": "Basta mapear uma tendência que é linear se as coisas continuarem a melhorar, como, a IA continua a melhorar em escala linear.",
+      "draft_unicamp": "Apenas mapear uma tendência que é linear se as coisas continuam conseguindo, como o AI continua melhorando em uma escala linear.",
+      "target_text": "Basta mapear uma tendência que é linear se as coisas continuarem a melhorar, como a IA continua a melhorar em escala linear."
+    },
+    {
+      "start": 2164.01,
+      "end": 2171.89,
+      "source_text": "And just build for that, and you'll come up with wonderful ideas that will, like, bring a lot of value to the world.",
+      "draft_nllb": "E apenas construir para isso, e você vai vir com ideias maravilhosas que, como, trazer um monte de valor para o mundo.",
+      "draft_unicamp": "E só se constroem para isso, e você vai surgir com ideias maravilhosas que, assim, trarão muito valor para o mundo.",
+      "target_text": "E apenas construa para isso, e você vai surgir com ideias maravilhosas que, assim, trarão muito valor para o mundo."
+    },
+    {
+      "start": 2173.31,
+      "end": 2173.71,
+      "source_text": "Amazing.",
+      "draft_nllb": "É incrível.",
+      "draft_unicamp": "Surpreendente.",
+      "target_text": "Incrível."
+    },
+    {
+      "start": 2174.19,
+      "end": 2175.21,
+      "source_text": "Ale, thank you for joining us.",
+      "draft_nllb": "Ale, obrigado por se juntar a nós.",
+      "draft_unicamp": "Ale, agradecer por nos unir.",
+      "target_text": "Ale, obrigado por estar se juntando a nós."
+    },
+    {
+      "start": 2175.21,
+      "end": 2175.47,
+      "source_text": "Thank you.",
+      "draft_nllb": "- Não, obrigado.",
+      "draft_unicamp": "Agradecer.",
+      "target_text": "Obrigado."
+    },
+    {
+      "start": 2175.51,
+      "end": 2176.17,
+      "source_text": "Thanks for having me.",
+      "draft_nllb": "Obrigado por me teres convidado.",
+      "draft_unicamp": "Agradecer por me ter.",
+      "target_text": "Obrigado pelo convite."
+    }
+  ]
+}

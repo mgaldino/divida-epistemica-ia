@@ -1,0 +1,19 @@
+{
+  "executed_at": "2026-08-11T21:41:00.437136+00:00",
+  "selected_source": "x_fallback",
+  "selected_file": "/Users/manoelgaldino/Documents/DCP/Papers/IA agents methodology/entrevista_a16z_n34CIw3gk1k/data/raw/x_2086845184785203468.mp4",
+  "attempts": [
+    {
+      "source": "youtube_primary",
+      "url": "https://www.youtube.com/watch?v=n34CIw3gk1k",
+      "ok": false,
+      "error_tail": "WARNING: [youtube] n34CIw3gk1k: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\nWARNING: [youtube] No title found in player responses; falling back to title from initial data. Other metadata may also be missing\nERROR: [youtube] n34CIw3gk1k: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+    },
+    {
+      "source": "x_fallback",
+      "url": "https://x.com/a16z/status/2086845184785203468",
+      "ok": true,
+      "error_tail": ""
+    }
+  ]
+}

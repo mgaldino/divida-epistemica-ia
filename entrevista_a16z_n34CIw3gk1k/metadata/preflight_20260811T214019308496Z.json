@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-08-11T21:40:19.308128+00:00",
+  "network_used": false,
+  "python": {
+    "executable": "/Users/manoelgaldino/Documents/DCP/Papers/IA agents methodology/entrevista_a16z_n34CIw3gk1k/.venv/bin/python",
+    "version": "3.13.3"
+  },
+  "platform": {
+    "system": "Darwin",
+    "release": "23.6.0",
+    "machine": "arm64"
+  },
+  "tools": {
+    "yt-dlp": {
+      "path": "/Users/manoelgaldino/Documents/DCP/Papers/IA agents methodology/entrevista_a16z_n34CIw3gk1k/.venv/bin/yt-dlp",
+      "version": "2026.07.04"
+    },
+    "ffmpeg": {
+      "path": "/opt/homebrew/bin/ffmpeg",
+      "version": "ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers"
+    },
+    "ffprobe": {
+      "path": "/opt/homebrew/bin/ffprobe",
+      "version": null
+    },
+    "uv": {
+      "path": "/Users/manoelgaldino/.local/bin/uv",
+      "version": null
+    }
+  },
+  "modules": {
+    "numpy": true,
+    "torch": true,
+    "transformers": true,
+    "sentencepiece": true,
+    "ctranslate2": true,
+    "faster_whisper": true
+  },
+  "models": {
+    "whisper_source_cache": "/Users/manoelgaldino/.cache/huggingface/hub/models--openai--whisper-large-v3-turbo/snapshots/41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+    "whisper_converted": null,
+    "translation_cache": null
+  }
+}

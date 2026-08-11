@@ -3,3 +3,4 @@ data/raw/*.part
 data/raw/*.ytdl
 logs/*.log
 models/faster-whisper-large-v3-turbo-int8/
+models/nllb-200-distilled-600M-local/

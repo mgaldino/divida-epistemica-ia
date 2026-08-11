@@ -1,0 +1,186 @@
+{
+  "validated_at": "2026-08-11T22:51:05.575761+00:00",
+  "status": "PASS",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "bytes": 6996,
+      "human_size": "6.8 KB",
+      "sha256": "cbf7958c7e18a3044017dcec438a17b87a44251f885a7521ff15e9d57be04f94"
+    },
+    {
+      "path": "config.json",
+      "bytes": 766,
+      "human_size": "766.0 B",
+      "sha256": "4461587172f96580a1c587d1116fe54bd1b8871f408d1ed1ea336f4183b58674"
+    },
+    {
+      "path": "data/processed/entrevista_16k_mono.wav",
+      "bytes": 70114682,
+      "human_size": "66.9 MB",
+      "sha256": "c13a7cc01d0f8661deb85c1cc00a91ee7966d627ed99dd86ab1bfff2197b5b12"
+    },
+    {
+      "path": "data/raw/x_2086845184785203468.info.json",
+      "bytes": 10421,
+      "human_size": "10.2 KB",
+      "sha256": "1555400f4c57df8bc8a8cc1d961e9ea87638dedabad03e8dd99c8949d3b8e039"
+    },
+    {
+      "path": "data/raw/x_2086845184785203468.mp4",
+      "bytes": 35529108,
+      "human_size": "33.9 MB",
+      "sha256": "545c24b72a212e05260ef703352d8004994597d38e429badd70ba378fbbb4178"
+    },
+    {
+      "path": "metadata/SOURCES.yaml",
+      "bytes": 1306,
+      "human_size": "1.3 KB",
+      "sha256": "6566a8a50168651ef7c439a2e4e8df7af71df3923a25920a0ff8288273f9c58c"
+    },
+    {
+      "path": "metadata/TRANSCRIPTION_REVIEW.md",
+      "bytes": 2638,
+      "human_size": "2.6 KB",
+      "sha256": "cea616b47cd3d46ba08ceaec303b756d503b903eb4bf99818df46373662d8376"
+    },
+    {
+      "path": "metadata/audio_probe.json",
+      "bytes": 2414,
+      "human_size": "2.4 KB",
+      "sha256": "a1131a06d5c4130c656b2eb175548e325dc411f0442df3baf84e605058f1711c"
+    },
+    {
+      "path": "metadata/executed_commands.log",
+      "bytes": 2132,
+      "human_size": "2.1 KB",
+      "sha256": "2e97428897d6475c4ff0653199fd0f3de4aac0c83eb774c2de46c164420e0c07"
+    },
+    {
+      "path": "metadata/segmentos_traducao.json",
+      "bytes": 109649,
+      "human_size": "107.1 KB",
+      "sha256": "91596e72c826193599282206c59cc979a7c280472d4ff6c6ae7a9935f485b6a8"
+    },
+    {
+      "path": "metadata/segmentos_traducao_br.json",
+      "bytes": 198102,
+      "human_size": "193.5 KB",
+      "sha256": "bd9fb4bdb69a0f37a2abbe0aabbc8a2fa3959b68e4ad8fba70f8ff5109c08ba7"
+    },
+    {
+      "path": "metadata/segmentos_traducao_br_contexto.json",
+      "bytes": 157700,
+      "human_size": "154.0 KB",
+      "sha256": "b44a734dee357792fe0ca4b6fee552b8758a419c9bc3a3cb8e0c08784318732a"
+    },
+    {
+      "path": "metadata/segmentos_traducao_final.json",
+      "bytes": 175567,
+      "human_size": "171.5 KB",
+      "sha256": "22a0791e1783959e818dff17b6d9e9823b68d618a9bbed3f6d61d64e3dc0f2e6"
+    },
+    {
+      "path": "metadata/segmentos_traducao_nllb.json",
+      "bytes": 109649,
+      "human_size": "107.1 KB",
+      "sha256": "91596e72c826193599282206c59cc979a7c280472d4ff6c6ae7a9935f485b6a8"
+    },
+    {
+      "path": "metadata/segmentos_traducao_unicamp.json",
+      "bytes": 110185,
+      "human_size": "107.6 KB",
+      "sha256": "1e20b04f2546355f1eaf055637c71a4c6a16c043add70acd19a67c89504b668a"
+    },
+    {
+      "path": "metadata/segmentos_whisper.json",
+      "bytes": 101820,
+      "human_size": "99.4 KB",
+      "sha256": "7882a3d1425fbf0a51fe1f753902bfe52d347819882053d12c2f044d6b9b716d"
+    },
+    {
+      "path": "metadata/segmentos_whisper_raw.json",
+      "bytes": 102422,
+      "human_size": "100.0 KB",
+      "sha256": "1e9ffd77f166660b46641f5a930056d3729827b9d0e96f94f96142643a77f29c"
+    },
+    {
+      "path": "metadata/source_run.json",
+      "bytes": 1569,
+      "human_size": "1.5 KB",
+      "sha256": "d66cfb352e6bc6bc7630d6156d1d45a7c415758583c2944448769306179433c9"
+    },
+    {
+      "path": "metadata/speakers.tsv",
+      "bytes": 6371,
+      "human_size": "6.2 KB",
+      "sha256": "7e1cf7c1b182c58ac41836586c2eaf2fc97ba472237348546dc5abbcb833764c"
+    },
+    {
+      "path": "metadata/translation_corrections.tsv",
+      "bytes": 16614,
+      "human_size": "16.2 KB",
+      "sha256": "9cfb6116fce9ec51ae719ff5e742e3017294d3248f784d855c5c0ca5d90b6cc5"
+    },
+    {
+      "path": "outputs/traducao_portugues.md",
+      "bytes": 49040,
+      "human_size": "47.9 KB",
+      "sha256": "0aa53626e3083fd42edac09a910465aeff18502cbf97d8f6e937977f26e8febc"
+    },
+    {
+      "path": "outputs/traducao_portugues_nllb.md",
+      "bytes": 56753,
+      "human_size": "55.4 KB",
+      "sha256": "6801fd1a31e50e9c048937e7d3b4249d8a393f351f3d12c61fef26fd6d298818"
+    },
+    {
+      "path": "outputs/transcricao_ingles.md",
+      "bytes": 47742,
+      "human_size": "46.6 KB",
+      "sha256": "99dac048ad4dc9f2d1825d95e38dec229dde195e0a2ded1aaeb1468bf6c43dec"
+    },
+    {
+      "path": "outputs/transcricao_ingles.srt",
+      "bytes": 46410,
+      "human_size": "45.3 KB",
+      "sha256": "ad98e931ff884183b50c33c9b1f9faeff239fcfe975c03dde353dc5129d62383"
+    },
+    {
+      "path": "outputs/transcricao_ingles.txt",
+      "bytes": 31644,
+      "human_size": "30.9 KB",
+      "sha256": "2b4c40a54eb753e15d0dc9fafd7bead8f4def205fba69c03ae7684c7c7d20a17"
+    },
+    {
+      "path": "requirements.in",
+      "bytes": 239,
+      "human_size": "239.0 B",
+      "sha256": "75de17d1af4c7740979117489d10c36790628417518880e040254d5290ca2430"
+    },
+    {
+      "path": "requirements.lock.txt",
+      "bytes": 809,
+      "human_size": "809.0 B",
+      "sha256": "dac7eb7f98393df49bbdd165dab69b38192214cb153f23362c79926ba867757a"
+    },
+    {
+      "path": "scripts/install_local_env.sh",
+      "bytes": 1088,
+      "human_size": "1.1 KB",
+      "sha256": "558abcc5deaf49f0c4fc0811e1d34b6aa9f574ac17aa79e348c47ef3898be7fe"
+    },
+    {
+      "path": "scripts/pipeline.py",
+      "bytes": 69523,
+      "human_size": "67.9 KB",
+      "sha256": "27d6b44a7d57308fc56a11cc60a4646546ca78cd39cf5578688aa948f3f4d3a5"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "bytes": 5890,
+      "human_size": "5.8 KB",
+      "sha256": "9d2da6f3fdd7a452b7e1afd6ac219081eaf83aca95993c39b774533b2ee214bb"
+    }
+  ]
+}

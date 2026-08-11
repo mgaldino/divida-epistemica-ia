@@ -96,6 +96,46 @@ class PipelineUnitTests(unittest.TestCase):
         self.assertEqual(PIPELINE.main(["download"]), 2)
         self.assertEqual(PIPELINE.main(["run"]), 2)
 
+    def test_translation_review_cleanup_and_numbers(self):
+        self.assertEqual(
+            PIPELINE.clean_translation_review('Tradução final: "Todos os dias são instanciados."'),
+            "Todos os dias são instanciados.",
+        )
+        self.assertEqual(
+            PIPELINE.validate_reviewed_translation(
+                "Between 100 and 200,000 agents.",
+                "Entre 100 e 200.000 agentes.",
+            ),
+            [],
+        )
+        problems = PIPELINE.validate_reviewed_translation(
+            "Between 100 and 200,000 agents.",
+            "Entre cem e muitos agentes.",
+        )
+        self.assertTrue(any("número ausente" in problem for problem in problems))
+        self.assertEqual(
+            PIPELINE.validate_reviewed_translation(
+                "The 20th century.",
+                "O século XX.",
+            ),
+            [],
+        )
+        self.assertEqual(PIPELINE.SHORT_TRANSLATIONS_BR["Okay."], "Certo.")
+        self.assertEqual(PIPELINE.SHORT_TRANSLATIONS_BR["Yes."], "Sim.")
+
+    def test_translation_corrections_are_loaded_by_index(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "corrections.tsv"
+            path.write_text(
+                "segment_index\ttarget_text\treason\n"
+                "3\tTexto revisado.\tFidelidade.\n",
+                encoding="utf-8",
+            )
+            self.assertEqual(
+                PIPELINE.load_translation_corrections(path),
+                {3: {"target_text": "Texto revisado.", "reason": "Fidelidade."}},
+            )
+
 
 if __name__ == "__main__":
     unittest.main()

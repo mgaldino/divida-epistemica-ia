@@ -1,0 +1,3011 @@
+{
+  "created_at": "2026-08-11T21:51:01.404461+00:00",
+  "metadata": {
+    "backend": "faster-whisper",
+    "model": "openai/whisper-large-v3-turbo",
+    "converted_model": "/Users/manoelgaldino/Documents/DCP/Papers/IA agents methodology/entrevista_a16z_n34CIw3gk1k/models/faster-whisper-large-v3-turbo-int8",
+    "compute_type": "int8",
+    "device": "cpu",
+    "detected_language": "en",
+    "language_probability": 1,
+    "audio_duration_seconds": 2191.081375
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.4,
+      "text": "I'm investing more today in tokens than in knowledge workers.",
+      "avg_logprob": -0.13168621258200885,
+      "no_speech_prob": 2.0226045231025447e-12
+    },
+    {
+      "start": 4.74,
+      "end": 6.88,
+      "text": "We could build superhuman agents.",
+      "avg_logprob": -0.13168621258200885,
+      "no_speech_prob": 2.0226045231025447e-12
+    },
+    {
+      "start": 7.2,
+      "end": 9.54,
+      "text": "This means that by every dimension that matters,",
+      "avg_logprob": -0.13168621258200885,
+      "no_speech_prob": 2.0226045231025447e-12
+    },
+    {
+      "start": 9.74,
+      "end": 13.28,
+      "text": "our agents would outperform the best human we had ever hired.",
+      "avg_logprob": -0.13168621258200885,
+      "no_speech_prob": 2.0226045231025447e-12
+    },
+    {
+      "start": 13.38,
+      "end": 16.22,
+      "text": "The most ambitious companies listening to this will decide to follow suit,",
+      "avg_logprob": -0.13168621258200885,
+      "no_speech_prob": 2.0226045231025447e-12
+    },
+    {
+      "start": 16.5,
+      "end": 20.6,
+      "text": "which is you decided to build an agent per customer.",
+      "avg_logprob": -0.13168621258200885,
+      "no_speech_prob": 2.0226045231025447e-12
+    },
+    {
+      "start": 21.1,
+      "end": 26.2,
+      "text": "Every day, between 100 and 200,000 agents get instantiated",
+      "avg_logprob": -0.13168621258200885,
+      "no_speech_prob": 2.0226045231025447e-12
+    },
+    {
+      "start": 26.2,
+      "end": 29.06,
+      "text": "specifically for this customer with its own virtual machine.",
+      "avg_logprob": -0.13168621258200885,
+      "no_speech_prob": 2.0226045231025447e-12
+    },
+    {
+      "start": 29.06,
+      "end": 33.88,
+      "text": "There's a lot of people worried about how the organizations of the future are going to look like",
+      "avg_logprob": -0.09896178907565488,
+      "no_speech_prob": 1.7818939683153512e-12
+    },
+    {
+      "start": 33.88,
+      "end": 36.08,
+      "text": "and the role that humans are going to play.",
+      "avg_logprob": -0.09896178907565488,
+      "no_speech_prob": 1.7818939683153512e-12
+    },
+    {
+      "start": 36.22,
+      "end": 40.76,
+      "text": "If you haven't faced fear before, you haven't felt it, then you haven't tried AI.",
+      "avg_logprob": -0.09896178907565488,
+      "no_speech_prob": 1.7818939683153512e-12
+    },
+    {
+      "start": 40.9,
+      "end": 44.7,
+      "text": "We launched a program inside Kavak that's called the Jedi Academy.",
+      "avg_logprob": -0.09896178907565488,
+      "no_speech_prob": 1.7818939683153512e-12
+    },
+    {
+      "start": 44.88,
+      "end": 49.26,
+      "text": "From the CEO to like AI engineers to mechanics, we train everyone.",
+      "avg_logprob": -0.09896178907565488,
+      "no_speech_prob": 1.7818939683153512e-12
+    },
+    {
+      "start": 49.46,
+      "end": 53.62,
+      "text": "And after six weeks, they launch state-of-the-art agents to production.",
+      "avg_logprob": -0.09896178907565488,
+      "no_speech_prob": 1.7818939683153512e-12
+    },
+    {
+      "start": 53.74,
+      "end": 57.82,
+      "text": "What advice do you have to future founders or first-time founders that might be listening?",
+      "avg_logprob": -0.09896178907565488,
+      "no_speech_prob": 1.7818939683153512e-12
+    },
+    {
+      "start": 57.82,
+      "end": 59.46,
+      "text": "What works right now is...",
+      "avg_logprob": -0.172184297801755,
+      "no_speech_prob": 3.291307764524687e-12
+    },
+    {
+      "start": 59.46,
+      "end": 64.53,
+      "text": "Welcome back to the ACC podcast.",
+      "avg_logprob": -0.172184297801755,
+      "no_speech_prob": 3.291307764524687e-12
+    },
+    {
+      "start": 65.01,
+      "end": 67.49,
+      "text": "Today, we have Ale Massa, the head of AI at Kavak.",
+      "avg_logprob": -0.172184297801755,
+      "no_speech_prob": 3.291307764524687e-12
+    },
+    {
+      "start": 67.65,
+      "end": 71.37,
+      "text": "We're going to discuss today the transformation that Ale led within Kavak",
+      "avg_logprob": -0.172184297801755,
+      "no_speech_prob": 3.291307764524687e-12
+    },
+    {
+      "start": 71.37,
+      "end": 73.11,
+      "text": "to turn into an AI-native company.",
+      "avg_logprob": -0.172184297801755,
+      "no_speech_prob": 3.291307764524687e-12
+    },
+    {
+      "start": 73.71,
+      "end": 75.35,
+      "text": "Thank you, Ale, for being with us today.",
+      "avg_logprob": -0.172184297801755,
+      "no_speech_prob": 3.291307764524687e-12
+    },
+    {
+      "start": 75.47,
+      "end": 76.21,
+      "text": "Thanks for having me.",
+      "avg_logprob": -0.172184297801755,
+      "no_speech_prob": 3.291307764524687e-12
+    },
+    {
+      "start": 76.43,
+      "end": 80.97,
+      "text": "Before starting at Kavak, you were running a company called Opi Analytics.",
+      "avg_logprob": -0.172184297801755,
+      "no_speech_prob": 3.291307764524687e-12
+    },
+    {
+      "start": 81.37,
+      "end": 81.73,
+      "text": "That's right.",
+      "avg_logprob": -0.172184297801755,
+      "no_speech_prob": 3.291307764524687e-12
+    },
+    {
+      "start": 82.19,
+      "end": 86.47,
+      "text": "And you were very much into AI before ChatGPT.",
+      "avg_logprob": -0.172184297801755,
+      "no_speech_prob": 3.291307764524687e-12
+    },
+    {
+      "start": 86.63,
+      "end": 88.15,
+      "text": "You want to tell us a little bit about that journey?",
+      "avg_logprob": -0.172184297801755,
+      "no_speech_prob": 3.291307764524687e-12
+    },
+    {
+      "start": 88.15,
+      "end": 89.13,
+      "text": "Yes, yes, of course.",
+      "avg_logprob": -0.10768539905548095,
+      "no_speech_prob": 2.202077712884498e-12
+    },
+    {
+      "start": 89.27,
+      "end": 91.67,
+      "text": "Well, we called it machine learning back then.",
+      "avg_logprob": -0.10768539905548095,
+      "no_speech_prob": 2.202077712884498e-12
+    },
+    {
+      "start": 91.75,
+      "end": 93.65,
+      "text": "It was a different family of algorithms.",
+      "avg_logprob": -0.10768539905548095,
+      "no_speech_prob": 2.202077712884498e-12
+    },
+    {
+      "start": 93.91,
+      "end": 101.44,
+      "text": "And we founded a company with this very ambitious vision there that new machine learning models",
+      "avg_logprob": -0.10768539905548095,
+      "no_speech_prob": 2.202077712884498e-12
+    },
+    {
+      "start": 101.44,
+      "end": 105.9,
+      "text": "would be so powerful that they could solve any complex problem.",
+      "avg_logprob": -0.10768539905548095,
+      "no_speech_prob": 2.202077712884498e-12
+    },
+    {
+      "start": 106.02,
+      "end": 107.84,
+      "text": "This was pre-Transformers, right?",
+      "avg_logprob": -0.10768539905548095,
+      "no_speech_prob": 2.202077712884498e-12
+    },
+    {
+      "start": 107.9,
+      "end": 109.7,
+      "text": "This was like 2013.",
+      "avg_logprob": -0.10768539905548095,
+      "no_speech_prob": 2.202077712884498e-12
+    },
+    {
+      "start": 110.32,
+      "end": 111.98,
+      "text": "So we started building the company that way.",
+      "avg_logprob": -0.10768539905548095,
+      "no_speech_prob": 2.202077712884498e-12
+    },
+    {
+      "start": 111.98,
+      "end": 117.6,
+      "text": "And I think we were like 10 years ahead of time, but we built a great company.",
+      "avg_logprob": -0.19045540889104207,
+      "no_speech_prob": 5.530812786924688e-12
+    },
+    {
+      "start": 117.8,
+      "end": 125.64,
+      "text": "We served like 1,400, 500 companies around like risk algorithms, logistics, forecasting, marketing.",
+      "avg_logprob": -0.19045540889104207,
+      "no_speech_prob": 5.530812786924688e-12
+    },
+    {
+      "start": 125.64,
+      "end": 138.34,
+      "text": "But really the power of what Transformers and then the ChatGPT moment when it arrived make things very clearly",
+      "avg_logprob": -0.14319566840475256,
+      "no_speech_prob": 3.735106408192523e-12
+    },
+    {
+      "start": 138.34,
+      "end": 149.26,
+      "text": "that we could now build a whole new company and way of building companies.",
+      "avg_logprob": -0.14319566840475256,
+      "no_speech_prob": 3.735106408192523e-12
+    },
+    {
+      "start": 149.26,
+      "end": 153.44,
+      "text": "And we joined Kavak and Carlos to build it.",
+      "avg_logprob": -0.1911188539970352,
+      "no_speech_prob": 2.769402545829691e-12
+    },
+    {
+      "start": 153.88,
+      "end": 154.32,
+      "text": "Amazing.",
+      "avg_logprob": -0.1911188539970352,
+      "no_speech_prob": 2.769402545829691e-12
+    },
+    {
+      "start": 154.46,
+      "end": 154.58,
+      "text": "All right.",
+      "avg_logprob": -0.1911188539970352,
+      "no_speech_prob": 2.769402545829691e-12
+    },
+    {
+      "start": 154.62,
+      "end": 159.58,
+      "text": "So we're going to spend the bulk of this podcast talking about exactly how you've identified Kavak.",
+      "avg_logprob": -0.1911188539970352,
+      "no_speech_prob": 2.769402545829691e-12
+    },
+    {
+      "start": 159.72,
+      "end": 163.2,
+      "text": "But maybe just to start, what does Kavak do and what is your role there?",
+      "avg_logprob": -0.1911188539970352,
+      "no_speech_prob": 2.769402545829691e-12
+    },
+    {
+      "start": 163.44,
+      "end": 167.2,
+      "text": "Kavak started out as a used car marketplace.",
+      "avg_logprob": -0.1911188539970352,
+      "no_speech_prob": 2.769402545829691e-12
+    },
+    {
+      "start": 167.2,
+      "end": 173.36,
+      "text": "So we buy cars, we refurbish them, and then we sell them and finance them.",
+      "avg_logprob": -0.11389036810843745,
+      "no_speech_prob": 2.788758373534206e-12
+    },
+    {
+      "start": 173.44,
+      "end": 182.44,
+      "text": "But to do that, we also had to build a fintech and a logistics company and the Carfax and like",
+      "avg_logprob": -0.11389036810843745,
+      "no_speech_prob": 2.788758373534206e-12
+    },
+    {
+      "start": 182.44,
+      "end": 186.44,
+      "text": "basically all the infrastructure for this to work didn't exist in LATAM.",
+      "avg_logprob": -0.11389036810843745,
+      "no_speech_prob": 2.788758373534206e-12
+    },
+    {
+      "start": 186.58,
+      "end": 190.94,
+      "text": "So we had to build everything vertically so we could serve our customers the right way.",
+      "avg_logprob": -0.11389036810843745,
+      "no_speech_prob": 2.788758373534206e-12
+    },
+    {
+      "start": 191.24,
+      "end": 194.26,
+      "text": "I'm going to sort of start with the framing of what the architecture looks like.",
+      "avg_logprob": -0.11389036810843745,
+      "no_speech_prob": 2.788758373534206e-12
+    },
+    {
+      "start": 194.26,
+      "end": 197.08,
+      "text": "So a consumer comes in and says, I want to sell my car.",
+      "avg_logprob": -0.16692497014999388,
+      "no_speech_prob": 1.9381113467581423e-12
+    },
+    {
+      "start": 197.6,
+      "end": 199.34,
+      "text": "Like, how many agents do they touch?",
+      "avg_logprob": -0.16692497014999388,
+      "no_speech_prob": 1.9381113467581423e-12
+    },
+    {
+      "start": 199.54,
+      "end": 200.9,
+      "text": "Like, what's the harness look like?",
+      "avg_logprob": -0.16692497014999388,
+      "no_speech_prob": 1.9381113467581423e-12
+    },
+    {
+      "start": 200.96,
+      "end": 202.34,
+      "text": "Like, ground us in how you design this.",
+      "avg_logprob": -0.16692497014999388,
+      "no_speech_prob": 1.9381113467581423e-12
+    },
+    {
+      "start": 202.34,
+      "end": 202.56,
+      "text": "Right.",
+      "avg_logprob": -0.16692497014999388,
+      "no_speech_prob": 1.9381113467581423e-12
+    },
+    {
+      "start": 202.74,
+      "end": 207.94,
+      "text": "So we bet the company in transforming to a company run by agents.",
+      "avg_logprob": -0.16692497014999388,
+      "no_speech_prob": 1.9381113467581423e-12
+    },
+    {
+      "start": 207.94,
+      "end": 217.36,
+      "text": "The questions we ask ourselves is, how would we build Kavak in 2035 with Fable 10 or GPT-10 level intelligence?",
+      "avg_logprob": -0.16692497014999388,
+      "no_speech_prob": 1.9381113467581423e-12
+    },
+    {
+      "start": 217.9,
+      "end": 223.74,
+      "text": "And actually, that company looks very different than what we had built or what we had back then.",
+      "avg_logprob": -0.16692497014999388,
+      "no_speech_prob": 1.9381113467581423e-12
+    },
+    {
+      "start": 224.26,
+      "end": 232.35,
+      "text": "So when a customer comes in right now, agent will get spawned specifically for this customer with its own virtual machine.",
+      "avg_logprob": -0.09379916979094684,
+      "no_speech_prob": 3.043549136674817e-12
+    },
+    {
+      "start": 232.35,
+      "end": 241.37,
+      "text": "It will remember years of interaction of these customers with Kavak, what they visited in the webpage or a call they had two years ago.",
+      "avg_logprob": -0.09379916979094684,
+      "no_speech_prob": 3.043549136674817e-12
+    },
+    {
+      "start": 241.37,
+      "end": 254.19,
+      "text": "So remember everything like in its memory, come up with a strategy and set a long-term goal to maximize the lifetime value of this customer and do whatever it takes to make the customer happy.",
+      "avg_logprob": -0.13314359132633652,
+      "no_speech_prob": 2.4809447031481913e-12
+    },
+    {
+      "start": 254.19,
+      "end": 260.83,
+      "text": "And convert them into, like, all our different products, like, across time.",
+      "avg_logprob": -0.1331393172343572,
+      "no_speech_prob": 2.5036058295957453e-12
+    },
+    {
+      "start": 261.51,
+      "end": 271.29,
+      "text": "And this is a completely new and groundbreaking architecture at scale, I think, because, like, people are still building multi-agent system with experts.",
+      "avg_logprob": -0.1331393172343572,
+      "no_speech_prob": 2.5036058295957453e-12
+    },
+    {
+      "start": 271.29,
+      "end": 284.09,
+      "text": "And we realized to bet that long-running agents with hard goals, not just workflows, could maximize our customers' satisfaction and, obviously, their lifetime value.",
+      "avg_logprob": -0.15075841833309955,
+      "no_speech_prob": 2.1045207677233835e-12
+    },
+    {
+      "start": 284.9,
+      "end": 285.16,
+      "text": "Awesome.",
+      "avg_logprob": -0.15075841833309955,
+      "no_speech_prob": 2.1045207677233835e-12
+    },
+    {
+      "start": 285.52,
+      "end": 285.66,
+      "text": "Okay.",
+      "avg_logprob": -0.15075841833309955,
+      "no_speech_prob": 2.1045207677233835e-12
+    },
+    {
+      "start": 285.72,
+      "end": 287.78,
+      "text": "So we're going to jump to the nuances of that.",
+      "avg_logprob": -0.15075841833309955,
+      "no_speech_prob": 2.1045207677233835e-12
+    },
+    {
+      "start": 287.94,
+      "end": 293.88,
+      "text": "But maybe versus many companies that say, hey, we want to be agentic, and they try some workflows.",
+      "avg_logprob": -0.15075841833309955,
+      "no_speech_prob": 2.1045207677233835e-12
+    },
+    {
+      "start": 293.88,
+      "end": 298.32,
+      "text": "You guys took the just rip, like, we had to make this work.",
+      "avg_logprob": -0.13656385430583248,
+      "no_speech_prob": 1.7096240872635504e-12
+    },
+    {
+      "start": 298.42,
+      "end": 299.76,
+      "text": "You had to downsize dramatically.",
+      "avg_logprob": -0.13656385430583248,
+      "no_speech_prob": 1.7096240872635504e-12
+    },
+    {
+      "start": 300.06,
+      "end": 302.54,
+      "text": "It didn't work for a year.",
+      "avg_logprob": -0.13656385430583248,
+      "no_speech_prob": 1.7096240872635504e-12
+    },
+    {
+      "start": 302.7,
+      "end": 302.92,
+      "text": "Right.",
+      "avg_logprob": -0.13656385430583248,
+      "no_speech_prob": 1.7096240872635504e-12
+    },
+    {
+      "start": 303.32,
+      "end": 307.46,
+      "text": "So do you want to talk through, obviously, you had to tune a lot of things to make that work.",
+      "avg_logprob": -0.13656385430583248,
+      "no_speech_prob": 1.7096240872635504e-12
+    },
+    {
+      "start": 307.58,
+      "end": 312.48,
+      "text": "Like, describe the harness at that time and, like, what models you were using and sort of specifically.",
+      "avg_logprob": -0.13656385430583248,
+      "no_speech_prob": 1.7096240872635504e-12
+    },
+    {
+      "start": 312.88,
+      "end": 316.92,
+      "text": "So there were, like, three main decisions that we had to make.",
+      "avg_logprob": -0.13656385430583248,
+      "no_speech_prob": 1.7096240872635504e-12
+    },
+    {
+      "start": 317.36,
+      "end": 323.52,
+      "text": "The first, and this is where I think many companies are stuck right now, is the first instinct is, okay,",
+      "avg_logprob": -0.13656385430583248,
+      "no_speech_prob": 1.7096240872635504e-12
+    },
+    {
+      "start": 323.52,
+      "end": 324.84,
+      "text": "let's adopt AI.",
+      "avg_logprob": -0.17071213268098376,
+      "no_speech_prob": 1.7572756401060263e-12
+    },
+    {
+      "start": 325.3,
+      "end": 331.0,
+      "text": "And you basically leave your structure as it is and just give ChatGPT or Claude to your team.",
+      "avg_logprob": -0.17071213268098376,
+      "no_speech_prob": 1.7572756401060263e-12
+    },
+    {
+      "start": 331.18,
+      "end": 333.34,
+      "text": "And then there's no efficiencies.",
+      "avg_logprob": -0.17071213268098376,
+      "no_speech_prob": 1.7572756401060263e-12
+    },
+    {
+      "start": 333.52,
+      "end": 336.52,
+      "text": "Your customers have the same problems and nothing happens, right?",
+      "avg_logprob": -0.17071213268098376,
+      "no_speech_prob": 1.7572756401060263e-12
+    },
+    {
+      "start": 336.98,
+      "end": 343.4,
+      "text": "And so you need to redesign your whole company around the agents and around the future capabilities.",
+      "avg_logprob": -0.17071213268098376,
+      "no_speech_prob": 1.7572756401060263e-12
+    },
+    {
+      "start": 343.58,
+      "end": 352.58,
+      "text": "And this means really, like, rebuilding most of your APIs, rebuilding your system so the agents can use them to perform.",
+      "avg_logprob": -0.17071213268098376,
+      "no_speech_prob": 1.7572756401060263e-12
+    },
+    {
+      "start": 352.58,
+      "end": 357.86,
+      "text": "Then you need to start generating the data and the feedback loops to fine-tune these agents.",
+      "avg_logprob": -0.13133801642586204,
+      "no_speech_prob": 1.351371054988948e-12
+    },
+    {
+      "start": 357.94,
+      "end": 361.56,
+      "text": "The only way to really make them work is if you teach them.",
+      "avg_logprob": -0.13133801642586204,
+      "no_speech_prob": 1.351371054988948e-12
+    },
+    {
+      "start": 361.62,
+      "end": 362.36,
+      "text": "Like, how do you teach them?",
+      "avg_logprob": -0.13133801642586204,
+      "no_speech_prob": 1.351371054988948e-12
+    },
+    {
+      "start": 362.42,
+      "end": 364.4,
+      "text": "You put them out in the open.",
+      "avg_logprob": -0.13133801642586204,
+      "no_speech_prob": 1.351371054988948e-12
+    },
+    {
+      "start": 364.58,
+      "end": 365.9,
+      "text": "You put them in front of customers.",
+      "avg_logprob": -0.13133801642586204,
+      "no_speech_prob": 1.351371054988948e-12
+    },
+    {
+      "start": 366.06,
+      "end": 366.72,
+      "text": "You get that data.",
+      "avg_logprob": -0.13133801642586204,
+      "no_speech_prob": 1.351371054988948e-12
+    },
+    {
+      "start": 366.82,
+      "end": 367.56,
+      "text": "You get those evals.",
+      "avg_logprob": -0.13133801642586204,
+      "no_speech_prob": 1.351371054988948e-12
+    },
+    {
+      "start": 367.56,
+      "end": 371.8,
+      "text": "And then you train your agents.",
+      "avg_logprob": -0.14321320720865757,
+      "no_speech_prob": 1.5933951207081076e-12
+    },
+    {
+      "start": 372.06,
+      "end": 377.56,
+      "text": "And this is the second bet that we made, that we could build superhuman agents.",
+      "avg_logprob": -0.14321320720865757,
+      "no_speech_prob": 1.5933951207081076e-12
+    },
+    {
+      "start": 377.96,
+      "end": 384.82,
+      "text": "This means that by every dimension that matters, like conversion, lifetime value, customer experience,",
+      "avg_logprob": -0.14321320720865757,
+      "no_speech_prob": 1.5933951207081076e-12
+    },
+    {
+      "start": 384.96,
+      "end": 389.12,
+      "text": "our agents would outperform the best human we had ever hired.",
+      "avg_logprob": -0.14321320720865757,
+      "no_speech_prob": 1.5933951207081076e-12
+    },
+    {
+      "start": 389.18,
+      "end": 390.94,
+      "text": "And we put them in front of the hardest problems.",
+      "avg_logprob": -0.14321320720865757,
+      "no_speech_prob": 1.5933951207081076e-12
+    },
+    {
+      "start": 390.94,
+      "end": 397.28,
+      "text": "And finally, you start to change how you measure the success of the company.",
+      "avg_logprob": -0.17647040268731495,
+      "no_speech_prob": 1.948047192307234e-12
+    },
+    {
+      "start": 397.8,
+      "end": 399.94,
+      "text": "Kavak was a transactional company.",
+      "avg_logprob": -0.17647040268731495,
+      "no_speech_prob": 1.948047192307234e-12
+    },
+    {
+      "start": 400.2,
+      "end": 406.94,
+      "text": "We used to measure how many cars we bought, how many cars we sold, how many brakes we needed to, brake pads we needed to buy.",
+      "avg_logprob": -0.17647040268731495,
+      "no_speech_prob": 1.948047192307234e-12
+    },
+    {
+      "start": 406.94,
+      "end": 419.26,
+      "text": "And we moved to a relational company where now I have 10 million customers in my database and I have agents assigned to most of them with the task of maximizing their lifetime value.",
+      "avg_logprob": -0.08661029342262225,
+      "no_speech_prob": 2.478374059797228e-12
+    },
+    {
+      "start": 419.36,
+      "end": 425.27,
+      "text": "Now, we're selling cars and personal loans and very high-ticket items.",
+      "avg_logprob": -0.08661029342262225,
+      "no_speech_prob": 2.478374059797228e-12
+    },
+    {
+      "start": 425.55,
+      "end": 435.01,
+      "text": "So just activating 1% of this customer base, it's like hundreds of millions of dollars if we do it the right way.",
+      "avg_logprob": -0.08661029342262225,
+      "no_speech_prob": 2.478374059797228e-12
+    },
+    {
+      "start": 435.01,
+      "end": 441.67,
+      "text": "So it's a bet that made sense for us because of our industry, because of the ticket, and because at the end of the day,",
+      "avg_logprob": -0.17686327308127023,
+      "no_speech_prob": 2.434337236997819e-12
+    },
+    {
+      "start": 442.01,
+      "end": 447.42,
+      "text": "customers need to build trust with a company because they're buying a used car.",
+      "avg_logprob": -0.17686327308127023,
+      "no_speech_prob": 2.434337236997819e-12
+    },
+    {
+      "start": 447.9,
+      "end": 454.8,
+      "text": "And the way to build trust is to know them and to plan and nurture a long-term relationship.",
+      "avg_logprob": -0.17686327308127023,
+      "no_speech_prob": 2.434337236997819e-12
+    },
+    {
+      "start": 455.12,
+      "end": 457.18,
+      "text": "Ale, I just wanted to double-click on something.",
+      "avg_logprob": -0.17686327308127023,
+      "no_speech_prob": 2.434337236997819e-12
+    },
+    {
+      "start": 457.38,
+      "end": 459.68,
+      "text": "You know, evils over agent demos.",
+      "avg_logprob": -0.17686327308127023,
+      "no_speech_prob": 2.434337236997819e-12
+    },
+    {
+      "start": 460.0,
+      "end": 460.26,
+      "text": "Yeah.",
+      "avg_logprob": -0.17686327308127023,
+      "no_speech_prob": 2.434337236997819e-12
+    },
+    {
+      "start": 460.26,
+      "end": 467.32,
+      "text": "You probably get pitched a lot of agents and, you know, it's never been easier to build things like before.",
+      "avg_logprob": -0.08881694667041301,
+      "no_speech_prob": 1.5696861128608464e-12
+    },
+    {
+      "start": 467.54,
+      "end": 471.38,
+      "text": "But one of the questions is, like, how do you guys go about evaluating this?",
+      "avg_logprob": -0.08881694667041301,
+      "no_speech_prob": 1.5696861128608464e-12
+    },
+    {
+      "start": 471.42,
+      "end": 476.64,
+      "text": "Because not everybody tests them across 90% of the customer interactions to see if they're really working.",
+      "avg_logprob": -0.08881694667041301,
+      "no_speech_prob": 1.5696861128608464e-12
+    },
+    {
+      "start": 476.96,
+      "end": 484.1,
+      "text": "And, you know, you guys, I believe, is about 98% of the interactions or something like that are now handled by agents.",
+      "avg_logprob": -0.08881694667041301,
+      "no_speech_prob": 1.5696861128608464e-12
+    },
+    {
+      "start": 484.1,
+      "end": 484.84,
+      "text": "Yes, totally.",
+      "avg_logprob": -0.14146119393879855,
+      "no_speech_prob": 1.901220066796716e-12
+    },
+    {
+      "start": 485.02,
+      "end": 493.96,
+      "text": "So to give you a sense of the scale, like 96% of all interactions are handled by agents.",
+      "avg_logprob": -0.14146119393879855,
+      "no_speech_prob": 1.901220066796716e-12
+    },
+    {
+      "start": 494.54,
+      "end": 496.14,
+      "text": "So no humans there.",
+      "avg_logprob": -0.14146119393879855,
+      "no_speech_prob": 1.901220066796716e-12
+    },
+    {
+      "start": 497.24,
+      "end": 501.64,
+      "text": "Like 95% of all transactions are completely handled by agents.",
+      "avg_logprob": -0.14146119393879855,
+      "no_speech_prob": 1.901220066796716e-12
+    },
+    {
+      "start": 501.76,
+      "end": 505.9,
+      "text": "Obviously, you meet a human when you pick up your car, like there's someone physically there to give you the keys.",
+      "avg_logprob": -0.14146119393879855,
+      "no_speech_prob": 1.901220066796716e-12
+    },
+    {
+      "start": 505.9,
+      "end": 511.12,
+      "text": "But the rest of the experience of the journey is handled by an agent.",
+      "avg_logprob": -0.16476346311115084,
+      "no_speech_prob": 2.642940770750113e-12
+    },
+    {
+      "start": 511.62,
+      "end": 518.32,
+      "text": "Every day, between 100,000 and 200,000 agents get instantiated in a day.",
+      "avg_logprob": -0.16476346311115084,
+      "no_speech_prob": 2.642940770750113e-12
+    },
+    {
+      "start": 518.56,
+      "end": 519.54,
+      "text": "They wake up.",
+      "avg_logprob": -0.16476346311115084,
+      "no_speech_prob": 2.642940770750113e-12
+    },
+    {
+      "start": 519.86,
+      "end": 524.68,
+      "text": "They work sometimes for three minutes, sometimes for eight hours, sometimes for three days.",
+      "avg_logprob": -0.16476346311115084,
+      "no_speech_prob": 2.642940770750113e-12
+    },
+    {
+      "start": 524.86,
+      "end": 529.4,
+      "text": "And they, like, set an alarm clock for their next task and go back to sleep.",
+      "avg_logprob": -0.16476346311115084,
+      "no_speech_prob": 2.642940770750113e-12
+    },
+    {
+      "start": 529.66,
+      "end": 532.96,
+      "text": "So the scale of this is just amazing.",
+      "avg_logprob": -0.16476346311115084,
+      "no_speech_prob": 2.642940770750113e-12
+    },
+    {
+      "start": 533.14,
+      "end": 533.96,
+      "text": "And it's working.",
+      "avg_logprob": -0.16476346311115084,
+      "no_speech_prob": 2.642940770750113e-12
+    },
+    {
+      "start": 533.96,
+      "end": 537.3,
+      "text": "Like, now, how do you get this to work at scale?",
+      "avg_logprob": -0.13238670301437377,
+      "no_speech_prob": 2.0219646269803437e-12
+    },
+    {
+      "start": 538.38,
+      "end": 541.2,
+      "text": "And the answer you mentioned is evals.",
+      "avg_logprob": -0.13238670301437377,
+      "no_speech_prob": 2.0219646269803437e-12
+    },
+    {
+      "start": 541.5,
+      "end": 544.74,
+      "text": "Like, I like to move extremely fast.",
+      "avg_logprob": -0.13238670301437377,
+      "no_speech_prob": 2.0219646269803437e-12
+    },
+    {
+      "start": 545.14,
+      "end": 548.16,
+      "text": "But in order to move fast, you need to have brakes, right?",
+      "avg_logprob": -0.13238670301437377,
+      "no_speech_prob": 2.0219646269803437e-12
+    },
+    {
+      "start": 548.18,
+      "end": 548.84,
+      "text": "Imagine a car.",
+      "avg_logprob": -0.13238670301437377,
+      "no_speech_prob": 2.0219646269803437e-12
+    },
+    {
+      "start": 550.18,
+      "end": 553.56,
+      "text": "You'll hit on the gas just if you have the right brakes.",
+      "avg_logprob": -0.13238670301437377,
+      "no_speech_prob": 2.0219646269803437e-12
+    },
+    {
+      "start": 554.18,
+      "end": 555.7,
+      "text": "And AI is super powerful.",
+      "avg_logprob": -0.13238670301437377,
+      "no_speech_prob": 2.0219646269803437e-12
+    },
+    {
+      "start": 555.86,
+      "end": 562.34,
+      "text": "And I've seen many companies get this wrong because they try to go slow because they don't have the right brakes.",
+      "avg_logprob": -0.13238670301437377,
+      "no_speech_prob": 2.0219646269803437e-12
+    },
+    {
+      "start": 562.34,
+      "end": 564.36,
+      "text": "So I thought about it the other way around.",
+      "avg_logprob": -0.13238670301437377,
+      "no_speech_prob": 2.0219646269803437e-12
+    },
+    {
+      "start": 564.36,
+      "end": 565.88,
+      "text": "Like, how fast can we go?",
+      "avg_logprob": -0.12746918754231545,
+      "no_speech_prob": 1.9536386397511762e-12
+    },
+    {
+      "start": 566.42,
+      "end": 568.4,
+      "text": "Well, it depends on the quality of our evals.",
+      "avg_logprob": -0.12746918754231545,
+      "no_speech_prob": 1.9536386397511762e-12
+    },
+    {
+      "start": 568.58,
+      "end": 583.1,
+      "text": "So a good rule of thumb here is we spend about the same amount of time, engineer time, tokens, and money on building the evals than building the agents.",
+      "avg_logprob": -0.12746918754231545,
+      "no_speech_prob": 1.9536386397511762e-12
+    },
+    {
+      "start": 583.1,
+      "end": 588.26,
+      "text": "And this is how you get better and better and better, not letting evals as an afterthought.",
+      "avg_logprob": -0.2397590951314048,
+      "no_speech_prob": 2.2100652471296334e-12
+    },
+    {
+      "start": 588.4,
+      "end": 589.56,
+      "text": "So what do we measure?",
+      "avg_logprob": -0.2397590951314048,
+      "no_speech_prob": 2.2100652471296334e-12
+    },
+    {
+      "start": 590.82,
+      "end": 593.42,
+      "text": "First and foremost, like, the results for the business.",
+      "avg_logprob": -0.2397590951314048,
+      "no_speech_prob": 2.2100652471296334e-12
+    },
+    {
+      "start": 593.56,
+      "end": 596.46,
+      "text": "Like, if my customer is happy, they'll buy a car.",
+      "avg_logprob": -0.2397590951314048,
+      "no_speech_prob": 2.2100652471296334e-12
+    },
+    {
+      "start": 596.46,
+      "end": 599.06,
+      "text": "They'll get their loan approved.",
+      "avg_logprob": -0.15717668192727224,
+      "no_speech_prob": 1.8405832413748158e-12
+    },
+    {
+      "start": 599.54,
+      "end": 601.08,
+      "text": "They'll sell a car to us.",
+      "avg_logprob": -0.15717668192727224,
+      "no_speech_prob": 1.8405832413748158e-12
+    },
+    {
+      "start": 601.24,
+      "end": 603.48,
+      "text": "And that's the, like, first check.",
+      "avg_logprob": -0.15717668192727224,
+      "no_speech_prob": 1.8405832413748158e-12
+    },
+    {
+      "start": 603.7,
+      "end": 605.02,
+      "text": "Like, did it convert?",
+      "avg_logprob": -0.15717668192727224,
+      "no_speech_prob": 1.8405832413748158e-12
+    },
+    {
+      "start": 605.56,
+      "end": 607.8,
+      "text": "And that's where most things break.",
+      "avg_logprob": -0.15717668192727224,
+      "no_speech_prob": 1.8405832413748158e-12
+    },
+    {
+      "start": 607.92,
+      "end": 620.44,
+      "text": "Like, I see companies, like, measuring number of calls or minutes during the call or some, like, superficial KPIs that give you some information, but that doesn't really work.",
+      "avg_logprob": -0.15717668192727224,
+      "no_speech_prob": 1.8405832413748158e-12
+    },
+    {
+      "start": 620.44,
+      "end": 630.39,
+      "text": "Like, the important thing is did this customer convert, is it bringing value to the customer, and is the customer happy to re-engage with us after a while?",
+      "avg_logprob": -0.12326647520783436,
+      "no_speech_prob": 1.6516723969420277e-12
+    },
+    {
+      "start": 630.73,
+      "end": 641.91,
+      "text": "And once you get those evals connected, then it's just optimizing the right agentic architecture and giving the agent skills to scale this and cater to millions of customers.",
+      "avg_logprob": -0.12326647520783436,
+      "no_speech_prob": 1.6516723969420277e-12
+    },
+    {
+      "start": 643.01,
+      "end": 643.93,
+      "text": "It's really, really amazing.",
+      "avg_logprob": -0.12326647520783436,
+      "no_speech_prob": 1.6516723969420277e-12
+    },
+    {
+      "start": 643.93,
+      "end": 662.28,
+      "text": "And, you know, related to this is, like, okay, so you create the right evals, you know, it's working, you know, some people, some companies still feel a little bit risk-averse and putting them in front of the customers and being able to perform the highest leverage tasks, which in your case would be selling.",
+      "avg_logprob": -0.11394139201240203,
+      "no_speech_prob": 2.41599427096284e-12
+    },
+    {
+      "start": 662.6,
+      "end": 664.8,
+      "text": "Do your agents really sell to customers?",
+      "avg_logprob": -0.11394139201240203,
+      "no_speech_prob": 2.41599427096284e-12
+    },
+    {
+      "start": 664.96,
+      "end": 665.2,
+      "text": "Yes.",
+      "avg_logprob": -0.11394139201240203,
+      "no_speech_prob": 2.41599427096284e-12
+    },
+    {
+      "start": 665.42,
+      "end": 668.92,
+      "text": "So we never built customer support or customer service agents.",
+      "avg_logprob": -0.11394139201240203,
+      "no_speech_prob": 2.41599427096284e-12
+    },
+    {
+      "start": 669.08,
+      "end": 671.54,
+      "text": "We built, like, sales agents.",
+      "avg_logprob": -0.11394139201240203,
+      "no_speech_prob": 2.41599427096284e-12
+    },
+    {
+      "start": 671.54,
+      "end": 675.86,
+      "text": "It's extremely hard to sell a car in Latin America.",
+      "avg_logprob": -0.15451733717757665,
+      "no_speech_prob": 2.255343698256973e-12
+    },
+    {
+      "start": 676.56,
+      "end": 678.76,
+      "text": "So imagine someone wanting to buy a car.",
+      "avg_logprob": -0.15451733717757665,
+      "no_speech_prob": 2.255343698256973e-12
+    },
+    {
+      "start": 679.14,
+      "end": 682.46,
+      "text": "They can choose, like, amongst, like, 20,000 SKUs.",
+      "avg_logprob": -0.15451733717757665,
+      "no_speech_prob": 2.255343698256973e-12
+    },
+    {
+      "start": 682.8,
+      "end": 689.5,
+      "text": "Then they need to pick, like, financing and go through the financing process, insurance and coverage.",
+      "avg_logprob": -0.15451733717757665,
+      "no_speech_prob": 2.255343698256973e-12
+    },
+    {
+      "start": 689.92,
+      "end": 692.68,
+      "text": "And then they're probably trading in their car.",
+      "avg_logprob": -0.15451733717757665,
+      "no_speech_prob": 2.255343698256973e-12
+    },
+    {
+      "start": 692.88,
+      "end": 694.58,
+      "text": "So we need to quote that car.",
+      "avg_logprob": -0.15451733717757665,
+      "no_speech_prob": 2.255343698256973e-12
+    },
+    {
+      "start": 694.58,
+      "end": 708.16,
+      "text": "So it's a process that if someone does it or the way Kaivak did it back in 2020, 2021, was you need to be extremely good at 15 different things and have 15 different experts in 15 different teams.",
+      "avg_logprob": -0.11332657142561309,
+      "no_speech_prob": 1.5467667294558063e-12
+    },
+    {
+      "start": 708.16,
+      "end": 720.84,
+      "text": "And usually the person would go and speak with the expert in financing, the expert in car advisory, the expert in buying, the expert in insurance, and they'll build a package and buy a car.",
+      "avg_logprob": -0.10096760922008091,
+      "no_speech_prob": 1.5113734916361032e-12
+    },
+    {
+      "start": 720.84,
+      "end": 723.21,
+      "text": "And that's extremely hard to do.",
+      "avg_logprob": -0.16920932732960758,
+      "no_speech_prob": 1.8851968597299873e-12
+    },
+    {
+      "start": 723.85,
+      "end": 739.36,
+      "text": "But, like, the first thing we did was, okay, can we get an agent to be better than the expert in each of these things and then put it together and have, like, a mega expert that's an expert in insurance, financing, et cetera.",
+      "avg_logprob": -0.16920932732960758,
+      "no_speech_prob": 1.8851968597299873e-12
+    },
+    {
+      "start": 739.36,
+      "end": 742.34,
+      "text": "And that's who we put in front of the customer.",
+      "avg_logprob": -0.14584154304530886,
+      "no_speech_prob": 1.9532990676307538e-12
+    },
+    {
+      "start": 742.46,
+      "end": 744.14,
+      "text": "So the experience for the customer is amazing.",
+      "avg_logprob": -0.14584154304530886,
+      "no_speech_prob": 1.9532990676307538e-12
+    },
+    {
+      "start": 744.38,
+      "end": 751.58,
+      "text": "We tripled NPS and customer satisfaction score by putting the agent in front of the customer.",
+      "avg_logprob": -0.14584154304530886,
+      "no_speech_prob": 1.9532990676307538e-12
+    },
+    {
+      "start": 752.54,
+      "end": 757.1,
+      "text": "And at first it converted, like, 50% more than our human team.",
+      "avg_logprob": -0.14584154304530886,
+      "no_speech_prob": 1.9532990676307538e-12
+    },
+    {
+      "start": 757.3,
+      "end": 763.36,
+      "text": "And now it's converting over that, like, 2.1x more.",
+      "avg_logprob": -0.14584154304530886,
+      "no_speech_prob": 1.9532990676307538e-12
+    },
+    {
+      "start": 764.3,
+      "end": 765.6,
+      "text": "So it's a completely different company.",
+      "avg_logprob": -0.14584154304530886,
+      "no_speech_prob": 1.9532990676307538e-12
+    },
+    {
+      "start": 765.6,
+      "end": 766.92,
+      "text": "So your agents are better sellers.",
+      "avg_logprob": -0.14584154304530886,
+      "no_speech_prob": 1.9532990676307538e-12
+    },
+    {
+      "start": 767.3,
+      "end": 767.86,
+      "text": "Totally better.",
+      "avg_logprob": -0.14584154304530886,
+      "no_speech_prob": 1.9532990676307538e-12
+    },
+    {
+      "start": 767.86,
+      "end": 779.42,
+      "text": "And you get this, right, because they're experts, and they're infinitely patient, and they know all your history, and they can plan for the long term, and they never get tired.",
+      "avg_logprob": -0.09994995238584116,
+      "no_speech_prob": 1.5081099346767046e-12
+    },
+    {
+      "start": 779.78,
+      "end": 789.06,
+      "text": "So, and if they make a mistake, they learn it, and the next day, not just them, but the other 200,000 agents will have learned from that mistake.",
+      "avg_logprob": -0.09994995238584116,
+      "no_speech_prob": 1.5081099346767046e-12
+    },
+    {
+      "start": 789.18,
+      "end": 796.34,
+      "text": "So that's the feedback loop that we engaged, and that's showing in the growth and results and satisfaction of our customers.",
+      "avg_logprob": -0.09994995238584116,
+      "no_speech_prob": 1.5081099346767046e-12
+    },
+    {
+      "start": 796.34,
+      "end": 805.16,
+      "text": "One of the, well, two of the very cool things I think about Kavak is I think the world has gotten comfortable with AI can do customer service.",
+      "avg_logprob": -0.2340219204003612,
+      "no_speech_prob": 1.4808239270219792e-12
+    },
+    {
+      "start": 805.28,
+      "end": 806.58,
+      "text": "It's still very hard to do well.",
+      "avg_logprob": -0.2340219204003612,
+      "no_speech_prob": 1.4808239270219792e-12
+    },
+    {
+      "start": 806.58,
+      "end": 814.92,
+      "text": "But, you know, as Gabe said, there's still a view that, well, customers aren't going to want to buy expensive things from AI, and you are proving them wrong.",
+      "avg_logprob": -0.1173131902439472,
+      "no_speech_prob": 1.2799269023117121e-12
+    },
+    {
+      "start": 814.98,
+      "end": 815.18,
+      "text": "Yes.",
+      "avg_logprob": -0.1173131902439472,
+      "no_speech_prob": 1.2799269023117121e-12
+    },
+    {
+      "start": 815.34,
+      "end": 822.48,
+      "text": "The next layer on that is, well, you're not actually going to be able to do regulated financial services end-to-end with AI.",
+      "avg_logprob": -0.1173131902439472,
+      "no_speech_prob": 1.2799269023117121e-12
+    },
+    {
+      "start": 822.48,
+      "end": 831.28,
+      "text": "But if you walk through what you're doing, you are underwriting a thin or no-file customer, pricing them correctly, doing servicing.",
+      "avg_logprob": -0.08230406852329479,
+      "no_speech_prob": 1.9606011692624437e-12
+    },
+    {
+      "start": 831.48,
+      "end": 844.68,
+      "text": "So maybe talk through how did you write the evals to get comfortable with that, and then versus, I don't know, going to a bank branch or even a fintech, sort of how is that experience that much better?",
+      "avg_logprob": -0.08230406852329479,
+      "no_speech_prob": 1.9606011692624437e-12
+    },
+    {
+      "start": 844.68,
+      "end": 858.32,
+      "text": "So the first financial product that we launched was a car loan, and usually in Mexico and in some emerging markets, it'll get like two months or more to get a car loan approved.",
+      "avg_logprob": -0.09177370600047566,
+      "no_speech_prob": 3.6060217312172682e-12
+    },
+    {
+      "start": 858.32,
+      "end": 869.6,
+      "text": "We usually approve it in under three minutes, which is like pretty cool, because we have all this data around the customer and the car.",
+      "avg_logprob": -0.10392927226199898,
+      "no_speech_prob": 2.017576427107426e-12
+    },
+    {
+      "start": 870.24,
+      "end": 885.22,
+      "text": "And if the customer can't pay for the car anymore, they'll just return it to us, and we can give them a cheaper car, and then they pay a smaller amount each month, and they like get out of the water, which is amazing about the vertical integration of the business.",
+      "avg_logprob": -0.10392927226199898,
+      "no_speech_prob": 2.017576427107426e-12
+    },
+    {
+      "start": 885.22,
+      "end": 894.66,
+      "text": "But then, like, when we started launching other financial products, we realized that this is a very important decision for the customer, right?",
+      "avg_logprob": -0.10418377795981036,
+      "no_speech_prob": 1.7475902452587788e-12
+    },
+    {
+      "start": 894.74,
+      "end": 908.9,
+      "text": "Like, they usually take three to four months to make up their mind in buying a car and getting a loan or getting a personal loan, like a large personal loan that we also do.",
+      "avg_logprob": -0.10418377795981036,
+      "no_speech_prob": 1.7475902452587788e-12
+    },
+    {
+      "start": 908.9,
+      "end": 922.1,
+      "text": "So if you get to know your customer throughout this process and make the process easy for them, then just your conversion and retention metrics start going through the roof.",
+      "avg_logprob": -0.0667768685768048,
+      "no_speech_prob": 1.5024855274867188e-12
+    },
+    {
+      "start": 922.1,
+      "end": 949.76,
+      "text": "It's not just the transaction, it's understanding each customer personally and get them to convert when they're ready with a very deep personalization of the interest rate, the risk, the max amount of the loan in a way that makes sense for the portfolio as a whole, obviously, but that's optimized to the risk level and probably the other offers that the customer is getting.",
+      "avg_logprob": -0.09816854232922197,
+      "no_speech_prob": 1.3640538351622489e-12
+    },
+    {
+      "start": 949.76,
+      "end": 955.44,
+      "text": "And then maybe give us just to be, you know, evals are always a very hot topic, you kind of led with that.",
+      "avg_logprob": -0.11673622661166722,
+      "no_speech_prob": 1.874270920756982e-12
+    },
+    {
+      "start": 955.9,
+      "end": 966.36,
+      "text": "What is an example of maybe a hard-to-design area for evals or one where you had to spend an extra amount of time with just given the fact that, like, there's real money PII at risk?",
+      "avg_logprob": -0.11673622661166722,
+      "no_speech_prob": 1.874270920756982e-12
+    },
+    {
+      "start": 966.36,
+      "end": 966.5,
+      "text": "Right.",
+      "avg_logprob": -0.16387213376306353,
+      "no_speech_prob": 1.968251950312805e-12
+    },
+    {
+      "start": 966.76,
+      "end": 966.92,
+      "text": "Yeah.",
+      "avg_logprob": -0.16387213376306353,
+      "no_speech_prob": 1.968251950312805e-12
+    },
+    {
+      "start": 966.92,
+      "end": 983.03,
+      "text": "So when we decided to redesign the company around AI, you asked the question, okay, is AI going to be able to do this job, like even the CEO job or jobs where the leadership is?",
+      "avg_logprob": -0.16387213376306353,
+      "no_speech_prob": 1.968251950312805e-12
+    },
+    {
+      "start": 983.41,
+      "end": 985.71,
+      "text": "And the answer, honestly, is probably yes.",
+      "avg_logprob": -0.16387213376306353,
+      "no_speech_prob": 1.968251950312805e-12
+    },
+    {
+      "start": 985.83,
+      "end": 988.85,
+      "text": "Like in 2035 with a rate of improvement, it will be able to do.",
+      "avg_logprob": -0.16387213376306353,
+      "no_speech_prob": 1.968251950312805e-12
+    },
+    {
+      "start": 988.85,
+      "end": 990.93,
+      "text": "So we said, okay, let's try it now.",
+      "avg_logprob": -0.18620458819592992,
+      "no_speech_prob": 2.504831411731523e-12
+    },
+    {
+      "start": 991.75,
+      "end": 994.41,
+      "text": "Let's try and build an AI CEO.",
+      "avg_logprob": -0.18620458819592992,
+      "no_speech_prob": 2.504831411731523e-12
+    },
+    {
+      "start": 995.3,
+      "end": 998.56,
+      "text": "So we carved out a city in Mexico.",
+      "avg_logprob": -0.18620458819592992,
+      "no_speech_prob": 2.504831411731523e-12
+    },
+    {
+      "start": 998.82,
+      "end": 999.82,
+      "text": "It's Cuernavaca.",
+      "avg_logprob": -0.18620458819592992,
+      "no_speech_prob": 2.504831411731523e-12
+    },
+    {
+      "start": 999.96,
+      "end": 1004.97,
+      "text": "And we put like an agent in one of our harnesses as a CEO.",
+      "avg_logprob": -0.18620458819592992,
+      "no_speech_prob": 2.504831411731523e-12
+    },
+    {
+      "start": 1005.17,
+      "end": 1009.99,
+      "text": "And it starts learning and it starts making decisions and evaluating on those decisions.",
+      "avg_logprob": -0.18620458819592992,
+      "no_speech_prob": 2.504831411731523e-12
+    },
+    {
+      "start": 1010.57,
+      "end": 1013.43,
+      "text": "And it's only been running for six weeks now.",
+      "avg_logprob": -0.18620458819592992,
+      "no_speech_prob": 2.504831411731523e-12
+    },
+    {
+      "start": 1013.43,
+      "end": 1018.55,
+      "text": "The goal of the first month was to double the profits of Cuernavaca.",
+      "avg_logprob": -0.12426050731113979,
+      "no_speech_prob": 5.267565029998256e-12
+    },
+    {
+      "start": 1018.89,
+      "end": 1029.85,
+      "text": "It didn't reach it, but it was 1.5x, like 50% more profits just by managing the city, which is crazy, right?",
+      "avg_logprob": -0.12426050731113979,
+      "no_speech_prob": 5.267565029998256e-12
+    },
+    {
+      "start": 1029.91,
+      "end": 1030.65,
+      "text": "It's amazing.",
+      "avg_logprob": -0.12426050731113979,
+      "no_speech_prob": 5.267565029998256e-12
+    },
+    {
+      "start": 1030.91,
+      "end": 1032.09,
+      "text": "And it's the CEO.",
+      "avg_logprob": -0.12426050731113979,
+      "no_speech_prob": 5.267565029998256e-12
+    },
+    {
+      "start": 1032.43,
+      "end": 1036.81,
+      "text": "Like people were like, that was the last job AI was supposed to take.",
+      "avg_logprob": -0.12426050731113979,
+      "no_speech_prob": 5.267565029998256e-12
+    },
+    {
+      "start": 1036.91,
+      "end": 1038.27,
+      "text": "And no, it isn't really.",
+      "avg_logprob": -0.12426050731113979,
+      "no_speech_prob": 5.267565029998256e-12
+    },
+    {
+      "start": 1038.81,
+      "end": 1040.59,
+      "text": "And how did this happen?",
+      "avg_logprob": -0.12426050731113979,
+      "no_speech_prob": 5.267565029998256e-12
+    },
+    {
+      "start": 1040.59,
+      "end": 1060.86,
+      "text": "And it's like a very smart person, like fields, metal levels, smart, like going into every single number, every single customer, making the perfect forecast and going to micromanage every single thing that needs to be executed every day to reach a plan.",
+      "avg_logprob": -0.08746893087337757,
+      "no_speech_prob": 2.0973899700349463e-12
+    },
+    {
+      "start": 1060.86,
+      "end": 1072.68,
+      "text": "So he'll literally send messages to all the physical workers in Cuernavaca with their plans for the day and ask them to send voice notes back to know their progress.",
+      "avg_logprob": -0.17742104236393758,
+      "no_speech_prob": 2.414322214372433e-12
+    },
+    {
+      "start": 1073.52,
+      "end": 1075.66,
+      "text": "So customer satisfaction grew.",
+      "avg_logprob": -0.17742104236393758,
+      "no_speech_prob": 2.414322214372433e-12
+    },
+    {
+      "start": 1076.42,
+      "end": 1077.9,
+      "text": "We got a better inventory.",
+      "avg_logprob": -0.17742104236393758,
+      "no_speech_prob": 2.414322214372433e-12
+    },
+    {
+      "start": 1078.26,
+      "end": 1083.4,
+      "text": "We rotated better, better financing penetration, like every KPI started to improve.",
+      "avg_logprob": -0.17742104236393758,
+      "no_speech_prob": 2.414322214372433e-12
+    },
+    {
+      "start": 1083.4,
+      "end": 1086.28,
+      "text": "So it's super cool and super exciting.",
+      "avg_logprob": -0.2540807155675666,
+      "no_speech_prob": 2.509772337871974e-12
+    },
+    {
+      "start": 1086.9,
+      "end": 1095.44,
+      "text": "Now, what are the jobs where we think we're still like training and hiring humans?",
+      "avg_logprob": -0.2540807155675666,
+      "no_speech_prob": 2.509772337871974e-12
+    },
+    {
+      "start": 1095.98,
+      "end": 1097.84,
+      "text": "Those are related to the physical world.",
+      "avg_logprob": -0.2540807155675666,
+      "no_speech_prob": 2.509772337871974e-12
+    },
+    {
+      "start": 1097.84,
+      "end": 1104.04,
+      "text": "So when we talk about mechanics, Cuernavaca has around, I think in Mexico, around 800 mechanics.",
+      "avg_logprob": -0.17674508730570476,
+      "no_speech_prob": 4.523333096972948e-12
+    },
+    {
+      "start": 1104.04,
+      "end": 1109.86,
+      "text": "There's lots of dexterity and senses that's super hard to substitute.",
+      "avg_logprob": -0.17674508730570476,
+      "no_speech_prob": 4.523333096972948e-12
+    },
+    {
+      "start": 1110.24,
+      "end": 1113.96,
+      "text": "So there, we also build these agents with the exact same harness that's scaling.",
+      "avg_logprob": -0.17674508730570476,
+      "no_speech_prob": 4.523333096972948e-12
+    },
+    {
+      "start": 1114.42,
+      "end": 1117.72,
+      "text": "And the mechanics have the sidekick.",
+      "avg_logprob": -0.17674508730570476,
+      "no_speech_prob": 4.523333096972948e-12
+    },
+    {
+      "start": 1117.72,
+      "end": 1128.5,
+      "text": "I was telling you guys earlier, it's like the movie Ratatouille, like the mouse that's actually a chef collaborating with a human.",
+      "avg_logprob": -0.1404773522825802,
+      "no_speech_prob": 1.7553119331312206e-12
+    },
+    {
+      "start": 1128.9,
+      "end": 1129.9,
+      "text": "It's kind of like that.",
+      "avg_logprob": -0.1404773522825802,
+      "no_speech_prob": 1.7553119331312206e-12
+    },
+    {
+      "start": 1129.96,
+      "end": 1130.76,
+      "text": "So it's a sidekick.",
+      "avg_logprob": -0.1404773522825802,
+      "no_speech_prob": 1.7553119331312206e-12
+    },
+    {
+      "start": 1130.94,
+      "end": 1131.96,
+      "text": "We call it El Maic.",
+      "avg_logprob": -0.1404773522825802,
+      "no_speech_prob": 1.7553119331312206e-12
+    },
+    {
+      "start": 1132.42,
+      "end": 1139.88,
+      "text": "And it tells them how to inspect a car and gives them tips and shows them the way to do it.",
+      "avg_logprob": -0.1404773522825802,
+      "no_speech_prob": 1.7553119331312206e-12
+    },
+    {
+      "start": 1139.88,
+      "end": 1147.5,
+      "text": "And the quality of inspections, again, went through the roof, we're inspecting faster, we're repairing faster, it's cheaper.",
+      "avg_logprob": -0.20155486300951098,
+      "no_speech_prob": 2.4027973621193466e-12
+    },
+    {
+      "start": 1147.5,
+      "end": 1151.36,
+      "text": "But most importantly, we're delivering higher quality cars.",
+      "avg_logprob": -0.20155486300951098,
+      "no_speech_prob": 2.4027973621193466e-12
+    },
+    {
+      "start": 1153.18,
+      "end": 1159.46,
+      "text": "Warranties came down around like 20, 26% since we launched.",
+      "avg_logprob": -0.20155486300951098,
+      "no_speech_prob": 2.4027973621193466e-12
+    },
+    {
+      "start": 1159.7,
+      "end": 1162.82,
+      "text": "And customer satisfaction, again, went up.",
+      "avg_logprob": -0.20155486300951098,
+      "no_speech_prob": 2.4027973621193466e-12
+    },
+    {
+      "start": 1163.1,
+      "end": 1164.88,
+      "text": "So it's about this.",
+      "avg_logprob": -0.20155486300951098,
+      "no_speech_prob": 2.4027973621193466e-12
+    },
+    {
+      "start": 1164.88,
+      "end": 1176.42,
+      "text": "Like, how would you design your organization from scratch with abundant superintelligence that's cheap and just go build it?",
+      "avg_logprob": -0.1326129411913685,
+      "no_speech_prob": 2.474613829822614e-12
+    },
+    {
+      "start": 1177.26,
+      "end": 1191.18,
+      "text": "Natalie, this is a good segue to a key topic right now in Silicon Valley where, you know, there's a lot of people worried about how the organizations of the future are going to look like and the role that humans are going to play.",
+      "avg_logprob": -0.1326129411913685,
+      "no_speech_prob": 2.474613829822614e-12
+    },
+    {
+      "start": 1191.24,
+      "end": 1191.46,
+      "text": "Yes.",
+      "avg_logprob": -0.1326129411913685,
+      "no_speech_prob": 2.474613829822614e-12
+    },
+    {
+      "start": 1191.74,
+      "end": 1193.54,
+      "text": "And I think you touched a little bit on that.",
+      "avg_logprob": -0.1326129411913685,
+      "no_speech_prob": 2.474613829822614e-12
+    },
+    {
+      "start": 1193.54,
+      "end": 1197.12,
+      "text": "And so we'd love to hear, yeah, like how you guys are thinking about that.",
+      "avg_logprob": -0.22737808713635194,
+      "no_speech_prob": 1.9269549064032665e-12
+    },
+    {
+      "start": 1197.34,
+      "end": 1197.6,
+      "text": "Yes.",
+      "avg_logprob": -0.22737808713635194,
+      "no_speech_prob": 1.9269549064032665e-12
+    },
+    {
+      "start": 1198.28,
+      "end": 1200.52,
+      "text": "And the organizations.",
+      "avg_logprob": -0.22737808713635194,
+      "no_speech_prob": 1.9269549064032665e-12
+    },
+    {
+      "start": 1200.84,
+      "end": 1200.94,
+      "text": "Yeah.",
+      "avg_logprob": -0.22737808713635194,
+      "no_speech_prob": 1.9269549064032665e-12
+    },
+    {
+      "start": 1201.46,
+      "end": 1201.72,
+      "text": "Totally.",
+      "avg_logprob": -0.22737808713635194,
+      "no_speech_prob": 1.9269549064032665e-12
+    },
+    {
+      "start": 1201.98,
+      "end": 1206.46,
+      "text": "So we took that question very seriously three years ago.",
+      "avg_logprob": -0.22737808713635194,
+      "no_speech_prob": 1.9269549064032665e-12
+    },
+    {
+      "start": 1206.72,
+      "end": 1211.12,
+      "text": "And the truth is that everyone's job will change.",
+      "avg_logprob": -0.22737808713635194,
+      "no_speech_prob": 1.9269549064032665e-12
+    },
+    {
+      "start": 1212.3,
+      "end": 1221.69,
+      "text": "So, and what we were doing a couple of years ago will probably be performed better by an AI agent.",
+      "avg_logprob": -0.22737808713635194,
+      "no_speech_prob": 1.9269549064032665e-12
+    },
+    {
+      "start": 1222.09,
+      "end": 1222.35,
+      "text": "Right?",
+      "avg_logprob": -0.22737808713635194,
+      "no_speech_prob": 1.9269549064032665e-12
+    },
+    {
+      "start": 1222.41,
+      "end": 1223.29,
+      "text": "So what does this mean?",
+      "avg_logprob": -0.22737808713635194,
+      "no_speech_prob": 1.9269549064032665e-12
+    },
+    {
+      "start": 1223.29,
+      "end": 1225.9,
+      "text": "Like, we need to train everyone.",
+      "avg_logprob": -0.2663360598186652,
+      "no_speech_prob": 3.886644044798215e-12
+    },
+    {
+      "start": 1226.64,
+      "end": 1236.22,
+      "text": "So, so we launched a program inside Kavak that's called the Jedi Academy where anyone from Kavak, like from the CEO to, yeah.",
+      "avg_logprob": -0.2663360598186652,
+      "no_speech_prob": 3.886644044798215e-12
+    },
+    {
+      "start": 1236.22,
+      "end": 1236.98,
+      "text": "And it's awesome.",
+      "avg_logprob": -0.2663360598186652,
+      "no_speech_prob": 3.886644044798215e-12
+    },
+    {
+      "start": 1237.22,
+      "end": 1243.5,
+      "text": "Like from the CEO to like AI engineers to mechanics, like going to the academy.",
+      "avg_logprob": -0.2663360598186652,
+      "no_speech_prob": 3.886644044798215e-12
+    },
+    {
+      "start": 1243.5,
+      "end": 1249.18,
+      "text": "It's super hard, like I, I, I, I've, like led, like led to myself.",
+      "avg_logprob": -0.3136189794715713,
+      "no_speech_prob": 2.803781946197903e-12
+    },
+    {
+      "start": 1249.34,
+      "end": 1250.4,
+      "text": "You designed the program.",
+      "avg_logprob": -0.3136189794715713,
+      "no_speech_prob": 2.803781946197903e-12
+    },
+    {
+      "start": 1250.46,
+      "end": 1251.4,
+      "text": "I designed the program.",
+      "avg_logprob": -0.3136189794715713,
+      "no_speech_prob": 2.803781946197903e-12
+    },
+    {
+      "start": 1251.52,
+      "end": 1252.54,
+      "text": "But constantly.",
+      "avg_logprob": -0.3136189794715713,
+      "no_speech_prob": 2.803781946197903e-12
+    },
+    {
+      "start": 1252.62,
+      "end": 1253.0,
+      "text": "Constantly.",
+      "avg_logprob": -0.3136189794715713,
+      "no_speech_prob": 2.803781946197903e-12
+    },
+    {
+      "start": 1253.18,
+      "end": 1257.12,
+      "text": "Because you need to be upgrading the program because everything's changing so fast.",
+      "avg_logprob": -0.3136189794715713,
+      "no_speech_prob": 2.803781946197903e-12
+    },
+    {
+      "start": 1257.12,
+      "end": 1264.62,
+      "text": "And there's like, you can't send these people like outside to Stanford to, to learn this because like, it's new stuff.",
+      "avg_logprob": -0.17820887719139908,
+      "no_speech_prob": 2.137382068209681e-12
+    },
+    {
+      "start": 1264.62,
+      "end": 1264.9,
+      "text": "Right?",
+      "avg_logprob": -0.17820887719139908,
+      "no_speech_prob": 2.137382068209681e-12
+    },
+    {
+      "start": 1265.3,
+      "end": 1267.12,
+      "text": "So we train everyone.",
+      "avg_logprob": -0.17820887719139908,
+      "no_speech_prob": 2.137382068209681e-12
+    },
+    {
+      "start": 1267.12,
+      "end": 1274.92,
+      "text": "And after six weeks, they launch state-of-the-art agents, AI agents to production.",
+      "avg_logprob": -0.17820887719139908,
+      "no_speech_prob": 2.137382068209681e-12
+    },
+    {
+      "start": 1274.92,
+      "end": 1281.7,
+      "text": "And it's mechanics and finance guys and engineers, like everyone can do it.",
+      "avg_logprob": -0.22262621074914932,
+      "no_speech_prob": 1.7571913975972242e-12
+    },
+    {
+      "start": 1281.7,
+      "end": 1287.52,
+      "text": "And what this generated is maybe this person won't become an AI engineer.",
+      "avg_logprob": -0.1347942793810809,
+      "no_speech_prob": 1.977628781221763e-12
+    },
+    {
+      "start": 1287.68,
+      "end": 1292.04,
+      "text": "Some of them have, but they, they know how to collaborate with this new technology.",
+      "avg_logprob": -0.1347942793810809,
+      "no_speech_prob": 1.977628781221763e-12
+    },
+    {
+      "start": 1292.3,
+      "end": 1292.46,
+      "text": "Right?",
+      "avg_logprob": -0.1347942793810809,
+      "no_speech_prob": 1.977628781221763e-12
+    },
+    {
+      "start": 1292.56,
+      "end": 1296.58,
+      "text": "So the way we looked about it was, guys, there, there's no way back.",
+      "avg_logprob": -0.1347942793810809,
+      "no_speech_prob": 1.977628781221763e-12
+    },
+    {
+      "start": 1296.72,
+      "end": 1298.22,
+      "text": "Like this is the way Kavak is going.",
+      "avg_logprob": -0.1347942793810809,
+      "no_speech_prob": 1.977628781221763e-12
+    },
+    {
+      "start": 1298.54,
+      "end": 1300.08,
+      "text": "This is the way the company will look like.",
+      "avg_logprob": -0.1347942793810809,
+      "no_speech_prob": 1.977628781221763e-12
+    },
+    {
+      "start": 1300.4,
+      "end": 1306.7,
+      "text": "These are the changes for the engineering team, the finance team, the product team.",
+      "avg_logprob": -0.1347942793810809,
+      "no_speech_prob": 1.977628781221763e-12
+    },
+    {
+      "start": 1306.7,
+      "end": 1308.34,
+      "text": "Like, this is what's going to change.",
+      "avg_logprob": -0.18952062129974365,
+      "no_speech_prob": 2.4513501038075924e-12
+    },
+    {
+      "start": 1309.69,
+      "end": 1316.89,
+      "text": "You have the choice to like train and, and get the skills to perform in this new reality, in this new world.",
+      "avg_logprob": -0.18952062129974365,
+      "no_speech_prob": 2.4513501038075924e-12
+    },
+    {
+      "start": 1318.03,
+      "end": 1321.75,
+      "text": "Or maybe leave Kavak if this is not for you, but this is the way we're going.",
+      "avg_logprob": -0.18952062129974365,
+      "no_speech_prob": 2.4513501038075924e-12
+    },
+    {
+      "start": 1322.35,
+      "end": 1323.99,
+      "text": "And we're great.",
+      "avg_logprob": -0.18952062129974365,
+      "no_speech_prob": 2.4513501038075924e-12
+    },
+    {
+      "start": 1324.21,
+      "end": 1327.71,
+      "text": "Like, like we, we, we strengthened the culture and we were super excited.",
+      "avg_logprob": -0.18952062129974365,
+      "no_speech_prob": 2.4513501038075924e-12
+    },
+    {
+      "start": 1328.73,
+      "end": 1332.79,
+      "text": "And people really know how to build these agentic systems.",
+      "avg_logprob": -0.18952062129974365,
+      "no_speech_prob": 2.4513501038075924e-12
+    },
+    {
+      "start": 1332.79,
+      "end": 1339.27,
+      "text": "And then if you look at Kavak now, any process, it's really a collaboration of agents and humans.",
+      "avg_logprob": -0.14339905387411514,
+      "no_speech_prob": 2.1396562906866867e-12
+    },
+    {
+      "start": 1339.39,
+      "end": 1343.15,
+      "text": "And sometimes like agents are the bosses or, of, of humans.",
+      "avg_logprob": -0.14339905387411514,
+      "no_speech_prob": 2.1396562906866867e-12
+    },
+    {
+      "start": 1343.15,
+      "end": 1345.23,
+      "text": "And sometimes humans are designing the agents.",
+      "avg_logprob": -0.14339905387411514,
+      "no_speech_prob": 2.1396562906866867e-12
+    },
+    {
+      "start": 1345.89,
+      "end": 1349.88,
+      "text": "But I think we, we managed to really build this and change this.",
+      "avg_logprob": -0.14339905387411514,
+      "no_speech_prob": 2.1396562906866867e-12
+    },
+    {
+      "start": 1350.44,
+      "end": 1358.96,
+      "text": "And, and it's through this idea that we need to be learning every day and things will continue to change.",
+      "avg_logprob": -0.14339905387411514,
+      "no_speech_prob": 2.1396562906866867e-12
+    },
+    {
+      "start": 1358.96,
+      "end": 1366.62,
+      "text": "And the only way to, to continue being relevant is to upgrade your skills every month or every couple of months.",
+      "avg_logprob": -0.16113038890617937,
+      "no_speech_prob": 1.6439874635232332e-12
+    },
+    {
+      "start": 1366.94,
+      "end": 1370.84,
+      "text": "But you do have, or did have, you know, thousands of people.",
+      "avg_logprob": -0.16113038890617937,
+      "no_speech_prob": 1.6439874635232332e-12
+    },
+    {
+      "start": 1371.18,
+      "end": 1373.32,
+      "text": "Now agents do most things.",
+      "avg_logprob": -0.16113038890617937,
+      "no_speech_prob": 1.6439874635232332e-12
+    },
+    {
+      "start": 1373.32,
+      "end": 1373.62,
+      "text": "Yes.",
+      "avg_logprob": -0.16113038890617937,
+      "no_speech_prob": 1.6439874635232332e-12
+    },
+    {
+      "start": 1373.86,
+      "end": 1376.86,
+      "text": "So like, what is the org structure of Kavak?",
+      "avg_logprob": -0.16113038890617937,
+      "no_speech_prob": 1.6439874635232332e-12
+    },
+    {
+      "start": 1377.1,
+      "end": 1379.62,
+      "text": "Like, does the middle management concept even exist anymore?",
+      "avg_logprob": -0.16113038890617937,
+      "no_speech_prob": 1.6439874635232332e-12
+    },
+    {
+      "start": 1379.76,
+      "end": 1380.64,
+      "text": "Like, what does your org look like?",
+      "avg_logprob": -0.16113038890617937,
+      "no_speech_prob": 1.6439874635232332e-12
+    },
+    {
+      "start": 1380.74,
+      "end": 1380.96,
+      "text": "Right.",
+      "avg_logprob": -0.16113038890617937,
+      "no_speech_prob": 1.6439874635232332e-12
+    },
+    {
+      "start": 1381.1,
+      "end": 1386.21,
+      "text": "So the way it looks like now is very flat teams, very senior teams, super empowered.",
+      "avg_logprob": -0.16113038890617937,
+      "no_speech_prob": 1.6439874635232332e-12
+    },
+    {
+      "start": 1386.21,
+      "end": 1393.49,
+      "text": "If you look at a team, you'll have engineering, AI, like operations, like everything.",
+      "avg_logprob": -0.11393805806125913,
+      "no_speech_prob": 1.7431459921335435e-12
+    },
+    {
+      "start": 1393.77,
+      "end": 1401.99,
+      "text": "And they're either building the agents, working for the agents, or being in the physical world in front of the customer.",
+      "avg_logprob": -0.11393805806125913,
+      "no_speech_prob": 1.7431459921335435e-12
+    },
+    {
+      "start": 1402.65,
+      "end": 1404.81,
+      "text": "Like most of our organization looks like that.",
+      "avg_logprob": -0.11393805806125913,
+      "no_speech_prob": 1.7431459921335435e-12
+    },
+    {
+      "start": 1404.95,
+      "end": 1416.07,
+      "text": "So, so it's really built around, around the idea of how organizations will look like in the future and around AI and really harnessing this, this new technology.",
+      "avg_logprob": -0.11393805806125913,
+      "no_speech_prob": 1.7431459921335435e-12
+    },
+    {
+      "start": 1416.69,
+      "end": 1423.01,
+      "text": "Obviously, this required lots of retraining because in 2023 or 2022, no one was building agents.",
+      "avg_logprob": -0.1345682202985412,
+      "no_speech_prob": 1.6643842337335513e-12
+    },
+    {
+      "start": 1423.43,
+      "end": 1427.17,
+      "text": "No one was helping agents or taking orders from, from agents.",
+      "avg_logprob": -0.1345682202985412,
+      "no_speech_prob": 1.6643842337335513e-12
+    },
+    {
+      "start": 1427.35,
+      "end": 1436.81,
+      "text": "And the way you cater to the physical world or the customers was in a different way than if an agent's telling you what to do or helping you make your job better.",
+      "avg_logprob": -0.1345682202985412,
+      "no_speech_prob": 1.6643842337335513e-12
+    },
+    {
+      "start": 1436.81,
+      "end": 1437.09,
+      "text": "Yep.",
+      "avg_logprob": -1.0008872548739116,
+      "no_speech_prob": 2.032463823978259e-12
+    },
+    {
+      "start": 1437.09,
+      "end": 1441.31,
+      "text": "And so it's a completely different structure than, than we had just two years ago.",
+      "avg_logprob": -0.20076305001646608,
+      "no_speech_prob": 1.967865106977662e-12
+    },
+    {
+      "start": 1441.39,
+      "end": 1441.51,
+      "text": "Yeah.",
+      "avg_logprob": -0.20076305001646608,
+      "no_speech_prob": 1.967865106977662e-12
+    },
+    {
+      "start": 1441.89,
+      "end": 1445.71,
+      "text": "Explain, we talked about this before, what working for the agents look like.",
+      "avg_logprob": -0.20076305001646608,
+      "no_speech_prob": 1.967865106977662e-12
+    },
+    {
+      "start": 1445.79,
+      "end": 1447.91,
+      "text": "Like, I think the way you described it was an agentic system.",
+      "avg_logprob": -0.20076305001646608,
+      "no_speech_prob": 1.967865106977662e-12
+    },
+    {
+      "start": 1448.05,
+      "end": 1451.47,
+      "text": "And then sometimes when it fails, it's like, oh, that's kicked out to kind of a human cue.",
+      "avg_logprob": -0.20076305001646608,
+      "no_speech_prob": 1.967865106977662e-12
+    },
+    {
+      "start": 1451.55,
+      "end": 1451.73,
+      "text": "Right.",
+      "avg_logprob": -0.20076305001646608,
+      "no_speech_prob": 1.967865106977662e-12
+    },
+    {
+      "start": 1451.73,
+      "end": 1452.95,
+      "text": "But then that's lost.",
+      "avg_logprob": -0.16843239038154997,
+      "no_speech_prob": 1.898412633691282e-12
+    },
+    {
+      "start": 1453.05,
+      "end": 1454.11,
+      "text": "And so how have you brought that together?",
+      "avg_logprob": -0.16843239038154997,
+      "no_speech_prob": 1.898412633691282e-12
+    },
+    {
+      "start": 1454.35,
+      "end": 1462.46,
+      "text": "So like the, the, we see human in the loops and, and, and most of these agentic systems in production right now, like large scale agentic systems.",
+      "avg_logprob": -0.16843239038154997,
+      "no_speech_prob": 1.898412633691282e-12
+    },
+    {
+      "start": 1462.46,
+      "end": 1473.92,
+      "text": "Usually if an agent hits a wall or can't perform anymore, it'll like send the, this case or this customer to a tier two support and forget about it.",
+      "avg_logprob": -0.09505866017813484,
+      "no_speech_prob": 1.9355229224915504e-12
+    },
+    {
+      "start": 1474.08,
+      "end": 1477.64,
+      "text": "That doesn't really work because you don't close the loops.",
+      "avg_logprob": -0.09505866017813484,
+      "no_speech_prob": 1.9355229224915504e-12
+    },
+    {
+      "start": 1477.64,
+      "end": 1481.24,
+      "text": "So you don't generate the data to train the agent to do this better.",
+      "avg_logprob": -0.09505866017813484,
+      "no_speech_prob": 1.9355229224915504e-12
+    },
+    {
+      "start": 1481.56,
+      "end": 1486.54,
+      "text": "What works right now is we have an agent that's obsessed with each of the customers, like millions of this.",
+      "avg_logprob": -0.09505866017813484,
+      "no_speech_prob": 1.9355229224915504e-12
+    },
+    {
+      "start": 1486.54,
+      "end": 1495.0,
+      "text": "They have access to every single API, every single skill, like, and we have agents building those humans, building those skills for them.",
+      "avg_logprob": -0.13862805146920054,
+      "no_speech_prob": 2.0991732657682505e-12
+    },
+    {
+      "start": 1495.56,
+      "end": 1502.06,
+      "text": "And then if an agent hits a wall or cancel something, it'll call this API saying, I need help.",
+      "avg_logprob": -0.13862805146920054,
+      "no_speech_prob": 2.0991732657682505e-12
+    },
+    {
+      "start": 1502.34,
+      "end": 1505.9,
+      "text": "And on the other side, it's not an agent or software.",
+      "avg_logprob": -0.13862805146920054,
+      "no_speech_prob": 2.0991732657682505e-12
+    },
+    {
+      "start": 1506.02,
+      "end": 1508.18,
+      "text": "It's a human helping them out.",
+      "avg_logprob": -0.13862805146920054,
+      "no_speech_prob": 2.0991732657682505e-12
+    },
+    {
+      "start": 1508.34,
+      "end": 1514.02,
+      "text": "But if you map this out in an org chart, it's really human teams that have an agent.",
+      "avg_logprob": -0.13862805146920054,
+      "no_speech_prob": 2.0991732657682505e-12
+    },
+    {
+      "start": 1514.16,
+      "end": 1515.3,
+      "text": "I'm getting better results.",
+      "avg_logprob": -0.13862805146920054,
+      "no_speech_prob": 2.0991732657682505e-12
+    },
+    {
+      "start": 1515.3,
+      "end": 1516.72,
+      "text": "It's super clear.",
+      "avg_logprob": -0.15693664697694107,
+      "no_speech_prob": 1.4438452603654506e-12
+    },
+    {
+      "start": 1516.84,
+      "end": 1518.26,
+      "text": "Like, it makes sense.",
+      "avg_logprob": -0.15693664697694107,
+      "no_speech_prob": 1.4438452603654506e-12
+    },
+    {
+      "start": 1518.26,
+      "end": 1519.34,
+      "text": "That's actually a perfect segue.",
+      "avg_logprob": -0.15693664697694107,
+      "no_speech_prob": 1.4438452603654506e-12
+    },
+    {
+      "start": 1519.46,
+      "end": 1524.12,
+      "text": "And I know you get lots of leaders at larger institutions inbounding to you.",
+      "avg_logprob": -0.15693664697694107,
+      "no_speech_prob": 1.4438452603654506e-12
+    },
+    {
+      "start": 1524.3,
+      "end": 1525.84,
+      "text": "So maybe this will save you many phone calls.",
+      "avg_logprob": -0.15693664697694107,
+      "no_speech_prob": 1.4438452603654506e-12
+    },
+    {
+      "start": 1525.9,
+      "end": 1531.88,
+      "text": "But I think rationally, many leaders of companies intuitively understand this.",
+      "avg_logprob": -0.15693664697694107,
+      "no_speech_prob": 1.4438452603654506e-12
+    },
+    {
+      "start": 1531.94,
+      "end": 1537.06,
+      "text": "It is very hard still to deploy AI through their organization.",
+      "avg_logprob": -0.15693664697694107,
+      "no_speech_prob": 1.4438452603654506e-12
+    },
+    {
+      "start": 1537.36,
+      "end": 1538.38,
+      "text": "Like, the models are good enough.",
+      "avg_logprob": -0.15693664697694107,
+      "no_speech_prob": 1.4438452603654506e-12
+    },
+    {
+      "start": 1538.46,
+      "end": 1539.0,
+      "text": "You know that.",
+      "avg_logprob": -0.15693664697694107,
+      "no_speech_prob": 1.4438452603654506e-12
+    },
+    {
+      "start": 1539.14,
+      "end": 1540.16,
+      "text": "It's an org problem.",
+      "avg_logprob": -0.15693664697694107,
+      "no_speech_prob": 1.4438452603654506e-12
+    },
+    {
+      "start": 1540.16,
+      "end": 1541.3,
+      "text": "It's a psychology problem.",
+      "avg_logprob": -0.15693664697694107,
+      "no_speech_prob": 1.4438452603654506e-12
+    },
+    {
+      "start": 1541.4,
+      "end": 1543.7,
+      "text": "Like, what advice do you have or what have you seen?",
+      "avg_logprob": -0.15693664697694107,
+      "no_speech_prob": 1.4438452603654506e-12
+    },
+    {
+      "start": 1543.7,
+      "end": 1545.2,
+      "text": "I think it's two things.",
+      "avg_logprob": -0.15693664697694107,
+      "no_speech_prob": 1.4438452603654506e-12
+    },
+    {
+      "start": 1545.54,
+      "end": 1549.88,
+      "text": "The first is it has to be top down because of this.",
+      "avg_logprob": -0.12111772924210086,
+      "no_speech_prob": 1.5660631428812688e-12
+    },
+    {
+      "start": 1550.08,
+      "end": 1564.26,
+      "text": "Like, if you just get adoption, it won't go anywhere because it's hard to generate this taste or strategy for people to bottom up, decide what to build and whatnot, and come up with something that works for the company.",
+      "avg_logprob": -0.12111772924210086,
+      "no_speech_prob": 1.5660631428812688e-12
+    },
+    {
+      "start": 1564.26,
+      "end": 1572.18,
+      "text": "So the transformation has to be top down, and leaders need to adopt, and leaders have to have a very clear plan on what to build.",
+      "avg_logprob": -0.1894353721823011,
+      "no_speech_prob": 1.6713311507335349e-12
+    },
+    {
+      "start": 1572.66,
+      "end": 1574.38,
+      "text": "I've seen so many companies.",
+      "avg_logprob": -0.1894353721823011,
+      "no_speech_prob": 1.6713311507335349e-12
+    },
+    {
+      "start": 1574.62,
+      "end": 1576.76,
+      "text": "It's just like, oh, like, we're doing a hackathon.",
+      "avg_logprob": -0.1894353721823011,
+      "no_speech_prob": 1.6713311507335349e-12
+    },
+    {
+      "start": 1576.96,
+      "end": 1578.36,
+      "text": "People are coming up with use cases.",
+      "avg_logprob": -0.1894353721823011,
+      "no_speech_prob": 1.6713311507335349e-12
+    },
+    {
+      "start": 1578.36,
+      "end": 1580.5,
+      "text": "We're sponsoring some of these use cases.",
+      "avg_logprob": -0.12847185857368237,
+      "no_speech_prob": 1.9882658887360183e-12
+    },
+    {
+      "start": 1580.64,
+      "end": 1581.66,
+      "text": "That doesn't work.",
+      "avg_logprob": -0.12847185857368237,
+      "no_speech_prob": 1.9882658887360183e-12
+    },
+    {
+      "start": 1581.84,
+      "end": 1590.57,
+      "text": "It's like, be very clear on what the company will look like in three or five years, and then start building that.",
+      "avg_logprob": -0.12847185857368237,
+      "no_speech_prob": 1.9882658887360183e-12
+    },
+    {
+      "start": 1590.71,
+      "end": 1594.91,
+      "text": "And be, like, very vertical in guiding your troops towards that.",
+      "avg_logprob": -0.12847185857368237,
+      "no_speech_prob": 1.9882658887360183e-12
+    },
+    {
+      "start": 1595.03,
+      "end": 1602.67,
+      "text": "Like, an army doesn't really work if everyone comes up with ideas on the strategy and tactics and goes to the battlefield and, like, does whatever they want.",
+      "avg_logprob": -0.12847185857368237,
+      "no_speech_prob": 1.9882658887360183e-12
+    },
+    {
+      "start": 1602.67,
+      "end": 1605.95,
+      "text": "Like, you need a very clear strategy, and that's what we need now.",
+      "avg_logprob": -0.13167489202399002,
+      "no_speech_prob": 1.7616754409421898e-12
+    },
+    {
+      "start": 1606.01,
+      "end": 1607.67,
+      "text": "It's at, like, transformation stage.",
+      "avg_logprob": -0.13167489202399002,
+      "no_speech_prob": 1.7616754409421898e-12
+    },
+    {
+      "start": 1608.19,
+      "end": 1613.83,
+      "text": "The second one is you need to measure what really matters, and it's evals, but it's also the right evals.",
+      "avg_logprob": -0.13167489202399002,
+      "no_speech_prob": 1.7616754409421898e-12
+    },
+    {
+      "start": 1614.27,
+      "end": 1620.45,
+      "text": "So I see a lot of companies spending now huge amounts, and they say, okay, I got adoption.",
+      "avg_logprob": -0.13167489202399002,
+      "no_speech_prob": 1.7616754409421898e-12
+    },
+    {
+      "start": 1620.79,
+      "end": 1624.73,
+      "text": "I'm just spending, like, hundreds of millions of dollars in tokens now.",
+      "avg_logprob": -0.13167489202399002,
+      "no_speech_prob": 1.7616754409421898e-12
+    },
+    {
+      "start": 1624.99,
+      "end": 1625.87,
+      "text": "What about that?",
+      "avg_logprob": -0.13167489202399002,
+      "no_speech_prob": 1.7616754409421898e-12
+    },
+    {
+      "start": 1626.03,
+      "end": 1627.93,
+      "text": "Like, there's quality in the tokens.",
+      "avg_logprob": -0.13167489202399002,
+      "no_speech_prob": 1.7616754409421898e-12
+    },
+    {
+      "start": 1627.93,
+      "end": 1630.57,
+      "text": "So I have a framework here that's also useful.",
+      "avg_logprob": -0.13167489202399002,
+      "no_speech_prob": 1.7616754409421898e-12
+    },
+    {
+      "start": 1631.23,
+      "end": 1641.16,
+      "text": "Like, tier three tokens, the most valuable, are these agents where you can get the ROI of each specific token.",
+      "avg_logprob": -0.14811905386211635,
+      "no_speech_prob": 1.6441204951297972e-12
+    },
+    {
+      "start": 1641.3,
+      "end": 1642.22,
+      "text": "And I can do that now.",
+      "avg_logprob": -0.14811905386211635,
+      "no_speech_prob": 1.6441204951297972e-12
+    },
+    {
+      "start": 1642.3,
+      "end": 1643.48,
+      "text": "That's great news for me.",
+      "avg_logprob": -0.14811905386211635,
+      "no_speech_prob": 1.6441204951297972e-12
+    },
+    {
+      "start": 1644.02,
+      "end": 1652.46,
+      "text": "Because I'm growing, and because I know the ROI of each token, because it goes to agents that are performing the job of the organization, right?",
+      "avg_logprob": -0.14811905386211635,
+      "no_speech_prob": 1.6441204951297972e-12
+    },
+    {
+      "start": 1652.52,
+      "end": 1653.5,
+      "text": "These are the best tokens.",
+      "avg_logprob": -0.14811905386211635,
+      "no_speech_prob": 1.6441204951297972e-12
+    },
+    {
+      "start": 1653.92,
+      "end": 1658.32,
+      "text": "Tier two tokens are things that you can measure indirectly.",
+      "avg_logprob": -0.14811905386211635,
+      "no_speech_prob": 1.6441204951297972e-12
+    },
+    {
+      "start": 1658.52,
+      "end": 1660.88,
+      "text": "Do I see devs in the code base?",
+      "avg_logprob": -0.14811905386211635,
+      "no_speech_prob": 1.6441204951297972e-12
+    },
+    {
+      "start": 1661.18,
+      "end": 1665.78,
+      "text": "And I can evaluate the value of these tokens, at least indirectly, and then push those to productions.",
+      "avg_logprob": -0.17970166190878137,
+      "no_speech_prob": 1.724109570389043e-12
+    },
+    {
+      "start": 1666.56,
+      "end": 1673.18,
+      "text": "Tier one, when most companies are, is people are just using plug code or chat GPT or co-work or whatever.",
+      "avg_logprob": -0.17970166190878137,
+      "no_speech_prob": 1.724109570389043e-12
+    },
+    {
+      "start": 1673.58,
+      "end": 1674.36,
+      "text": "What happened with those?",
+      "avg_logprob": -0.17970166190878137,
+      "no_speech_prob": 1.724109570389043e-12
+    },
+    {
+      "start": 1674.56,
+      "end": 1675.7,
+      "text": "I have no idea.",
+      "avg_logprob": -0.17970166190878137,
+      "no_speech_prob": 1.724109570389043e-12
+    },
+    {
+      "start": 1676.32,
+      "end": 1677.98,
+      "text": "So it's not just about adoption.",
+      "avg_logprob": -0.17970166190878137,
+      "no_speech_prob": 1.724109570389043e-12
+    },
+    {
+      "start": 1677.98,
+      "end": 1688.58,
+      "text": "It's really about having a very clear vision and then measuring that each token you spend is bringing you those benefits and just iterate, iterate, iterate from there.",
+      "avg_logprob": -0.06626857651604547,
+      "no_speech_prob": 1.3413961781616468e-12
+    },
+    {
+      "start": 1688.58,
+      "end": 1702.76,
+      "text": "And we touched on this a little bit, but I think it's worth a dive as maybe the most ambitious companies listening to this will decide to follow suit, which is you decided to build an agent per customer versus per task.",
+      "avg_logprob": -0.07213371142745018,
+      "no_speech_prob": 1.5670332869852088e-12
+    },
+    {
+      "start": 1702.76,
+      "end": 1709.1,
+      "text": "And then discovered along the way that each one of those agents needs its own micro-virtual machine.",
+      "avg_logprob": -0.22659806216635356,
+      "no_speech_prob": 1.7330545635727002e-12
+    },
+    {
+      "start": 1709.32,
+      "end": 1713.7,
+      "text": "So maybe kind of walk us through those decisions, that architecture.",
+      "avg_logprob": -0.22659806216635356,
+      "no_speech_prob": 1.7330545635727002e-12
+    },
+    {
+      "start": 1713.7,
+      "end": 1731.68,
+      "text": "And I think we're seeing these results now, but it was a really risky bet because people usually go from workflows, like if I could advise everyone, don't build agentic workflows, to graphs or functions or objectives.",
+      "avg_logprob": -0.09657377856118339,
+      "no_speech_prob": 3.0304255198981833e-12
+    },
+    {
+      "start": 1731.68,
+      "end": 1737.96,
+      "text": "And we built that, that these are multi-agent systems that can perform a whole function for a complex goals.",
+      "avg_logprob": -0.12782060069802367,
+      "no_speech_prob": 1.9727657007972965e-12
+    },
+    {
+      "start": 1738.18,
+      "end": 1744.76,
+      "text": "Like the ones I told you that to sell a car, you need to do financing, purchasing, like recommendations, et cetera.",
+      "avg_logprob": -0.12782060069802367,
+      "no_speech_prob": 1.9727657007972965e-12
+    },
+    {
+      "start": 1745.38,
+      "end": 1751.12,
+      "text": "And we had thousands, like tens of thousands of these agents working at scale, running the business back in December.",
+      "avg_logprob": -0.12782060069802367,
+      "no_speech_prob": 1.9727657007972965e-12
+    },
+    {
+      "start": 1751.12,
+      "end": 1758.36,
+      "text": "But then Opus 4.5 came out and I realized like, this isn't the right paradigm anymore.",
+      "avg_logprob": -0.1487223793720377,
+      "no_speech_prob": 1.5649673397455377e-12
+    },
+    {
+      "start": 1759.16,
+      "end": 1770.88,
+      "text": "Like the intelligence now doesn't need like the graph and the multi-agent lattice work and harness because it will constrain this level of intelligence.",
+      "avg_logprob": -0.1487223793720377,
+      "no_speech_prob": 1.5649673397455377e-12
+    },
+    {
+      "start": 1770.88,
+      "end": 1794.2,
+      "text": "So we decided to like destroy everything we had been building for two years that was working, that brought us to profitability, that brought us amazing growth and start over with a harness that we thought would be robust and scalable and leverage recursive self-improvement or new models, more intelligent models coming out every month.",
+      "avg_logprob": -0.09537467152318534,
+      "no_speech_prob": 1.5253991646202447e-12
+    },
+    {
+      "start": 1794.2,
+      "end": 1808.84,
+      "text": "So the way this looks like it's a virtual machine with an agent, with access to memory and evals and the CLI where they can access every tool and every API in my company and the long-term goal.",
+      "avg_logprob": -0.1625496233352507,
+      "no_speech_prob": 2.3179836956127575e-12
+    },
+    {
+      "start": 1809.22,
+      "end": 1817.11,
+      "text": "And I instantiate hundreds of thousands of these each day with long-term goals, like maximizing the lifetime value.",
+      "avg_logprob": -0.1625496233352507,
+      "no_speech_prob": 2.3179836956127575e-12
+    },
+    {
+      "start": 1817.27,
+      "end": 1819.05,
+      "text": "The self-improving organization.",
+      "avg_logprob": -0.1625496233352507,
+      "no_speech_prob": 2.3179836956127575e-12
+    },
+    {
+      "start": 1819.11,
+      "end": 1819.39,
+      "text": "Exactly.",
+      "avg_logprob": -0.1625496233352507,
+      "no_speech_prob": 2.3179836956127575e-12
+    },
+    {
+      "start": 1819.55,
+      "end": 1820.55,
+      "text": "The self-improving organization.",
+      "avg_logprob": -0.1625496233352507,
+      "no_speech_prob": 2.3179836956127575e-12
+    },
+    {
+      "start": 1820.55,
+      "end": 1829.43,
+      "text": "And I think people are super obsessed with RSI now, and this will improve the models.",
+      "avg_logprob": -0.07957632564717815,
+      "no_speech_prob": 2.1868906425331902e-12
+    },
+    {
+      "start": 1830.01,
+      "end": 1841.84,
+      "text": "But if you look at it this way, economic value in humanity for the past 4,000 years has been delivered by organization, not by individuals.",
+      "avg_logprob": -0.07957632564717815,
+      "no_speech_prob": 2.1868906425331902e-12
+    },
+    {
+      "start": 1841.84,
+      "end": 1849.26,
+      "text": "So what you want to self-improve and to engage in that loop is the organization that can deliver more economic value, right?",
+      "avg_logprob": -0.07957632564717815,
+      "no_speech_prob": 2.1868906425331902e-12
+    },
+    {
+      "start": 1849.26,
+      "end": 1873.56,
+      "text": "So that's the loop that I think companies will start to focus on because if you get that loop working and it's an organization that is really self-improving and harnessing the newer models and the better intelligence that we're getting every couple of days now, then you hit the exponential, not just in intelligence, but in the value that you can generate as a company.",
+      "avg_logprob": -0.07637916523733257,
+      "no_speech_prob": 1.7819413479502888e-12
+    },
+    {
+      "start": 1873.56,
+      "end": 1875.56,
+      "text": "So that's really exciting.",
+      "avg_logprob": -0.2449925628400618,
+      "no_speech_prob": 2.2780909103570224e-12
+    },
+    {
+      "start": 1875.56,
+      "end": 1888.06,
+      "text": "You mentioned that because of all the challenges in adopting AI, you saw the biggest opportunity on net new companies being formed working on this new way and then disrupting markets.",
+      "avg_logprob": -0.2449925628400618,
+      "no_speech_prob": 2.2780909103570224e-12
+    },
+    {
+      "start": 1888.3,
+      "end": 1889.66,
+      "text": "You want to talk a little bit about that?",
+      "avg_logprob": -0.2449925628400618,
+      "no_speech_prob": 2.2780909103570224e-12
+    },
+    {
+      "start": 1889.76,
+      "end": 1890.02,
+      "text": "Yes.",
+      "avg_logprob": -0.2449925628400618,
+      "no_speech_prob": 2.2780909103570224e-12
+    },
+    {
+      "start": 1890.02,
+      "end": 1897.47,
+      "text": "There's this concept in economics about creative destruction from Joseph Schumpeter.",
+      "avg_logprob": -0.10285971854482928,
+      "no_speech_prob": 2.702217356126413e-12
+    },
+    {
+      "start": 1898.19,
+      "end": 1916.09,
+      "text": "And what it says is that the way innovation hits the economy isn't by companies adopting the new technology, but by companies remaining the way they were and incumbents with the new technology destroying the old companies.",
+      "avg_logprob": -0.10285971854482928,
+      "no_speech_prob": 2.702217356126413e-12
+    },
+    {
+      "start": 1916.09,
+      "end": 1928.51,
+      "text": "So this destroys value in the short term in the economy, but in the long term, it's better for everyone because these new, more efficient, more effective companies will provide better products and services for the economy as a whole.",
+      "avg_logprob": -0.11827836434046428,
+      "no_speech_prob": 2.3461863962043195e-12
+    },
+    {
+      "start": 1928.95,
+      "end": 1933.11,
+      "text": "And this has happened in the past industrial revolutions, and this has always happened.",
+      "avg_logprob": -0.11827836434046428,
+      "no_speech_prob": 2.3461863962043195e-12
+    },
+    {
+      "start": 1933.11,
+      "end": 1943.88,
+      "text": "And it's a great opportunity for entrepreneurs and people today because it's hard to adopt AI deeply.",
+      "avg_logprob": -0.13406047831147405,
+      "no_speech_prob": 2.2537173949982447e-12
+    },
+    {
+      "start": 1944.95,
+      "end": 1952.95,
+      "text": "It's really hard for a CEO today, especially of a large company or public company, to go and say, hey, like I'm betting everything on AI.",
+      "avg_logprob": -0.13406047831147405,
+      "no_speech_prob": 2.2537173949982447e-12
+    },
+    {
+      "start": 1952.95,
+      "end": 1964.65,
+      "text": "The company has to look this way, I'll destroy and rebuild everything I've been building for the past 40 years to become an AI native company.",
+      "avg_logprob": -0.16239645043197942,
+      "no_speech_prob": 2.335495512262309e-12
+    },
+    {
+      "start": 1965.09,
+      "end": 1968.41,
+      "text": "Like how many CEOs will do that in a company at scale?",
+      "avg_logprob": -0.16239645043197942,
+      "no_speech_prob": 2.335495512262309e-12
+    },
+    {
+      "start": 1968.41,
+      "end": 1983.4,
+      "text": "So while they adopt, new companies can be formed that are built around the strengths of AI and take over and bring new products and services to the masses.",
+      "avg_logprob": -0.1461428651586175,
+      "no_speech_prob": 1.991081995458832e-12
+    },
+    {
+      "start": 1984.16,
+      "end": 1986.0,
+      "text": "And this has happened before.",
+      "avg_logprob": -0.1461428651586175,
+      "no_speech_prob": 1.991081995458832e-12
+    },
+    {
+      "start": 1986.26,
+      "end": 1987.52,
+      "text": "Like this happened with electricity.",
+      "avg_logprob": -0.1461428651586175,
+      "no_speech_prob": 1.991081995458832e-12
+    },
+    {
+      "start": 1987.52,
+      "end": 1989.62,
+      "text": "This is a story I always tell my team.",
+      "avg_logprob": -0.1461428651586175,
+      "no_speech_prob": 1.991081995458832e-12
+    },
+    {
+      "start": 1990.62,
+      "end": 1998.08,
+      "text": "The technologies for Ford's production line were developed in 1879 and 1881.",
+      "avg_logprob": -0.1461428651586175,
+      "no_speech_prob": 1.991081995458832e-12
+    },
+    {
+      "start": 1999.08,
+      "end": 2007.5,
+      "text": "Edison started commercializing electricity in New York and then London, and he invented a dynamo that was extremely efficient.",
+      "avg_logprob": -0.10498591203882236,
+      "no_speech_prob": 2.0295327918251616e-12
+    },
+    {
+      "start": 2007.96,
+      "end": 2014.97,
+      "text": "So you could have built Ford's factory 40 years before Ford.",
+      "avg_logprob": -0.10498591203882236,
+      "no_speech_prob": 2.0295327918251616e-12
+    },
+    {
+      "start": 2015.09,
+      "end": 2015.87,
+      "text": "The technology was there.",
+      "avg_logprob": -0.10498591203882236,
+      "no_speech_prob": 2.0295327918251616e-12
+    },
+    {
+      "start": 2015.97,
+      "end": 2016.59,
+      "text": "Everything was there.",
+      "avg_logprob": -0.10498591203882236,
+      "no_speech_prob": 2.0295327918251616e-12
+    },
+    {
+      "start": 2016.59,
+      "end": 2029.09,
+      "text": "But the way people adopted electricity and Ford's dynamo was, okay, I'm going to leave my factory like four floors, shafts and belts, and just change my coal engine for an electric engine.",
+      "avg_logprob": -0.10498591203882236,
+      "no_speech_prob": 2.0295327918251616e-12
+    },
+    {
+      "start": 2029.09,
+      "end": 2032.93,
+      "text": "And this will bring you benefits, yes, but like 6% efficiency.",
+      "avg_logprob": -0.10116024560003138,
+      "no_speech_prob": 2.336494929824906e-12
+    },
+    {
+      "start": 2033.86,
+      "end": 2050.06,
+      "text": "What needed to be done was to destroy that factory, build it in a flat surface, not in the center of New York, but in Connecticut or New Jersey, and redesign your whole factory around small dynamos and electricity.",
+      "avg_logprob": -0.10116024560003138,
+      "no_speech_prob": 2.336494929824906e-12
+    },
+    {
+      "start": 2050.06,
+      "end": 2060.04,
+      "text": "And then you get like the 3x improvement in productivity that powered the U.S. during the 20th century.",
+      "avg_logprob": -0.15059195297795372,
+      "no_speech_prob": 3.0665997085427277e-12
+    },
+    {
+      "start": 2060.28,
+      "end": 2063.54,
+      "text": "And the same happened again with the computer, and the same is happening again today.",
+      "avg_logprob": -0.15059195297795372,
+      "no_speech_prob": 3.0665997085427277e-12
+    },
+    {
+      "start": 2063.62,
+      "end": 2069.94,
+      "text": "People want to adopt it, but they're not willing to redesign the whole company, and they just adopt it superficially.",
+      "avg_logprob": -0.15059195297795372,
+      "no_speech_prob": 3.0665997085427277e-12
+    },
+    {
+      "start": 2069.94,
+      "end": 2077.22,
+      "text": "And in the end, that'll give you a 6% or a 10% improvement, not a 10x improvement.",
+      "avg_logprob": -0.13416247089187822,
+      "no_speech_prob": 2.6174802342932013e-12
+    },
+    {
+      "start": 2077.42,
+      "end": 2083.78,
+      "text": "And it's like the innovator's dilemma at an industrial scale again.",
+      "avg_logprob": -0.13416247089187822,
+      "no_speech_prob": 2.6174802342932013e-12
+    },
+    {
+      "start": 2085.24,
+      "end": 2090.58,
+      "text": "I think you've just made an amazing case for any future founders out there that it's time to build.",
+      "avg_logprob": -0.13416247089187822,
+      "no_speech_prob": 2.6174802342932013e-12
+    },
+    {
+      "start": 2090.7,
+      "end": 2091.36,
+      "text": "It's time to build.",
+      "avg_logprob": -0.13416247089187822,
+      "no_speech_prob": 2.6174802342932013e-12
+    },
+    {
+      "start": 2091.36,
+      "end": 2096.2,
+      "text": "And maybe a great place to end is, you know, you've built and scaled your own company.",
+      "avg_logprob": -0.14718812484490243,
+      "no_speech_prob": 2.0791237655137795e-12
+    },
+    {
+      "start": 2096.4,
+      "end": 2098.9,
+      "text": "You've now turned Kavak fully agentic.",
+      "avg_logprob": -0.14718812484490243,
+      "no_speech_prob": 2.0791237655137795e-12
+    },
+    {
+      "start": 2099.18,
+      "end": 2103.68,
+      "text": "Like, what advice do you have to future founders or first-time founders that might be listening?",
+      "avg_logprob": -0.14718812484490243,
+      "no_speech_prob": 2.0791237655137795e-12
+    },
+    {
+      "start": 2104.14,
+      "end": 2107.68,
+      "text": "So this is the most exciting time in human history.",
+      "avg_logprob": -0.14718812484490243,
+      "no_speech_prob": 2.0791237655137795e-12
+    },
+    {
+      "start": 2107.84,
+      "end": 2108.62,
+      "text": "I believe that.",
+      "avg_logprob": -0.14718812484490243,
+      "no_speech_prob": 2.0791237655137795e-12
+    },
+    {
+      "start": 2108.76,
+      "end": 2111.8,
+      "text": "Like, we're living in the most exciting time in human history.",
+      "avg_logprob": -0.14718812484490243,
+      "no_speech_prob": 2.0791237655137795e-12
+    },
+    {
+      "start": 2111.8,
+      "end": 2129.68,
+      "text": "And it's the most exciting time to be a founder because it's the first time that anyone has access to the most powerful tools and intelligence in the world, like, almost for free or for $20 a month.",
+      "avg_logprob": -0.0999405924230814,
+      "no_speech_prob": 2.090341571711618e-12
+    },
+    {
+      "start": 2129.92,
+      "end": 2138.3,
+      "text": "So literally, the democratization of the tools for people to build has never been this way in human history.",
+      "avg_logprob": -0.0999405924230814,
+      "no_speech_prob": 2.090341571711618e-12
+    },
+    {
+      "start": 2138.3,
+      "end": 2145.98,
+      "text": "And there's so much problems to be solved and a new reality to be built around this new paradigm.",
+      "avg_logprob": -0.16808552505529445,
+      "no_speech_prob": 1.798879079549509e-12
+    },
+    {
+      "start": 2146.26,
+      "end": 2149.88,
+      "text": "So say, like, just go for it, but go for it deep.",
+      "avg_logprob": -0.16808552505529445,
+      "no_speech_prob": 1.798879079549509e-12
+    },
+    {
+      "start": 2150.04,
+      "end": 2153.66,
+      "text": "Like, imagine what the future around the AI will look like.",
+      "avg_logprob": -0.16808552505529445,
+      "no_speech_prob": 1.798879079549509e-12
+    },
+    {
+      "start": 2154.79,
+      "end": 2157.05,
+      "text": "It's not even an exponential.",
+      "avg_logprob": -0.16808552505529445,
+      "no_speech_prob": 1.798879079549509e-12
+    },
+    {
+      "start": 2157.33,
+      "end": 2164.01,
+      "text": "Just map a trend that's linear if things keep getting, like, AI keeps getting better at a linear scale.",
+      "avg_logprob": -0.16808552505529445,
+      "no_speech_prob": 1.798879079549509e-12
+    },
+    {
+      "start": 2164.01,
+      "end": 2171.89,
+      "text": "And just build for that, and you'll come up with wonderful ideas that will, like, bring a lot of value to the world.",
+      "avg_logprob": -0.27923816333456736,
+      "no_speech_prob": 5.2996678226446825e-12
+    },
+    {
+      "start": 2173.31,
+      "end": 2173.71,
+      "text": "Amazing.",
+      "avg_logprob": -0.27923816333456736,
+      "no_speech_prob": 5.2996678226446825e-12
+    },
+    {
+      "start": 2174.19,
+      "end": 2175.21,
+      "text": "Ale, thank you for joining us.",
+      "avg_logprob": -0.27923816333456736,
+      "no_speech_prob": 5.2996678226446825e-12
+    },
+    {
+      "start": 2175.21,
+      "end": 2175.47,
+      "text": "Thank you.",
+      "avg_logprob": -0.27923816333456736,
+      "no_speech_prob": 5.2996678226446825e-12
+    },
+    {
+      "start": 2175.51,
+      "end": 2176.17,
+      "text": "Thanks for having me.",
+      "avg_logprob": -0.27923816333456736,
+      "no_speech_prob": 5.2996678226446825e-12
+    },
+    {
+      "start": 2176.17,
+      "end": 2176.29,
+      "text": "Thank you very much, Ale.",
+      "avg_logprob": -0.27923816333456736,
+      "no_speech_prob": 5.2996678226446825e-12
+    },
+    {
+      "start": 2176.29,
+      "end": 2176.33,
+      "text": "Thank you very much, Ale.",
+      "avg_logprob": -0.27923816333456736,
+      "no_speech_prob": 5.2996678226446825e-12
+    },
+    {
+      "start": 2176.33,
+      "end": 2176.41,
+      "text": "Thanks for having me.",
+      "avg_logprob": -0.27923816333456736,
+      "no_speech_prob": 5.2996678226446825e-12
+    }
+  ]
+}
