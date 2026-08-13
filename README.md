@@ -104,8 +104,3 @@ Os PNGs em `tmp/pdfs/` são artefatos de inspeção visual da versão renderizad
 - A revisão de literatura incluída no projeto é exploratória, não sistemática nem exaustiva.
 - O caso das âncoras é um exemplo metodológico e autobiográfico; o repositório não pretende reproduzir a análise de pontos ideais.
 - A defesa metodológica sem cola é uma recomendação prática derivada do argumento e de literatura sobre descarregamento cognitivo, automação, autonomia intelectual, validade e pesquisa assistida por IA. Sua eficácia como protocolo de formação ainda requer avaliação.
-
-## Referências de entrada
-
-As referências completas estão em [`2026-08-07_revisao_literatura_entrevista_metodologia_ia.md`](2026-08-07_revisao_literatura_entrevista_metodologia_ia.md). Entre as referências diretamente mobilizadas na apresentação estão Risko e Gilbert (2016), Carter (2020), Buçinca, Malaya e Gajos (2021), Messeri e Crockett (2024), Morucci et al. (2025) e Abdurahman et al. (2025).
-
