@@ -41,7 +41,6 @@ header-includes:
 {\color{orange}\Huge\textbf{Eu descobri que não sabia defender uma decisão do meu próprio paper.}}
 
 \vspace{0.8cm}
-\large Não era um erro de código. Era uma perda de autoria metodológica.
 \end{center}
 
 <!-- Fala: Conte o episódio sem começar pela tecnologia. O gancho é a vulnerabilidade do pesquisador: algo estava no paper, mas já não estava disponível para defesa. -->
