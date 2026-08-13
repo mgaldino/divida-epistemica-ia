@@ -182,7 +182,7 @@ header-includes:
 \normalsize Os juros vencem quando alguém pergunta “por quê?”.
 \end{center}
 
-\sourcecite{A “fronteira” da IA é irregular: a assistência melhora algumas tarefas e piora outras, e o usuário nem sempre sabe previamente quais são quais. Dell’Acqua et al. (2026), DOI 10.1287/orsc.2025.21838.}
+\sourcecite{Dell’Acqua et al. (2026): a “fronteira” da IA é irregular; a assistência pode melhorar algumas tarefas e piorar outras.}
 
 <!-- Fala: A terceira coluna é a do meu caso. As duas primeiras são riscos reais, mas o que aconteceu comigo foi na camada da interpretação. -->
 
@@ -236,10 +236,9 @@ header-includes:
 \Large incorporadas ao artefato e não mais assumidas pelo autor.
 
 \vspace{0.6cm}
-\normalsize A dívida técnica cobra do produto. Esta cobra da sua capacidade de defender a decisão.
 \end{center}
 
-\sourcecite{O termo circula na engenharia de software e na manufatura (Cunningham 1992; Sculley et al. 2015; Ionescu et al. 2019, DOI 10.1007/978-3-030-20040-4\_8). Aplico-o aqui à cadeia inferencial da pesquisa empírica em ciências sociais.}
+\sourcecite{O termo dívida técnica circula na engenharia de software e na manufatura (Cunningham 1992; Sculley et al. 2015; Ionescu et al. 2019, DOI 10.1007/978-3-030-20040-4\_8). Aplico-o aqui à cadeia inferencial da pesquisa empírica em ciências sociais.}
 
 <!-- Fala: Credite o termo. Dizer que ele já existe demonstra domínio da literatura e não custa nada - o que é seu é a aplicação à cadeia inferencial. Verificar as três referências antes de apresentar. -->
 
