@@ -179,7 +179,7 @@ header-includes:
 
 \vspace{0.45cm}
 \begin{center}
-\normalsize Risco moral: quando o output de qualidade fica barato, ele deixa de sinalizar a compreensão que o sustenta.
+\normalsize Risco para a autoria: um output de qualidade não garante que a compreensão que o sustenta continue disponível.
 
 \vspace{0.25cm}
 \large A garantia dessa dívida é a sua reputação.
@@ -205,7 +205,7 @@ header-includes:
 \normalsize A dívida técnica cobra do produto. Esta cobra da sua capacidade de defender a decisão.
 \end{center}
 
-\sourcecite{O termo circula na engenharia de software e na manufatura (Cunningham 1992; Sculley et al. 2015; Ionescu et al. 2019). Aplico-o aqui à cadeia inferencial da pesquisa empírica em ciências sociais.}
+\sourcecite{O termo circula na engenharia de software e na manufatura (Cunningham 1992; Sculley et al. 2015; Ionescu et al. 2019, DOI 10.1007/978-3-030-20040-4\_8). Aplico-o aqui à cadeia inferencial da pesquisa empírica em ciências sociais.}
 
 <!-- Fala: Credite o termo. Dizer que ele já existe demonstra domínio da literatura e não custa nada - o que é seu é a aplicação à cadeia inferencial. Verificar as três referências antes de apresentar. -->
 
@@ -317,7 +317,7 @@ header-includes:
 \end{enumerate}
 \end{center}
 
-\sourcecite{A lógica é próxima das intervenções de “forçamento cognitivo”, que reduziram sobredelegação em decisões assistidas por IA: Buçinca, Malaya e Gajos (2021), DOI 10.1145/3449287. A sessão separada segue a regra prática de nunca deixar que a mesma sessão verifique o próprio trabalho, corrente em workflows de agentes.}
+\sourcecite{A lógica é próxima das intervenções de “forçamento cognitivo”, que reduziram sobredelegação em decisões assistidas por IA: Buçinca, Malaya e Gajos (2021), DOI 10.1145/3449287. A separação entre sessões é uma escolha de desenho deste protocolo.}
 
 <!-- Fala: A diferença não é pedir menos à IA. É pedir que ela atue também como audiência crítica, sem usurpar o momento de decisão. -->
 
