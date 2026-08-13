@@ -45,6 +45,59 @@ header-includes:
 
 <!-- Fala: Conte o episódio sem começar pela tecnologia. O gancho é a vulnerabilidade do pesquisador: algo estava no paper, mas já não estava disponível para defesa. -->
 
+## O caso: o que aconteceu comigo
+
+\begin{center}
+\vspace{0.35cm}
+\large
+\begin{tabular}{r@{\quad}l}
+{\color{teal}\textbf{Fevereiro}} & A IA escreve o código de estimação. \\
+ & \small Eu interroguei cada escolha. Eu entendi o que estava sendo feito. \\[0.4cm]
+{\color{orange}\textbf{Agosto}} & A IA escreve a apresentação - e \textbf{interpreta} os resultados. \\
+ & \small O texto afirmava mais do que o desenho autorizava. \\[0.4cm]
+{\color{orange}\textbf{Então}} & Eu desconfiei e fui checar. \\
+ & \small E descobri que também não sabia mais por que escolhi aquelas âncoras.
+\end{tabular}
+\end{center}
+
+\sourcecite{A literatura de pontos ideais trata identificação e interpretação como problemas distintos: Poole e Rosenthal (1985); Clinton, Jackman e Rivers (2004); Morucci et al. (2025), DOI 10.1017/S000305542400039X.}
+
+<!-- Fala: Clímax. Se a plateia for pouco quantitativa, abra com uma linha: “pontos ideais estimam posições a partir de votações; as âncoras fixam o significado da dimensão”. Delimitar você mesmo o papel da IA desarma a objeção de que isso é só esquecimento comum. -->
+
+## Duas dívidas, origens diferentes
+
+\begin{columns}[T,onlytextwidth]
+\column{0.46\textwidth}
+{\color{orange}\Large\textbf{A IA criou}}
+
+\vspace{0.25cm}
+\normalsize A interpretação afirmava além do que o desenho sustenta.
+
+\vspace{0.2cm}
+\small Nasce da delegação. Chega pronta e bem escrita.
+
+\column{0.46\textwidth}
+{\color{teal}\Large\textbf{O tempo criou}}
+
+\vspace{0.25cm}
+\normalsize Eu não reconstruía mais por que aquelas âncoras.
+
+\vspace{0.2cm}
+\small Nasce do esquecimento. É tão antiga quanto a pesquisa.
+\end{columns}
+
+\vspace{0.6cm}
+\begin{center}
+\large O que as une: \textbf{o resultado existia e a defesa não.}
+
+\vspace{0.2cm}
+\normalsize A mesma pergunta adversarial expôs as duas.
+\end{center}
+
+\sourcecite{Um ajuste latente não garante significado substantivo: Morucci et al. (2025); Adcock e Collier (2001), DOI 10.1017/S0003055401003100.}
+
+<!-- Fala: Conceder que metade do problema é pré-IA torna a outra metade mais crível. E generaliza a recomendação: quem não usa IA também tem a dívida do tempo. -->
+
 ## A IA é uma nova camada de abstração
 
 \begin{center}
@@ -189,59 +242,6 @@ header-includes:
 \sourcecite{O termo circula na engenharia de software e na manufatura (Cunningham 1992; Sculley et al. 2015; Ionescu et al. 2019, DOI 10.1007/978-3-030-20040-4\_8). Aplico-o aqui à cadeia inferencial da pesquisa empírica em ciências sociais.}
 
 <!-- Fala: Credite o termo. Dizer que ele já existe demonstra domínio da literatura e não custa nada - o que é seu é a aplicação à cadeia inferencial. Verificar as três referências antes de apresentar. -->
-
-## O caso: o que aconteceu comigo
-
-\begin{center}
-\vspace{0.35cm}
-\large
-\begin{tabular}{r@{\quad}l}
-{\color{teal}\textbf{Fevereiro}} & A IA escreve o código de estimação. \\
- & \small Eu interroguei cada escolha. Eu entendi o que estava sendo feito. \\[0.4cm]
-{\color{orange}\textbf{Agosto}} & A IA escreve a apresentação - e \textbf{interpreta} os resultados. \\
- & \small O texto afirmava mais do que o desenho autorizava. \\[0.4cm]
-{\color{orange}\textbf{Então}} & Eu desconfiei e fui checar. \\
- & \small E descobri que também não sabia mais por que escolhi aquelas âncoras.
-\end{tabular}
-\end{center}
-
-\sourcecite{A literatura de pontos ideais trata identificação e interpretação como problemas distintos: Poole e Rosenthal (1985); Clinton, Jackman e Rivers (2004); Morucci et al. (2025), DOI 10.1017/S000305542400039X.}
-
-<!-- Fala: Clímax. Se a plateia for pouco quantitativa, abra com uma linha: “pontos ideais estimam posições a partir de votações; as âncoras fixam o significado da dimensão”. Delimitar você mesmo o papel da IA desarma a objeção de que isso é só esquecimento comum. -->
-
-## Duas dívidas, origens diferentes
-
-\begin{columns}[T,onlytextwidth]
-\column{0.46\textwidth}
-{\color{orange}\Large\textbf{A IA criou}}
-
-\vspace{0.25cm}
-\normalsize A interpretação afirmava além do que o desenho sustenta.
-
-\vspace{0.2cm}
-\small Nasce da delegação. Chega pronta e bem escrita.
-
-\column{0.46\textwidth}
-{\color{teal}\Large\textbf{O tempo criou}}
-
-\vspace{0.25cm}
-\normalsize Eu não reconstruía mais por que aquelas âncoras.
-
-\vspace{0.2cm}
-\small Nasce do esquecimento. É tão antiga quanto a pesquisa.
-\end{columns}
-
-\vspace{0.6cm}
-\begin{center}
-\large O que as une: \textbf{o resultado existia e a defesa não.}
-
-\vspace{0.2cm}
-\normalsize A mesma pergunta adversarial expôs as duas.
-\end{center}
-
-\sourcecite{Um ajuste latente não garante significado substantivo: Morucci et al. (2025); Adcock e Collier (2001), DOI 10.1017/S0003055401003100.}
-
-<!-- Fala: Conceder que metade do problema é pré-IA torna a outra metade mais crível. E generaliza a recomendação: quem não usa IA também tem a dívida do tempo. -->
 
 ## Reprodução ajuda - mas não resolve tudo
 
