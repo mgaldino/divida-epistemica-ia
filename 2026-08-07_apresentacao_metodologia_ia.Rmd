@@ -45,24 +45,6 @@ header-includes:
 
 <!-- Fala: Conte o episódio sem começar pela tecnologia. O gancho é a vulnerabilidade do pesquisador: algo estava no paper, mas já não estava disponível para defesa. -->
 
-## Antes de falar de IA, pense no seu método
-
-\begin{center}
-\vspace{0.6cm}
-\Large\textbf{Qual foi a última decisão metodológica que você conseguiria reconstruir hoje - sem abrir o código?}
-
-\vspace{0.9cm}
-\normalsize O que você teria de explicar?
-
-\vspace{0.25cm}
-\begin{tabular}{c@{\qquad}c@{\qquad}c}
-  objeto & medida & interpretação \\
-  \color{teal}\rule{2.2cm}{1.2pt} & \color{teal}\rule{2.2cm}{1.2pt} & \color{teal}\rule{2.2cm}{1.2pt}
-\end{tabular}
-\end{center}
-
-<!-- Fala: Faça uma pausa. A pergunta prepara a audiência para entender que o objeto do teste será o pesquisador, não apenas o produto computacional. -->
-
 ## A IA é uma nova camada de abstração
 
 \begin{center}
