@@ -326,7 +326,7 @@ header-includes:
 {\color{teal}\Huge\textbf{Seu paper não precisa ser feito sem IA.}}
 
 \vspace{0.3cm}
-{\color{orange}\Huge\textbf{Precisa continuar sendo defendível por você.}}
+{\color{orange}\Huge\textbf{Precisa continuar sendo algo que você consiga defender.}}
 
 \end{center}
 
