@@ -365,4 +365,3 @@ header-includes:
 
 \vfill
 \centering
-\textcolor{muted}{A revisão exploratória completa e as referências estão no arquivo de apoio do projeto.}
