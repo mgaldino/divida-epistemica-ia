@@ -347,14 +347,6 @@ header-includes:
 \vspace{0.3cm}
 {\color{orange}\Huge\textbf{Precisa continuar sendo defendível por você.}}
 
-\vspace{0.55cm}
-\small Estes slides tiveram uma versão em que a IA disse mais do que eu podia provar.
-
-\vspace{0.5cm}
-\large A pergunta final não é “a IA fez?”.
-
-\vspace{0.12cm}
-\large É: \textbf{“qual decisão eu assumi - e por quê?”}
 \end{center}
 
 <!-- Fala: Termine voltando à confissão inicial. O beat do meio é a fala comendo a própria ração: o risco que estou denunciando quase passou por estes slides. -->
