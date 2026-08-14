@@ -1,0 +1,27 @@
+{
+  "source_url": "https://www.youtube.com/live/MvmM7QsBLq0",
+  "video_id": "MvmM7QsBLq0",
+  "retrieved_at_utc": "2026-08-13T22:34:34.246027+00:00",
+  "title": "Workshop sobre Metodologia de IA",
+  "duration_seconds": "6804",
+  "playability_status": {
+    "status": "OK",
+    "reason": "Este evento ao vivo foi encerrado.",
+    "playableInEmbed": true,
+    "miniplayer": {
+      "miniplayerRenderer": {
+        "playbackMode": "PLAYBACK_MODE_ALLOW"
+      }
+    },
+    "contextParams": "Q0FFU0FnZ0M="
+  },
+  "audio_format": {
+    "itag": 140,
+    "mimeType": "audio/mp4; codecs=\"mp4a.40.2\"",
+    "bitrate": 144000,
+    "targetDurationSec": 1,
+    "maxDvrDurationSec": 43200
+  },
+  "download_method": "public /live player manifest, audio-only itag 140",
+  "credentials": false
+}
